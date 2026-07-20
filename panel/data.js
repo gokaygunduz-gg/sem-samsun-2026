@@ -1,11 +1,11 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-20 14:56 (TR)",
+  "generated_at": "2026-07-20 17:52 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
   "comp_dates": "28-29-30 Temmuz 2026",
   "race_url": "https://canli.tyf.gov.tr/tyf/cs-390/",
-  "total_athletes": 348,
+  "total_athletes": 349,
   "completed_event_count": 0,
   "groups": {
     "08_Erkek": {
@@ -148,7 +148,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 29,
           "events": [
@@ -414,7 +414,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -531,7 +531,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 17,
           "events": [
@@ -682,7 +682,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 29,
           "events": [
@@ -948,7 +948,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -1065,7 +1065,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 17,
           "events": [
@@ -1216,7 +1216,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 29,
           "events": [
@@ -1482,7 +1482,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -1599,7 +1599,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 17,
           "events": [
@@ -1796,7 +1796,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -1915,7 +1915,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -2034,7 +2034,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -2121,7 +2121,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -2160,7 +2160,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 31,
           "events": [
@@ -2355,7 +2355,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 25,
           "events": [
@@ -2394,7 +2394,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -2433,7 +2433,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -2472,7 +2472,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -2511,7 +2511,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -2550,7 +2550,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -2589,7 +2589,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -2621,7 +2621,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Eymen Batu IBOLAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 18,
           "events": [
@@ -2645,8 +2645,8 @@ window.SEM_DATA = {
         },
         {
           "rank": 15,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -2685,7 +2685,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -2763,7 +2763,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 15,
           "top4": 17,
           "events": [
@@ -2873,7 +2873,7 @@ window.SEM_DATA = {
         {
           "rank": 21,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 10,
           "top4": 10,
           "events": [
@@ -3029,7 +3029,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -3068,7 +3068,7 @@ window.SEM_DATA = {
         {
           "rank": 26,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -3100,7 +3100,7 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -3141,7 +3141,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -3180,7 +3180,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 31,
           "events": [
@@ -3375,7 +3375,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 25,
           "events": [
@@ -3414,7 +3414,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -3453,7 +3453,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -3492,7 +3492,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -3531,7 +3531,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -3570,7 +3570,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -3609,7 +3609,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -3641,7 +3641,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Eymen Batu IBOLAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 18,
           "events": [
@@ -3665,8 +3665,8 @@ window.SEM_DATA = {
         },
         {
           "rank": 15,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -3705,7 +3705,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -3783,7 +3783,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 15,
           "top4": 17,
           "events": [
@@ -3893,7 +3893,7 @@ window.SEM_DATA = {
         {
           "rank": 21,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 10,
           "top4": 10,
           "events": [
@@ -4049,7 +4049,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -4088,7 +4088,7 @@ window.SEM_DATA = {
         {
           "rank": 26,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -4120,7 +4120,7 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -4161,7 +4161,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -4200,7 +4200,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 31,
           "events": [
@@ -4395,7 +4395,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 25,
           "events": [
@@ -4434,7 +4434,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -4473,7 +4473,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -4512,7 +4512,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 25,
           "events": [
@@ -4551,7 +4551,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -4590,7 +4590,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -4629,7 +4629,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 19,
           "top4": 19,
           "events": [
@@ -4661,7 +4661,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Eymen Batu IBOLAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 18,
           "events": [
@@ -4685,8 +4685,8 @@ window.SEM_DATA = {
         },
         {
           "rank": 15,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -4725,7 +4725,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -4803,7 +4803,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 15,
           "top4": 17,
           "events": [
@@ -4913,7 +4913,7 @@ window.SEM_DATA = {
         {
           "rank": 21,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 10,
           "top4": 10,
           "events": [
@@ -5069,7 +5069,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -5108,7 +5108,7 @@ window.SEM_DATA = {
         {
           "rank": 26,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -5140,7 +5140,7 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -5188,7 +5188,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -5227,7 +5227,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -5422,7 +5422,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -5454,7 +5454,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 24,
           "events": [
@@ -5520,7 +5520,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -5559,7 +5559,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -5754,7 +5754,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -5786,7 +5786,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 24,
           "events": [
@@ -5852,7 +5852,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -5891,7 +5891,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -6086,7 +6086,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 21,
           "events": [
@@ -6118,7 +6118,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 24,
           "events": [
@@ -6191,7 +6191,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -6230,7 +6230,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -6308,7 +6308,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 30,
           "events": [
@@ -6347,7 +6347,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 28,
           "events": [
@@ -6425,7 +6425,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 22,
           "top4": 22,
           "events": [
@@ -6535,7 +6535,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -6723,7 +6723,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -6840,7 +6840,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -7257,7 +7257,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -7296,7 +7296,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -7374,7 +7374,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 30,
           "events": [
@@ -7413,7 +7413,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 28,
           "events": [
@@ -7491,7 +7491,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 22,
           "top4": 22,
           "events": [
@@ -7601,7 +7601,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -7789,7 +7789,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -7906,7 +7906,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -8323,7 +8323,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 36,
           "events": [
@@ -8362,7 +8362,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -8440,7 +8440,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 30,
           "events": [
@@ -8479,7 +8479,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 28,
           "events": [
@@ -8557,7 +8557,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 22,
           "top4": 22,
           "events": [
@@ -8667,7 +8667,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -8855,7 +8855,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -8972,7 +8972,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -9513,7 +9513,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 29,
           "events": [
@@ -9552,7 +9552,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 23,
           "top4": 30,
           "events": [
@@ -9630,7 +9630,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 24,
           "events": [
@@ -9779,7 +9779,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 22,
           "events": [
@@ -9937,7 +9937,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 29,
           "events": [
@@ -9976,7 +9976,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 23,
           "top4": 30,
           "events": [
@@ -10054,7 +10054,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 24,
           "events": [
@@ -10203,7 +10203,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 22,
           "events": [
@@ -10361,7 +10361,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 24,
           "top4": 29,
           "events": [
@@ -10400,7 +10400,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 23,
           "top4": 30,
           "events": [
@@ -10478,7 +10478,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 24,
           "events": [
@@ -10627,7 +10627,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 22,
           "events": [
@@ -10714,7 +10714,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -10753,7 +10753,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 33,
           "events": [
@@ -10831,7 +10831,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 31,
           "events": [
@@ -10948,7 +10948,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 27,
           "events": [
@@ -10987,7 +10987,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 22,
           "events": [
@@ -11065,7 +11065,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -11143,7 +11143,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 20,
           "events": [
@@ -11221,7 +11221,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -11604,7 +11604,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 9,
           "top4": 9,
           "events": [
@@ -11721,7 +11721,7 @@ window.SEM_DATA = {
         {
           "rank": 28,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -11760,7 +11760,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -11838,7 +11838,7 @@ window.SEM_DATA = {
         {
           "rank": 31,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -11957,7 +11957,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -11996,7 +11996,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 33,
           "events": [
@@ -12074,7 +12074,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 31,
           "events": [
@@ -12191,7 +12191,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 27,
           "events": [
@@ -12230,7 +12230,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 22,
           "events": [
@@ -12308,7 +12308,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -12386,7 +12386,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 20,
           "events": [
@@ -12464,7 +12464,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -12847,7 +12847,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 9,
           "top4": 9,
           "events": [
@@ -12964,7 +12964,7 @@ window.SEM_DATA = {
         {
           "rank": 28,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -13003,7 +13003,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -13081,7 +13081,7 @@ window.SEM_DATA = {
         {
           "rank": 31,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -13200,7 +13200,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -13239,7 +13239,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 33,
           "events": [
@@ -13317,7 +13317,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 25,
           "top4": 31,
           "events": [
@@ -13434,7 +13434,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 27,
           "events": [
@@ -13473,7 +13473,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 21,
           "top4": 22,
           "events": [
@@ -13551,7 +13551,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -13629,7 +13629,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 20,
           "events": [
@@ -13707,7 +13707,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 20,
           "events": [
@@ -14090,7 +14090,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 9,
           "top4": 9,
           "events": [
@@ -14207,7 +14207,7 @@ window.SEM_DATA = {
         {
           "rank": 28,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -14246,7 +14246,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -14324,7 +14324,7 @@ window.SEM_DATA = {
         {
           "rank": 31,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 4,
           "top4": 4,
           "events": [
@@ -14450,7 +14450,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -14489,7 +14489,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -14606,7 +14606,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 22,
           "top4": 28,
           "events": [
@@ -14723,7 +14723,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -14762,7 +14762,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -14840,7 +14840,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 23,
           "events": [
@@ -15264,7 +15264,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -15303,7 +15303,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -15420,7 +15420,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 22,
           "top4": 28,
           "events": [
@@ -15537,7 +15537,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -15576,7 +15576,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -15654,7 +15654,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 23,
           "events": [
@@ -16078,7 +16078,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 27,
           "top4": 34,
           "events": [
@@ -16117,7 +16117,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 25,
           "top4": 32,
           "events": [
@@ -16234,7 +16234,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 22,
           "top4": 28,
           "events": [
@@ -16351,7 +16351,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -16390,7 +16390,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 20,
           "top4": 24,
           "events": [
@@ -16468,7 +16468,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 23,
           "events": [
@@ -17054,7 +17054,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 6,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "top3": 21,
           "top4": 25,
@@ -17094,7 +17094,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 23,
           "events": [
@@ -17211,7 +17211,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -17289,7 +17289,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 20,
           "events": [
@@ -17367,7 +17367,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -17445,7 +17445,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -17594,7 +17594,7 @@ window.SEM_DATA = {
         {
           "rank": 20,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -18205,7 +18205,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 6,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "top3": 21,
           "top4": 25,
@@ -18245,7 +18245,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 23,
           "events": [
@@ -18362,7 +18362,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -18440,7 +18440,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 20,
           "events": [
@@ -18518,7 +18518,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -18596,7 +18596,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -18745,7 +18745,7 @@ window.SEM_DATA = {
         {
           "rank": 20,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -19356,7 +19356,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 6,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "top3": 21,
           "top4": 25,
@@ -19396,7 +19396,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 21,
           "top4": 23,
           "events": [
@@ -19513,7 +19513,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 19,
           "top4": 24,
           "events": [
@@ -19591,7 +19591,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 18,
           "top4": 20,
           "events": [
@@ -19669,7 +19669,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 17,
           "top4": 21,
           "events": [
@@ -19747,7 +19747,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -19896,7 +19896,7 @@ window.SEM_DATA = {
         {
           "rank": 20,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 7,
           "top4": 7,
           "events": [
@@ -20358,7 +20358,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 2,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "top3": 25,
           "top4": 31,
@@ -20671,7 +20671,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -20749,7 +20749,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -20788,7 +20788,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 15,
           "top4": 15,
           "events": [
@@ -20826,7 +20826,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 14,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "top3": 14,
           "top4": 16,
@@ -20905,7 +20905,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -21405,7 +21405,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 3,
           "top4": 3,
           "events": [
@@ -21757,7 +21757,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 2,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "top3": 25,
           "top4": 31,
@@ -22070,7 +22070,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -22148,7 +22148,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -22187,7 +22187,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 15,
           "top4": 15,
           "events": [
@@ -22225,7 +22225,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 14,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "top3": 14,
           "top4": 16,
@@ -22304,7 +22304,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -22804,7 +22804,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 3,
           "top4": 3,
           "events": [
@@ -23156,7 +23156,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 2,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "top3": 25,
           "top4": 31,
@@ -23469,7 +23469,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 18,
           "top4": 21,
           "events": [
@@ -23547,7 +23547,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -23586,7 +23586,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 15,
           "top4": 15,
           "events": [
@@ -23624,7 +23624,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 14,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "top3": 14,
           "top4": 16,
@@ -23703,7 +23703,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -24203,7 +24203,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 3,
           "top4": 3,
           "events": [
@@ -24519,7 +24519,7 @@ window.SEM_DATA = {
       "gender": "Erkek",
       "age_label": "2014 (12 Yaş)",
       "medal_cut": 8,
-      "athlete_count": 68,
+      "athlete_count": 69,
       "athletes_entry": [
         {
           "rank": 1,
@@ -24751,7 +24751,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 20,
           "events": [
@@ -24857,7 +24857,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.57",
-              "rank": 13,
+              "rank": 14,
               "points": 0,
               "is_live": false
             }
@@ -25173,7 +25173,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -25240,7 +25240,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.75",
-              "rank": 14,
+              "rank": 15,
               "points": 0,
               "is_live": false
             }
@@ -25357,7 +25357,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.47",
-              "rank": 9,
+              "rank": 10,
               "points": 0,
               "is_live": false
             }
@@ -25523,31 +25523,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 27,
-          "name": "Utku KARAKAŞ",
-          "city": "Bursa",
-          "top3": 7,
-          "top4": 7,
-          "events": [
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:33.49",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 28,
           "name": "Ömer Ali BABUŞCU",
           "city": "Samsun",
           "top3": 7,
@@ -25571,6 +25546,31 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:40.74",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 28,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.49",
+              "rank": 3,
+              "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 9,
               "points": 0,
               "is_live": false
             }
@@ -25775,31 +25775,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 34,
-          "name": "Barış DÜZGÜN",
-          "city": "Ankara",
-          "top3": 3,
-          "top4": 3,
-          "events": [
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:39.55",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 35,
           "name": "Kutay BOYAR",
           "city": "Ankara",
           "top3": 3,
@@ -25831,7 +25806,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 36,
+          "rank": 35,
           "name": "Mert KONUKBAY",
           "city": "Ankara",
           "top3": 3,
@@ -25861,7 +25836,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.85",
-              "rank": 11,
+              "rank": 12,
               "points": 0,
               "is_live": false
             }
@@ -25870,7 +25845,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 36,
           "name": "Tolga ABBASOV",
           "city": "Samsun",
           "top3": 3,
@@ -25909,9 +25884,34 @@ window.SEM_DATA = {
           "prize": false
         },
         {
+          "rank": 37,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.55",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
           "rank": 38,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -25996,7 +25996,7 @@ window.SEM_DATA = {
             {
               "event": "200m Kelebek",
               "time_raw": "3:15.79",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             }
@@ -26045,8 +26045,33 @@ window.SEM_DATA = {
         },
         {
           "rank": 42,
+          "name": "Ömer Selman Karaköse",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.26",
+              "rank": 7,
+              "points": 2,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:58.58",
+              "rank": 18,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 43,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -26076,9 +26101,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 44,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -26115,7 +26140,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 44,
+          "rank": 45,
           "name": "Doğu IPEK",
           "city": "Samsun",
           "top3": 1,
@@ -26154,7 +26179,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 45,
+          "rank": 46,
           "name": "Kaan KAPTAN",
           "city": "Sakarya",
           "top3": 1,
@@ -26177,7 +26202,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.10",
-              "rank": 16,
+              "rank": 17,
               "points": 0,
               "is_live": false
             }
@@ -26186,7 +26211,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 46,
+          "rank": 47,
           "name": "Ahmet Arın ÖLMEZ",
           "city": "Trabzon",
           "top3": 0,
@@ -26225,7 +26250,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 47,
+          "rank": 48,
           "name": "Ali Bulut EZDER",
           "city": "Ankara",
           "top3": 0,
@@ -26257,7 +26282,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 48,
+          "rank": 49,
           "name": "Ali KALYON",
           "city": "Antalya",
           "top3": 0,
@@ -26296,7 +26321,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 49,
+          "rank": 50,
           "name": "Ali Kemal ERYAMAN",
           "city": "Ankara",
           "top3": 0,
@@ -26335,7 +26360,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 50,
+          "rank": 51,
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
           "top3": 0,
@@ -26374,7 +26399,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 51,
+          "rank": 52,
           "name": "Alperen KALKAN",
           "city": "Kayseri",
           "top3": 0,
@@ -26413,9 +26438,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 52,
+          "rank": 53,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -26436,7 +26461,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.02",
-              "rank": 15,
+              "rank": 16,
               "points": 0,
               "is_live": false
             },
@@ -26452,7 +26477,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 53,
+          "rank": 54,
           "name": "Berat PALA",
           "city": "Bursa",
           "top3": 0,
@@ -26491,7 +26516,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 54,
+          "rank": 55,
           "name": "Burak TURAN",
           "city": "Trabzon",
           "top3": 0,
@@ -26514,7 +26539,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.52",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             },
@@ -26530,9 +26555,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 55,
+          "rank": 56,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -26553,7 +26578,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.18",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
               "is_live": false
             }
@@ -26562,7 +26587,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 56,
+          "rank": 57,
           "name": "Eymen KUTLU",
           "city": "Bursa",
           "top3": 0,
@@ -26601,7 +26626,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 57,
+          "rank": 58,
           "name": "Eymen ÇEVİK",
           "city": "Gaziantep",
           "top3": 0,
@@ -26640,9 +26665,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 58,
+          "rank": 59,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -26679,7 +26704,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 59,
+          "rank": 60,
           "name": "Hamza OTLAK",
           "city": "Samsun",
           "top3": 0,
@@ -26695,7 +26720,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.69",
-              "rank": 10,
+              "rank": 11,
               "points": 0,
               "is_live": false
             },
@@ -26718,7 +26743,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 60,
+          "rank": 61,
           "name": "Kaan CEYLAN",
           "city": "Ankara",
           "top3": 0,
@@ -26757,7 +26782,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 61,
+          "rank": 62,
           "name": "Kayra ŞANLIER",
           "city": "Antalya",
           "top3": 0,
@@ -26787,7 +26812,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:15.79",
-              "rank": 19,
+              "rank": 20,
               "points": 0,
               "is_live": false
             }
@@ -26796,7 +26821,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 62,
+          "rank": 63,
           "name": "Mehmet DAVER",
           "city": "Bursa",
           "top3": 0,
@@ -26819,7 +26844,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.43",
-              "rank": 20,
+              "rank": 21,
               "points": 0,
               "is_live": false
             }
@@ -26828,7 +26853,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 63,
+          "rank": 64,
           "name": "Muhammed Enes ILYAN",
           "city": "Trabzon",
           "top3": 0,
@@ -26867,7 +26892,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 64,
+          "rank": 65,
           "name": "Murat SAKA",
           "city": "Eskişehir",
           "top3": 0,
@@ -26899,7 +26924,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 65,
+          "rank": 66,
           "name": "Mustafa BİRİNCİ",
           "city": "Trabzon",
           "top3": 0,
@@ -26908,7 +26933,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.12",
-              "rank": 17,
+              "rank": 18,
               "points": 0,
               "is_live": false
             },
@@ -26938,9 +26963,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 66,
+          "rank": 67,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -26977,7 +27002,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 67,
+          "rank": 68,
           "name": "Toprak URAL",
           "city": "Mersin",
           "top3": 0,
@@ -27016,7 +27041,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 68,
+          "rank": 69,
           "name": "Ömer Mete ŞİMŞEK",
           "city": "Trabzon",
           "top3": 0,
@@ -27286,7 +27311,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 20,
           "events": [
@@ -27392,7 +27417,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.57",
-              "rank": 13,
+              "rank": 14,
               "points": 0,
               "is_live": false
             }
@@ -27708,7 +27733,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -27775,7 +27800,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.75",
-              "rank": 14,
+              "rank": 15,
               "points": 0,
               "is_live": false
             }
@@ -27892,7 +27917,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.47",
-              "rank": 9,
+              "rank": 10,
               "points": 0,
               "is_live": false
             }
@@ -28058,31 +28083,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 27,
-          "name": "Utku KARAKAŞ",
-          "city": "Bursa",
-          "top3": 7,
-          "top4": 7,
-          "events": [
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:33.49",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 28,
           "name": "Ömer Ali BABUŞCU",
           "city": "Samsun",
           "top3": 7,
@@ -28106,6 +28106,31 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:40.74",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 28,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.49",
+              "rank": 3,
+              "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 9,
               "points": 0,
               "is_live": false
             }
@@ -28310,31 +28335,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 34,
-          "name": "Barış DÜZGÜN",
-          "city": "Ankara",
-          "top3": 3,
-          "top4": 3,
-          "events": [
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:39.55",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 35,
           "name": "Kutay BOYAR",
           "city": "Ankara",
           "top3": 3,
@@ -28366,7 +28366,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 36,
+          "rank": 35,
           "name": "Mert KONUKBAY",
           "city": "Ankara",
           "top3": 3,
@@ -28396,7 +28396,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.85",
-              "rank": 11,
+              "rank": 12,
               "points": 0,
               "is_live": false
             }
@@ -28405,7 +28405,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 36,
           "name": "Tolga ABBASOV",
           "city": "Samsun",
           "top3": 3,
@@ -28444,9 +28444,34 @@ window.SEM_DATA = {
           "prize": false
         },
         {
+          "rank": 37,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.55",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
           "rank": 38,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -28531,7 +28556,7 @@ window.SEM_DATA = {
             {
               "event": "200m Kelebek",
               "time_raw": "3:15.79",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             }
@@ -28580,8 +28605,33 @@ window.SEM_DATA = {
         },
         {
           "rank": 42,
+          "name": "Ömer Selman Karaköse",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.26",
+              "rank": 7,
+              "points": 2,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:58.58",
+              "rank": 18,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 43,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -28611,9 +28661,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 44,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -28650,7 +28700,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 44,
+          "rank": 45,
           "name": "Doğu IPEK",
           "city": "Samsun",
           "top3": 1,
@@ -28689,7 +28739,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 45,
+          "rank": 46,
           "name": "Kaan KAPTAN",
           "city": "Sakarya",
           "top3": 1,
@@ -28712,7 +28762,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.10",
-              "rank": 16,
+              "rank": 17,
               "points": 0,
               "is_live": false
             }
@@ -28721,7 +28771,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 46,
+          "rank": 47,
           "name": "Ahmet Arın ÖLMEZ",
           "city": "Trabzon",
           "top3": 0,
@@ -28760,7 +28810,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 47,
+          "rank": 48,
           "name": "Ali Bulut EZDER",
           "city": "Ankara",
           "top3": 0,
@@ -28792,7 +28842,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 48,
+          "rank": 49,
           "name": "Ali KALYON",
           "city": "Antalya",
           "top3": 0,
@@ -28831,7 +28881,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 49,
+          "rank": 50,
           "name": "Ali Kemal ERYAMAN",
           "city": "Ankara",
           "top3": 0,
@@ -28870,7 +28920,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 50,
+          "rank": 51,
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
           "top3": 0,
@@ -28909,7 +28959,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 51,
+          "rank": 52,
           "name": "Alperen KALKAN",
           "city": "Kayseri",
           "top3": 0,
@@ -28948,9 +28998,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 52,
+          "rank": 53,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -28971,7 +29021,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.02",
-              "rank": 15,
+              "rank": 16,
               "points": 0,
               "is_live": false
             },
@@ -28987,7 +29037,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 53,
+          "rank": 54,
           "name": "Berat PALA",
           "city": "Bursa",
           "top3": 0,
@@ -29026,7 +29076,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 54,
+          "rank": 55,
           "name": "Burak TURAN",
           "city": "Trabzon",
           "top3": 0,
@@ -29049,7 +29099,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.52",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             },
@@ -29065,9 +29115,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 55,
+          "rank": 56,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -29088,7 +29138,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.18",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
               "is_live": false
             }
@@ -29097,7 +29147,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 56,
+          "rank": 57,
           "name": "Eymen KUTLU",
           "city": "Bursa",
           "top3": 0,
@@ -29136,7 +29186,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 57,
+          "rank": 58,
           "name": "Eymen ÇEVİK",
           "city": "Gaziantep",
           "top3": 0,
@@ -29175,9 +29225,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 58,
+          "rank": 59,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -29214,7 +29264,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 59,
+          "rank": 60,
           "name": "Hamza OTLAK",
           "city": "Samsun",
           "top3": 0,
@@ -29230,7 +29280,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.69",
-              "rank": 10,
+              "rank": 11,
               "points": 0,
               "is_live": false
             },
@@ -29253,7 +29303,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 60,
+          "rank": 61,
           "name": "Kaan CEYLAN",
           "city": "Ankara",
           "top3": 0,
@@ -29292,7 +29342,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 61,
+          "rank": 62,
           "name": "Kayra ŞANLIER",
           "city": "Antalya",
           "top3": 0,
@@ -29322,7 +29372,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:15.79",
-              "rank": 19,
+              "rank": 20,
               "points": 0,
               "is_live": false
             }
@@ -29331,7 +29381,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 62,
+          "rank": 63,
           "name": "Mehmet DAVER",
           "city": "Bursa",
           "top3": 0,
@@ -29354,7 +29404,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.43",
-              "rank": 20,
+              "rank": 21,
               "points": 0,
               "is_live": false
             }
@@ -29363,7 +29413,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 63,
+          "rank": 64,
           "name": "Muhammed Enes ILYAN",
           "city": "Trabzon",
           "top3": 0,
@@ -29402,7 +29452,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 64,
+          "rank": 65,
           "name": "Murat SAKA",
           "city": "Eskişehir",
           "top3": 0,
@@ -29434,7 +29484,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 65,
+          "rank": 66,
           "name": "Mustafa BİRİNCİ",
           "city": "Trabzon",
           "top3": 0,
@@ -29443,7 +29493,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.12",
-              "rank": 17,
+              "rank": 18,
               "points": 0,
               "is_live": false
             },
@@ -29473,9 +29523,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 66,
+          "rank": 67,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -29512,7 +29562,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 67,
+          "rank": 68,
           "name": "Toprak URAL",
           "city": "Mersin",
           "top3": 0,
@@ -29551,7 +29601,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 68,
+          "rank": 69,
           "name": "Ömer Mete ŞİMŞEK",
           "city": "Trabzon",
           "top3": 0,
@@ -29821,7 +29871,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 20,
           "top4": 20,
           "events": [
@@ -29927,7 +29977,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.57",
-              "rank": 13,
+              "rank": 14,
               "points": 0,
               "is_live": false
             }
@@ -30243,7 +30293,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -30310,7 +30360,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.75",
-              "rank": 14,
+              "rank": 15,
               "points": 0,
               "is_live": false
             }
@@ -30427,7 +30477,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.47",
-              "rank": 9,
+              "rank": 10,
               "points": 0,
               "is_live": false
             }
@@ -30593,31 +30643,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 27,
-          "name": "Utku KARAKAŞ",
-          "city": "Bursa",
-          "top3": 7,
-          "top4": 7,
-          "events": [
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:33.49",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 28,
           "name": "Ömer Ali BABUŞCU",
           "city": "Samsun",
           "top3": 7,
@@ -30641,6 +30666,31 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:40.74",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 28,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.49",
+              "rank": 3,
+              "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 9,
               "points": 0,
               "is_live": false
             }
@@ -30845,31 +30895,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 34,
-          "name": "Barış DÜZGÜN",
-          "city": "Ankara",
-          "top3": 3,
-          "top4": 3,
-          "events": [
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.48",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:39.55",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 35,
           "name": "Kutay BOYAR",
           "city": "Ankara",
           "top3": 3,
@@ -30901,7 +30926,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 36,
+          "rank": 35,
           "name": "Mert KONUKBAY",
           "city": "Ankara",
           "top3": 3,
@@ -30931,7 +30956,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.85",
-              "rank": 11,
+              "rank": 12,
               "points": 0,
               "is_live": false
             }
@@ -30940,7 +30965,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 36,
           "name": "Tolga ABBASOV",
           "city": "Samsun",
           "top3": 3,
@@ -30979,9 +31004,34 @@ window.SEM_DATA = {
           "prize": false
         },
         {
+          "rank": 37,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.55",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 8,
+              "points": 1,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
           "rank": 38,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 2,
           "top4": 2,
           "events": [
@@ -31066,7 +31116,7 @@ window.SEM_DATA = {
             {
               "event": "200m Kelebek",
               "time_raw": "3:15.79",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             }
@@ -31115,8 +31165,33 @@ window.SEM_DATA = {
         },
         {
           "rank": 42,
+          "name": "Ömer Selman Karaköse",
+          "city": "Ankara",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.26",
+              "rank": 7,
+              "points": 2,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:58.58",
+              "rank": 18,
+              "points": 0,
+              "is_live": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 43,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -31146,9 +31221,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 44,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 1,
           "top4": 1,
           "events": [
@@ -31185,7 +31260,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 44,
+          "rank": 45,
           "name": "Doğu IPEK",
           "city": "Samsun",
           "top3": 1,
@@ -31224,7 +31299,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 45,
+          "rank": 46,
           "name": "Kaan KAPTAN",
           "city": "Sakarya",
           "top3": 1,
@@ -31247,7 +31322,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.10",
-              "rank": 16,
+              "rank": 17,
               "points": 0,
               "is_live": false
             }
@@ -31256,7 +31331,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 46,
+          "rank": 47,
           "name": "Ahmet Arın ÖLMEZ",
           "city": "Trabzon",
           "top3": 0,
@@ -31295,7 +31370,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 47,
+          "rank": 48,
           "name": "Ali Bulut EZDER",
           "city": "Ankara",
           "top3": 0,
@@ -31327,7 +31402,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 48,
+          "rank": 49,
           "name": "Ali KALYON",
           "city": "Antalya",
           "top3": 0,
@@ -31366,7 +31441,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 49,
+          "rank": 50,
           "name": "Ali Kemal ERYAMAN",
           "city": "Ankara",
           "top3": 0,
@@ -31405,7 +31480,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 50,
+          "rank": 51,
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
           "top3": 0,
@@ -31444,7 +31519,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 51,
+          "rank": 52,
           "name": "Alperen KALKAN",
           "city": "Kayseri",
           "top3": 0,
@@ -31483,9 +31558,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 52,
+          "rank": 53,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -31506,7 +31581,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.02",
-              "rank": 15,
+              "rank": 16,
               "points": 0,
               "is_live": false
             },
@@ -31522,7 +31597,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 53,
+          "rank": 54,
           "name": "Berat PALA",
           "city": "Bursa",
           "top3": 0,
@@ -31561,7 +31636,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 54,
+          "rank": 55,
           "name": "Burak TURAN",
           "city": "Trabzon",
           "top3": 0,
@@ -31584,7 +31659,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.52",
-              "rank": 18,
+              "rank": 19,
               "points": 0,
               "is_live": false
             },
@@ -31600,9 +31675,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 55,
+          "rank": 56,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -31623,7 +31698,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.18",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
               "is_live": false
             }
@@ -31632,7 +31707,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 56,
+          "rank": 57,
           "name": "Eymen KUTLU",
           "city": "Bursa",
           "top3": 0,
@@ -31671,7 +31746,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 57,
+          "rank": 58,
           "name": "Eymen ÇEVİK",
           "city": "Gaziantep",
           "top3": 0,
@@ -31710,9 +31785,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 58,
+          "rank": 59,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -31749,7 +31824,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 59,
+          "rank": 60,
           "name": "Hamza OTLAK",
           "city": "Samsun",
           "top3": 0,
@@ -31765,7 +31840,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.69",
-              "rank": 10,
+              "rank": 11,
               "points": 0,
               "is_live": false
             },
@@ -31788,7 +31863,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 60,
+          "rank": 61,
           "name": "Kaan CEYLAN",
           "city": "Ankara",
           "top3": 0,
@@ -31827,7 +31902,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 61,
+          "rank": 62,
           "name": "Kayra ŞANLIER",
           "city": "Antalya",
           "top3": 0,
@@ -31857,7 +31932,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:15.79",
-              "rank": 19,
+              "rank": 20,
               "points": 0,
               "is_live": false
             }
@@ -31866,7 +31941,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 62,
+          "rank": 63,
           "name": "Mehmet DAVER",
           "city": "Bursa",
           "top3": 0,
@@ -31889,7 +31964,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.43",
-              "rank": 20,
+              "rank": 21,
               "points": 0,
               "is_live": false
             }
@@ -31898,7 +31973,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 63,
+          "rank": 64,
           "name": "Muhammed Enes ILYAN",
           "city": "Trabzon",
           "top3": 0,
@@ -31937,7 +32012,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 64,
+          "rank": 65,
           "name": "Murat SAKA",
           "city": "Eskişehir",
           "top3": 0,
@@ -31969,7 +32044,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 65,
+          "rank": 66,
           "name": "Mustafa BİRİNCİ",
           "city": "Trabzon",
           "top3": 0,
@@ -31978,7 +32053,7 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.12",
-              "rank": 17,
+              "rank": 18,
               "points": 0,
               "is_live": false
             },
@@ -32008,9 +32083,9 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 66,
+          "rank": 67,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -32047,7 +32122,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 67,
+          "rank": 68,
           "name": "Toprak URAL",
           "city": "Mersin",
           "top3": 0,
@@ -32086,7 +32161,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 68,
+          "rank": 69,
           "name": "Ömer Mete ŞİMŞEK",
           "city": "Trabzon",
           "top3": 0,
@@ -32441,7 +32516,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -32622,7 +32697,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -32778,7 +32853,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -33842,7 +33917,7 @@ window.SEM_DATA = {
         {
           "rank": 46,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -33880,7 +33955,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 47,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "top3": 0,
           "top4": 0,
@@ -33998,7 +34073,7 @@ window.SEM_DATA = {
         {
           "rank": 50,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -34037,7 +34112,7 @@ window.SEM_DATA = {
         {
           "rank": 51,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -34438,7 +34513,7 @@ window.SEM_DATA = {
         {
           "rank": 62,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -34990,7 +35065,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -35171,7 +35246,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -35327,7 +35402,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -36391,7 +36466,7 @@ window.SEM_DATA = {
         {
           "rank": 46,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -36429,7 +36504,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 47,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "top3": 0,
           "top4": 0,
@@ -36547,7 +36622,7 @@ window.SEM_DATA = {
         {
           "rank": 50,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -36586,7 +36661,7 @@ window.SEM_DATA = {
         {
           "rank": 51,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -36987,7 +37062,7 @@ window.SEM_DATA = {
         {
           "rank": 62,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -37539,7 +37614,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 16,
           "top4": 16,
           "events": [
@@ -37720,7 +37795,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 13,
           "top4": 13,
           "events": [
@@ -37876,7 +37951,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "top3": 12,
           "top4": 12,
           "events": [
@@ -38940,7 +39015,7 @@ window.SEM_DATA = {
         {
           "rank": 46,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -38978,7 +39053,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 47,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "top3": 0,
           "top4": 0,
@@ -39096,7 +39171,7 @@ window.SEM_DATA = {
         {
           "rank": 50,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -39135,7 +39210,7 @@ window.SEM_DATA = {
         {
           "rank": 51,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -39536,7 +39611,7 @@ window.SEM_DATA = {
         {
           "rank": 62,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "top3": 0,
           "top4": 0,
           "events": [
@@ -39784,7 +39859,7 @@ window.SEM_DATA = {
   "city_rankings": [
     {
       "rank": 1,
-      "city": "Istanbul",
+      "city": "İstanbul",
       "total": 892,
       "athletes": 48,
       "events_won": 0,
@@ -40239,7 +40314,7 @@ window.SEM_DATA = {
     {
       "rank": 2,
       "city": "Bursa",
-      "total": 600,
+      "total": 599,
       "athletes": 40,
       "events_won": 0,
       "athlete_list": [
@@ -40476,20 +40551,20 @@ window.SEM_DATA = {
           "rank_in_group": 22
         },
         {
-          "name": "Utku KARAKAŞ",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 7,
-          "rank_in_group": 27
-        },
-        {
           "name": "Irmak Su Yaman",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
           "rank_in_group": 25
+        },
+        {
+          "name": "Utku KARAKAŞ",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 6,
+          "rank_in_group": 28
         },
         {
           "name": "Yunus Emre Kul",
@@ -40521,7 +40596,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 53
+          "rank_in_group": 54
         },
         {
           "name": "Burcu Ece ORHAN",
@@ -40537,7 +40612,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 56
+          "rank_in_group": 57
         },
         {
           "name": "Mehmet DAVER",
@@ -40545,7 +40620,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 62
+          "rank_in_group": 63
         },
         {
           "name": "Melis LİZOR",
@@ -40621,8 +40696,8 @@ window.SEM_DATA = {
     {
       "rank": 3,
       "city": "Ankara",
-      "total": 554,
-      "athletes": 50,
+      "total": 555,
+      "athletes": 51,
       "events_won": 0,
       "athlete_list": [
         {
@@ -40690,7 +40765,7 @@ window.SEM_DATA = {
           "rank_in_group": 4
         },
         {
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "group": "2013 Erkek",
           "yb": "13",
           "gender": "Erkek",
@@ -40898,7 +40973,7 @@ window.SEM_DATA = {
           "rank_in_group": 31
         },
         {
-          "name": "Barış DÜZGÜN",
+          "name": "Kutay BOYAR",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
@@ -40906,20 +40981,12 @@ window.SEM_DATA = {
           "rank_in_group": 34
         },
         {
-          "name": "Kutay BOYAR",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 3,
-          "rank_in_group": 35
-        },
-        {
           "name": "Mert KONUKBAY",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
           "top3": 3,
-          "rank_in_group": 36
+          "rank_in_group": 35
         },
         {
           "name": "Zeynep Beren YILDIZ",
@@ -40938,12 +41005,28 @@ window.SEM_DATA = {
           "rank_in_group": 30
         },
         {
+          "name": "Barış DÜZGÜN",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 37
+        },
+        {
+          "name": "Ömer Selman Karaköse",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 42
+        },
+        {
           "name": "Ali Bulut EZDER",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 47
+          "rank_in_group": 48
         },
         {
           "name": "Ali Kemal ERYAMAN",
@@ -40951,7 +41034,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 49
+          "rank_in_group": 50
         },
         {
           "name": "Arya Gönül KAHRAMAN",
@@ -40962,7 +41045,7 @@ window.SEM_DATA = {
           "rank_in_group": 43
         },
         {
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
@@ -40991,7 +41074,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 60
+          "rank_in_group": 61
         },
         {
           "name": "Selen Naz Ağababaoğlu",
@@ -41050,7 +41133,7 @@ window.SEM_DATA = {
     },
     {
       "rank": 4,
-      "city": "Izmir",
+      "city": "İzmir",
       "total": 396,
       "athletes": 34,
       "events_won": 0,
@@ -41176,7 +41259,7 @@ window.SEM_DATA = {
           "rank_in_group": 12
         },
         {
-          "name": "Ç. ÇOLAKOĞULLARI",
+          "name": "Çağdaş Çolakoğulları",
           "group": "2010 Erkek",
           "yb": "10",
           "gender": "Erkek",
@@ -41253,7 +41336,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 42
+          "rank_in_group": 43
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -41261,7 +41344,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 43
+          "rank_in_group": 44
         },
         {
           "name": "Azra MUTLU",
@@ -41277,7 +41360,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 52
+          "rank_in_group": 53
         },
         {
           "name": "Can BAL",
@@ -41285,7 +41368,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 55
+          "rank_in_group": 56
         },
         {
           "name": "Defne GÖNEN",
@@ -41309,7 +41392,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 58
+          "rank_in_group": 59
         },
         {
           "name": "Neslişah KARACAOĞLU",
@@ -41325,7 +41408,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 66
+          "rank_in_group": 67
         }
       ],
       "medal_list": [
@@ -41507,7 +41590,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 7,
-          "rank_in_group": 28
+          "rank_in_group": 27
         },
         {
           "name": "Elif INAT",
@@ -41539,7 +41622,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 3,
-          "rank_in_group": 37
+          "rank_in_group": 36
         },
         {
           "name": "Güneş ASLAN",
@@ -41563,7 +41646,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 44
+          "rank_in_group": 45
         },
         {
           "name": "Elif Naz OKUYUCU",
@@ -41587,7 +41670,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 59
+          "rank_in_group": 60
         }
       ],
       "medal_list": [
@@ -41769,7 +41852,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 48
+          "rank_in_group": 49
         },
         {
           "name": "Elif Rüya Canoğlu",
@@ -41785,7 +41868,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 61
+          "rank_in_group": 62
         }
       ],
       "medal_list": [
@@ -42077,7 +42160,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 46
+          "rank_in_group": 47
         },
         {
           "name": "Burak TURAN",
@@ -42085,7 +42168,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 54
+          "rank_in_group": 55
         },
         {
           "name": "Muhammed Enes ILYAN",
@@ -42093,7 +42176,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 63
+          "rank_in_group": 64
         },
         {
           "name": "Mustafa BİRİNCİ",
@@ -42101,7 +42184,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 65
+          "rank_in_group": 66
         },
         {
           "name": "Nisa Nur ILYAN",
@@ -42117,7 +42200,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 68
+          "rank_in_group": 69
         }
       ],
       "medal_list": [],
@@ -42226,7 +42309,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 67
+          "rank_in_group": 68
         }
       ],
       "medal_list": [
@@ -42376,7 +42459,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 64
+          "rank_in_group": 65
         }
       ],
       "medal_list": [],
@@ -42501,7 +42584,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 51
+          "rank_in_group": 52
         },
         {
           "name": "Zeynep MEYİLLİ",
@@ -42525,7 +42608,7 @@ window.SEM_DATA = {
       "events_won": 0,
       "athlete_list": [
         {
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -42549,7 +42632,7 @@ window.SEM_DATA = {
           "rank_in_group": 8
         },
         {
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -42594,12 +42677,12 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 57
+          "rank_in_group": 58
         }
       ],
       "medal_list": [
         {
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -42959,7 +43042,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 45
+          "rank_in_group": 46
         }
       ],
       "medal_list": [],
@@ -43046,7 +43129,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 50
+          "rank_in_group": 51
         },
         {
           "name": "Era ÇAKİN",
@@ -43066,7 +43149,7 @@ window.SEM_DATA = {
   "city_rankings_current": [
     {
       "rank": 1,
-      "city": "Istanbul",
+      "city": "İstanbul",
       "total": 892,
       "athletes": 48,
       "events_won": 0,
@@ -43521,7 +43604,7 @@ window.SEM_DATA = {
     {
       "rank": 2,
       "city": "Bursa",
-      "total": 600,
+      "total": 599,
       "athletes": 40,
       "events_won": 0,
       "athlete_list": [
@@ -43758,20 +43841,20 @@ window.SEM_DATA = {
           "rank_in_group": 22
         },
         {
-          "name": "Utku KARAKAŞ",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 7,
-          "rank_in_group": 27
-        },
-        {
           "name": "Irmak Su Yaman",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
           "rank_in_group": 25
+        },
+        {
+          "name": "Utku KARAKAŞ",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 6,
+          "rank_in_group": 28
         },
         {
           "name": "Yunus Emre Kul",
@@ -43803,7 +43886,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 53
+          "rank_in_group": 54
         },
         {
           "name": "Burcu Ece ORHAN",
@@ -43819,7 +43902,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 56
+          "rank_in_group": 57
         },
         {
           "name": "Mehmet DAVER",
@@ -43827,7 +43910,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 62
+          "rank_in_group": 63
         },
         {
           "name": "Melis LİZOR",
@@ -43903,8 +43986,8 @@ window.SEM_DATA = {
     {
       "rank": 3,
       "city": "Ankara",
-      "total": 554,
-      "athletes": 50,
+      "total": 555,
+      "athletes": 51,
       "events_won": 0,
       "athlete_list": [
         {
@@ -43972,7 +44055,7 @@ window.SEM_DATA = {
           "rank_in_group": 4
         },
         {
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "group": "2013 Erkek",
           "yb": "13",
           "gender": "Erkek",
@@ -44180,7 +44263,7 @@ window.SEM_DATA = {
           "rank_in_group": 31
         },
         {
-          "name": "Barış DÜZGÜN",
+          "name": "Kutay BOYAR",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
@@ -44188,20 +44271,12 @@ window.SEM_DATA = {
           "rank_in_group": 34
         },
         {
-          "name": "Kutay BOYAR",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 3,
-          "rank_in_group": 35
-        },
-        {
           "name": "Mert KONUKBAY",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
           "top3": 3,
-          "rank_in_group": 36
+          "rank_in_group": 35
         },
         {
           "name": "Zeynep Beren YILDIZ",
@@ -44220,12 +44295,28 @@ window.SEM_DATA = {
           "rank_in_group": 30
         },
         {
+          "name": "Barış DÜZGÜN",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 37
+        },
+        {
+          "name": "Ömer Selman Karaköse",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 42
+        },
+        {
           "name": "Ali Bulut EZDER",
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 47
+          "rank_in_group": 48
         },
         {
           "name": "Ali Kemal ERYAMAN",
@@ -44233,7 +44324,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 49
+          "rank_in_group": 50
         },
         {
           "name": "Arya Gönül KAHRAMAN",
@@ -44244,7 +44335,7 @@ window.SEM_DATA = {
           "rank_in_group": 43
         },
         {
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
@@ -44273,7 +44364,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 60
+          "rank_in_group": 61
         },
         {
           "name": "Selen Naz Ağababaoğlu",
@@ -44332,7 +44423,7 @@ window.SEM_DATA = {
     },
     {
       "rank": 4,
-      "city": "Izmir",
+      "city": "İzmir",
       "total": 396,
       "athletes": 34,
       "events_won": 0,
@@ -44458,7 +44549,7 @@ window.SEM_DATA = {
           "rank_in_group": 12
         },
         {
-          "name": "Ç. ÇOLAKOĞULLARI",
+          "name": "Çağdaş Çolakoğulları",
           "group": "2010 Erkek",
           "yb": "10",
           "gender": "Erkek",
@@ -44535,7 +44626,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 42
+          "rank_in_group": 43
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -44543,7 +44634,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 43
+          "rank_in_group": 44
         },
         {
           "name": "Azra MUTLU",
@@ -44559,7 +44650,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 52
+          "rank_in_group": 53
         },
         {
           "name": "Can BAL",
@@ -44567,7 +44658,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 55
+          "rank_in_group": 56
         },
         {
           "name": "Defne GÖNEN",
@@ -44591,7 +44682,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 58
+          "rank_in_group": 59
         },
         {
           "name": "Neslişah KARACAOĞLU",
@@ -44607,7 +44698,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 66
+          "rank_in_group": 67
         }
       ],
       "medal_list": [
@@ -44789,7 +44880,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 7,
-          "rank_in_group": 28
+          "rank_in_group": 27
         },
         {
           "name": "Elif INAT",
@@ -44821,7 +44912,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 3,
-          "rank_in_group": 37
+          "rank_in_group": 36
         },
         {
           "name": "Güneş ASLAN",
@@ -44845,7 +44936,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 44
+          "rank_in_group": 45
         },
         {
           "name": "Elif Naz OKUYUCU",
@@ -44869,7 +44960,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 59
+          "rank_in_group": 60
         }
       ],
       "medal_list": [
@@ -45051,7 +45142,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 48
+          "rank_in_group": 49
         },
         {
           "name": "Elif Rüya Canoğlu",
@@ -45067,7 +45158,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 61
+          "rank_in_group": 62
         }
       ],
       "medal_list": [
@@ -45359,7 +45450,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 46
+          "rank_in_group": 47
         },
         {
           "name": "Burak TURAN",
@@ -45367,7 +45458,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 54
+          "rank_in_group": 55
         },
         {
           "name": "Muhammed Enes ILYAN",
@@ -45375,7 +45466,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 63
+          "rank_in_group": 64
         },
         {
           "name": "Mustafa BİRİNCİ",
@@ -45383,7 +45474,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 65
+          "rank_in_group": 66
         },
         {
           "name": "Nisa Nur ILYAN",
@@ -45399,7 +45490,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 68
+          "rank_in_group": 69
         }
       ],
       "medal_list": [],
@@ -45508,7 +45599,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 67
+          "rank_in_group": 68
         }
       ],
       "medal_list": [
@@ -45658,7 +45749,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 64
+          "rank_in_group": 65
         }
       ],
       "medal_list": [],
@@ -45783,7 +45874,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 51
+          "rank_in_group": 52
         },
         {
           "name": "Zeynep MEYİLLİ",
@@ -45807,7 +45898,7 @@ window.SEM_DATA = {
       "events_won": 0,
       "athlete_list": [
         {
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -45831,7 +45922,7 @@ window.SEM_DATA = {
           "rank_in_group": 8
         },
         {
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -45876,12 +45967,12 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 57
+          "rank_in_group": 58
         }
       ],
       "medal_list": [
         {
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
@@ -46241,7 +46332,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 1,
-          "rank_in_group": 45
+          "rank_in_group": 46
         }
       ],
       "medal_list": [],
@@ -46328,7 +46419,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Erkek",
           "top3": 0,
-          "rank_in_group": 50
+          "rank_in_group": 51
         },
         {
           "name": "Era ÇAKİN",
@@ -46563,7 +46654,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:22.30",
           "points": 0,
           "is_live": false
@@ -46595,7 +46686,7 @@ window.SEM_DATA = {
         {
           "rank": 20,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:23.63",
           "points": 0,
           "is_live": false
@@ -46651,7 +46742,7 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:34.02",
           "points": 0,
           "is_live": false
@@ -46820,7 +46911,7 @@ window.SEM_DATA = {
         {
           "rank": 19,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "10:37.45",
           "points": 0,
           "is_live": false
@@ -46844,7 +46935,7 @@ window.SEM_DATA = {
         {
           "rank": 22,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "10:58.63",
           "points": 0,
           "is_live": false
@@ -46876,7 +46967,7 @@ window.SEM_DATA = {
         {
           "rank": 26,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "12:01.37",
           "points": 0,
           "is_live": false
@@ -47029,7 +47120,7 @@ window.SEM_DATA = {
         {
           "rank": 17,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "4:59.78",
           "points": 0,
           "is_live": false
@@ -47109,7 +47200,7 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:14.84",
           "points": 0,
           "is_live": false
@@ -47278,7 +47369,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:43.77",
           "points": 0,
           "is_live": false
@@ -47334,7 +47425,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:44.64",
           "points": 0,
           "is_live": false
@@ -47366,7 +47457,7 @@ window.SEM_DATA = {
         {
           "rank": 29,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:45.55",
           "points": 0,
           "is_live": false
@@ -47374,7 +47465,7 @@ window.SEM_DATA = {
         {
           "rank": 30,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:45.97",
           "points": 0,
           "is_live": false
@@ -47462,7 +47553,7 @@ window.SEM_DATA = {
         {
           "rank": 41,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:50.30",
           "points": 0,
           "is_live": false
@@ -47535,7 +47626,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:59.60",
           "points": 2,
           "is_live": false
@@ -47800,7 +47891,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "22:49.37",
           "points": 0,
           "is_live": false
@@ -47953,7 +48044,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "11:43.65",
           "points": 0,
           "is_live": false
@@ -47961,7 +48052,7 @@ window.SEM_DATA = {
         {
           "rank": 19,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "11:46.58",
           "points": 0,
           "is_live": false
@@ -47969,7 +48060,7 @@ window.SEM_DATA = {
         {
           "rank": 20,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "11:48.36",
           "points": 0,
           "is_live": false
@@ -48050,7 +48141,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:37.82",
           "points": 4,
           "is_live": false
@@ -48122,7 +48213,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:43.53",
           "points": 0,
           "is_live": false
@@ -48146,7 +48237,7 @@ window.SEM_DATA = {
         {
           "rank": 17,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:43.76",
           "points": 0,
           "is_live": false
@@ -48210,7 +48301,7 @@ window.SEM_DATA = {
         {
           "rank": 25,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:47.22",
           "points": 0,
           "is_live": false
@@ -48306,7 +48397,7 @@ window.SEM_DATA = {
         {
           "rank": 37,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:50.65",
           "points": 0,
           "is_live": false
@@ -48314,7 +48405,7 @@ window.SEM_DATA = {
         {
           "rank": 38,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:50.76",
           "points": 0,
           "is_live": false
@@ -48385,7 +48476,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 47,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "time_raw": "2:57.02",
           "points": 0,
@@ -48435,7 +48526,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:15.34",
           "points": 5,
           "is_live": false
@@ -48451,14 +48542,14 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:16.00",
           "points": 3,
           "is_live": false
         },
         {
           "rank": 7,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "time_raw": "2:16.75",
           "points": 2,
@@ -48531,7 +48622,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:23.66",
           "points": 0,
           "is_live": false
@@ -48547,7 +48638,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:30.58",
           "points": 0,
           "is_live": false
@@ -48676,7 +48767,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 4,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "time_raw": "4:42.50",
           "points": 5,
@@ -48773,7 +48864,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 2,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "2:33.76",
           "points": 7,
@@ -48798,7 +48889,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:36.62",
           "points": 4,
           "is_live": false
@@ -48838,7 +48929,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:39.24",
           "points": 0,
           "is_live": false
@@ -48959,7 +49050,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:01.94",
           "points": 9,
           "is_live": false
@@ -48975,7 +49066,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:02.45",
           "points": 6,
           "is_live": false
@@ -49039,7 +49130,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.52",
           "points": 0,
           "is_live": false
@@ -49055,7 +49146,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:06.03",
           "points": 0,
           "is_live": false
@@ -49079,7 +49170,7 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "1:06.21",
           "points": 9,
@@ -49096,7 +49187,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:07.21",
           "points": 6,
           "is_live": false
@@ -49160,7 +49251,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:20.06",
           "points": 0,
           "is_live": false
@@ -49192,7 +49283,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 2,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "time_raw": "58.32",
           "points": 7,
@@ -49209,7 +49300,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "58.80",
           "points": 5,
           "is_live": false
@@ -49282,7 +49373,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "04:31.22",
           "points": 6,
           "is_live": false
@@ -49297,7 +49388,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 5,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "time_raw": "4:33.69",
           "points": 4,
@@ -49314,7 +49405,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:36.06",
           "points": 2,
           "is_live": false
@@ -49378,7 +49469,7 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "time_raw": "2:06.35",
           "points": 9,
@@ -49403,7 +49494,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:09.43",
           "points": 5,
           "is_live": false
@@ -49476,7 +49567,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "01:04.53",
           "points": 7,
           "is_live": false
@@ -49491,7 +49582,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 4,
-          "name": "Ahmet Tuna ATCI",
+          "name": "Ahmet Tuna Atcı",
           "city": "Ankara",
           "time_raw": "1:04.93",
           "points": 5,
@@ -49500,7 +49591,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:05.53",
           "points": 4,
           "is_live": false
@@ -49516,7 +49607,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:05.75",
           "points": 2,
           "is_live": false
@@ -49580,7 +49671,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:10.28",
           "points": 0,
           "is_live": false
@@ -49637,7 +49728,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.99",
           "points": 4,
           "is_live": false
@@ -49703,7 +49794,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "52.88",
           "points": 9,
           "is_live": false
@@ -49767,7 +49858,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "55.99",
           "points": 0,
           "is_live": false
@@ -49775,7 +49866,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "56.82",
           "points": 0,
           "is_live": false
@@ -49849,7 +49940,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:03.93",
           "points": 5,
           "is_live": false
@@ -49970,7 +50061,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Eymen Batu IBOLAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "23.66",
           "points": 9,
           "is_live": false
@@ -49978,15 +50069,15 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "23.86",
           "points": 7,
           "is_live": false
         },
         {
           "rank": 3,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "time_raw": "23.96",
           "points": 6,
           "is_live": false
@@ -50002,7 +50093,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "24.50",
           "points": 4,
           "is_live": false
@@ -50018,7 +50109,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "24.76",
           "points": 2,
           "is_live": false
@@ -50042,7 +50133,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "25.01",
           "points": 0,
           "is_live": false
@@ -50050,7 +50141,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.02",
           "points": 0,
           "is_live": false
@@ -50058,7 +50149,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.13",
           "points": 0,
           "is_live": false
@@ -50075,7 +50166,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:55.54",
           "points": 9,
           "is_live": false
@@ -50091,7 +50182,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:57.85",
           "points": 6,
           "is_live": false
@@ -50099,7 +50190,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:57.89",
           "points": 5,
           "is_live": false
@@ -50107,7 +50198,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:58.12",
           "points": 4,
           "is_live": false
@@ -50123,7 +50214,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:59.40",
           "points": 2,
           "is_live": false
@@ -50131,7 +50222,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:59.46",
           "points": 1,
           "is_live": false
@@ -50147,7 +50238,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:59.89",
           "points": 0,
           "is_live": false
@@ -50188,7 +50279,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Eymen Batu IBOLAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "51.96",
           "points": 9,
           "is_live": false
@@ -50196,7 +50287,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "52.56",
           "points": 7,
           "is_live": false
@@ -50212,15 +50303,15 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "53.49",
           "points": 5,
           "is_live": false
         },
         {
           "rank": 5,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "time_raw": "53.64",
           "points": 4,
           "is_live": false
@@ -50228,7 +50319,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "53.82",
           "points": 3,
           "is_live": false
@@ -50260,7 +50351,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "54.36",
           "points": 0,
           "is_live": false
@@ -50268,7 +50359,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "54.75",
           "points": 0,
           "is_live": false
@@ -50292,7 +50383,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "55.04",
           "points": 0,
           "is_live": false
@@ -50308,7 +50399,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:00.27",
           "points": 0,
           "is_live": false
@@ -50325,7 +50416,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:08.65",
           "points": 9,
           "is_live": false
@@ -50333,7 +50424,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:13.17",
           "points": 7,
           "is_live": false
@@ -50341,7 +50432,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:13.48",
           "points": 6,
           "is_live": false
@@ -50421,22 +50512,30 @@ window.SEM_DATA = {
         },
         {
           "rank": 7,
-          "name": "Barış DÜZGÜN",
+          "name": "Ömer Selman Karaköse",
           "city": "Ankara",
-          "time_raw": "1:10.48",
+          "time_raw": "1:10.26",
           "points": 2,
           "is_live": false
         },
         {
           "rank": 8,
-          "name": "Utku KARAKAŞ",
-          "city": "Bursa",
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
           "time_raw": "1:10.48",
           "points": 1,
           "is_live": false
         },
         {
           "rank": 9,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "time_raw": "1:10.48",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 10,
           "name": "Kayrahan ÇELİK",
           "city": "Mersin",
           "time_raw": "1:11.47",
@@ -50444,7 +50543,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Hamza OTLAK",
           "city": "Samsun",
           "time_raw": "1:11.69",
@@ -50452,7 +50551,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Mert KONUKBAY",
           "city": "Ankara",
           "time_raw": "1:11.85",
@@ -50460,15 +50559,15 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:12.18",
           "points": 0,
           "is_live": false
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Rüzgar Armin ATİK",
           "city": "Ankara",
           "time_raw": "1:12.57",
@@ -50476,7 +50575,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Barbaros KONUŞ",
           "city": "Bursa",
           "time_raw": "1:12.75",
@@ -50484,15 +50583,15 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:13.02",
           "points": 0,
           "is_live": false
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Kaan KAPTAN",
           "city": "Sakarya",
           "time_raw": "1:13.10",
@@ -50500,7 +50599,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Mustafa BİRİNCİ",
           "city": "Trabzon",
           "time_raw": "1:13.12",
@@ -50508,7 +50607,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Burak TURAN",
           "city": "Trabzon",
           "time_raw": "1:14.52",
@@ -50516,7 +50615,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Kayra ŞANLIER",
           "city": "Antalya",
           "time_raw": "1:15.79",
@@ -50524,7 +50623,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Mehmet DAVER",
           "city": "Bursa",
           "time_raw": "1:16.43",
@@ -50639,7 +50738,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Baturalp ŞANLI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:50.01",
           "points": 0,
           "is_live": false
@@ -50647,7 +50746,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:53.05",
           "points": 0,
           "is_live": false
@@ -50663,7 +50762,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:55.74",
           "points": 0,
           "is_live": false
@@ -50678,6 +50777,14 @@ window.SEM_DATA = {
         },
         {
           "rank": 18,
+          "name": "Ömer Selman Karaköse",
+          "city": "Ankara",
+          "time_raw": "2:58.58",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 19,
           "name": "Kadir Ensar KOCADAŞ",
           "city": "Bolu",
           "time_raw": "3:15.79",
@@ -50685,7 +50792,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Barış DÜZGÜN",
           "city": "Ankara",
           "time_raw": "NT",
@@ -50693,7 +50800,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Kutay BOYAR",
           "city": "Ankara",
           "time_raw": "NT",
@@ -50701,7 +50808,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "Yaman KARACAÖREN",
           "city": "Ankara",
           "time_raw": "NT",
@@ -50709,7 +50816,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "Mehmet DAVER",
           "city": "Bursa",
           "time_raw": "NT",
@@ -50717,7 +50824,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "Utku KARAKAŞ",
           "city": "Bursa",
           "time_raw": "NT",
@@ -50725,7 +50832,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 24,
+          "rank": 25,
           "name": "Murat SAKA",
           "city": "Eskişehir",
           "time_raw": "NT",
@@ -50733,9 +50840,9 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 25,
+          "rank": 26,
           "name": "Can BAL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -50776,7 +50883,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:43.98",
           "points": 5,
           "is_live": false
@@ -50808,7 +50915,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:51.23",
           "points": 1,
           "is_live": false
@@ -50880,7 +50987,7 @@ window.SEM_DATA = {
         {
           "rank": 17,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -50888,7 +50995,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -50937,7 +51044,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:23.20",
           "points": 6,
           "is_live": false
@@ -50945,7 +51052,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:24.58",
           "points": 5,
           "is_live": false
@@ -51026,7 +51133,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "18:16.01",
           "points": 6,
           "is_live": false
@@ -51099,7 +51206,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "9:21.62",
           "points": 5,
           "is_live": false
@@ -51107,7 +51214,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "9:32.10",
           "points": 4,
           "is_live": false
@@ -51196,7 +51303,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:27.11",
           "points": 5,
           "is_live": false
@@ -51204,7 +51311,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:28.58",
           "points": 4,
           "is_live": false
@@ -51236,7 +51343,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:31.82",
           "points": 0,
           "is_live": false
@@ -51325,7 +51432,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "25.35",
           "points": 7,
           "is_live": false
@@ -51357,7 +51464,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "26.53",
           "points": 3,
           "is_live": false
@@ -51373,7 +51480,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "27.19",
           "points": 1,
           "is_live": false
@@ -51381,7 +51488,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "27.67",
           "points": 0,
           "is_live": false
@@ -51422,7 +51529,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:03.44",
           "points": 7,
           "is_live": false
@@ -51430,7 +51537,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:03.49",
           "points": 6,
           "is_live": false
@@ -51454,7 +51561,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:05.74",
           "points": 3,
           "is_live": false
@@ -51486,7 +51593,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:08.65",
           "points": 0,
           "is_live": false
@@ -51519,7 +51626,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "57.12",
           "points": 6,
           "is_live": false
@@ -51535,7 +51642,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "57.38",
           "points": 4,
           "is_live": false
@@ -51559,7 +51666,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:02.12",
           "points": 1,
           "is_live": false
@@ -51592,7 +51699,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "27.82",
           "points": 7,
           "is_live": false
@@ -51649,7 +51756,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Çağan Murat COŞKUNOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:22.59",
           "points": 6,
           "is_live": false
@@ -51722,7 +51829,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "30.47",
           "points": 9,
           "is_live": false
@@ -51746,7 +51853,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "32.94",
           "points": 5,
           "is_live": false
@@ -51778,7 +51885,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "34.96",
           "points": 1,
           "is_live": false
@@ -51803,7 +51910,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:08.66",
           "points": 9,
           "is_live": false
@@ -51819,7 +51926,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:11.33",
           "points": 6,
           "is_live": false
@@ -51827,7 +51934,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:11.85",
           "points": 5,
           "is_live": false
@@ -51867,7 +51974,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:18.39",
           "points": 0,
           "is_live": false
@@ -51900,7 +52007,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:23.91",
           "points": 6,
           "is_live": false
@@ -51924,7 +52031,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:24.85",
           "points": 3,
           "is_live": false
@@ -51948,7 +52055,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:27.96",
           "points": 0,
           "is_live": false
@@ -51956,7 +52063,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:35.32",
           "points": 0,
           "is_live": false
@@ -51973,7 +52080,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:58.99",
           "points": 9,
           "is_live": false
@@ -51981,7 +52088,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:00.04",
           "points": 7,
           "is_live": false
@@ -52135,7 +52242,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "26.75",
           "points": 9,
           "is_live": false
@@ -52143,7 +52250,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "26.93",
           "points": 7,
           "is_live": false
@@ -52151,7 +52258,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "27.64",
           "points": 6,
           "is_live": false
@@ -52208,7 +52315,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:09.73",
           "points": 9,
           "is_live": false
@@ -52249,7 +52356,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Pars IKİKARDAŞLAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:27.34",
           "points": 9,
           "is_live": false
@@ -52265,7 +52372,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:31.88",
           "points": 6,
           "is_live": false
@@ -52281,7 +52388,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Mustafa Demir AY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:40.82",
           "points": 4,
           "is_live": false
@@ -52322,7 +52429,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "29.70",
           "points": 7,
           "is_live": false
@@ -52330,7 +52437,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "30.35",
           "points": 6,
           "is_live": false
@@ -52523,7 +52630,7 @@ window.SEM_DATA = {
         {
           "rank": 19,
           "name": "Demir DEMİRCİGİL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "21:34.28",
           "points": 0,
           "is_live": false
@@ -52539,8 +52646,16 @@ window.SEM_DATA = {
         {
           "rank": 21,
           "name": "Rüzgar BAŞARICI",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "23:14.93",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 22,
+          "name": "Ömer Selman Karaköse",
+          "city": "Ankara",
+          "time_raw": "NT",
           "points": 0,
           "is_live": false
         }
@@ -52604,7 +52719,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:28.15",
           "points": 2,
           "is_live": false
@@ -52612,7 +52727,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:30.87",
           "points": 1,
           "is_live": false
@@ -52620,7 +52735,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Yusuf Eymen CAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -52693,7 +52808,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Can VECAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:41.89",
           "points": 2,
           "is_live": false
@@ -52701,7 +52816,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:42.32",
           "points": 1,
           "is_live": false
@@ -52733,7 +52848,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "3:00.11",
           "points": 0,
           "is_live": false
@@ -52830,7 +52945,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Arjin KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:18.34",
           "points": 0,
           "is_live": false
@@ -52838,7 +52953,7 @@ window.SEM_DATA = {
         {
           "rank": 12,
           "name": "Feridun Toprak ERÇORA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:20.83",
           "points": 0,
           "is_live": false
@@ -52871,7 +52986,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.34",
           "points": 7,
           "is_live": false
@@ -52879,7 +52994,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.41",
           "points": 6,
           "is_live": false
@@ -52936,7 +53051,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "28.40",
           "points": 9,
           "is_live": false
@@ -52968,7 +53083,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "29.81",
           "points": 4,
           "is_live": false
@@ -52985,7 +53100,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Cem Berkay YARAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "54.67",
           "points": 9,
           "is_live": false
@@ -53009,7 +53124,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "55.34",
           "points": 5,
           "is_live": false
@@ -53017,7 +53132,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "55.49",
           "points": 4,
           "is_live": false
@@ -53050,7 +53165,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:00.48",
           "points": 9,
           "is_live": false
@@ -53058,7 +53173,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ali Mete KOÇAK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:01.76",
           "points": 7,
           "is_live": false
@@ -53115,7 +53230,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:22.79",
           "points": 7,
           "is_live": false
@@ -53148,7 +53263,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Furkan Emir ABLAK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.04",
           "points": 7,
           "is_live": false
@@ -53156,7 +53271,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ilkut Girayhan AKYÜZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.68",
           "points": 6,
           "is_live": false
@@ -53173,7 +53288,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:00.03",
           "points": 9,
           "is_live": false
@@ -53197,7 +53312,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.67",
           "points": 5,
           "is_live": false
@@ -53213,7 +53328,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Tuna Özcan Kubat",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:05.17",
           "points": 3,
           "is_live": false
@@ -53230,7 +53345,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:10.58",
           "points": 9,
           "is_live": false
@@ -53270,7 +53385,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Ege Kandemir",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:22.37",
           "points": 3,
           "is_live": false
@@ -53278,7 +53393,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:24.00",
           "points": 2,
           "is_live": false
@@ -53311,7 +53426,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Deniz Baray TOZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:03.83",
           "points": 6,
           "is_live": false
@@ -53319,7 +53434,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Poyraz YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:05.54",
           "points": 5,
           "is_live": false
@@ -53424,7 +53539,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -53457,7 +53572,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "4:11.56",
           "points": 6,
           "is_live": false
@@ -53579,7 +53694,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:07.84",
           "points": 9,
           "is_live": false
@@ -53620,7 +53735,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:08.29",
           "points": 9,
           "is_live": false
@@ -53652,7 +53767,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:27.22",
           "points": 4,
           "is_live": false
@@ -53717,7 +53832,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:13.14",
           "points": 2,
           "is_live": false
@@ -53781,7 +53896,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:17.81",
           "points": 0,
           "is_live": false
@@ -53796,7 +53911,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 17,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "time_raw": "1:19.06",
           "points": 0,
@@ -53830,7 +53945,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:23.71",
           "points": 6,
           "is_live": false
@@ -53910,7 +54025,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:29.67",
           "points": 0,
           "is_live": false
@@ -54030,7 +54145,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 12,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "time_raw": "2:44.23",
           "points": 0,
@@ -54047,7 +54162,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:44.65",
           "points": 0,
           "is_live": false
@@ -54063,7 +54178,7 @@ window.SEM_DATA = {
         {
           "rank": 16,
           "name": "Deniz ERÇELEBİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:46.48",
           "points": 0,
           "is_live": false
@@ -54079,7 +54194,7 @@ window.SEM_DATA = {
         {
           "rank": 18,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:48.20",
           "points": 0,
           "is_live": false
@@ -54144,7 +54259,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Nil ÖZGE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "3:03.07",
           "points": 4,
           "is_live": false
@@ -54192,7 +54307,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Azra MUTLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "3:07.41",
           "points": 0,
           "is_live": false
@@ -54249,7 +54364,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:18.60",
           "points": 5,
           "is_live": false
@@ -54440,7 +54555,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 28,
-          "name": "B. ALTUNZİNCİR",
+          "name": "Başar İrem Altunzincir",
           "city": "Ankara",
           "time_raw": "2:31.04",
           "points": 0,
@@ -54474,7 +54589,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "27.66",
           "points": 9,
           "is_live": false
@@ -54523,7 +54638,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:12.97",
           "points": 7,
           "is_live": false
@@ -54596,7 +54711,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:01.51",
           "points": 7,
           "is_live": false
@@ -54661,7 +54776,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:24.40",
           "points": 9,
           "is_live": false
@@ -54750,7 +54865,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Tanem Can YAVUZÖZ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:13.28",
           "points": 3,
           "is_live": false
@@ -54783,7 +54898,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:09.24",
           "points": 7,
           "is_live": false
@@ -54871,7 +54986,7 @@ window.SEM_DATA = {
         {
           "rank": 13,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:17.94",
           "points": 0,
           "is_live": false
@@ -54952,7 +55067,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Tuana YİRİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:03.10",
           "points": 6,
           "is_live": false
@@ -55252,7 +55367,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 4,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "time_raw": "18:40.08",
           "points": 5,
@@ -55333,7 +55448,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 3,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "2:27.84",
           "points": 6,
@@ -55358,7 +55473,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Deniz ÇALIŞKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:36.48",
           "points": 3,
           "is_live": false
@@ -55422,7 +55537,7 @@ window.SEM_DATA = {
         },
         {
           "rank": 5,
-          "name": "Yağmur KONT",
+          "name": "Yağmur Kont",
           "city": "Gaziantep",
           "time_raw": "9:45.04",
           "points": 4,
@@ -55560,7 +55675,7 @@ window.SEM_DATA = {
         {
           "rank": 11,
           "name": "Defne GÖNEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "6:23.01",
           "points": 0,
           "is_live": false
@@ -55584,7 +55699,7 @@ window.SEM_DATA = {
         {
           "rank": 14,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -55592,7 +55707,7 @@ window.SEM_DATA = {
         {
           "rank": 15,
           "name": "Neslişah KARACAOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false
@@ -55625,7 +55740,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:15.35",
           "points": 9,
           "is_live": false
@@ -55633,7 +55748,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:19.07",
           "points": 7,
           "is_live": false
@@ -55673,7 +55788,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:34.04",
           "points": 2,
           "is_live": false
@@ -55697,7 +55812,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Ali Kaan KARAMAN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:26.13",
           "points": 0,
           "is_live": false
@@ -55714,7 +55829,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "16:19.78",
           "points": 9,
           "is_live": false
@@ -55730,7 +55845,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "17:01.28",
           "points": 6,
           "is_live": false
@@ -55779,7 +55894,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Taha SADE",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "8:34.36",
           "points": 9,
           "is_live": false
@@ -55787,7 +55902,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Eray BÜYÜKKORKMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "8:53.36",
           "points": 7,
           "is_live": false
@@ -55819,7 +55934,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Ali Ege KÜTAHYA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "9:22.46",
           "points": 3,
           "is_live": false
@@ -55843,7 +55958,7 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Fatma Berra ÖZER",
+          "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "5:21.48",
           "points": 9,
@@ -55908,7 +56023,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Cemre KAYNAŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:37.38",
           "points": 0,
           "is_live": false
@@ -55916,7 +56031,7 @@ window.SEM_DATA = {
         {
           "rank": 10,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:42.40",
           "points": 0,
           "is_live": false
@@ -55941,7 +56056,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ömer ULUDAĞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:58.36",
           "points": 9,
           "is_live": false
@@ -55981,7 +56096,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Muhsin Demir BOYLU",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "3:11.89",
           "points": 3,
           "is_live": false
@@ -56014,7 +56129,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:00.23",
           "points": 7,
           "is_live": false
@@ -56047,7 +56162,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "28.07",
           "points": 7,
           "is_live": false
@@ -56063,7 +56178,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "28.37",
           "points": 5,
           "is_live": false
@@ -56104,15 +56219,15 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kıvanç ÖZKAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "25.87",
           "points": 6,
           "is_live": false
         },
         {
           "rank": 4,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "time_raw": "25.88",
           "points": 5,
           "is_live": false
@@ -56128,7 +56243,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "26.23",
           "points": 3,
           "is_live": false
@@ -56136,7 +56251,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ulus MEMİŞ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "26.46",
           "points": 2,
           "is_live": false
@@ -56144,7 +56259,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Ateş DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "27.15",
           "points": 1,
           "is_live": false
@@ -56152,7 +56267,7 @@ window.SEM_DATA = {
         {
           "rank": 9,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "29.15",
           "points": 0,
           "is_live": false
@@ -56245,7 +56360,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kuzey ALEMDAĞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "58.38",
           "points": 7,
           "is_live": false
@@ -56253,7 +56368,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "58.47",
           "points": 6,
           "is_live": false
@@ -56269,7 +56384,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "59.58",
           "points": 4,
           "is_live": false
@@ -56286,7 +56401,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:03.18",
           "points": 9,
           "is_live": false
@@ -56334,7 +56449,7 @@ window.SEM_DATA = {
         {
           "rank": 7,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "4:13.50",
           "points": 2,
           "is_live": false
@@ -56391,7 +56506,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Berkin AVCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:57.11",
           "points": 4,
           "is_live": false
@@ -56415,7 +56530,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:09.84",
           "points": 1,
           "is_live": false
@@ -56497,7 +56612,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "28.25",
           "points": 5,
           "is_live": false
@@ -56513,7 +56628,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "28.42",
           "points": 3,
           "is_live": false
@@ -56538,7 +56653,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:05.06",
           "points": 7,
           "is_live": false
@@ -56546,7 +56661,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:08.26",
           "points": 6,
           "is_live": false
@@ -56571,7 +56686,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "30.28",
           "points": 7,
           "is_live": false
@@ -56579,7 +56694,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "31.57",
           "points": 6,
           "is_live": false
@@ -56604,7 +56719,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ipek SÖZER",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:23.28",
           "points": 7,
           "is_live": false
@@ -56679,7 +56794,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "29.72",
           "points": 6,
           "is_live": false
@@ -56721,7 +56836,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "29.27",
           "points": 7,
           "is_live": false
@@ -56762,7 +56877,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Elvin ALVER",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:02.20",
           "points": 5,
           "is_live": false
@@ -56787,7 +56902,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.11",
           "points": 7,
           "is_live": false
@@ -56795,7 +56910,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:05.28",
           "points": 6,
           "is_live": false
@@ -56820,7 +56935,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "26.84",
           "points": 7,
           "is_live": false
@@ -56853,7 +56968,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:04.72",
           "points": 7,
           "is_live": false
@@ -56870,7 +56985,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "27.96",
           "points": 9,
           "is_live": false
@@ -56928,7 +57043,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "30.40",
           "points": 6,
           "is_live": false
@@ -56944,7 +57059,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "30.79",
           "points": 4,
           "is_live": false
@@ -56985,7 +57100,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:07.47",
           "points": 5,
           "is_live": false
@@ -56993,7 +57108,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:54.46",
           "points": 4,
           "is_live": false
@@ -57018,7 +57133,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:13.13",
           "points": 7,
           "is_live": false
@@ -57026,7 +57141,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:14.28",
           "points": 6,
           "is_live": false
@@ -57034,7 +57149,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "5:20.05",
           "points": 5,
           "is_live": false
@@ -57076,7 +57191,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Azra Kayra ÖĞMEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "58.52",
           "points": 9,
           "is_live": false
@@ -57143,7 +57258,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "34.46",
           "points": 9,
           "is_live": false
@@ -57184,7 +57299,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:46.15",
           "points": 9,
           "is_live": false
@@ -57192,7 +57307,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:47.77",
           "points": 7,
           "is_live": false
@@ -57233,7 +57348,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Zeynep Derin GÜLDEMİR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:18.19",
           "points": 9,
           "is_live": false
@@ -57241,7 +57356,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Duru AYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:18.80",
           "points": 7,
           "is_live": false
@@ -57257,7 +57372,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:19.68",
           "points": 5,
           "is_live": false
@@ -57365,7 +57480,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:25.17",
           "points": 9,
           "is_live": false
@@ -57389,7 +57504,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:28.43",
           "points": 5,
           "is_live": false
@@ -57463,7 +57578,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "8:56.20",
           "points": 9,
           "is_live": false
@@ -57504,7 +57619,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:49.72",
           "points": 9,
           "is_live": false
@@ -57520,7 +57635,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:58.11",
           "points": 6,
           "is_live": false
@@ -57553,7 +57668,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:25.10",
           "points": 7,
           "is_live": false
@@ -57578,7 +57693,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kerem BALIK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:06.67",
           "points": 9,
           "is_live": false
@@ -57586,7 +57701,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Mustafa Mert KIRAÇ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:06.76",
           "points": 7,
           "is_live": false
@@ -57659,7 +57774,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Mira TUFAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:46.41",
           "points": 5,
           "is_live": false
@@ -57708,7 +57823,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:08.26",
           "points": 9,
           "is_live": false
@@ -57732,7 +57847,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:10.06",
           "points": 5,
           "is_live": false
@@ -57740,7 +57855,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:10.14",
           "points": 4,
           "is_live": false
@@ -57773,7 +57888,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "30.93",
           "points": 7,
           "is_live": false
@@ -57822,7 +57937,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Jasmin ARSLAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:07.66",
           "points": 6,
           "is_live": false
@@ -57864,7 +57979,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "58.49",
           "points": 9,
           "is_live": false
@@ -57914,7 +58029,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Derin Ada BAŞOLUK",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:20.34",
           "points": 7,
           "is_live": false
@@ -57922,7 +58037,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ada ÖZEN",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:20.83",
           "points": 6,
           "is_live": false
@@ -57947,7 +58062,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "8:19.05",
           "points": 9,
           "is_live": false
@@ -57963,7 +58078,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "8:40.37",
           "points": 6,
           "is_live": false
@@ -57988,7 +58103,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:05.05",
           "points": 9,
           "is_live": false
@@ -57996,7 +58111,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Toprak DURMAZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:07.09",
           "points": 7,
           "is_live": false
@@ -58012,7 +58127,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:08.49",
           "points": 5,
           "is_live": false
@@ -58028,7 +58143,7 @@ window.SEM_DATA = {
         {
           "rank": 6,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:13.96",
           "points": 3,
           "is_live": false
@@ -58044,7 +58159,7 @@ window.SEM_DATA = {
         {
           "rank": 8,
           "name": "Murat Çağan OLCAY",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:28.21",
           "points": 1,
           "is_live": false
@@ -58061,7 +58176,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Berhan ILİŞİK",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "15:51.63",
           "points": 9,
           "is_live": false
@@ -58077,7 +58192,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kerem BAYAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "16:35.63",
           "points": 6,
           "is_live": false
@@ -58102,7 +58217,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Toprak Kemal MASALCI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:09.10",
           "points": 7,
           "is_live": false
@@ -58110,7 +58225,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:13.04",
           "points": 6,
           "is_live": false
@@ -58118,7 +58233,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:24.85",
           "points": 5,
           "is_live": false
@@ -58135,7 +58250,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Yağızhan Aydın DEMİR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:09.28",
           "points": 9,
           "is_live": false
@@ -58143,7 +58258,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:09.84",
           "points": 7,
           "is_live": false
@@ -58160,7 +58275,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:38.51",
           "points": 9,
           "is_live": false
@@ -58168,7 +58283,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Hüseyin BIDI",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:40.49",
           "points": 7,
           "is_live": false
@@ -58176,7 +58291,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Civan VURAL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:41.29",
           "points": 6,
           "is_live": false
@@ -58193,7 +58308,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Rüzgar APAYDIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "31.19",
           "points": 9,
           "is_live": false
@@ -58201,7 +58316,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Erol Kaan ÖZCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "31.72",
           "points": 7,
           "is_live": false
@@ -58209,7 +58324,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "32.17",
           "points": 6,
           "is_live": false
@@ -58217,7 +58332,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "32.26",
           "points": 5,
           "is_live": false
@@ -58250,7 +58365,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "29.90",
           "points": 9,
           "is_live": false
@@ -58258,7 +58373,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "30.34",
           "points": 7,
           "is_live": false
@@ -58273,8 +58388,8 @@ window.SEM_DATA = {
         },
         {
           "rank": 4,
-          "name": "Ç. ÇOLAKOĞULLARI",
-          "city": "Izmir",
+          "name": "Çağdaş Çolakoğulları",
+          "city": "İzmir",
           "time_raw": "31.58",
           "points": 5,
           "is_live": false
@@ -58282,7 +58397,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "31.99",
           "points": 4,
           "is_live": false
@@ -58299,7 +58414,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Kaan Güngör ÖZDİL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:05.86",
           "points": 9,
           "is_live": false
@@ -58315,7 +58430,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ismail Esad SÜSLÜ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:08.24",
           "points": 6,
           "is_live": false
@@ -58323,7 +58438,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:10.35",
           "points": 5,
           "is_live": false
@@ -58348,7 +58463,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kadir YAYLA",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:32.37",
           "points": 7,
           "is_live": false
@@ -58364,7 +58479,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:39.56",
           "points": 5,
           "is_live": false
@@ -58389,7 +58504,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:44.45",
           "points": 7,
           "is_live": false
@@ -58397,7 +58512,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Kerem Burak GÜRBÜZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "3:02.02",
           "points": 6,
           "is_live": false
@@ -58414,7 +58529,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tunç UÇAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:33.81",
           "points": 9,
           "is_live": false
@@ -58422,7 +58537,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Kaan Tamer ŞENGÜL",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "4:48.73",
           "points": 7,
           "is_live": false
@@ -58438,7 +58553,7 @@ window.SEM_DATA = {
         {
           "rank": 4,
           "name": "Kerim Deniz Köken",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:58.99",
           "points": 5,
           "is_live": false
@@ -58455,7 +58570,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:04.08",
           "points": 9,
           "is_live": false
@@ -58480,7 +58595,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Mustafa Özgür YALÇIN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:16.79",
           "points": 9,
           "is_live": false
@@ -58505,7 +58620,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "32.95",
           "points": 9,
           "is_live": false
@@ -58513,7 +58628,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "33.81",
           "points": 7,
           "is_live": false
@@ -58521,7 +58636,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "34.45",
           "points": 6,
           "is_live": false
@@ -58538,7 +58653,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:33.81",
           "points": 9,
           "is_live": false
@@ -58546,7 +58661,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:36.97",
           "points": 7,
           "is_live": false
@@ -58554,7 +58669,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:40.15",
           "points": 6,
           "is_live": false
@@ -58571,7 +58686,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:10.77",
           "points": 9,
           "is_live": false
@@ -58579,7 +58694,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Azra AŞKAR",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:14.68",
           "points": 7,
           "is_live": false
@@ -58587,7 +58702,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Elif Ayla TURGUT",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:15.54",
           "points": 6,
           "is_live": false
@@ -58604,7 +58719,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:20.57",
           "points": 9,
           "is_live": false
@@ -58612,7 +58727,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Cemre INCE",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:21.16",
           "points": 7,
           "is_live": false
@@ -58629,7 +58744,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "IDIL GÜLCAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "5:08.67",
           "points": 9,
           "is_live": false
@@ -58662,7 +58777,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "59.91",
           "points": 9,
           "is_live": false
@@ -58679,7 +58794,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "1:05.30",
           "points": 9,
           "is_live": false
@@ -58696,7 +58811,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "31.31",
           "points": 9,
           "is_live": false
@@ -58713,7 +58828,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Lina Deniz OĞUZHAN",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:20.49",
           "points": 9,
           "is_live": false
@@ -58730,7 +58845,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Su YÜKSEL",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "4:55.94",
           "points": 9,
           "is_live": false
@@ -58747,7 +58862,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "2:29.69",
           "points": 9,
           "is_live": false
@@ -58763,7 +58878,7 @@ window.SEM_DATA = {
         {
           "rank": 3,
           "name": "Ela Su ESKİOĞLU",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:30.29",
           "points": 6,
           "is_live": false
@@ -58779,7 +58894,7 @@ window.SEM_DATA = {
         {
           "rank": 5,
           "name": "Merve MENGÜBERTİ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:30.54",
           "points": 4,
           "is_live": false
@@ -58812,7 +58927,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Tuğba YILDIZ",
-          "city": "Istanbul",
+          "city": "İstanbul",
           "time_raw": "17:06.67",
           "points": 9,
           "is_live": false
@@ -58861,7 +58976,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Arda KAFADAR",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:31.29",
           "points": 7,
           "is_live": false
@@ -58878,7 +58993,7 @@ window.SEM_DATA = {
         {
           "rank": 1,
           "name": "Ata SARIKAYA",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "2:04.95",
           "points": 9,
           "is_live": false
@@ -58903,7 +59018,7 @@ window.SEM_DATA = {
         {
           "rank": 2,
           "name": "Uras GÜNEŞ",
-          "city": "Izmir",
+          "city": "İzmir",
           "time_raw": "1:13.67",
           "points": 7,
           "is_live": false

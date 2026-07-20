@@ -21,6 +21,34 @@ TR_MAP = str.maketrans({
     "ö": "o", "Ö": "O", "ç": "c", "Ç": "C",
 })
 
+# Şehir yazım düzeltmeleri (Latin → Türkçe karakterli resmi ad)
+CITY_FIXES: dict[str, str] = {
+    "istanbul": "İstanbul",
+    "izmir":    "İzmir",
+}
+
+# Sporcu adı düzeltmeleri: (norm(ham_ad), yb) → doğru ad
+# Hem Excel ALLCAPS formatından hem canlı/start-list kısaltmalarından eşleşir
+NAME_FIXES: dict[tuple[str, str], str] = {
+    # Ömer Selman Karaköse — Excel'de "KARAKÖSE" (ALLCAPS), start-list'te "KARAKÖS1E4" (OCR)
+    ("omer selman karakose",   "14"): "Ömer Selman Karaköse",
+    ("omer selman karakos1e4", "14"): "Ömer Selman Karaköse",
+    # Başar İrem Altunzincir — start-list'te "B. ALTUNZİNCİR" (kısaltma)
+    ("b. altunzincir",         "14"): "Başar İrem Altunzincir",
+    ("basak irem altunzincir", "14"): "Başar İrem Altunzincir",
+    # Çağdaş Çolakoğulları — start-list'te "Ç. ÇOLAKOĞULLARI" (kısaltma)
+    ("c. colakogullari",       "10"): "Çağdaş Çolakoğulları",
+    ("cagdas colakogullari",   "10"): "Çağdaş Çolakoğulları",
+    # Diğerleri — büyük-küçük harf farkı veya eksik Türkçe karakter
+    ("fatma berra ozer",       "13"): "Fatma Berra Özer",
+    ("ahmet tuna atci",        "13"): "Ahmet Tuna Atcı",
+    ("yagmur kont",            "13"): "Yağmur Kont",
+}
+
+
+def fix_city(c: str) -> str:
+    return CITY_FIXES.get(c.lower().strip(), c.strip())
+
 
 def norm(s: str) -> str:
     if not s:
@@ -65,6 +93,15 @@ def load_entry_list(path: str = ENTRY_PATH) -> list[dict]:
         if not name or not yb:
             continue
 
+        # Şehir adı düzelt (Istanbul→İstanbul, Izmir→İzmir)
+        city_str = fix_city(str(city))
+
+        # Sporcu adı düzelt (OCR/import bozukluğu, eksik karakter)
+        name_str = str(name).strip()
+        fixed = NAME_FIXES.get((norm(name_str), yb))
+        if fixed:
+            name_str = fixed
+
         # gender normalize → Kadın/Erkek
         gender_norm = "Erkek" if norm(gender) == "erkek" else "Kadın"
 
@@ -89,8 +126,8 @@ def load_entry_list(path: str = ENTRY_PATH) -> list[dict]:
             })
 
         swimmers.append({
-            "name":   name.strip(),
-            "city":   str(city).strip(),
+            "name":   name_str,
+            "city":   city_str,
             "gender": gender_norm,
             "yb":     yb,
             "events": events,

@@ -230,7 +230,7 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 /* ── SIRALAMA FREEZE PANE (stabs + filters + search satırları sticky) ── */
 #tab-siralama .stabs{position:sticky;z-index:82;top:0}
 #tab-siralama .filters{position:sticky;z-index:81;top:0}
-.siralama-search-row{position:sticky;z-index:80;top:0;padding:7px 10px;background:var(--card);border-bottom:1px solid var(--border)}
+.siralama-search-row{position:sticky;z-index:95;top:0;padding:7px 10px;background:var(--card);border-bottom:1px solid var(--border)}
 .siralama-search-row input{width:100%;padding:7px 10px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;outline:none}
 .siralama-search-row input:focus{border-color:var(--blue)}
 
@@ -286,7 +286,9 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
     </div>
   </div>
 </header>
-
+<div class="siralama-search-row" id="siralama-search-row">
+  <input id="siralama-search-input" type="text" placeholder="🔍 Sporcu veya şehir adı ara…" oninput="siralamaSearchGo()">
+</div>
 <div class="tabs" id="mainTabs">
   <div class="tab active" onclick="switchTab('siralama',this)">🏅 Sıralama</div>
   <div class="tab" onclick="switchTab('yarislar',this)">🏊 Yarışlar</div>
@@ -294,6 +296,7 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
   <div class="tab" onclick="switchTab('kulupler',this)">🏟️ Kulüpler</div>
   <div class="tab" onclick="switchTab('program',this)">📅 Program</div>
   <div class="tab" onclick="switchTab('puanlama',this)">📊 Puanlama</div>
+  <div class="tab" onclick="switchTab('barajlar',this)">📋 Barajlar</div>
   <div class="tab" onclick="switchTab('sporcular',this)">👤 Sporcular</div>
   <div class="tab" onclick="switchTab('arama',this)">🔍 Arama</div>
   <div class="tab" id="adminTab" style="display:none" onclick="switchTab('yonetim',this)">⚙️ Yönetim</div>
@@ -321,9 +324,6 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
     <button class="fbtn active" data-gen="all" onclick="filterSiralama(this)">Tümü</button>
     <button class="fbtn" data-gen="Kadın" onclick="filterSiralama(this)">Kadın</button>
     <button class="fbtn" data-gen="Erkek" onclick="filterSiralama(this)">Erkek</button>
-  </div>
-  <div class="siralama-search-row" id="siralama-search-row">
-    <input id="siralama-search-input" type="text" placeholder="🔍 Sporcu veya şehir adı ara…" oninput="renderSiralama()">
   </div>
   <div id="siralama-content"></div>
 </div>
@@ -462,6 +462,20 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
 
   <div class="section">
     <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">Yarış Programı Notları</div></div>
+    </div>
+    <div class="sec-body" style="padding:12px;font-size:12px;color:var(--muted);line-height:1.8">
+      • <b style="color:var(--text)">2013-2014</b> doğumlular 50m yarışlara katılamaz<br>
+      • Yarışlar <b style="color:var(--text)">28-29-30 Temmuz 2026</b>, Samsun Olimpik Havuzu<br>
+      • Şehir sıralaması: her sporcunun bireysel puanı şehre eklenir
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ BARAJLAR ═══════ -->
+<div class="tab-content" id="tab-barajlar">
+  <div class="section" style="margin-top:10px">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
       <div><div class="sec-title">SEM Giriş Barajları</div>
       <div class="sec-sub">Reglament 11.06.2026 · Branş ve yaş grubuna göre minimum katılım süreleri</div></div>
     </div>
@@ -474,17 +488,6 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
         </span>
       </div>
       <div id="baraj-table-wrap"></div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
-      <div><div class="sec-title">Yarış Programı Notları</div></div>
-    </div>
-    <div class="sec-body" style="padding:12px;font-size:12px;color:var(--muted);line-height:1.8">
-      • <b style="color:var(--text)">2013-2014</b> doğumlular 50m yarışlara katılamaz<br>
-      • Yarışlar <b style="color:var(--text)">28-29-30 Temmuz 2026</b>, Samsun Olimpik Havuzu<br>
-      • Şehir sıralaması: her sporcunun bireysel puanı şehre eklenir
     </div>
   </div>
 </div>
@@ -925,6 +928,7 @@ function init() {
   renderKulupler();
   renderProgram();
   renderPuanlama();
+  renderBarajTable();
   renderSporcular();
   if (currentRole === 'admin') renderAdmin();
   fixStickyTops();
@@ -933,23 +937,25 @@ function init() {
 
 function fixStickyTops() {
   const h = document.querySelector('header')?.offsetHeight || 0;
+  // Arama satırı header'ın altında (global, her tabda görünür)
+  const sSearch = document.getElementById('siralama-search-row');
+  let s = 0;
+  if (sSearch) {
+    sSearch.style.top = h + 'px';
+    s = sSearch.offsetHeight || 40;
+  }
+  // Ana tab navigasyonu arama satırının altında
   const tabs = document.querySelector('.tabs');
-  if (tabs) tabs.style.top = h + 'px';
+  if (tabs) tabs.style.top = (h + s) + 'px';
   const t = tabs?.offsetHeight || 0;
-  document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = (h + t) + 'px'; });
-
-  // Sıralama freeze pane: stabs → filters → search satırları
+  document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = (h + s + t) + 'px'; });
+  // Sıralama freeze pane: stabs → filters (search artık global)
   const sStabs   = document.getElementById('siralama-stabs');
   const sFilters = document.getElementById('filters-siralama');
-  const sSearch  = document.getElementById('siralama-search-row');
   if (sStabs) {
-    sStabs.style.top = (h + t) + 'px';
+    sStabs.style.top = (h + s + t) + 'px';
     const st = sStabs.offsetHeight || 38;
-    if (sFilters) {
-      sFilters.style.top = (h + t + st) + 'px';
-      const ft = sFilters.offsetHeight || 40;
-      if (sSearch) sSearch.style.top = (h + t + st + ft) + 'px';
-    }
+    if (sFilters) sFilters.style.top = (h + s + t + st) + 'px';
   }
 }
 
@@ -970,7 +976,16 @@ function switchTab(name, el) {
   document.querySelectorAll('#mainTabs .tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   el.classList.add('active');
+  if (name === 'barajlar') renderBarajTable();
   requestAnimationFrame(fixStickyTops);
+}
+
+function siralamaSearchGo() {
+  const val = document.getElementById('siralama-search-input').value;
+  if (val.trim() && !document.getElementById('tab-siralama').classList.contains('active')) {
+    switchTab('siralama', document.querySelector('#mainTabs .tab'));
+  }
+  renderSiralama();
 }
 
 function activateStabs(container, btn) {
@@ -1867,8 +1882,6 @@ function renderPuanlama() {
       }).join('');
   }
 
-  // Barajlar tablosu
-  renderBarajTable();
 }
 
 function showBarajGender(gen) {
