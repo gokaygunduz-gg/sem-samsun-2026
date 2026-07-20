@@ -50,7 +50,7 @@ header{background:#0f172a;border-bottom:1px solid var(--border);padding:10px 14p
 .btn-logout{background:var(--border);color:var(--muted)}
 
 /* ── MAIN TABS ── */
-.tabs{display:flex;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto;gap:0}
+.tabs{display:flex;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto;gap:0;position:sticky;z-index:90}
 .tab{padding:10px 13px;font-size:12px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s}
 .tab.active{color:var(--gold);border-bottom-color:var(--gold)}
 .tab-content{display:none}
@@ -182,6 +182,47 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 /* ── STICKY DETAIL HEADER ── */
 .detail-sticky{position:sticky;top:0;z-index:50;background:var(--bg)}
 
+/* ── COUNTDOWN ── */
+.countdown{font-size:10px;color:var(--green);font-weight:700;padding:2px 8px;background:rgba(34,197,94,.12);border-radius:10px;border:1px solid rgba(34,197,94,.3)}
+
+/* ── ARAMA ── */
+.search-box-wrap{padding:10px;display:flex;gap:6px}
+.search-input{flex:1;padding:9px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;outline:none}
+.search-input:focus{border-color:var(--blue)}
+.search-results{padding:0 10px 10px}
+.src-card{background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:6px;overflow:hidden;cursor:pointer;transition:background .12s}
+.src-card:hover{background:rgba(59,130,246,.08)}
+.src-card-hdr{padding:10px 12px}
+.src-type{font-size:10px;color:var(--muted);background:var(--bg);border:1px solid var(--border);border-radius:5px;padding:1px 6px;font-weight:600;display:inline-block;margin-bottom:3px}
+.src-name{font-size:14px;font-weight:700}
+.src-sub{font-size:11px;color:var(--muted);margin-top:2px}
+
+/* ── PUANLAMA / BARAJLAR ── */
+.pts-system{width:100%;border-collapse:collapse;background:var(--card);border-radius:8px;overflow:hidden;margin-bottom:14px}
+.pts-system th{background:#1a2740;color:var(--muted);font-size:10px;padding:7px 12px;text-align:center}
+.pts-system td{padding:9px 12px;border-bottom:1px solid var(--border);font-size:13px;text-align:center}
+.pts-system tr:last-child td{border-bottom:0}
+.rank-big{font-weight:800;font-size:16px}
+.medals-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px;margin:6px 0 14px}
+.medal-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 12px;text-align:center}
+.medal-card .mc-group{font-size:11px;color:var(--muted);margin-bottom:4px}
+.medal-card .mc-cut{font-size:22px;font-weight:800;color:var(--teal)}
+.medal-card .mc-note{font-size:10px;color:var(--muted);margin-top:2px}
+.baraj-wrap{overflow-x:auto}
+.baraj-tbl{width:100%;border-collapse:collapse;background:var(--card);border-radius:8px;overflow:hidden;font-size:11px;white-space:nowrap}
+.baraj-tbl th{background:#1a2740;color:var(--muted);font-size:9px;padding:5px 8px;text-align:center}
+.baraj-tbl td{padding:5px 8px;border-bottom:1px solid var(--border);text-align:center}
+.baraj-tbl td:first-child{text-align:left;font-weight:600}
+.baraj-tbl tr:last-child td{border-bottom:0}
+.info-box{background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:8px;padding:10px 12px;font-size:12px;color:var(--gold);line-height:1.6;margin-bottom:10px}
+
+/* ── SPORCU TAB ── */
+.sporcu-sort-bar{display:flex;gap:5px;padding:8px 10px;background:var(--bg);border-bottom:1px solid var(--border);align-items:center;flex-wrap:wrap}
+.sporcu-sort-lbl{font-size:10px;color:var(--muted)}
+.sporcu-search{padding:8px 10px;display:flex;gap:6px}
+.sporcu-search input{flex:1;padding:7px 10px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;outline:none}
+.sporcu-search input:focus{border-color:var(--blue)}
+
 /* ── LOADING / EMPTY ── */
 .loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
 .empty{padding:20px;text-align:center;color:var(--muted);font-size:12px;font-style:italic}
@@ -247,6 +288,7 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
       <span class="badge-src" id="srcBadge">…</span>
       <span class="badge-src" id="userBadge"></span>
       <span class="upd" id="updTime"></span>
+      <span id="countdown" class="countdown" style="display:none" title="Sonraki otomatik veri güncellemesi"></span>
       <button class="btn-sm btn-refresh" onclick="location.reload()" title="Yenile">⟳</button>
       <button class="btn-sm btn-logout" onclick="doLogout()">Çıkış</button>
     </div>
@@ -259,6 +301,9 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
   <div class="tab" onclick="switchTab('sehirler',this)">🏙️ Şehirler</div>
   <div class="tab" onclick="switchTab('kulupler',this)">🏟️ Kulüpler</div>
   <div class="tab" onclick="switchTab('program',this)">📅 Program</div>
+  <div class="tab" onclick="switchTab('puanlama',this)">📊 Puanlama</div>
+  <div class="tab" onclick="switchTab('sporcular',this)">👤 Sporcular</div>
+  <div class="tab" onclick="switchTab('arama',this)">🔍 Arama</div>
   <div class="tab" id="adminTab" style="display:none" onclick="switchTab('yonetim',this)">⚙️ Yönetim</div>
 </div>
 
@@ -372,6 +417,90 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     </div>
     <div id="prog-race-content"></div>
   </div>
+</div>
+
+<!-- ═══════ PUANLAMA ═══════ -->
+<div class="tab-content" id="tab-puanlama">
+  <div class="section" style="margin-top:10px">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">Bireysel Puanlama Sistemi</div>
+      <div class="sec-sub">Yarış sonucu → puan · En iyi 3 yarışın toplamı kullanılır</div></div>
+    </div>
+    <div class="sec-body" style="padding:12px">
+      <table class="pts-system">
+        <thead><tr><th>Sıralama</th><th>Puan</th><th>Not</th></tr></thead>
+        <tbody id="pts-table-body"></tbody>
+      </table>
+      <div class="info-box">📌 En iyi <b>3 yarışın puanı</b> toplanır. 4. yarış eşitliği bozmak için kullanılır. Her sporcu en fazla <b>4 yarışa</b> katılabilir.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">Madalya Sınırları</div>
+      <div class="sec-sub">Her yaş grubunda kaçıncıya kadar madalya verilir</div></div>
+    </div>
+    <div class="sec-body" style="padding:12px">
+      <div class="medals-grid" id="medal-cuts-grid"></div>
+      <div class="info-box">🏅 <b>Bireysel Ödül</b> her grupta ilk 2'ye giren sporcuya verilir. Madalyalar ise yukarıdaki sınırlara göre belirlenir.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">SEM Giriş Barajları</div>
+      <div class="sec-sub">Reglament 11.06.2026 · Katılım için gerekli minimum süreler</div></div>
+    </div>
+    <div class="sec-body" style="padding:12px">
+      <div class="info-box" style="background:rgba(59,130,246,.08);border-color:rgba(59,130,246,.25);color:var(--blue)">
+        ℹ️ Baraj değerleri için reglament PDF içeriğini paylaşın; tabloya eklenecek.
+      </div>
+      <div style="font-size:11px;color:var(--muted);padding:4px 0">Branş ve yaş grubuna göre baraj süreleri aşağıda yer alacaktır.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">Yarış Programı Notları</div></div>
+    </div>
+    <div class="sec-body" style="padding:12px;font-size:12px;color:var(--muted);line-height:1.8">
+      • <b style="color:var(--text)">2013-2014</b> doğumlular 50m yarışlara katılamaz<br>
+      • Yarışlar <b style="color:var(--text)">28-29-30 Temmuz 2026</b>, Samsun Olimpik Havuzu<br>
+      • Şehir sıralaması: her sporcunun bireysel puanı şehre eklenir
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ SPORCULAR ═══════ -->
+<div class="tab-content" id="tab-sporcular">
+  <div class="sporcu-sort-bar">
+    <span class="sporcu-sort-lbl">Sırala:</span>
+    <button class="fbtn active" data-sort="puan" onclick="setSporculaSort(this)">Puan</button>
+    <button class="fbtn" data-sort="madalya" onclick="setSporculaSort(this)">Madalya</button>
+    <button class="fbtn" data-sort="odul" onclick="setSporculaSort(this)">Ödül</button>
+    <div class="filter-sep"></div>
+    <span class="sporcu-sort-lbl">Cinsiyet:</span>
+    <button class="fbtn active" data-sgen="all" onclick="filterSporcular(this)">Tümü</button>
+    <button class="fbtn" data-sgen="Kadın" onclick="filterSporcular(this)">Kadın</button>
+    <button class="fbtn" data-sgen="Erkek" onclick="filterSporcular(this)">Erkek</button>
+  </div>
+  <div class="sporcu-search">
+    <input id="sporcu-filter-input" type="text" placeholder="🔍 Sporcu adı ile filtrele…" oninput="renderSporcular()">
+  </div>
+  <div id="sporcular-content"></div>
+</div>
+
+<!-- ═══════ ARAMA ═══════ -->
+<div class="tab-content" id="tab-arama">
+  <div class="search-box-wrap">
+    <input id="searchInput" class="search-input" type="text" placeholder="Sporcu, şehir veya kulüp ara…"
+           oninput="doSearch()" onkeydown="if(event.key==='Enter')doSearch()">
+  </div>
+  <div id="search-hint" style="padding:20px;text-align:center;color:var(--muted);font-size:13px">
+    Sporcu adı, şehir veya kulüp adı yazın
+  </div>
+  <div id="search-empty" style="display:none;padding:30px;text-align:center;color:var(--muted);font-size:13px">Sonuç bulunamadı</div>
+  <div class="search-results" id="search-results"></div>
 </div>
 
 <!-- ═══════ YÖNETİM (admin only) ═══════ -->
@@ -678,13 +807,19 @@ function init() {
   renderSehirler();
   renderKulupler();
   renderProgram();
+  renderPuanlama();
+  renderSporcular();
   if (currentRole === 'admin') renderAdmin();
   fixStickyTops();
+  startCountdown();
 }
 
 function fixStickyTops() {
   const h = document.querySelector('header')?.offsetHeight || 0;
-  document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = h + 'px'; });
+  const tabs = document.querySelector('.tabs');
+  if (tabs) tabs.style.top = h + 'px';
+  const t = tabs?.offsetHeight || 0;
+  document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = (h + t) + 'px'; });
 }
 
 /* Bir sporcunun genel grup sıralamasına göre ödül kazanıp kazanmadığını döndürür.
@@ -804,7 +939,8 @@ function renderSiralama() {
           >${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`;
         }).join('');
         const psb = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
-        return `<tr class="${rowClass(a.rank,cut)}">
+        const aN=esc(a.name),aY=esc(yb),aG=esc(gen);
+        return `<tr class="${rowClass(a.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
           <td class="col-rank">${medalBadge(a.rank,cut)}</td>
           <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}</div></td>
           <td><div class="ev-pills">${pt}${pr}</div></td>
@@ -1249,6 +1385,15 @@ function downloadUserConfig() {
 }
 
 /* =====================================================================
+   ŞEHİRE YÖNLENDİR (arama → şehir detayı)
+   ===================================================================== */
+function goToCity(idx) {
+  const sehirTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Şehirler'));
+  if (sehirTab) switchTab('sehirler', sehirTab);
+  showCityDetail(idx);
+}
+
+/* =====================================================================
    YARIŞA YÖNLENDİR (sıralama pill tıkla → Yarışlar Tahmin)
    ===================================================================== */
 function goToEventTahmin(brans, yb, gender) {
@@ -1284,45 +1429,259 @@ function showAthleteProfile(name, yb, gender) {
   if (!athlete) return;
 
   const cut = grp.medal_cut;
-  const evRows = athlete.events.map((ev,i) => {
-    const isTop = i < 3;
-    return `<tr style="${isTop?'background:rgba(20,184,166,.06)':''}">
+  const medalEvents = athlete.events.filter(ev => ev.rank <= cut);
+  const medalCount  = medalEvents.length;
+
+  const evRows = athlete.events.map((ev, i) => {
+    const isTop   = i < 3;
+    const isMedal = ev.rank <= cut;
+    const rankLbl = ev.rank === 1 ? '🥇' : ev.rank === 2 ? '🥈' : ev.rank === 3 ? '🥉' : `${ev.rank}.`;
+    const medalCls = isMedal ? `style="background:rgba(20,184,166,.07)"` : '';
+    const mLbl = isMedal ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:3px">${rankLbl} madalya</span>` : `<span style="font-size:9px;color:var(--muted)">${rankLbl}</span>`;
+    return `<tr ${medalCls}>
       <td style="font-size:12px;padding:6px 8px">${isTop?'<b>':''}${ev.event}${isTop?'</b>':''}</td>
+      <td style="font-family:monospace;font-size:11px;padding:6px 8px">${mLbl}</td>
       <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px">${ev.time_raw}${ev.is_live?' 🟢':''}</td>
       <td style="text-align:center;font-weight:700;padding:6px 8px" class="${ptsClass(ev.points)}">${ev.points}</td>
     </tr>`;
   }).join('');
 
   const rankBadge = medalBadge(athlete.rank, cut);
-  const prizeLbl = athlete.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
+  const odulRank  = athlete.prize ? (athlete.rank === 1 ? '🥇 1. — ÖDÜL' : '🥈 2. — ÖDÜL') : null;
+  const prizeLbl  = athlete.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
+
+  const summaryItems = [];
+  if (odulRank) summaryItems.push(`<div style="background:rgba(168,85,247,.12);border:1px solid rgba(168,85,247,.3);border-radius:7px;padding:6px 10px;font-size:12px;color:var(--purple);font-weight:700">${odulRank}</div>`);
+  if (medalCount > 0) summaryItems.push(`<div style="background:rgba(20,184,166,.12);border:1px solid rgba(20,184,166,.3);border-radius:7px;padding:6px 10px;font-size:12px;color:var(--teal);font-weight:700">🏅 ${medalCount} Madalya</div>`);
 
   document.getElementById('athleteModalContent').innerHTML = `
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
       <div style="font-size:28px">${rankBadge}</div>
       <div>
         <div style="font-size:15px;font-weight:700">${athlete.name}${prizeLbl}</div>
         <div style="font-size:11px;color:var(--muted);margin-top:2px">${grp.age_label} ${gender} · ${athlete.city}</div>
       </div>
     </div>
+    ${summaryItems.length ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px">${summaryItems.join('')}</div>` : ''}
     <table style="width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:8px;overflow:hidden">
       <thead><tr style="background:#1a2740">
         <th style="font-size:10px;color:var(--muted);padding:6px 8px;text-align:left">Branş</th>
+        <th style="font-size:10px;color:var(--muted);padding:6px 8px">Sıra</th>
         <th style="font-size:10px;color:var(--muted);text-align:right;padding:6px 8px">Süre</th>
         <th style="font-size:10px;color:var(--muted);text-align:center;padding:6px 8px">Puan</th>
       </tr></thead>
       <tbody>${evRows}</tbody>
     </table>
     <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;display:flex;justify-content:space-between;align-items:center">
-      <span style="font-size:11px;color:var(--muted)">Toplam (En iyi 3) · Sıra: ${athlete.rank}. / ${grp.athlete_count}</span>
-      <span style="font-size:20px;font-weight:800;color:var(--gold)">${athlete.top3}</span>
+      <span style="font-size:11px;color:var(--muted)">Toplam (en iyi 3) · Grup sırası: ${athlete.rank}. / ${grp.athlete_count}</span>
+      <span style="font-size:20px;font-weight:800;color:var(--gold)">${athlete.top3} puan</span>
     </div>`;
 
-  const modal = document.getElementById('athleteModal');
-  modal.style.display = 'flex';
+  document.getElementById('athleteModal').style.display = 'flex';
 }
 
 function closeAthleteModal() {
   document.getElementById('athleteModal').style.display = 'none';
+}
+
+/* =====================================================================
+   GERİ SAYIM (her 5 dk otomatik yenile)
+   ===================================================================== */
+let _cdInterval = null;
+function startCountdown() {
+  const el = document.getElementById('countdown');
+  if (!el) return;
+  el.style.display = '';
+  let secs = 300;
+  function tick() {
+    secs--;
+    if (secs <= 0) {
+      el.textContent = '⟳ Güncelleniyor…';
+      clearInterval(_cdInterval);
+      setTimeout(() => location.reload(), 1200);
+      return;
+    }
+    const m = Math.floor(secs / 60), s = secs % 60;
+    el.textContent = `⏱ ${m}:${String(s).padStart(2,'0')}`;
+  }
+  el.textContent = '⏱ 5:00';
+  if (_cdInterval) clearInterval(_cdInterval);
+  _cdInterval = setInterval(tick, 1000);
+}
+
+/* =====================================================================
+   SPORCU İSTATİSTİKLERİ (tüm gruplardan hesapla)
+   ===================================================================== */
+function computeAllAthletes() {
+  const list = [];
+  for (const [key, grp] of Object.entries(DATA.groups)) {
+    const cut = grp.medal_cut;
+    for (const a of grp.athletes) {
+      const medalCount = a.events.filter(ev => ev.rank <= cut).length;
+      list.push({
+        name:        a.name,
+        city:        a.city || '',
+        yb:          grp.yb,
+        gender:      grp.gender,
+        age_label:   grp.age_label,
+        group_rank:  a.rank,
+        group_count: grp.athlete_count,
+        prize:       a.prize,
+        medal:       a.rank <= cut,
+        medal_count: medalCount,
+        top3:        a.top3,
+      });
+    }
+  }
+  return list;
+}
+
+/* =====================================================================
+   PUANLAMA SEKMESİ
+   ===================================================================== */
+function renderPuanlama() {
+  if (!DATA) return;
+
+  // Puan tablosu
+  const pts = DATA.points_table || {1:9,2:7,3:6,4:5,5:4,6:3,7:2,8:1};
+  const medals = ['🥇','🥈','🥉','4.','5.','6.','7.','8.'];
+  const rows = Object.entries(pts).map(([rank,pt],i) =>
+    `<tr>
+      <td class="rank-big">${medals[i]||rank+'.'} <span style="color:var(--muted);font-size:11px">${rank}. sıra</span></td>
+      <td class="rank-big ${ptsClass(pt)}">${pt}</td>
+      <td style="font-size:11px;color:var(--muted)">${pt===9?'En yüksek puan':pt>=7?'Yüksek puan':pt>=5?'Orta puan':'Düşük puan'}</td>
+    </tr>`
+  ).join('');
+  const tb = document.getElementById('pts-table-body');
+  if (tb) tb.innerHTML = rows;
+
+  // Madalya sınırları
+  const cutMap = {};
+  for (const [key, grp] of Object.entries(DATA.groups)) {
+    cutMap[grp.yb] = grp.medal_cut;
+  }
+  const grid = document.getElementById('medal-cuts-grid');
+  if (grid) {
+    grid.innerHTML = Object.entries(cutMap)
+      .sort((a,b) => b[0].localeCompare(a[0]))
+      .map(([yb, cut]) => {
+        const grp = DATA.groups[yb+'_Kadın'] || DATA.groups[yb+'_Erkek'];
+        const lbl = grp ? grp.age_label : '20'+yb;
+        return `<div class="medal-card">
+          <div class="mc-group">${lbl}</div>
+          <div class="mc-cut">İlk ${cut}</div>
+          <div class="mc-note">${cut} kişiye madalya</div>
+        </div>`;
+      }).join('');
+  }
+}
+
+/* =====================================================================
+   SPORCULAR SEKMESİ
+   ===================================================================== */
+let sporculaSort = 'puan';
+let sporculaGen  = 'all';
+
+function setSporculaSort(btn) {
+  sporculaSort = btn.dataset.sort;
+  btn.closest('.sporcu-sort-bar').querySelectorAll('[data-sort]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSporcular();
+}
+function filterSporcular(btn) {
+  sporculaGen = btn.dataset.sgen;
+  btn.closest('.sporcu-sort-bar').querySelectorAll('[data-sgen]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSporcular();
+}
+
+function renderSporcular() {
+  if (!DATA) return;
+  const q = (document.getElementById('sporcu-filter-input')?.value || '').trim().toLowerCase();
+  let list = computeAllAthletes();
+
+  if (sporculaGen !== 'all') list = list.filter(a => a.gender === sporculaGen);
+  if (q) list = list.filter(a => a.name.toLowerCase().includes(q) || a.city.toLowerCase().includes(q));
+
+  if (sporculaSort === 'puan')   list.sort((a,b) => b.top3-a.top3 || b.medal_count-a.medal_count);
+  if (sporculaSort === 'madalya') list.sort((a,b) => b.medal_count-a.medal_count || b.top3-a.top3);
+  if (sporculaSort === 'odul')   list.sort((a,b) => (b.prize?1:0)-(a.prize?1:0) || a.group_rank-b.group_rank || b.top3-a.top3);
+
+  const container = document.getElementById('sporcular-content');
+  if (!list.length) { container.innerHTML='<div class="empty">Sonuç yok</div>'; return; }
+
+  const rows = list.map((a,i) => {
+    const prizeLbl = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
+    const medalLbl = a.medal_count > 0 ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:4px">🏅${a.medal_count}</span>` : '';
+    const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+    return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+      <td class="col-rank" style="font-weight:700;font-size:12px;text-align:center">${i+1}</td>
+      <td><div class="name-main">${a.name}${prizeLbl}${medalLbl}</div>
+          <div class="name-city">${a.age_label} ${a.gender} · ${a.city}</div></td>
+      <td style="text-align:center;font-size:11px;color:var(--muted)">${a.group_rank}./${a.group_count}</td>
+      <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
+    </tr>`;
+  }).join('');
+
+  container.innerHTML = `
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div><div class="sec-title">Tüm Sporcular</div>
+      <div class="sec-sub">${list.length} sporcu · Tahmin bazlı sıralama · Sporcuya tıkla → profil</div></div>
+    </div>
+    <div class="sec-body"><table>
+      <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th style="text-align:center;font-size:10px">Grup</th><th class="col-score">Puan</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
+  </div>`;
+}
+
+/* =====================================================================
+   ARAMA SEKMESİ
+   ===================================================================== */
+function doSearch() {
+  const q = (document.getElementById('searchInput')?.value || '').trim().toLowerCase();
+  const hint    = document.getElementById('search-hint');
+  const empty   = document.getElementById('search-empty');
+  const results = document.getElementById('search-results');
+
+  if (!q || q.length < 2) {
+    hint.style.display=''; empty.style.display='none'; results.innerHTML=''; return;
+  }
+  hint.style.display = 'none';
+
+  const cards = [];
+
+  // Sporcu ara
+  const athletes = computeAllAthletes();
+  for (const a of athletes) {
+    if (!a.name.toLowerCase().includes(q)) continue;
+    const prizeLbl = a.prize ? ' · ÖDÜL' : '';
+    const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+    cards.push(`<div class="src-card" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+      <div class="src-card-hdr">
+        <span class="src-type">👤 Sporcu</span>
+        <div class="src-name">${a.name}</div>
+        <div class="src-sub">${a.age_label} ${a.gender} · ${a.city} · ${a.group_rank}./${a.group_count} · ${a.top3} puan${prizeLbl}</div>
+      </div>
+    </div>`);
+  }
+
+  // Şehir ara
+  for (let idx=0; idx<DATA.city_rankings.length; idx++) {
+    const c = DATA.city_rankings[idx];
+    if (!c.city.toLowerCase().includes(q)) continue;
+    cards.push(`<div class="src-card" onclick="goToCity(${idx})">
+      <div class="src-card-hdr">
+        <span class="src-type">🏙️ Şehir</span>
+        <div class="src-name">${c.city}</div>
+        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu</div>
+      </div>
+    </div>`);
+  }
+
+  if (!cards.length) { empty.style.display=''; results.innerHTML=''; }
+  else { empty.style.display='none'; results.innerHTML = cards.join(''); }
 }
 
 /* =====================================================================
