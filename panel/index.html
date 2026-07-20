@@ -1305,17 +1305,19 @@ function setKulupDetailTab(tab, btn) {
   renderKulupDetail();
 }
 function renderKulupDetail() {
-  const city = DATA.city_rankings.find(c => c.city === currentKulupCityName);
-  if (!city) return;
+  const src = DATA.club_rankings || DATA.city_rankings;
+  const club = src.find(c => (c.club||c.city) === currentKulupCityName);
+  if (!club) return;
   const container = document.getElementById('kulup-detail-content');
   if (kulupDetailTab === 'topscorers') {
-    const list = city.athlete_list || [];
+    const list = club.athlete_list || [];
     if (!list.length) { container.innerHTML='<div class="empty">Veri yok</div>'; return; }
     const rows = list.map((a,i) => {
       const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      const sub = a.city ? `${a.group} · ${a.city}` : a.group;
       return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
         <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${sub}</div></td>
         <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
     }).join('');
     container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
@@ -1325,15 +1327,16 @@ function renderKulupDetail() {
         <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
         <tbody>${rows}</tbody></table></div></div>`;
   } else {
-    const list = city.medal_list || [];
+    const list = club.medal_list || [];
     if (!list.length) { container.innerHTML='<div class="empty">Bu kulüpten bireysel ödül alan sporcu yok.</div>'; return; }
     const rows = list.map(a => {
       const isGold = a.rank_in_group === 1;
       const badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
       const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      const sub = a.city ? `${a.group} · ${a.city}` : a.group;
       return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
         <td class="col-rank">${badge}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${sub}</div></td>
         <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
     }).join('');
     container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
@@ -1346,20 +1349,22 @@ function renderKulupDetail() {
 }
 function renderKulupler() {
   if (!DATA) return;
-  const list=[...DATA.city_rankings];
+  const src = DATA.club_rankings || DATA.city_rankings;
+  const list=[...src];
   if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.gold_count||0)-(a.gold_count||0)||b.total-a.total);
   const rows=list.map((c,i)=>{
     const rank=i+1;
+    const label=c.club||c.city;
     const ns=rank===1?'color:var(--gold)':rank===2?'color:#94a3b8':rank===3?'color:var(--orange)':'';
     const val=kulupTab==='puan'?c.total+' puan':'🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0)+' = '+(c.medal_count||0)+' ödül';
-    return `<tr class="kulup-row" onclick="showKulupDetail('${esc(c.city)}')">
+    return `<tr class="kulup-row" onclick="showKulupDetail('${esc(label)}')">
       <td class="rank-num" style="${ns}">${rank}</td>
-      <td><div style="font-weight:600;font-size:13px">${c.city}</div><div class="city-sub">${c.athletes} sporcu</div></td>
+      <td><div style="font-weight:600;font-size:13px">${label}</div><div class="city-sub">${c.athletes} sporcu</div></td>
       <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td>
       <td style="color:var(--muted)">›</td></tr>`;
   }).join('');
   document.getElementById('kulup-table').innerHTML=`
-  <table><thead><tr><th class="rank-num">#</th><th>Kulüp / Şehir</th>
+  <table><thead><tr><th class="rank-num">#</th><th>Kulüp</th>
   <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab==='puan'?'PUAN':'ÖDÜL'}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
 }

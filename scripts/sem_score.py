@@ -72,6 +72,7 @@ def compute_event_rankings(
             event_buckets[key].append({
                 "name":     sw["name"],
                 "city":     sw["city"],
+                "club":     sw.get("club", ""),
                 "time_raw": ev["time_raw"],
                 "time_sec": ev["time_sec"],
                 "is_live":  ev.get("is_live", False),
@@ -112,13 +113,13 @@ def build_individual_rankings(
         for f in finishers:
             key = (f["name"], yb, gender)
             if key not in athlete_map:
-                city = next((s["city"] for s in entries
-                             if s["name"] == f["name"] and s["yb"] == yb), "")
+                sw = next((s for s in entries if s["name"] == f["name"] and s["yb"] == yb), {})
                 athlete_map[key] = {
                     "name":   f["name"],
                     "yb":     yb,
                     "gender": gender,
-                    "city":   city,
+                    "city":   sw.get("city", f.get("city", "")),
+                    "club":   sw.get("club", f.get("club", "")),
                     "event_results": [],
                 }
             if f["points"] > 0 or f["time_raw"] != "NT":
@@ -166,10 +167,18 @@ def compute_city_rankings(individual_rankings: dict) -> list[dict]:
     return [{"rank": i + 1, "city": c, **v} for i, (c, v) in enumerate(ranked)]
 
 
-def compute_club_rankings(individual_rankings: dict, entries: list[dict]) -> list[dict]:
+def compute_club_rankings(individual_rankings: dict) -> list[dict]:
     """
-    Kulüp sıralaması — entry listesinde kulüp sütunu yok, şehir bazlı yapılır.
-    Eğer ileride kulüp eklenirse burası güncellenir.
+    Kulüp sıralaması: her sporcunun top3 puanları kulübüne eklenir.
     """
-    # Şu an entry listesinde sadece şehir var; kulüp = şehir
-    return compute_city_rankings(individual_rankings)
+    from collections import defaultdict
+    club_totals: dict[str, dict] = defaultdict(lambda: {"total": 0, "athletes": 0})
+
+    for (yb, gender), athletes in individual_rankings.items():
+        for a in athletes:
+            club = a.get("club", "") or "Bağımsız"
+            club_totals[club]["total"]    += a.get("top3", 0)
+            club_totals[club]["athletes"] += 1
+
+    ranked = sorted(club_totals.items(), key=lambda x: -x[1]["total"])
+    return [{"rank": i + 1, "club": c, "city": c, **v} for i, (c, v) in enumerate(ranked)]

@@ -34,6 +34,7 @@ from sem_score import (
     compute_event_rankings,
     build_individual_rankings,
     compute_city_rankings,
+    compute_club_rankings,
 )
 
 
@@ -96,6 +97,7 @@ def _build_athletes_out(athletes, medal_cut):
             "rank":   a["rank"],
             "name":   a["name"],
             "city":   a.get("city", ""),
+            "club":   a.get("club", ""),
             "top3":   a.get("top3", 0),
             "top4":   a.get("top4", 0),
             "events": events_out,
@@ -130,6 +132,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     ev_rankings_forecast = compute_event_rankings(merged, source)
     individual_forecast  = build_individual_rankings(merged, ev_rankings_forecast)
     city_rankings        = compute_city_rankings(individual_forecast)
+    club_rankings        = compute_club_rankings(individual_forecast)
 
     # --- Current (anlık) sıralaması (yalnızca canlı sonucu olan yarışlar) ---
     if completed_events:
@@ -201,6 +204,38 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     else:
         city_rankings_current = city_rankings
 
+    # --- Kulüp detay verisi ---
+    club_ath_map: dict[str, list] = {}
+    for (yb, gender), athletes in individual_forecast.items():
+        for a in athletes:
+            club = a.get("club", "") or "Bağımsız"
+            club_ath_map.setdefault(club, []).append({
+                "name":          a["name"],
+                "city":          a.get("city", ""),
+                "group":         f"20{yb} {gender}",
+                "yb":            yb,
+                "gender":        gender,
+                "top3":          a.get("top3", 0),
+                "rank_in_group": a["rank"],
+            })
+
+    for cr in club_rankings:
+        club = cr["club"]
+        aths = club_ath_map.get(club, [])
+        cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
+        cr["medal_list"]   = sorted(
+            [a for a in aths if a["rank_in_group"] <= 2],
+            key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
+        )
+        cr["medal_count"]  = len(cr["medal_list"])
+        cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
+        cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
+
+    if completed_events:
+        club_rankings_current = compute_club_rankings(individual_current)
+    else:
+        club_rankings_current = club_rankings
+
     # --- Yarış programı ---
     program_out = [{"gun": g, "seans": s, "brans": b} for g, s, b in PROGRAM]
 
@@ -265,6 +300,8 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         "groups":                 groups_out,
         "city_rankings":          city_rankings,
         "city_rankings_current":  city_rankings_current,
+        "club_rankings":          club_rankings,
+        "club_rankings_current":  club_rankings_current,
         "program":                program_out,
         "events":                 events_out,
         "events_current":         events_current_out,
