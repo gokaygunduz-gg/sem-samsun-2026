@@ -1677,9 +1677,9 @@ function showAthleteProfile(name, yb, gender) {
   const evRows = athlete.events.map((ev, i) => {
     const isTop   = i < 3;
     const isMedal = ev.rank <= cut;
-    const rankLbl = ev.rank === 1 ? '🥇' : ev.rank === 2 ? '🥈' : ev.rank === 3 ? '🥉' : `${ev.rank}.`;
+    const rankLbl = `${ev.rank}.`;
     const medalBg = isMedal ? 'background:rgba(20,184,166,.07);' : '';
-    const mLbl = isMedal ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:3px">${rankLbl} madalya</span>` : `<span style="font-size:9px;color:var(--muted)">${rankLbl}</span>`;
+    const mLbl = isMedal ? `<span style="font-size:13px;color:var(--teal);font-weight:800;margin-left:3px">${rankLbl} madalya</span>` : `<span style="font-size:11px;color:var(--muted);font-weight:600">${rankLbl}</span>`;
     const evEsc=esc(ev.event), ybEsc=esc(yb), genEsc=esc(gender);
     return `<tr style="${medalBg}cursor:pointer" title="Bu yarışın tam sıralamasına git"
         onclick="closeAthleteModal();goToEventTahmin('${evEsc}','${ybEsc}','${genEsc}')">
