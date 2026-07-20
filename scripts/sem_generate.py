@@ -178,25 +178,34 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         mc = MEDAL_CUTOFFS.get(yb, 3)
         for a in athletes:
             city = a.get("city", "Bilinmiyor") or "Bilinmiyor"
+            # Branş bazlı madalya sayısı: her yarışta rank <= medal_cut ise madalya
+            emc = sum(1 for ev in a.get("sorted_events", []) if ev.get("rank", 999) <= mc)
             city_ath_map.setdefault(city, []).append({
-                "name":          a["name"],
-                "group":         f"20{yb} {gender}",
-                "yb":            yb,
-                "gender":        gender,
-                "top3":          a.get("top3", 0),
-                "rank_in_group": a["rank"],
-                "medal_cut":     mc,
+                "name":              a["name"],
+                "group":             f"20{yb} {gender}",
+                "yb":                yb,
+                "gender":            gender,
+                "top3":              a.get("top3", 0),
+                "rank_in_group":     a["rank"],
+                "medal_cut":         mc,
+                "event_medal_count": emc,
             })
 
     for cr in city_rankings:
         city = cr["city"]
         aths = city_ath_map.get(city, [])
         cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
+        # Madalya listesi: en az 1 branşta madalya alan sporcular
         cr["medal_list"]   = sorted(
+            [a for a in aths if a["event_medal_count"] > 0],
+            key=lambda x: (-x["event_medal_count"], -x["top3"], x["name"])
+        )
+        # Ödül listesi: bireysel sıralamada ilk 2 (1. veya 2.)
+        cr["prize_list"]   = sorted(
             [a for a in aths if a["rank_in_group"] <= 2],
             key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
         )
-        cr["medal_count"]  = sum(1 for a in aths if a["rank_in_group"] <= a["medal_cut"])
+        cr["medal_count"]  = sum(a["event_medal_count"] for a in aths)  # toplam branş madalyası
         cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
         cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
         cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
@@ -213,15 +222,17 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         mc = MEDAL_CUTOFFS.get(yb, 3)
         for a in athletes:
             club = a.get("club", "") or "Bağımsız"
+            emc = sum(1 for ev in a.get("sorted_events", []) if ev.get("rank", 999) <= mc)
             club_ath_map.setdefault(club, []).append({
-                "name":          a["name"],
-                "city":          a.get("city", ""),
-                "group":         f"20{yb} {gender}",
-                "yb":            yb,
-                "gender":        gender,
-                "top3":          a.get("top3", 0),
-                "rank_in_group": a["rank"],
-                "medal_cut":     mc,
+                "name":              a["name"],
+                "city":              a.get("city", ""),
+                "group":             f"20{yb} {gender}",
+                "yb":                yb,
+                "gender":            gender,
+                "top3":              a.get("top3", 0),
+                "rank_in_group":     a["rank"],
+                "medal_cut":         mc,
+                "event_medal_count": emc,
             })
 
     for cr in club_rankings:
@@ -229,10 +240,14 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         aths = club_ath_map.get(club, [])
         cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
         cr["medal_list"]   = sorted(
+            [a for a in aths if a["event_medal_count"] > 0],
+            key=lambda x: (-x["event_medal_count"], -x["top3"], x["name"])
+        )
+        cr["prize_list"]   = sorted(
             [a for a in aths if a["rank_in_group"] <= 2],
             key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
         )
-        cr["medal_count"]  = sum(1 for a in aths if a["rank_in_group"] <= a["medal_cut"])
+        cr["medal_count"]  = sum(a["event_medal_count"] for a in aths)
         cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
         cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
         cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)

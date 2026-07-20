@@ -375,8 +375,9 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
         <span class="detail-title" id="city-detail-name"></span>
       </div>
       <div class="stabs">
-        <button class="stab active" onclick="setCityTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
-        <button class="stab" onclick="setCityTab('medals',this)">🥇 Bireysel Ödüller</button>
+        <button class="stab active" onclick="setCityTab('topscorers',this)">🏆 Puanlılar</button>
+        <button class="stab" onclick="setCityTab('medals',this)">🏅 Madalyalar</button>
+        <button class="stab" onclick="setCityTab('prizes',this)">🥇 Ödüller</button>
       </div>
     </div>
     <div id="city-detail-content"></div>
@@ -408,8 +409,9 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
         <span class="detail-title" id="kulup-detail-name"></span>
       </div>
       <div class="stabs">
-        <button class="stab active" onclick="setKulupDetailTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
-        <button class="stab" onclick="setKulupDetailTab('medals',this)">🥇 Bireysel Ödüller</button>
+        <button class="stab active" onclick="setKulupDetailTab('topscorers',this)">🏆 Puanlılar</button>
+        <button class="stab" onclick="setKulupDetailTab('medals',this)">🏅 Madalyalar</button>
+        <button class="stab" onclick="setKulupDetailTab('prizes',this)">🥇 Ödüller</button>
       </div>
     </div>
     <div id="kulup-detail-content"></div>
@@ -1241,44 +1243,64 @@ function backToSehirList() {
   document.getElementById('sehir-detail-view').style.display='none';
 }
 function setCityTab(tab,btn){ cityDetailTab=tab; activateStabs(btn.closest('.stabs'),btn); renderCityDetail(); }
+function _detailMedalsHtml(list, emptyMsg, title, sub, hdrCol) {
+  if (!list.length) return `<div class="empty">${emptyMsg}</div>`;
+  const rows = list.map((a, i) => {
+    const aN=esc(a.name), aY=esc(a.yb), aG=esc(a.gender);
+    const mc = a.event_medal_count;
+    const mcBadge = mc != null
+      ? `<span style="font-size:10px;background:rgba(20,184,166,.18);color:var(--teal);border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">🏅${mc}</span>`
+      : '';
+    const prizeBadge = a.rank_in_group === 1
+      ? `<span style="font-size:10px;background:rgba(245,158,11,.18);color:var(--gold);border-radius:4px;padding:1px 5px;font-weight:700;margin-left:3px">🥇1.</span>`
+      : a.rank_in_group === 2
+        ? `<span style="font-size:10px;background:rgba(148,163,184,.15);color:#94a3b8;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:3px">🥈2.</span>`
+        : '';
+    const city = a.city ? ` · ${a.city}` : '';
+    return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+      <td class="col-rank" style="font-weight:700;text-align:center;color:var(--muted)">${i+1}</td>
+      <td><div class="name-main">${a.name}${prizeBadge}${mcBadge}</div><div class="name-city">${a.group}${city}</div></td>
+      <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+  }).join('');
+  return `<div class="section"><div class="sec-hdr" style="cursor:default">
+    <div><div class="sec-title">${title}</div><div class="sec-sub">${sub}</div></div></div>
+    <div class="sec-body"><table>
+      <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">${hdrCol}</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+}
+function _detailPrizesHtml(list, emptyMsg) {
+  if (!list.length) return `<div class="empty">${emptyMsg}</div>`;
+  const rows = list.map(a => {
+    const isGold = a.rank_in_group === 1;
+    const badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
+    const aN=esc(a.name), aY=esc(a.yb), aG=esc(a.gender);
+    const city = a.city ? ` · ${a.city}` : '';
+    return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+      <td class="col-rank">${badge}</td>
+      <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}${city}</div></td>
+      <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+  }).join('');
+  return `<div class="section"><div class="sec-hdr" style="cursor:default">
+    <div><div class="sec-title">Bireysel Ödüller</div>
+    <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
+    <div class="sec-body"><table>
+      <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+}
 function renderCityDetail() {
   if (currentCityIdx<0) return;
   const city=DATA.city_rankings[currentCityIdx];
   const container=document.getElementById('city-detail-content');
   if (cityDetailTab==='topscorers') {
     const list=city.athlete_list||[];
-    if (!list.length){container.innerHTML='<div class="empty">Veri yok</div>';return;}
-    const rows=list.map((a,i)=>{
-      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
-      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
-        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
-    }).join('');
-    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
-      <div><div class="sec-title">En Yüksek Puanlılar</div>
-      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre · Sporcuya tıkla → profil</div></div></div>
-      <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody></table></div></div>`;
-  } else {
+    container.innerHTML=_detailMedalsHtml(list,'Veri yok','En Yüksek Puanlılar',
+      `${list.length} sporcu · Puana göre sıralı · 🏅=branş madalyası · 🥇/🥈=bireysel ödül`,'Puan');
+  } else if (cityDetailTab==='medals') {
     const list=city.medal_list||[];
-    if (!list.length){container.innerHTML='<div class="empty">Bu şehirden bireysel ödül alan sporcu yok.</div>';return;}
-    const rows=list.map(a=>{
-      const isGold=a.rank_in_group===1;
-      const badge=`<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
-      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
-      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
-        <td class="col-rank">${badge}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
-    }).join('');
-    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
-      <div><div class="sec-title">Bireysel Ödüller</div>
-      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
-      <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody></table></div></div>`;
+    container.innerHTML=_detailMedalsHtml(list,'Bu şehirden branş madalyası alan sporcu yok.','Madalyalar',
+      `Toplam ${city.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`,'Puan');
+  } else {
+    container.innerHTML=_detailPrizesHtml(city.prize_list||[],'Bu şehirden bireysel ödül alan sporcu yok.');
   }
 }
 
@@ -1321,40 +1343,14 @@ function renderKulupDetail() {
   const container = document.getElementById('kulup-detail-content');
   if (kulupDetailTab === 'topscorers') {
     const list = club.athlete_list || [];
-    if (!list.length) { container.innerHTML='<div class="empty">Veri yok</div>'; return; }
-    const rows = list.map((a,i) => {
-      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
-      const sub = a.city ? `${a.group} · ${a.city}` : a.group;
-      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
-        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${sub}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
-    }).join('');
-    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
-      <div><div class="sec-title">En Yüksek Puanlılar</div>
-      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre · Sporcuya tıkla → profil</div></div></div>
-      <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody></table></div></div>`;
-  } else {
+    container.innerHTML = _detailMedalsHtml(list, 'Veri yok', 'En Yüksek Puanlılar',
+      `${list.length} sporcu · Puana göre sıralı · 🏅=branş madalyası · 🥇/🥈=bireysel ödül`, 'Puan');
+  } else if (kulupDetailTab === 'medals') {
     const list = club.medal_list || [];
-    if (!list.length) { container.innerHTML='<div class="empty">Bu kulüpten bireysel ödül alan sporcu yok.</div>'; return; }
-    const rows = list.map(a => {
-      const isGold = a.rank_in_group === 1;
-      const badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
-      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
-      const sub = a.city ? `${a.group} · ${a.city}` : a.group;
-      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
-        <td class="col-rank">${badge}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${sub}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
-    }).join('');
-    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
-      <div><div class="sec-title">Bireysel Ödüller</div>
-      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
-      <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody></table></div></div>`;
+    container.innerHTML = _detailMedalsHtml(list, 'Bu kulüpten branş madalyası alan sporcu yok.', 'Madalyalar',
+      `Toplam ${club.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`, 'Puan');
+  } else {
+    container.innerHTML = _detailPrizesHtml(club.prize_list||[], 'Bu kulüpten bireysel ödül alan sporcu yok.');
   }
 }
 function renderKulupler() {
