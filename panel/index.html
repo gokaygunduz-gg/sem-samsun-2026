@@ -356,6 +356,7 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
     <div class="stabs">
       <button class="stab active" onclick="setSehirSort('puan',this)">📊 Puana Göre</button>
       <button class="stab" onclick="setSehirSort('madalya',this)">🏅 Madalya Sayısı</button>
+      <button class="stab" onclick="setSehirSort('odul',this)">🎖️ Ödül Sayısı</button>
     </div>
     <div class="section">
       <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
@@ -388,6 +389,7 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
     <div class="stabs">
       <button class="stab active" onclick="setKulupTab('puan',this)">📊 Puana Göre</button>
       <button class="stab" onclick="setKulupTab('madalya',this)">🏅 Madalya Sayısı</button>
+      <button class="stab" onclick="setKulupTab('odul',this)">🎖️ Ödül Sayısı</button>
     </div>
     <div class="section" style="margin-top:10px">
       <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
@@ -1190,31 +1192,37 @@ function setSehirSort(mode, btn) {
   const lbl = document.getElementById('sehir-sub-label');
   if (lbl) lbl.textContent = mode === 'puan'
     ? 'Sporcuların bireysel en iyi 3 yarış puanları toplamı · Şehre tıklayın'
-    : "Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre · Şehre tıklayın";
+    : mode === 'madalya'
+      ? 'Yaş grubuna göre madalya barajını geçen sporcu sayısı (2014→ilk8, 2013→ilk6...) · Şehre tıklayın'
+      : "Her yaş grubunda ilk 2'ye giren (bireysel ödül) sporcu sayısı · Şehre tıklayın";
   renderSehirler();
 }
 function renderSehirler() {
   if (!DATA) return;
   let list = [...DATA.city_rankings];
   if (sehirSortMode === 'madalya') {
-    list.sort((a,b) => (b.medal_count||0)-(a.medal_count||0) || (b.gold_count||0)-(a.gold_count||0) || b.total-a.total);
+    list.sort((a,b) => (b.medal_count||0)-(a.medal_count||0) || (b.prize_count||0)-(a.prize_count||0) || b.total-a.total);
+  } else if (sehirSortMode === 'odul') {
+    list.sort((a,b) => (b.prize_count||0)-(a.prize_count||0) || (b.gold_count||0)-(a.gold_count||0) || b.total-a.total);
   }
   const rows = list.map((c, i) => {
-    const displayRank = sehirSortMode === 'puan' ? c.rank : i+1;
+    const displayRank = i + 1;
     const ns = displayRank===1?'color:var(--gold)':displayRank===2?'color:#94a3b8':displayRank===3?'color:var(--orange)':'';
     const val = sehirSortMode === 'puan'
       ? `<td class="city-pts">${c.total}</td>`
-      : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🥇${c.gold_count||0} 🥈${c.silver_count||0}</td>`;
+      : sehirSortMode === 'madalya'
+        ? `<td style="text-align:right;font-weight:700;font-size:13px;padding-right:12px;color:var(--teal)">🏅 ${c.medal_count||0}</td>`
+        : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🥇${c.gold_count||0} 🥈${c.silver_count||0}</td>`;
     const originalIdx = DATA.city_rankings.indexOf(c);
     return `<tr class="city-row" onclick="showCityDetail(${originalIdx})">
       <td class="rank-num" style="${ns}">${displayRank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div>
-          <div class="city-sub">${c.athletes} sporcu · ${c.total} puan · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
+          <div class="city-sub">${c.athletes} sporcu · ${c.total} puan · 🏅${c.medal_count||0} madalya · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
       ${val}
       <td style="color:var(--muted)">›</td>
     </tr>`;
   }).join('');
-  const hdr = sehirSortMode === 'puan' ? 'Puan' : 'Ödül';
+  const hdr = sehirSortMode === 'puan' ? 'Puan' : sehirSortMode === 'madalya' ? 'Madalya' : 'Ödül';
   document.getElementById('sehir-table').innerHTML=`
   <table><thead><tr><th class="rank-num">#</th><th>Şehir</th><th style="text-align:right;font-size:10px;padding-right:12px">${hdr}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
@@ -1281,7 +1289,9 @@ function setKulupTab(tab,btn) {
   kulupTab=tab;
   activateStabs(btn.closest('.stabs'),btn);
   document.getElementById('kulup-sub-label').textContent=
-    tab==='puan'?"Toplam puana göre sıralama · Kulübe tıklayın":"Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre · Kulübe tıklayın";
+    tab==='puan' ? "Toplam puana göre sıralama · Kulübe tıklayın" :
+    tab==='madalya' ? "Yaş grubuna göre madalya barajını geçen sporcu sayısı (2014→ilk8, 2013→ilk6...) · Kulübe tıklayın" :
+    "Her yaş grubunda ilk 2'ye giren (bireysel ödül) sporcu sayısı · Kulübe tıklayın";
   renderKulupler();
 }
 
@@ -1351,21 +1361,30 @@ function renderKulupler() {
   if (!DATA) return;
   const src = DATA.club_rankings || DATA.city_rankings;
   const list=[...src];
-  if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.gold_count||0)-(a.gold_count||0)||b.total-a.total);
+  if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.prize_count||0)-(a.prize_count||0)||b.total-a.total);
+  else if (kulupTab==='odul') list.sort((a,b)=>(b.prize_count||0)-(a.prize_count||0)||(b.gold_count||0)-(a.gold_count||0)||b.total-a.total);
   const rows=list.map((c,i)=>{
     const rank=i+1;
     const label=c.club||c.city;
     const ns=rank===1?'color:var(--gold)':rank===2?'color:#94a3b8':rank===3?'color:var(--orange)':'';
-    const val=kulupTab==='puan'?c.total+' puan':'🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0)+' = '+(c.medal_count||0)+' ödül';
+    const val=kulupTab==='puan'
+      ? c.total+' puan'
+      : kulupTab==='madalya'
+        ? '🏅 '+(c.medal_count||0)+' madalya'
+        : '🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0);
+    const sub=kulupTab==='puan'
+      ? `${c.athletes} sporcu · 🏅${c.medal_count||0} · 🥇${c.gold_count||0}🥈${c.silver_count||0}`
+      : `${c.athletes} sporcu · ${c.total} puan`;
     return `<tr class="kulup-row" onclick="showKulupDetail('${esc(label)}')">
       <td class="rank-num" style="${ns}">${rank}</td>
-      <td><div style="font-weight:600;font-size:13px">${label}</div><div class="city-sub">${c.athletes} sporcu</div></td>
+      <td><div style="font-weight:600;font-size:13px">${label}</div><div class="city-sub">${sub}</div></td>
       <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td>
       <td style="color:var(--muted)">›</td></tr>`;
   }).join('');
+  const hdr=kulupTab==='puan'?'PUAN':kulupTab==='madalya'?'MADALYA':'ÖDÜL';
   document.getElementById('kulup-table').innerHTML=`
   <table><thead><tr><th class="rank-num">#</th><th>Kulüp</th>
-  <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab==='puan'?'PUAN':'ÖDÜL'}</th><th></th></tr></thead>
+  <th style="text-align:right;font-size:10px;padding-right:12px">${hdr}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
 }
 

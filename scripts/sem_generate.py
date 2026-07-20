@@ -175,6 +175,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     # --- Şehir detay verisi ---
     city_ath_map: dict[str, list] = {}
     for (yb, gender), athletes in individual_forecast.items():
+        mc = MEDAL_CUTOFFS.get(yb, 3)
         for a in athletes:
             city = a.get("city", "Bilinmiyor") or "Bilinmiyor"
             city_ath_map.setdefault(city, []).append({
@@ -184,19 +185,21 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
                 "gender":        gender,
                 "top3":          a.get("top3", 0),
                 "rank_in_group": a["rank"],
+                "medal_cut":     mc,
             })
 
     for cr in city_rankings:
         city = cr["city"]
         aths = city_ath_map.get(city, [])
-        cr["athlete_list"]  = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
-        cr["medal_list"]    = sorted(
+        cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
+        cr["medal_list"]   = sorted(
             [a for a in aths if a["rank_in_group"] <= 2],
             key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
         )
-        cr["medal_count"]   = len(cr["medal_list"])
-        cr["gold_count"]    = sum(1 for a in aths if a["rank_in_group"] == 1)
-        cr["silver_count"]  = sum(1 for a in aths if a["rank_in_group"] == 2)
+        cr["medal_count"]  = sum(1 for a in aths if a["rank_in_group"] <= a["medal_cut"])
+        cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
+        cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
+        cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
 
     # Aynı yapıyı city_rankings current için de ekle
     if completed_events:
@@ -207,6 +210,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     # --- Kulüp detay verisi ---
     club_ath_map: dict[str, list] = {}
     for (yb, gender), athletes in individual_forecast.items():
+        mc = MEDAL_CUTOFFS.get(yb, 3)
         for a in athletes:
             club = a.get("club", "") or "Bağımsız"
             club_ath_map.setdefault(club, []).append({
@@ -217,6 +221,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
                 "gender":        gender,
                 "top3":          a.get("top3", 0),
                 "rank_in_group": a["rank"],
+                "medal_cut":     mc,
             })
 
     for cr in club_rankings:
@@ -227,7 +232,8 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
             [a for a in aths if a["rank_in_group"] <= 2],
             key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
         )
-        cr["medal_count"]  = len(cr["medal_list"])
+        cr["medal_count"]  = sum(1 for a in aths if a["rank_in_group"] <= a["medal_cut"])
+        cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
         cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
         cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
 
