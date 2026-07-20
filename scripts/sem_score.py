@@ -74,6 +74,7 @@ def compute_event_rankings(
                 "city":     sw["city"],
                 "time_raw": ev["time_raw"],
                 "time_sec": ev["time_sec"],
+                "is_live":  ev.get("is_live", False),
             })
 
     result = {}
@@ -124,9 +125,10 @@ def build_individual_rankings(
                 athlete_map[key]["event_results"].append({
                     "event":    event,
                     "time_raw": f["time_raw"],
-                    "time_sec": f["time_sec"],
+                    "time_sec": f.get("time_sec"),
                     "rank":     f["rank"],
                     "points":   f["points"],
+                    "is_live":  f.get("is_live", False),
                 })
 
     # Puan hesapla

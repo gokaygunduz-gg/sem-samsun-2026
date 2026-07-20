@@ -3,6 +3,21 @@ SEM Türkiye Finali 2026 — Samsun
 Tüm sabitler ve yapılandırma buradadır.
 """
 import os
+import hashlib
+
+
+def _sha256(s: str) -> str:
+    return hashlib.sha256(s.encode()).hexdigest()
+
+
+# ── Şifreler (değiştirin, sonra sem_generate.py çalıştırın) ──────────────────
+# Kullanıcı şifresi: paneli görüntülemek için
+USER_PASSWORD  = "SEM2026"
+# Yönetici şifresi: admin özelliklerine erişim için
+ADMIN_PASSWORD = "SEM2026YONETICI"
+# ─────────────────────────────────────────────────────────────────────────────
+USER_HASH  = _sha256(USER_PASSWORD)
+ADMIN_HASH = _sha256(ADMIN_PASSWORD)
 
 BASE_DIR       = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENTRY_PATH     = os.path.join(BASE_DIR, "SEM_kontrol_liste.xlsx")

@@ -10,7 +10,10 @@ Sütun yapısı (1-indexed):
 """
 
 import openpyxl
-from sem_config import ENTRY_PATH, NO_50M_GROUPS
+from sem_config import ENTRY_PATH, NO_50M_GROUPS, PROGRAM
+
+# Giriş listesinde yalnızca program içindeki branşlara izin ver
+KNOWN_EVENTS = {b for _, _, b in PROGRAM}
 
 TR_MAP = str.maketrans({
     "ğ": "g", "Ğ": "G", "ı": "i", "İ": "i",
@@ -72,6 +75,9 @@ def load_entry_list(path: str = ENTRY_PATH) -> list[dict]:
             if not ev:
                 continue
             ev_str = str(ev).strip()
+            # Bilinmeyen branşı atla (örn: "? Serbest" gibi bozuk hücreler)
+            if ev_str not in KNOWN_EVENTS:
+                continue
             # 2014-2013 50m oynamaz
             if yb in NO_50M_GROUPS and ev_str.startswith("50m"):
                 continue

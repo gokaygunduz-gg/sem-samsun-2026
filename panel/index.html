@@ -6,50 +6,61 @@
 <title>SEM Final 2026 – Samsun</title>
 <script src="data.js"></script>
 <style>
-:root {
-  --bg:     #0f172a;
-  --card:   #1e293b;
-  --border: #334155;
-  --text:   #e2e8f0;
-  --muted:  #94a3b8;
-  --gold:   #f59e0b;
-  --green:  #22c55e;
-  --blue:   #3b82f6;
-  --red:    #ef4444;
-  --teal:   #14b8a6;
-  --purple: #a855f7;
-  --orange: #fb923c;
+:root{
+  --bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--muted:#94a3b8;
+  --gold:#f59e0b;--green:#22c55e;--blue:#3b82f6;--red:#ef4444;--teal:#14b8a6;
+  --purple:#a855f7;--orange:#fb923c;--rose:#f43f5e;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;min-height:100vh}
 
+/* ── AUTH ── */
+#authScreen{position:fixed;inset:0;background:rgba(15,23,42,.97);z-index:999;display:flex;align-items:center;justify-content:center}
+.auth-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 28px;width:320px;max-width:92vw}
+.auth-logo{font-size:28px;text-align:center;margin-bottom:6px}
+.auth-title{font-size:16px;font-weight:700;color:var(--gold);text-align:center;margin-bottom:4px}
+.auth-sub{font-size:11px;color:var(--muted);text-align:center;margin-bottom:20px}
+.auth-input{width:100%;padding:10px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;outline:none;margin-bottom:10px}
+.auth-input:focus{border-color:var(--blue)}
+.auth-btn{width:100%;padding:10px;background:var(--blue);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
+.auth-err{color:var(--red);font-size:12px;text-align:center;margin-top:8px;min-height:18px}
+
 /* ── HEADER ── */
+#mainApp{display:none}
 header{background:#0f172a;border-bottom:1px solid var(--border);padding:10px 14px;position:sticky;top:0;z-index:100}
 .hdr-row{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .hdr-left h1{font-size:15px;font-weight:700;color:var(--gold)}
 .hdr-left .sub{font-size:11px;color:var(--muted)}
-.hdr-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.hdr-right{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .badge-src{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700}
 .badge-live{background:rgba(34,197,94,.2);color:var(--green)}
 .badge-sim{background:rgba(245,158,11,.2);color:var(--gold)}
+.badge-admin{background:rgba(168,85,247,.2);color:var(--purple)}
 .upd{font-size:10px;color:var(--muted)}
-.btn-refresh{background:var(--blue);color:#fff;border:none;padding:5px 10px;border-radius:6px;font-size:12px;cursor:pointer}
+.btn-sm{border:none;padding:5px 9px;border-radius:6px;font-size:11px;cursor:pointer;font-weight:600}
+.btn-refresh{background:var(--blue);color:#fff}
+.btn-logout{background:var(--border);color:var(--muted)}
 
-/* ── TABS ── */
+/* ── MAIN TABS ── */
 .tabs{display:flex;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto;gap:0}
-.tab{padding:11px 16px;font-size:12px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s}
+.tab{padding:10px 13px;font-size:12px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s}
 .tab.active{color:var(--gold);border-bottom-color:var(--gold)}
 .tab-content{display:none}
 .tab-content.active{display:block}
 
+/* ── SUB-TABS ── */
+.stabs{display:flex;gap:6px;padding:8px 10px;background:var(--bg);border-bottom:1px solid var(--border)}
+.stab{padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}
+.stab.active{background:var(--blue);border-color:var(--blue);color:#fff}
+
 /* ── FILTRELER ── */
-.filters{padding:8px 12px;background:var(--card);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.filter-sep{width:1px;height:20px;background:var(--border)}
+.filters{padding:8px 10px;background:var(--card);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.filter-sep{width:1px;height:18px;background:var(--border)}
 .filter-lbl{font-size:10px;color:var(--muted)}
-.fbtn{padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--bg);color:var(--muted);font-size:11px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.fbtn{padding:3px 11px;border-radius:14px;border:1px solid var(--border);background:var(--bg);color:var(--muted);font-size:11px;cursor:pointer;transition:all .15s;white-space:nowrap}
 .fbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
 
-/* ── KART / TABLO ── */
+/* ── TABLO / KART ── */
 .section{margin:10px 10px 0}
 .sec-hdr{background:var(--card);border:1px solid var(--border);border-radius:10px 10px 0 0;padding:9px 12px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
 .sec-title{font-size:13px;font-weight:600}
@@ -60,23 +71,23 @@ table{width:100%;border-collapse:collapse}
 th{background:#1a2740;color:var(--muted);font-size:10px;font-weight:600;padding:6px 8px;text-align:left;border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:.4px}
 td{padding:7px 8px;border-bottom:1px solid #1e293b;vertical-align:middle}
 tr:last-child td{border-bottom:0}
-tr.gold{background:rgba(245,158,11,.07)}
-tr.silver{background:rgba(148,163,184,.07)}
-tr.bronze{background:rgba(251,146,60,.07)}
+tr.gold-row{background:rgba(245,158,11,.08)}
+tr.silver-row{background:rgba(148,163,184,.08)}
+tr.bronze-row{background:rgba(251,146,60,.07)}
+tr.medal-row{background:rgba(20,184,166,.06)}
+tr.prize-row td:first-child::before{content:'🎖';margin-right:2px;font-size:11px}
 
 /* Sütun genişlikleri */
 .col-rank{width:30px;text-align:center;font-weight:700;font-size:13px}
-.col-name{min-width:120px}
-.col-city{width:90px;font-size:11px;color:var(--muted)}
+.col-name{min-width:110px}
+.col-city{width:85px;font-size:11px;color:var(--muted)}
 .col-score{width:40px;text-align:center;font-weight:700}
-.col-ev{min-width:200px}
-.col-pts{width:34px;text-align:center}
-.col-time{width:80px;text-align:center;font-size:11px;font-family:monospace}
-
+.col-time{width:78px;text-align:center;font-size:11px;font-family:monospace}
+.col-pts{width:32px;text-align:center}
 .name-main{font-weight:600;font-size:12px}
 .name-city{font-size:10px;color:var(--muted);margin-top:1px}
 
-/* Puan rengi */
+/* Puan renkleri */
 .pts-9{color:var(--gold);font-weight:800}
 .pts-7{color:var(--green);font-weight:700}
 .pts-6{color:var(--teal);font-weight:700}
@@ -85,43 +96,84 @@ tr.bronze{background:rgba(251,146,60,.07)}
 .pts-0{color:#374151}
 
 /* Madalya badge */
-.medal{display:inline-block;width:18px;height:18px;border-radius:50%;font-size:9px;font-weight:800;text-align:center;line-height:18px;margin-right:4px}
-.medal-1{background:rgba(245,158,11,.3);color:var(--gold)}
-.medal-2{background:rgba(148,163,184,.3);color:#e2e8f0}
-.medal-3{background:rgba(251,146,60,.3);color:var(--orange)}
+.mbadge{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;font-size:10px;font-weight:800}
+.mbadge-1{background:rgba(245,158,11,.3);color:var(--gold)}
+.mbadge-2{background:rgba(148,163,184,.3);color:#e2e8f0}
+.mbadge-3{background:rgba(251,146,60,.3);color:var(--orange)}
+.mbadge-m{background:rgba(20,184,166,.2);color:var(--teal)}
+.prize-badge{font-size:9px;background:rgba(168,85,247,.2);color:var(--purple);border-radius:6px;padding:1px 5px;margin-left:4px;font-weight:700}
 
 /* Event pill */
 .ev-pills{display:flex;flex-wrap:wrap;gap:3px}
 .ev-pill{font-size:10px;padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);white-space:nowrap}
 .ev-top{border-color:var(--teal);color:var(--teal)}
+.ev-live{border-color:var(--green);color:var(--green)}
 
-/* ── ŞEHİR / KULÜP TABLO ── */
+/* ── ŞEHİR / KULÜP ── */
 .rank-num{font-size:16px;font-weight:800;text-align:center;width:36px}
 .city-pts{font-size:18px;font-weight:800;color:var(--gold);text-align:right;width:60px}
 .city-sub{font-size:10px;color:var(--muted)}
+tr.city-row{cursor:pointer;transition:background .12s}
+tr.city-row:hover{background:rgba(59,130,246,.08)}
+.city-arrow{color:var(--muted);font-size:11px}
 
-/* ── PROGRAM TABLO ── */
-.prog-day{background:var(--card);border-radius:8px;padding:10px 12px;margin:10px;border:1px solid var(--border)}
-.prog-day h3{font-size:13px;color:var(--gold);margin-bottom:8px}
-.prog-sess{margin-bottom:6px}
-.prog-sess h4{font-size:11px;color:var(--teal);margin-bottom:4px}
-.prog-event{font-size:12px;padding:3px 0;border-bottom:1px solid var(--border);color:var(--text)}
-.prog-event:last-child{border-bottom:0}
+/* Şehir detay */
+.detail-back{display:flex;align-items:center;gap:8px;padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--border);background:var(--card)}
+.back-btn{font-size:11px;color:var(--blue);font-weight:600}
+.detail-title{font-size:14px;font-weight:700}
 
-/* ── YARIŞLAR DROPDOWN ── */
-.event-sel{width:100%;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;margin:10px 10px 0}
+/* ── PROGRAM ── */
+.prog-day{background:var(--card);border-radius:8px;margin:10px;border:1px solid var(--border);overflow:hidden}
+.prog-day-hdr{padding:10px 12px;border-bottom:1px solid var(--border)}
+.prog-day-hdr h3{font-size:13px;color:var(--gold);font-weight:700}
+.prog-sess-hdr{padding:6px 12px;background:rgba(20,184,166,.08);font-size:11px;font-weight:700;color:var(--teal)}
+.prog-race-row{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-bottom:1px solid #1e293b;cursor:pointer;transition:background .12s}
+.prog-race-row:last-child{border-bottom:0}
+.prog-race-row:hover{background:rgba(59,130,246,.08)}
+.prog-race-name{font-size:12px;font-weight:600}
+.prog-race-note{font-size:10px;color:var(--orange)}
+.prog-race-arrow{color:var(--muted);font-size:11px}
+.prog-note-row{padding:6px 12px;font-size:10px;color:var(--muted);border-bottom:1px solid #1e293b}
 
-/* ── YÜKLEME ── */
+/* ── DROPDOWN ── */
+.event-sel{width:100%;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px}
+
+/* ── ADMIN ── */
+.admin-section{margin:10px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px}
+.admin-title{font-size:12px;font-weight:700;color:var(--purple);margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.admin-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px}
+.admin-row:last-child{border-bottom:0}
+.admin-key{color:var(--muted)}
+.admin-val{font-weight:600}
+.admin-link{color:var(--blue);font-size:12px;cursor:pointer;text-decoration:underline}
+
+/* ── LOADING ── */
 .loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
+.empty{padding:20px;text-align:center;color:var(--muted);font-size:12px;font-style:italic}
 
 /* ── RESPONSIVE ── */
 @media(max-width:480px){
   .col-city{display:none}
-  .col-ev{min-width:140px}
+  .auth-box{padding:24px 18px}
 }
 </style>
 </head>
 <body>
+
+<!-- ═══ GİRİŞ EKRANI ═══ -->
+<div id="authScreen">
+  <div class="auth-box">
+    <div class="auth-logo">🏊</div>
+    <div class="auth-title">SEM Türkiye Finali 2026</div>
+    <div class="auth-sub">Samsun Olimpik Yüzme Havuzu · 28-30 Temmuz</div>
+    <input id="authInput" class="auth-input" type="password" placeholder="Şifre giriniz" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="auth-btn" onclick="doLogin()">Giriş Yap</button>
+    <div class="auth-err" id="authErr"></div>
+  </div>
+</div>
+
+<!-- ═══ ANA UYGULAMA ═══ -->
+<div id="mainApp">
 
 <header>
   <div class="hdr-row">
@@ -130,51 +182,63 @@ tr.bronze{background:rgba(251,146,60,.07)}
       <div class="sub" id="compSub">Samsun · 28-29-30 Temmuz 2026</div>
     </div>
     <div class="hdr-right">
-      <span class="badge-src" id="srcBadge">Yükleniyor…</span>
+      <span class="badge-src" id="srcBadge">…</span>
+      <span id="roleBadge" class="badge-src" style="display:none"></span>
       <span class="upd" id="updTime"></span>
-      <button class="btn-refresh" onclick="reload()">⟳ Yenile</button>
+      <button class="btn-sm btn-refresh" onclick="location.reload()">⟳</button>
+      <button class="btn-sm btn-logout" onclick="doLogout()">Çıkış</button>
     </div>
   </div>
 </header>
 
-<div class="tabs">
+<div class="tabs" id="mainTabs">
   <div class="tab active" onclick="switchTab('siralama',this)">🏅 Sıralama</div>
   <div class="tab" onclick="switchTab('yarislar',this)">🏊 Yarışlar</div>
   <div class="tab" onclick="switchTab('sehirler',this)">🏙️ Şehirler</div>
+  <div class="tab" onclick="switchTab('kulupler',this)">🏟️ Kulüpler</div>
   <div class="tab" onclick="switchTab('program',this)">📅 Program</div>
+  <div class="tab" id="adminTab" style="display:none" onclick="switchTab('yonetim',this)">⚙️ Yönetim</div>
 </div>
 
 <!-- ═══════ SIRALAMA ═══════ -->
 <div class="tab-content active" id="tab-siralama">
+  <div class="stabs">
+    <button class="stab active" onclick="setSiralamaMode('forecast',this)">📊 Tahmin</button>
+    <button class="stab" onclick="setSiralamaMode('current',this)">⚡ Anlık</button>
+  </div>
   <div class="filters" id="filters-siralama">
     <span class="filter-lbl">Yaş:</span>
-    <button class="fbtn active" data-yb="all" onclick="filterSiralama()">Tümü</button>
-    <button class="fbtn" data-yb="14" onclick="filterSiralama()">2014</button>
-    <button class="fbtn" data-yb="13" onclick="filterSiralama()">2013</button>
-    <button class="fbtn" data-yb="12" onclick="filterSiralama()">2012</button>
-    <button class="fbtn" data-yb="11" onclick="filterSiralama()">2011</button>
-    <button class="fbtn" data-yb="10" onclick="filterSiralama()">2010</button>
-    <button class="fbtn" data-yb="09" onclick="filterSiralama()">2009</button>
-    <button class="fbtn" data-yb="08" onclick="filterSiralama()">2008</button>
+    <button class="fbtn active" data-yb="all" onclick="filterSiralama(this)">Tümü</button>
+    <button class="fbtn" data-yb="14" onclick="filterSiralama(this)">2014</button>
+    <button class="fbtn" data-yb="13" onclick="filterSiralama(this)">2013</button>
+    <button class="fbtn" data-yb="12" onclick="filterSiralama(this)">2012</button>
+    <button class="fbtn" data-yb="11" onclick="filterSiralama(this)">2011</button>
+    <button class="fbtn" data-yb="10" onclick="filterSiralama(this)">2010</button>
+    <button class="fbtn" data-yb="09" onclick="filterSiralama(this)">2009</button>
+    <button class="fbtn" data-yb="08" onclick="filterSiralama(this)">2008</button>
     <div class="filter-sep"></div>
     <span class="filter-lbl">Cinsiyet:</span>
-    <button class="fbtn active" data-gen="all" onclick="filterSiralama()">Tümü</button>
-    <button class="fbtn" data-gen="Kadın" onclick="filterSiralama()">Kadın</button>
-    <button class="fbtn" data-gen="Erkek" onclick="filterSiralama()">Erkek</button>
+    <button class="fbtn active" data-gen="all" onclick="filterSiralama(this)">Tümü</button>
+    <button class="fbtn" data-gen="Kadın" onclick="filterSiralama(this)">Kadın</button>
+    <button class="fbtn" data-gen="Erkek" onclick="filterSiralama(this)">Erkek</button>
   </div>
   <div id="siralama-content"></div>
 </div>
 
 <!-- ═══════ YARIŞLAR ═══════ -->
 <div class="tab-content" id="tab-yarislar">
-  <div style="padding:10px">
-    <select class="event-sel" id="eventSel" onchange="renderEvents()" style="margin:0">
+  <div class="stabs">
+    <button class="stab active" onclick="setYarisMode('giris',this)">📋 Giriş</button>
+    <button class="stab" onclick="setYarisMode('sonuc',this)">🏁 Sonuç</button>
+  </div>
+  <div style="padding:10px;display:flex;flex-direction:column;gap:6px">
+    <select class="event-sel" id="eventSel" onchange="renderEvents()">
       <option value="">— Branş seçin —</option>
     </select>
-    <select class="event-sel" id="ybSel" onchange="renderEvents()" style="margin-top:6px">
+    <select class="event-sel" id="ybSel" onchange="renderEvents()">
       <option value="">— Yaş grubu seçin —</option>
     </select>
-    <select class="event-sel" id="genSel" onchange="renderEvents()" style="margin-top:6px">
+    <select class="event-sel" id="genSel" onchange="renderEvents()">
       <option value="Kadın">Kadın</option>
       <option value="Erkek">Erkek</option>
     </select>
@@ -184,182 +248,249 @@ tr.bronze{background:rgba(251,146,60,.07)}
 
 <!-- ═══════ ŞEHİRLER ═══════ -->
 <div class="tab-content" id="tab-sehirler">
-  <div class="section">
-    <div class="sec-hdr" style="cursor:default">
-      <div><div class="sec-title">Şehir Sıralaması</div>
-      <div class="sec-sub">Sporcuların bireysel en iyi 3 yarış puanları toplamı</div></div>
+  <div id="sehir-list-view">
+    <div class="section">
+      <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+        <div>
+          <div class="sec-title">Şehir Sıralaması</div>
+          <div class="sec-sub">Sporcuların bireysel en iyi 3 yarış puanları toplamı · Şehre tıklayın</div>
+        </div>
+      </div>
+      <div class="sec-body" id="sehir-table"></div>
     </div>
-    <div class="sec-body" id="sehir-table"></div>
+  </div>
+  <div id="sehir-detail-view" style="display:none">
+    <div class="detail-back" onclick="backToSehirList()">
+      <span class="back-btn">← Şehirler</span>
+      <span class="detail-title" id="city-detail-name"></span>
+    </div>
+    <div class="stabs">
+      <button class="stab active" onclick="setCityTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
+      <button class="stab" onclick="setCityTab('medals',this)">🥇 Bireysel Ödüller</button>
+    </div>
+    <div id="city-detail-content"></div>
+  </div>
+</div>
+
+<!-- ═══════ KULÜPLER ═══════ -->
+<div class="tab-content" id="tab-kulupler">
+  <div class="stabs">
+    <button class="stab active" onclick="setKulupTab('puan',this)">📊 Puana Göre</button>
+    <button class="stab" onclick="setKulupTab('madalya',this)">🏅 Madalya Sayısı</button>
+  </div>
+  <div class="section" style="margin-top:10px">
+    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+      <div>
+        <div class="sec-title">Kulüp Sıralaması</div>
+        <div class="sec-sub" id="kulup-sub-label">Toplam puana göre</div>
+      </div>
+    </div>
+    <div class="sec-body" id="kulup-table"></div>
   </div>
 </div>
 
 <!-- ═══════ PROGRAM ═══════ -->
 <div class="tab-content" id="tab-program">
-  <div id="program-content"></div>
+  <div id="program-list-view" id="program-content"></div>
+  <div id="program-race-view" style="display:none">
+    <div class="detail-back" onclick="backToProgramList()">
+      <span class="back-btn">← Program</span>
+      <span class="detail-title" id="prog-race-title"></span>
+    </div>
+    <div class="stabs">
+      <button class="stab active" onclick="setProgRaceMode('giris',this)">📋 Giriş</button>
+      <button class="stab" onclick="setProgRaceMode('sonuc',this)">🏁 Sonuç</button>
+    </div>
+    <div id="prog-race-content"></div>
+  </div>
 </div>
 
-<script>
-let DATA = null;
+<!-- ═══════ YÖNETİM ═══════ -->
+<div class="tab-content" id="tab-yonetim">
+  <div class="admin-section" style="margin-top:10px">
+    <div class="admin-title">Veri Durumu</div>
+    <div id="admin-status"></div>
+  </div>
+  <div class="admin-section">
+    <div class="admin-title">Panel Güncelleme</div>
+    <div style="font-size:12px;color:var(--muted);line-height:1.6">
+      <p>Yarış günleri (28-30 Temmuz) GitHub Actions her 5 dakikada otomatik günceller.</p>
+      <p style="margin-top:6px">Manuel güncelleme için:</p>
+      <ol style="margin:6px 0 0 18px">
+        <li>GitHub reposuna gidin</li>
+        <li>Actions → "SEM Panel Güncelle" → "Run workflow"</li>
+      </ol>
+    </div>
+  </div>
+  <div class="admin-section">
+    <div class="admin-title">Şifre Değişikliği</div>
+    <div style="font-size:12px;color:var(--muted);line-height:1.6">
+      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">scripts/sem_config.py</code> dosyasındaki<br>
+      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">USER_PASSWORD</code> ve
+      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">ADMIN_PASSWORD</code> değerlerini değiştirin,<br>
+      ardından <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">python scripts/sem_generate.py</code> çalıştırın.
+    </div>
+  </div>
+  <div class="admin-section">
+    <div class="admin-title">JSON İndir</div>
+    <button class="auth-btn" style="width:auto;padding:7px 16px;font-size:12px" onclick="downloadJSON()">⬇ results.json indir</button>
+  </div>
+</div>
 
-// ── Veri yükle ──
+</div><!-- /mainApp -->
+
+<script>
+/* =====================================================================
+   SABITLER
+   ===================================================================== */
+const BRANS_ORDER = [
+  "50m Serbest","100m Serbest","200m Serbest","400m Serbest","800m Serbest","1500m Serbest",
+  "50m Sırtüstü","100m Sırtüstü","200m Sırtüstü",
+  "50m Kurbağalama","100m Kurbağalama","200m Kurbağalama",
+  "50m Kelebek","100m Kelebek","200m Kelebek",
+  "200m Karışık","400m Karışık"
+];
+
+const YB_ORDER  = ['14','13','12','11','10','09','08'];
+const GEN_ORDER = ['Kadın','Erkek'];
+
+/* =====================================================================
+   DURUM
+   ===================================================================== */
+let DATA = null;
+let currentRole = '';
+let siralamaMode = 'forecast';
+let yarisMode    = 'giris';
+let kulupTab     = 'puan';
+let cityDetailTab = 'topscorers';
+let currentCityIdx = -1;
+let progRaceBrans = '';
+let progRaceMode  = 'giris';
+
+/* =====================================================================
+   AUTH
+   ===================================================================== */
+async function sha256(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+function checkAuth() {
+  if (!DATA || !DATA.auth || !DATA.auth.user_hash) { showMainApp('user'); return; }
+  const role = localStorage.getItem('sem_auth_role');
+  const hash = localStorage.getItem('sem_auth_hash');
+  if (role === 'admin' && hash === DATA.auth.admin_hash) { showMainApp('admin'); return; }
+  if (role === 'user'  && hash === DATA.auth.user_hash)  { showMainApp('user');  return; }
+  document.getElementById('authScreen').style.display = 'flex';
+}
+
+async function doLogin() {
+  const pw  = document.getElementById('authInput').value;
+  const err = document.getElementById('authErr');
+  if (!pw) { err.textContent = 'Şifre boş olamaz'; return; }
+  err.textContent = 'Kontrol ediliyor…';
+  const h = await sha256(pw);
+  if (h === DATA.auth.admin_hash) {
+    localStorage.setItem('sem_auth_role', 'admin');
+    localStorage.setItem('sem_auth_hash', h);
+    showMainApp('admin');
+  } else if (h === DATA.auth.user_hash) {
+    localStorage.setItem('sem_auth_role', 'user');
+    localStorage.setItem('sem_auth_hash', h);
+    showMainApp('user');
+  } else {
+    err.textContent = '❌ Şifre hatalı';
+  }
+}
+
+function doLogout() {
+  localStorage.removeItem('sem_auth_role');
+  localStorage.removeItem('sem_auth_hash');
+  location.reload();
+}
+
+function showMainApp(role) {
+  currentRole = role;
+  document.getElementById('authScreen').style.display = 'none';
+  document.getElementById('mainApp').style.display = '';
+  if (role === 'admin') {
+    document.getElementById('adminTab').style.display = '';
+    const rb = document.getElementById('roleBadge');
+    rb.style.display = '';
+    rb.textContent = '⚙ Yönetici';
+    rb.className = 'badge-src badge-admin';
+  }
+  init();
+}
+
+/* =====================================================================
+   VERİ YÜKLEME
+   ===================================================================== */
 function loadData() {
   if (typeof window.SEM_DATA !== 'undefined') {
     DATA = window.SEM_DATA;
-    init();
+    checkAuth();
   } else {
-    document.body.innerHTML = '<div class="loading">⚠ data.js yüklenemedi.<br>Önce <code>python scripts/sem_generate.py</code> çalıştırın.</div>';
+    document.body.innerHTML = '<div class="loading">⚠ data.js yüklenemedi.<br><code>python scripts/sem_generate.py</code> çalıştırın.</div>';
   }
 }
 
 function init() {
-  // Header
   document.getElementById('compName').textContent = DATA.comp_name;
   document.getElementById('compSub').textContent  = DATA.comp_location + ' · ' + DATA.comp_dates;
   document.getElementById('updTime').textContent  = DATA.generated_at;
-
-  const srcBadge = document.getElementById('srcBadge');
+  const sb = document.getElementById('srcBadge');
   if (DATA.source === 'live') {
-    srcBadge.textContent = '🔴 CANLI';
-    srcBadge.className = 'badge-src badge-live';
+    sb.textContent = '🔴 CANLI'; sb.className = 'badge-src badge-live';
   } else {
-    srcBadge.textContent = '📋 Simülasyon';
-    srcBadge.className = 'badge-src badge-sim';
+    sb.textContent = '📋 Simülasyon'; sb.className = 'badge-src badge-sim';
   }
-
-  renderSiralama();
   buildEventSelectors();
+  renderSiralama();
   renderSehirler();
+  renderKulupler();
   renderProgram();
+  if (currentRole === 'admin') renderAdmin();
 }
 
-// ── Tab geçişi ──
+/* =====================================================================
+   TAB GEÇİŞİ
+   ===================================================================== */
 function switchTab(name, el) {
   document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('#mainTabs .tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   el.classList.add('active');
 }
 
-// ── Filtre yardımcıları ──
-function getFilter(container, attr) {
-  const active = container.querySelector('.fbtn.active[data-' + attr + ']');
-  return active ? active.dataset[attr] : 'all';
+function activateStabs(container, clickedBtn) {
+  container.querySelectorAll('.stab').forEach(b => b.classList.remove('active'));
+  clickedBtn.classList.add('active');
 }
 
-function setFilter(btn) {
-  const parent = btn.closest('.filters');
-  const attr   = Object.keys(btn.dataset)[0];
-  parent.querySelectorAll('.fbtn[data-' + attr + ']').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+/* =====================================================================
+   YARDIMCILAR
+   ===================================================================== */
+function ptsClass(p) {
+  if (p >= 9) return 'pts-9'; if (p >= 7) return 'pts-7'; if (p >= 6) return 'pts-6';
+  if (p >= 5) return 'pts-5'; if (p >= 4) return 'pts-4'; if (p >= 3) return 'pts-3';
+  if (p >= 2) return 'pts-2'; if (p >= 1) return 'pts-1'; return 'pts-0';
 }
 
-function filterSiralama() {
-  const btn = event.target;
-  setFilter(btn);
-  renderSiralama();
+function medalBadge(rank, cut) {
+  if (rank === 1) return '<span class="mbadge mbadge-1">🥇</span>';
+  if (rank === 2) return '<span class="mbadge mbadge-2">🥈</span>';
+  if (rank === 3) return '<span class="mbadge mbadge-3">🥉</span>';
+  if (rank <= cut) return '<span class="mbadge mbadge-m">' + rank + '</span>';
+  return '<span style="font-weight:700">' + rank + '</span>';
 }
 
-// ── Puan rengi ──
-function ptsClass(pts) {
-  if (pts >= 9) return 'pts-9';
-  if (pts >= 7) return 'pts-7';
-  if (pts >= 6) return 'pts-6';
-  if (pts >= 5) return 'pts-5';
-  if (pts >= 4) return 'pts-4';
-  if (pts >= 3) return 'pts-3';
-  if (pts >= 2) return 'pts-2';
-  if (pts >= 1) return 'pts-1';
-  return 'pts-0';
-}
-
-// ── Madalya row class ──
-function medalRow(rank) {
-  if (rank === 1) return ' gold';
-  if (rank === 2) return ' silver';
-  if (rank === 3) return ' bronze';
+function rowClass(rank, cut) {
+  if (rank === 1) return 'gold-row';
+  if (rank === 2) return 'silver-row';
+  if (rank === 3) return 'bronze-row';
+  if (rank <= cut) return 'medal-row';
   return '';
-}
-
-// ── Sıralama sekmesi ──
-function renderSiralama() {
-  if (!DATA) return;
-  const filters = document.getElementById('filters-siralama');
-  const selYb   = getFilter(filters, 'yb');
-  const selGen  = getFilter(filters, 'gen');
-
-  const container = document.getElementById('siralama-content');
-  container.innerHTML = '';
-
-  const order = ['14','13','12','11','10','09','08'];
-  const gens  = ['Kadın','Erkek'];
-
-  for (const yb of order) {
-    if (selYb !== 'all' && selYb !== yb) continue;
-    for (const gen of gens) {
-      if (selGen !== 'all' && selGen !== gen) continue;
-      const key = yb + '_' + gen;
-      const grp = DATA.groups[key];
-      if (!grp) continue;
-
-      const cut = grp.medal_cut;
-      const html = `
-      <div class="section">
-        <div class="sec-hdr" onclick="toggleSection(this)">
-          <div>
-            <div class="sec-title">${grp.age_label} — ${grp.gender}</div>
-            <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya</div>
-          </div>
-          <div class="sec-meta">
-            ${grp.athletes[0] ? '1. ' + grp.athletes[0].name : ''}
-            <div style="color:var(--gold);font-weight:700">${grp.athletes[0] ? grp.athletes[0].top3 + ' puan' : ''}</div>
-          </div>
-        </div>
-        <div class="sec-body">
-          <table>
-            <thead><tr>
-              <th class="col-rank">#</th>
-              <th>Ad Soyad</th>
-              <th>Branşlar</th>
-              <th class="col-score">Puan</th>
-            </tr></thead>
-            <tbody>
-              ${grp.athletes.map(a => renderAthlete(a, cut)).join('')}
-            </tbody>
-          </table>
-        </div>
-      </div>`;
-      container.insertAdjacentHTML('beforeend', html);
-    }
-  }
-}
-
-function renderAthlete(a, medalCut) {
-  const isMedal = a.rank <= medalCut;
-  let medalSpan = '';
-  if (a.rank === 1) medalSpan = '<span class="medal medal-1">🥇</span>';
-  else if (a.rank === 2) medalSpan = '<span class="medal medal-2">🥈</span>';
-  else if (a.rank === 3) medalSpan = '<span class="medal medal-3">🥉</span>';
-
-  // Top 3 events (en iyi 3)
-  const top3events = a.events.slice(0, 3);
-  const restEvents = a.events.slice(3);
-
-  const pillsTop = top3events.map(ev =>
-    `<span class="ev-pill ev-top" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
-  ).join('');
-  const pillsRest = restEvents.map(ev =>
-    `<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
-  ).join('');
-
-  return `<tr class="${medalRow(a.rank)}">
-    <td class="col-rank">${medalSpan || a.rank}</td>
-    <td>
-      <div class="name-main">${a.name}</div>
-      <div class="name-city">${a.city}</div>
-    </td>
-    <td><div class="ev-pills">${pillsTop}${pillsRest}</div></td>
-    <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
-  </tr>`;
 }
 
 function toggleSection(hdr) {
@@ -367,43 +498,129 @@ function toggleSection(hdr) {
   body.style.display = body.style.display === 'none' ? '' : 'none';
 }
 
-// ── Yarışlar sekmesi ──
+/* =====================================================================
+   SIRALAMA SEKMESİ
+   ===================================================================== */
+function setSiralamaMode(mode, btn) {
+  siralamaMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderSiralama();
+}
+
+function filterSiralama(btn) {
+  const attr = Object.keys(btn.dataset)[0];
+  btn.closest('.filters').querySelectorAll('.fbtn[data-' + attr + ']')
+     .forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSiralama();
+}
+
+function getFilter(container, attr) {
+  const el = container.querySelector('.fbtn.active[data-' + attr + ']');
+  return el ? el.dataset[attr] : 'all';
+}
+
+function renderSiralama() {
+  if (!DATA) return;
+  const filters = document.getElementById('filters-siralama');
+  const selYb   = getFilter(filters, 'yb');
+  const selGen  = getFilter(filters, 'gen');
+  const container = document.getElementById('siralama-content');
+  container.innerHTML = '';
+
+  const isCurrentMode = siralamaMode === 'current';
+  const hasCompleted  = DATA.completed_event_count > 0;
+
+  if (isCurrentMode && !hasCompleted) {
+    container.innerHTML = '<div class="loading">⚡ Anlık sıralama yalnızca canlı yarış sırasında güncellenir.<br>Şu an simülasyon modundasınız.</div>';
+    return;
+  }
+
+  for (const yb of YB_ORDER) {
+    if (selYb !== 'all' && selYb !== yb) continue;
+    for (const gen of GEN_ORDER) {
+      if (selGen !== 'all' && selGen !== gen) continue;
+      const key = yb + '_' + gen;
+      const grp = DATA.groups[key];
+      if (!grp) continue;
+
+      const athletes = isCurrentMode ? grp.athletes_current : grp.athletes;
+      if (!athletes || !athletes.length) continue;
+      const cut = grp.medal_cut;
+
+      const rows = athletes.map(a => {
+        const top3 = a.events.slice(0,3);
+        const rest = a.events.slice(3);
+        const liveMark = a.events.some(e => e.is_live) ? ' ev-live' : '';
+        const pillsTop = top3.map(ev =>
+          `<span class="ev-pill ev-top${liveMark}" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
+        ).join('');
+        const pillsRest = rest.map(ev =>
+          `<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
+        ).join('');
+        const prizeSp = a.prize ? '<span class="prize-badge">ÖDÜl</span>' : '';
+        return `<tr class="${rowClass(a.rank, cut)}${a.prize ? ' prize-row' : ''}">
+          <td class="col-rank">${medalBadge(a.rank, cut)}</td>
+          <td><div class="name-main">${a.name}${prizeSp}</div><div class="name-city">${a.city}</div></td>
+          <td><div class="ev-pills">${pillsTop}${pillsRest}</div></td>
+          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
+        </tr>`;
+      }).join('');
+
+      const modeNote = isCurrentMode ? ' (tamamlanan yarışlar)' : '';
+      container.insertAdjacentHTML('beforeend', `
+      <div class="section">
+        <div class="sec-hdr" onclick="toggleSection(this)">
+          <div>
+            <div class="sec-title">${grp.age_label} — ${grp.gender}</div>
+            <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya · İlk 2 ödüllü${modeNote}</div>
+          </div>
+          <div class="sec-meta">
+            ${athletes[0] ? athletes[0].name : ''}
+            <div style="color:var(--gold);font-weight:700">${athletes[0] ? athletes[0].top3 + ' puan' : ''}</div>
+          </div>
+        </div>
+        <div class="sec-body"><table>
+          <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th>Branşlar</th><th class="col-score">Puan</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>
+      </div>`);
+    }
+  }
+}
+
+/* =====================================================================
+   YARIŞLAR SEKMESİ
+   ===================================================================== */
 function buildEventSelectors() {
   if (!DATA) return;
-
-  // Benzersiz event isimleri
   const events = new Set();
   const ybs    = new Set();
   for (const key of Object.keys(DATA.events)) {
-    const parts = key.split('|');
-    events.add(parts[0]);
-    ybs.add(parts[1]);
+    const p = key.split('|');
+    events.add(p[0]); ybs.add(p[1]);
   }
 
   const evSel = document.getElementById('eventSel');
   const ybSel = document.getElementById('ybSel');
 
-  // Program sırasına göre sort
-  const progOrder = DATA.program.map(p => p.brans);
-  const evArr = [...events].sort((a,b) => {
-    const ia = progOrder.indexOf(a);
-    const ib = progOrder.indexOf(b);
-    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  BRANS_ORDER.filter(b => events.has(b)).forEach(b => {
+    const o = document.createElement('option');
+    o.value = b; o.text = b; evSel.appendChild(o);
   });
 
-  evArr.forEach(ev => {
-    const opt = document.createElement('option');
-    opt.value = ev; opt.text = ev;
-    evSel.appendChild(opt);
+  YB_ORDER.filter(y => ybs.has(y)).forEach(y => {
+    const grp = DATA.groups[y+'_Kadın'] || DATA.groups[y+'_Erkek'];
+    const o = document.createElement('option');
+    o.value = y; o.text = '20' + y + (grp ? ' – ' + grp.age_label : '');
+    ybSel.appendChild(o);
   });
+}
 
-  const ybOrder = ['14','13','12','11','10','09','08'];
-  ybOrder.filter(y => ybs.has(y)).forEach(y => {
-    const opt = document.createElement('option');
-    opt.value = y;
-    opt.text = '20' + y + ' (' + (DATA.groups[y+'_Kadın'] || DATA.groups[y+'_Erkek'] || {age_label:y}).age_label + ')';
-    ybSel.appendChild(opt);
-  });
+function setYarisMode(mode, btn) {
+  yarisMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderEvents();
 }
 
 function renderEvents() {
@@ -419,41 +636,55 @@ function renderEvents() {
   }
 
   const key = ev + '|' + yb + '|' + gen;
-  const evData = DATA.events[key];
+  let evData;
+  if (yarisMode === 'sonuc') {
+    evData = DATA.events_current ? DATA.events_current[key] : null;
+    if (!evData) {
+      container.innerHTML = '<div class="empty">Bu yarış henüz koşulmadı veya sonuçlar açıklanmadı.</div>';
+      return;
+    }
+  } else {
+    evData = DATA.events[key];
+  }
+
   if (!evData || !evData.finishers.length) {
-    container.innerHTML = '<div class="loading">Bu kombinasyon için sonuç yok</div>';
+    container.innerHTML = '<div class="empty">Bu kombinasyon için kayıt yok.</div>';
     return;
   }
 
-  const rows = evData.finishers.map(f => `
-    <tr class="${medalRow(f.rank)}">
-      <td class="col-rank">${f.rank}</td>
-      <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
-      <td class="col-time">${f.time_raw}</td>
+  const cut  = evData.medal_cut || 3;
+  const done = evData.is_completed;
+  const rows = evData.finishers.map(f => {
+    const isMedal = f.rank <= cut;
+    const liveMark = f.is_live ? ' 🟢' : '';
+    return `<tr class="${rowClass(f.rank, cut)}">
+      <td class="col-rank">${medalBadge(f.rank, cut)}</td>
+      <td><div class="name-main">${f.name}${isMedal && f.rank <= 2 ? '<span class="prize-badge">ÖDÜl</span>':''}</div>
+          <div class="name-city">${f.city}</div></td>
+      <td class="col-time">${f.time_raw}${liveMark}</td>
       <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points || '-'}</span></td>
-    </tr>`).join('');
+    </tr>`;
+  }).join('');
 
+  const modeLabel = done ? '✅ Tamamlandı' : (yarisMode === 'giris' ? '📋 Giriş Listesi' : '⏳ Bekleniyor');
   container.innerHTML = `
   <div class="section">
     <div class="sec-hdr" style="cursor:default">
       <div>
         <div class="sec-title">${ev} — 20${yb} ${gen}</div>
-        <div class="sec-sub">${evData.finishers.length} sporcu</div>
+        <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${modeLabel}</div>
       </div>
     </div>
-    <div class="sec-body">
-      <table>
-        <thead><tr>
-          <th class="col-rank">#</th><th>Ad Soyad</th>
-          <th class="col-time">Süre</th><th class="col-pts">Puan</th>
-        </tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </div>
+    <div class="sec-body"><table>
+      <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
   </div>`;
 }
 
-// ── Şehirler sekmesi ──
+/* =====================================================================
+   ŞEHİRLER SEKMESİ
+   ===================================================================== */
 function renderSehirler() {
   if (!DATA) return;
   const rows = DATA.city_rankings.map(c => {
@@ -461,29 +692,154 @@ function renderSehirler() {
     if (c.rank === 1) numStyle = 'color:var(--gold)';
     else if (c.rank === 2) numStyle = 'color:#94a3b8';
     else if (c.rank === 3) numStyle = 'color:var(--orange)';
-
-    return `<tr class="${medalRow(c.rank)}">
+    return `<tr class="city-row" onclick="showCityDetail(${c.rank-1})">
       <td class="rank-num" style="${numStyle}">${c.rank}</td>
       <td>
         <div style="font-weight:600;font-size:13px">${c.city}</div>
-        <div class="city-sub">${c.athletes} sporcu</div>
+        <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0} 🏅${c.medal_count||0}</div>
       </td>
       <td class="city-pts">${c.total}</td>
+      <td class="city-arrow">›</td>
     </tr>`;
   }).join('');
 
   document.getElementById('sehir-table').innerHTML = `
   <table>
     <thead><tr>
-      <th class="rank-num">#</th>
-      <th>Şehir</th>
-      <th class="city-pts" style="font-size:10px">Puan</th>
+      <th class="rank-num">#</th><th>Şehir</th>
+      <th class="city-pts" style="font-size:10px">Puan</th><th></th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
 }
 
-// ── Program sekmesi ──
+function showCityDetail(idx) {
+  currentCityIdx = idx;
+  cityDetailTab  = 'topscorers';
+  const city = DATA.city_rankings[idx];
+  document.getElementById('city-detail-name').textContent = city.city;
+  document.getElementById('sehir-list-view').style.display   = 'none';
+  document.getElementById('sehir-detail-view').style.display = '';
+  // Reset stabs
+  document.querySelectorAll('#sehir-detail-view .stab').forEach((b,i) => {
+    b.classList.toggle('active', i === 0);
+  });
+  renderCityDetail();
+}
+
+function backToSehirList() {
+  document.getElementById('sehir-list-view').style.display   = '';
+  document.getElementById('sehir-detail-view').style.display = 'none';
+}
+
+function setCityTab(tab, btn) {
+  cityDetailTab = tab;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderCityDetail();
+}
+
+function renderCityDetail() {
+  if (currentCityIdx < 0) return;
+  const city = DATA.city_rankings[currentCityIdx];
+  const container = document.getElementById('city-detail-content');
+
+  if (cityDetailTab === 'topscorers') {
+    const list = city.athlete_list || [];
+    if (!list.length) { container.innerHTML = '<div class="empty">Veri yok</div>'; return; }
+    const rows = list.map((a, i) => `
+      <tr>
+        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
+      </tr>`).join('');
+    container.innerHTML = `
+    <div class="section">
+      <div class="sec-hdr" style="cursor:default">
+        <div><div class="sec-title">En Yüksek Puanlılar</div>
+        <div class="sec-sub">${list.length} sporcu · Bireysel puana göre</div></div>
+      </div>
+      <div class="sec-body"><table>
+        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>`;
+
+  } else {
+    // Bireysel Ödüller: rank_in_group <= 2
+    const list = city.medal_list || [];
+    if (!list.length) { container.innerHTML = '<div class="empty">Bu şehirden bireysel ödül alan sporcu yok.</div>'; return; }
+    const rows = list.map(a => {
+      const badge = a.rank_in_group === 1 ? '🥇' : '🥈';
+      return `<tr>
+        <td class="col-rank">${badge}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
+      </tr>`;
+    }).join('');
+    container.innerHTML = `
+    <div class="section">
+      <div class="sec-hdr" style="cursor:default">
+        <div><div class="sec-title">Bireysel Ödüller</div>
+        <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler</div></div>
+      </div>
+      <div class="sec-body"><table>
+        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>`;
+  }
+}
+
+/* =====================================================================
+   KULÜPLER SEKMESİ
+   ===================================================================== */
+function setKulupTab(tab, btn) {
+  kulupTab = tab;
+  activateStabs(btn.closest('.stabs'), btn);
+  const lbl = tab === 'puan'
+    ? 'Toplam puana göre sıralama'
+    : 'Kendi yaş/cinsiyetinde ilk 2\'ye giren sporcu sayısına göre';
+  document.getElementById('kulup-sub-label').textContent = lbl;
+  renderKulupler();
+}
+
+function renderKulupler() {
+  if (!DATA) return;
+  const list = [...DATA.city_rankings];
+  if (kulupTab === 'madalya') {
+    list.sort((a,b) => (b.medal_count||0) - (a.medal_count||0) || (b.gold_count||0) - (a.gold_count||0) || b.total - a.total);
+  }
+
+  const rows = list.map((c, i) => {
+    const rank = i + 1;
+    let numStyle = '';
+    if (rank === 1) numStyle = 'color:var(--gold)';
+    else if (rank === 2) numStyle = 'color:#94a3b8';
+    else if (rank === 3) numStyle = 'color:var(--orange)';
+    const mainVal = kulupTab === 'puan' ? c.total + ' puan' : '🥇' + (c.gold_count||0) + ' 🥈' + (c.silver_count||0) + ' = ' + (c.medal_count||0) + ' ödül';
+    return `<tr>
+      <td class="rank-num" style="${numStyle}">${rank}</td>
+      <td>
+        <div style="font-weight:600;font-size:13px">${c.city}</div>
+        <div class="city-sub">${c.athletes} sporcu</div>
+      </td>
+      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${mainVal}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('kulup-table').innerHTML = `
+  <table>
+    <thead><tr>
+      <th class="rank-num">#</th><th>Kulüp / Şehir</th>
+      <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab === 'puan' ? 'PUAN' : 'ÖDÜL'}</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+/* =====================================================================
+   PROGRAM SEKMESİ
+   ===================================================================== */
 function renderProgram() {
   if (!DATA) return;
   const byDay = {};
@@ -496,29 +852,131 @@ function renderProgram() {
   const dates = ['28 Temmuz Pazartesi','29 Temmuz Salı','30 Temmuz Çarşamba'];
   let html = '';
   for (const [day, sessions] of Object.entries(byDay)) {
-    html += `<div class="prog-day">
-      <h3>📅 ${dates[day-1] || 'Gün ' + day}</h3>`;
+    html += `<div class="prog-day"><div class="prog-day-hdr"><h3>📅 ${dates[day-1]||'Gün '+day}</h3></div>`;
     for (const [sess, events] of Object.entries(sessions)) {
-      html += `<div class="prog-sess"><h4>🕐 ${sess === 'Sabah' ? '09:00 Sabah' : '17:00 Akşam'}</h4>`;
-      for (const ev of events) {
-        html += `<div class="prog-event">• ${ev} (Kadın-Erkek)</div>`;
+      const sessTime = sess === 'Sabah' ? '09:00 Sabah' : '17:00 Akşam';
+      html += `<div class="prog-sess-hdr">🕐 ${sessTime}</div>`;
+      for (const brans of events) {
+        const is50m = brans.startsWith('50m');
+        const note = is50m ? ' <span class="prog-race-note">(2013-2014 katılamaz)</span>' : '';
+        // Tamamlandı mı? (herhangi bir yaş grubu için canlı sonuç var mı?)
+        const isDone = Object.keys(DATA.events).some(k => k.startsWith(brans+'|') && DATA.events[k].is_completed);
+        const doneIcon = isDone ? ' ✅' : '';
+        html += `<div class="prog-race-row" onclick="showProgramRace('${brans.replace(/'/g,"\\'")}')">
+          <span class="prog-race-name">${brans}${doneIcon}${note}</span>
+          <span class="prog-race-arrow">›</span>
+        </div>`;
       }
-      if (parseInt(day) >= 3 && sess === 'Sabah') {
-        html += `<div class="prog-event" style="color:var(--muted);font-size:11px">NOT: 2014-2013 doğumlular 50m yarışlara katılamaz</div>`;
-      }
-      html += '</div>';
     }
     html += '</div>';
   }
-  document.getElementById('program-content').innerHTML = html;
+  document.getElementById('program-list-view').innerHTML = html;
 }
 
-// ── Yenile ──
-function reload() {
-  location.reload();
+function showProgramRace(brans) {
+  progRaceBrans = brans;
+  progRaceMode  = 'giris';
+  document.getElementById('prog-race-title').textContent = brans;
+  document.getElementById('program-list-view').style.display  = 'none';
+  document.getElementById('program-race-view').style.display = '';
+  document.querySelectorAll('#program-race-view .stab').forEach((b,i) => {
+    b.classList.toggle('active', i === 0);
+  });
+  renderProgramRace();
 }
 
-// ── Başlat ──
+function backToProgramList() {
+  document.getElementById('program-list-view').style.display  = '';
+  document.getElementById('program-race-view').style.display = 'none';
+}
+
+function setProgRaceMode(mode, btn) {
+  progRaceMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderProgramRace();
+}
+
+function renderProgramRace() {
+  if (!progRaceBrans) return;
+  const brans = progRaceBrans;
+  const container = document.getElementById('prog-race-content');
+  container.innerHTML = '';
+
+  for (const yb of YB_ORDER) {
+    for (const gen of GEN_ORDER) {
+      const key = brans + '|' + yb + '|' + gen;
+      let evData;
+      if (progRaceMode === 'sonuc') {
+        evData = DATA.events_current ? DATA.events_current[key] : null;
+        if (!evData) continue;
+      } else {
+        evData = DATA.events[key];
+        if (!evData) continue;
+      }
+
+      const cut   = evData.medal_cut || 3;
+      const grp   = DATA.groups[yb + '_' + gen];
+      const label = grp ? grp.age_label : ('20'+yb);
+      const isDone = evData.is_completed;
+
+      const rows = evData.finishers.map(f => `
+        <tr class="${rowClass(f.rank, cut)}">
+          <td class="col-rank">${medalBadge(f.rank, cut)}</td>
+          <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
+          <td class="col-time">${f.time_raw}${f.is_live ? ' 🟢':''}</td>
+          <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
+        </tr>`).join('');
+
+      const statusNote = isDone ? '✅ Tamamlandı' : (progRaceMode==='giris' ? '📋 Giriş listesi':'⏳ Bekleniyor');
+      container.insertAdjacentHTML('beforeend', `
+      <div class="section">
+        <div class="sec-hdr" onclick="toggleSection(this)">
+          <div>
+            <div class="sec-title">${label} — ${gen}</div>
+            <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${statusNote}</div>
+          </div>
+        </div>
+        <div class="sec-body"><table>
+          <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>
+      </div>`);
+    }
+  }
+
+  if (!container.children.length) {
+    container.innerHTML = progRaceMode === 'sonuc'
+      ? '<div class="empty">Bu yarış henüz koşulmadı.</div>'
+      : '<div class="empty">Bu yarış için giriş kaydı bulunamadı.</div>';
+  }
+}
+
+/* =====================================================================
+   YÖNETİM SEKMESİ (admin)
+   ===================================================================== */
+function renderAdmin() {
+  const completed = DATA.completed_event_count || 0;
+  const total = Object.keys(DATA.events).length;
+  document.getElementById('admin-status').innerHTML = `
+    <div class="admin-row"><span class="admin-key">Kaynak</span><span class="admin-val">${DATA.source}</span></div>
+    <div class="admin-row"><span class="admin-key">Güncelleme</span><span class="admin-val">${DATA.generated_at}</span></div>
+    <div class="admin-row"><span class="admin-key">Tamamlanan Yarışlar</span><span class="admin-val">${completed} / ${total}</span></div>
+    <div class="admin-row"><span class="admin-key">Toplam Sporcu</span><span class="admin-val">${DATA.total_athletes}</span></div>
+    <div class="admin-row"><span class="admin-key">Kullanıcı Şifresi</span><span class="admin-val" style="font-family:monospace;font-size:11px">${(DATA.auth.user_hash||'').slice(0,12)}…</span></div>
+    <div class="admin-row"><span class="admin-key">Admin Şifresi</span><span class="admin-val" style="font-family:monospace;font-size:11px">${(DATA.auth.admin_hash||'').slice(0,12)}…</span></div>`;
+}
+
+function downloadJSON() {
+  const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = 'sem_results.json'; a.click();
+  URL.revokeObjectURL(url);
+}
+
+/* =====================================================================
+   BAŞLAT
+   ===================================================================== */
 loadData();
 </script>
 </body>
