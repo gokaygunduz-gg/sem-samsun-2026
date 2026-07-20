@@ -122,6 +122,10 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         merged = [{**sw, "events": [{**ev, "is_live": False} for ev in sw["events"]]}
                   for sw in entries]
 
+    # --- Giriş sıralaması (yalnızca orijinal giriş süreleri, canlı sonuç yok) ---
+    ev_rankings_entry = compute_event_rankings(entries, "entry")
+    individual_entry  = build_individual_rankings(entries, ev_rankings_entry)
+
     # --- Forecast sıralaması (tüm yarışlar; canlı + giriş tahmini) ---
     ev_rankings_forecast = compute_event_rankings(merged, source)
     individual_forecast  = build_individual_rankings(merged, ev_rankings_forecast)
@@ -145,7 +149,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         ev_rankings_current = ev_rankings_forecast
         individual_current  = individual_forecast
 
-    # --- Grup JSON (forecast + current birleşik) ---
+    # --- Grup JSON (entry + forecast + current üçlü) ---
     groups_out = {}
     for (yb, gender), athletes in sorted(individual_forecast.items()):
         key      = f"{yb}_{gender}"
@@ -156,6 +160,9 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
             "age_label":     AGE_LABELS.get(yb, f"20{yb}"),
             "medal_cut":     medal_cut,
             "athlete_count": len(athletes),
+            "athletes_entry": _build_athletes_out(
+                individual_entry.get((yb, gender), []), medal_cut
+            ),
             "athletes":      _build_athletes_out(athletes, medal_cut),
             "athletes_current": _build_athletes_out(
                 individual_current.get((yb, gender), []), medal_cut

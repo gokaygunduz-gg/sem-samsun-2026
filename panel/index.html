@@ -265,8 +265,9 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 <!-- ═══════ SIRALAMA ═══════ -->
 <div class="tab-content active" id="tab-siralama">
   <div class="stabs">
-    <button class="stab active" onclick="setSiralamaMode('forecast',this)">📊 Tahmin</button>
-    <button class="stab" onclick="setSiralamaMode('current',this)">⚡ Anlık</button>
+    <button class="stab" onclick="setSiralamaMode('giris',this)">📋 Giriş</button>
+    <button class="stab" onclick="setSiralamaMode('anlık',this)">⚡ Anlık</button>
+    <button class="stab active" onclick="setSiralamaMode('tahmin',this)">📊 Tahmin</button>
   </div>
   <div class="filters" id="filters-siralama">
     <span class="filter-lbl">Yaş:</span>
@@ -474,7 +475,7 @@ const GEN_ORDER = ['Kadın','Erkek'];
 let DATA = null;
 let currentRole     = '';
 let currentUsername = '';
-let siralamaMode    = 'forecast';
+let siralamaMode    = 'tahmin';
 let yarisMode       = 'giris';
 let kulupTab        = 'puan';
 let cityDetailTab   = 'topscorers';
@@ -762,11 +763,12 @@ function renderSiralama() {
   const selGen    = getFilter(filters, 'gen');
   const container = document.getElementById('siralama-content');
   container.innerHTML = '';
-  const isCurrent = siralamaMode === 'current';
-  if (isCurrent && !DATA.completed_event_count) {
+
+  if (siralamaMode === 'anlık' && !DATA.completed_event_count) {
     container.innerHTML = '<div class="loading">⚡ Anlık sıralama yalnızca canlı yarış sırasında güncellenir.</div>';
     return;
   }
+
   for (const yb of YB_ORDER) {
     if (selYb!=='all' && selYb!==yb) continue;
     for (const gen of GEN_ORDER) {
@@ -774,16 +776,34 @@ function renderSiralama() {
       const key = yb+'_'+gen;
       const grp = DATA.groups[key];
       if (!grp) continue;
-      const athletes = isCurrent ? grp.athletes_current : grp.athletes;
+      let athletes;
+      if (siralamaMode === 'anlık')      athletes = grp.athletes_current;
+      else if (siralamaMode === 'giris') athletes = grp.athletes_entry || grp.athletes;
+      else                               athletes = grp.athletes; // tahmin
       if (!athletes||!athletes.length) continue;
       const cut = grp.medal_cut;
+      const modeNote = siralamaMode==='giris'?'Giriş süreleri':siralamaMode==='anlık'?'Yalnızca tamamlanan yarışlar':'Canlı + giriş tahmini';
       const rows = athletes.map(a=>{
         const top3  = a.events.slice(0,3);
         const rest  = a.events.slice(3);
         const isLive= a.events.some(e=>e.is_live);
-        const pt    = top3.map(ev=>`<span class="ev-pill ev-top${isLive?' ev-live':''}" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
-        const pr    = rest.map(ev=>`<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
-        const psb   = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
+        const pt = top3.map(ev=>{
+          const eEsc=esc(ev.event), yEsc=esc(yb), gEsc=esc(gen);
+          return `<span class="ev-pill ev-top${isLive&&ev.is_live?' ev-live':''}"
+            title="${ev.time_raw} — tıkla: bu yarışın tahmin sıralaması"
+            style="cursor:pointer"
+            onclick="goToEventTahmin('${eEsc}','${yEsc}','${gEsc}')"
+          >${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`;
+        }).join('');
+        const pr = rest.map(ev=>{
+          const eEsc=esc(ev.event), yEsc=esc(yb), gEsc=esc(gen);
+          return `<span class="ev-pill"
+            title="${ev.time_raw} — tıkla: bu yarışın tahmin sıralaması"
+            style="cursor:pointer"
+            onclick="goToEventTahmin('${eEsc}','${yEsc}','${gEsc}')"
+          >${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`;
+        }).join('');
+        const psb = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
         return `<tr class="${rowClass(a.rank,cut)}">
           <td class="col-rank">${medalBadge(a.rank,cut)}</td>
           <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}</div></td>
@@ -795,11 +815,11 @@ function renderSiralama() {
       <div class="section">
         <div class="sec-hdr" onclick="toggleSection(this)">
           <div><div class="sec-title">${grp.age_label} — ${grp.gender}</div>
-          <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya · İlk 2 ödüllü</div></div>
+          <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya · ${modeNote}</div></div>
           <div class="sec-meta">${athletes[0]?athletes[0].name:''}<div style="color:var(--gold);font-weight:700">${athletes[0]?athletes[0].top3+' puan':''}</div></div>
         </div>
         <div class="sec-body"><table>
-          <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th>Branşlar</th><th class="col-score">Puan</th></tr></thead>
+          <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th>Branşlar <span style="font-size:9px;color:var(--muted);font-weight:400">(tıkla → yarış)</span></th><th class="col-score">Puan</th></tr></thead>
           <tbody>${rows}</tbody>
         </table></div>
       </div>`);
@@ -1226,6 +1246,31 @@ function downloadUserConfig() {
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a'); a.href=url; a.download='users_config.py'; a.click();
   URL.revokeObjectURL(url);
+}
+
+/* =====================================================================
+   YARIŞA YÖNLENDİR (sıralama pill tıkla → Yarışlar Tahmin)
+   ===================================================================== */
+function goToEventTahmin(brans, yb, gender) {
+  // Yarışlar tabına geç
+  const tabs = document.querySelectorAll('#mainTabs .tab');
+  let yarTab = null;
+  tabs.forEach(t => { if (t.textContent.includes('Yarışlar')) yarTab = t; });
+  if (yarTab) switchTab('yarislar', yarTab);
+
+  // Dropdown'ları ayarla
+  document.getElementById('eventSel').value = brans;
+  document.getElementById('ybSel').value    = yb;
+  document.getElementById('genSel').value   = gender;
+
+  // Tahmin moduna al (3. stab)
+  yarisMode = 'tahmin';
+  const stabs = document.querySelectorAll('#tab-yarislar .stab');
+  stabs.forEach(b => b.classList.remove('active'));
+  if (stabs[2]) stabs[2].classList.add('active');
+
+  renderEvents();
+  window.scrollTo(0, 0);
 }
 
 /* =====================================================================
