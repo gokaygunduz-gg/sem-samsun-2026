@@ -1093,7 +1093,7 @@ function renderSiralama() {
         const aN=esc(a.name),aY=esc(yb),aG=esc(gen);
         return `<tr class="${rowClass(a.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
           <td class="col-rank">${medalBadge(a.rank,cut)}</td>
-          <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}</div></td>
+          <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}${a.club?' · '+a.club:''}</div></td>
           <td><div class="ev-pills">${pt}${pr}</div></td>
           <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
         </tr>`;
@@ -1708,7 +1708,7 @@ function showAthleteProfile(name, yb, gender) {
       <div style="font-size:28px">${rankBadge}</div>
       <div>
         <div style="font-size:15px;font-weight:700">${athlete.name}${prizeLbl}</div>
-        <div style="font-size:11px;color:var(--muted);margin-top:2px">${grp.age_label} ${gender} · ${athlete.city}</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px">${grp.age_label} ${gender} · ${athlete.city}${athlete.club?' · '+athlete.club:''}</div>
       </div>
     </div>
     ${summaryItems.length ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px">${summaryItems.join('')}</div>` : ''}
@@ -1833,6 +1833,7 @@ function computeAllAthletes() {
       list.push({
         name:        a.name,
         city:        a.city || '',
+        club:        a.club || '',
         yb:          grp.yb,
         gender:      grp.gender,
         age_label:   grp.age_label,
@@ -1986,7 +1987,7 @@ function renderSporcular() {
     return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
       <td class="col-rank" style="font-weight:700;font-size:12px;text-align:center">${i+1}</td>
       <td><div class="name-main">${a.name}${prizeLbl}${medalLbl}</div>
-          <div class="name-city">${a.age_label} ${a.gender} · ${a.city}</div></td>
+          <div class="name-city">${a.age_label} ${a.gender} · ${a.city}${a.club?' · '+a.club:''}</div></td>
       <td style="text-align:center;font-size:11px;color:var(--muted)">${a.group_rank}./${a.group_count}</td>
       <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
     </tr>`;
