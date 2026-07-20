@@ -27,7 +27,7 @@ from sem_config import (
     ENTRY_PATH, OUT_JSON, OUT_DATA_JS, PANEL_DIR, DATA_DIR,
     COMP_NAME, COMP_LOCATION, COMP_DATES, RACE_URL,
     AGE_LABELS, MEDAL_CUTOFFS, PROGRAM, POINTS,
-    USER_HASH, ADMIN_HASH,
+    USERS, REGISTRATION_OPEN, _sha256,
 )
 from sem_entry import load_entry_list
 from sem_score import (
@@ -260,8 +260,11 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         "events_current":         events_current_out,
         "points_table":           POINTS,
         "auth": {
-            "user_hash":  USER_HASH,
-            "admin_hash": ADMIN_HASH,
+            "initial_users": [
+                {"username": u["username"], "hash": _sha256(u["password"]), "role": u["role"]}
+                for u in USERS
+            ],
+            "registration_open": REGISTRATION_OPEN,
         },
     }
 

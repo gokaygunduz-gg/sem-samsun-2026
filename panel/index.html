@@ -16,14 +16,21 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 /* ── AUTH ── */
 #authScreen{position:fixed;inset:0;background:rgba(15,23,42,.97);z-index:999;display:flex;align-items:center;justify-content:center}
-.auth-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 28px;width:320px;max-width:92vw}
-.auth-logo{font-size:28px;text-align:center;margin-bottom:6px}
-.auth-title{font-size:16px;font-weight:700;color:var(--gold);text-align:center;margin-bottom:4px}
-.auth-sub{font-size:11px;color:var(--muted);text-align:center;margin-bottom:20px}
-.auth-input{width:100%;padding:10px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;outline:none;margin-bottom:10px}
+.auth-box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px 26px;width:340px;max-width:94vw}
+.auth-logo{font-size:30px;text-align:center;margin-bottom:4px}
+.auth-title{font-size:16px;font-weight:700;color:var(--gold);text-align:center;margin-bottom:2px}
+.auth-sub{font-size:11px;color:var(--muted);text-align:center;margin-bottom:16px}
+.auth-tabs{display:flex;gap:0;margin-bottom:16px;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.auth-tab{flex:1;padding:8px;background:transparent;border:none;color:var(--muted);font-size:12px;font-weight:600;cursor:pointer;transition:all .15s}
+.auth-tab.active{background:var(--blue);color:#fff}
+.auth-input{width:100%;padding:9px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;outline:none;margin-bottom:8px}
 .auth-input:focus{border-color:var(--blue)}
-.auth-btn{width:100%;padding:10px;background:var(--blue);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
-.auth-err{color:var(--red);font-size:12px;text-align:center;margin-top:8px;min-height:18px}
+.auth-btn{width:100%;padding:10px;background:var(--blue);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s}
+.auth-btn:hover{opacity:.9}
+.auth-msg{font-size:12px;text-align:center;margin-top:8px;min-height:18px;line-height:1.4}
+.auth-msg.err{color:var(--red)}
+.auth-msg.ok{color:var(--green)}
+.auth-closed{background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.3);border-radius:8px;padding:10px 12px;font-size:12px;color:var(--gold);text-align:center;margin-bottom:10px}
 
 /* ── HEADER ── */
 #mainApp{display:none}
@@ -36,6 +43,7 @@ header{background:#0f172a;border-bottom:1px solid var(--border);padding:10px 14p
 .badge-live{background:rgba(34,197,94,.2);color:var(--green)}
 .badge-sim{background:rgba(245,158,11,.2);color:var(--gold)}
 .badge-admin{background:rgba(168,85,247,.2);color:var(--purple)}
+.badge-user{background:rgba(59,130,246,.2);color:var(--blue)}
 .upd{font-size:10px;color:var(--muted)}
 .btn-sm{border:none;padding:5px 9px;border-radius:6px;font-size:11px;cursor:pointer;font-weight:600}
 .btn-refresh{background:var(--blue);color:#fff}
@@ -75,7 +83,6 @@ tr.gold-row{background:rgba(245,158,11,.08)}
 tr.silver-row{background:rgba(148,163,184,.08)}
 tr.bronze-row{background:rgba(251,146,60,.07)}
 tr.medal-row{background:rgba(20,184,166,.06)}
-tr.prize-row td:first-child::before{content:'🎖';margin-right:2px;font-size:11px}
 
 /* Sütun genişlikleri */
 .col-rank{width:30px;text-align:center;font-weight:700;font-size:13px}
@@ -115,9 +122,8 @@ tr.prize-row td:first-child::before{content:'🎖';margin-right:2px;font-size:11
 .city-sub{font-size:10px;color:var(--muted)}
 tr.city-row{cursor:pointer;transition:background .12s}
 tr.city-row:hover{background:rgba(59,130,246,.08)}
-.city-arrow{color:var(--muted);font-size:11px}
 
-/* Şehir detay */
+/* Şehir/Program detay */
 .detail-back{display:flex;align-items:center;gap:8px;padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--border);background:var(--card)}
 .back-btn{font-size:11px;color:var(--blue);font-weight:600}
 .detail-title{font-size:14px;font-weight:700}
@@ -133,28 +139,55 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 .prog-race-name{font-size:12px;font-weight:600}
 .prog-race-note{font-size:10px;color:var(--orange)}
 .prog-race-arrow{color:var(--muted);font-size:11px}
-.prog-note-row{padding:6px 12px;font-size:10px;color:var(--muted);border-bottom:1px solid #1e293b}
 
 /* ── DROPDOWN ── */
 .event-sel{width:100%;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px}
 
 /* ── ADMIN ── */
 .admin-section{margin:10px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px}
-.admin-title{font-size:12px;font-weight:700;color:var(--purple);margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
-.admin-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px}
+.admin-title{font-size:11px;font-weight:700;color:var(--purple);margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.admin-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px;gap:8px}
 .admin-row:last-child{border-bottom:0}
-.admin-key{color:var(--muted)}
-.admin-val{font-weight:600}
-.admin-link{color:var(--blue);font-size:12px;cursor:pointer;text-decoration:underline}
+.admin-key{color:var(--muted);flex-shrink:0}
+.admin-val{font-weight:600;text-align:right;word-break:break-all}
 
-/* ── LOADING ── */
+/* Kullanıcı yönetimi */
+.user-item{display:flex;align-items:center;gap:6px;padding:8px 0;border-bottom:1px solid var(--border)}
+.user-item:last-child{border-bottom:0}
+.user-name{font-weight:600;font-size:13px;flex:1}
+.role-badge{font-size:9px;padding:2px 6px;border-radius:6px;font-weight:700}
+.role-admin{background:rgba(168,85,247,.2);color:var(--purple)}
+.role-user{background:rgba(59,130,246,.2);color:var(--blue)}
+.role-pending{background:rgba(245,158,11,.2);color:var(--gold)}
+.user-actions{display:flex;gap:4px;flex-shrink:0}
+.ua-btn{border:none;padding:4px 8px;border-radius:5px;font-size:10px;cursor:pointer;font-weight:600}
+.ua-del{background:rgba(239,68,68,.15);color:var(--red)}
+.ua-del:hover{background:rgba(239,68,68,.3)}
+.ua-pass{background:rgba(59,130,246,.15);color:var(--blue)}
+.ua-pass:hover{background:rgba(59,130,246,.3)}
+.ua-role{background:rgba(148,163,184,.15);color:var(--muted)}
+.ua-role:hover{background:rgba(148,163,184,.3)}
+.ua-ok{background:rgba(34,197,94,.15);color:var(--green)}
+.ua-ok:hover{background:rgba(34,197,94,.3)}
+.ua-rej{background:rgba(239,68,68,.1);color:var(--red)}
+.add-user-form{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;margin-top:10px}
+.add-user-form input{width:100%;padding:7px 10px;background:var(--card);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:12px;margin-bottom:6px;outline:none}
+.add-user-form input:focus{border-color:var(--blue)}
+.add-user-form-btns{display:flex;gap:6px}
+.toggle-reg-btn{padding:5px 12px;border-radius:6px;border:none;font-size:11px;font-weight:600;cursor:pointer}
+.toggle-reg-on{background:rgba(34,197,94,.2);color:var(--green)}
+.toggle-reg-off{background:rgba(239,68,68,.2);color:var(--red)}
+.add-main-btn{padding:5px 12px;border-radius:6px;border:none;font-size:11px;font-weight:600;cursor:pointer;background:var(--blue);color:#fff}
+
+/* ── LOADING / EMPTY ── */
 .loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
 .empty{padding:20px;text-align:center;color:var(--muted);font-size:12px;font-style:italic}
 
 /* ── RESPONSIVE ── */
 @media(max-width:480px){
   .col-city{display:none}
-  .auth-box{padding:24px 18px}
+  .auth-box{padding:22px 16px}
+  .user-actions{flex-wrap:wrap}
 }
 </style>
 </head>
@@ -166,9 +199,35 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     <div class="auth-logo">🏊</div>
     <div class="auth-title">SEM Türkiye Finali 2026</div>
     <div class="auth-sub">Samsun Olimpik Yüzme Havuzu · 28-30 Temmuz</div>
-    <input id="authInput" class="auth-input" type="password" placeholder="Şifre giriniz" onkeydown="if(event.key==='Enter')doLogin()">
-    <button class="auth-btn" onclick="doLogin()">Giriş Yap</button>
-    <div class="auth-err" id="authErr"></div>
+
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="authTabLogin" onclick="switchAuthTab('login')">Giriş Yap</button>
+      <button class="auth-tab" id="authTabReg" onclick="switchAuthTab('register')">Kayıt Ol</button>
+    </div>
+
+    <!-- GİRİŞ formu -->
+    <div id="loginForm">
+      <input id="loginUser" class="auth-input" type="text" placeholder="Kullanıcı adı" autocomplete="username">
+      <input id="loginPass" class="auth-input" type="password" placeholder="Şifre" autocomplete="current-password"
+             onkeydown="if(event.key==='Enter')doLogin()">
+      <button class="auth-btn" onclick="doLogin()">Giriş Yap</button>
+    </div>
+
+    <!-- KAYIT formu -->
+    <div id="registerForm" style="display:none">
+      <div class="auth-closed" id="regClosedMsg" style="display:none">
+        🔒 Kayıt şu an kapalıdır.<br>Erişim için yönetici ile iletişime geçin.
+      </div>
+      <div id="regFields">
+        <input id="regUser" class="auth-input" type="text" placeholder="Kullanıcı adı (en az 3 karakter)" autocomplete="username">
+        <input id="regPass" class="auth-input" type="password" placeholder="Şifre (en az 6 karakter)" autocomplete="new-password">
+        <input id="regConf" class="auth-input" type="password" placeholder="Şifre tekrar"
+               onkeydown="if(event.key==='Enter')doRegister()">
+        <button class="auth-btn" onclick="doRegister()">Kayıt Ol</button>
+      </div>
+    </div>
+
+    <div class="auth-msg" id="authMsg"></div>
   </div>
 </div>
 
@@ -183,9 +242,9 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     </div>
     <div class="hdr-right">
       <span class="badge-src" id="srcBadge">…</span>
-      <span id="roleBadge" class="badge-src" style="display:none"></span>
+      <span class="badge-src" id="userBadge"></span>
       <span class="upd" id="updTime"></span>
-      <button class="btn-sm btn-refresh" onclick="location.reload()">⟳</button>
+      <button class="btn-sm btn-refresh" onclick="location.reload()" title="Yenile">⟳</button>
       <button class="btn-sm btn-logout" onclick="doLogout()">Çıkış</button>
     </div>
   </div>
@@ -291,7 +350,7 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 
 <!-- ═══════ PROGRAM ═══════ -->
 <div class="tab-content" id="tab-program">
-  <div id="program-list-view" id="program-content"></div>
+  <div id="program-list-view"></div>
   <div id="program-race-view" style="display:none">
     <div class="detail-back" onclick="backToProgramList()">
       <span class="back-btn">← Program</span>
@@ -305,38 +364,77 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
   </div>
 </div>
 
-<!-- ═══════ YÖNETİM ═══════ -->
+<!-- ═══════ YÖNETİM (admin only) ═══════ -->
 <div class="tab-content" id="tab-yonetim">
+
+  <!-- Veri Durumu -->
   <div class="admin-section" style="margin-top:10px">
     <div class="admin-title">Veri Durumu</div>
     <div id="admin-status"></div>
   </div>
+
+  <!-- Kullanıcı Yönetimi -->
+  <div class="admin-section">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <div class="admin-title" style="margin-bottom:0">Kullanıcı Yönetimi</div>
+      <div style="display:flex;gap:6px;align-items:center">
+        <button class="toggle-reg-btn" id="regToggleBtn" onclick="toggleRegistration()">Kayıt: Açık</button>
+        <button class="add-main-btn" onclick="showAddUserForm()">+ Ekle</button>
+      </div>
+    </div>
+    <div id="admin-users-list"></div>
+    <div id="add-user-form" class="add-user-form" style="display:none">
+      <div style="font-size:11px;font-weight:700;color:var(--muted);margin-bottom:8px">Yeni Kullanıcı</div>
+      <input id="newUserName" type="text" placeholder="Kullanıcı adı">
+      <input id="newUserPass" type="password" placeholder="Şifre">
+      <select id="newUserRole" style="width:100%;padding:7px 10px;background:var(--card);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:12px;margin-bottom:6px;outline:none">
+        <option value="user">Kullanıcı</option>
+        <option value="admin">Yönetici</option>
+      </select>
+      <div class="add-user-form-btns">
+        <button class="auth-btn" style="flex:1;padding:7px;font-size:12px" onclick="doAddUser()">Kaydet</button>
+        <button class="btn-sm btn-logout" style="padding:7px 12px" onclick="hideAddUserForm()">İptal</button>
+      </div>
+      <div class="auth-msg" id="addUserMsg"></div>
+    </div>
+  </div>
+
+  <!-- Onay Bekleyenler -->
+  <div class="admin-section" id="pendingSection" style="display:none">
+    <div class="admin-title">Onay Bekleyen Kayıtlar</div>
+    <div id="pending-users-list"></div>
+  </div>
+
+  <!-- Güncelleme -->
   <div class="admin-section">
     <div class="admin-title">Panel Güncelleme</div>
     <div style="font-size:12px;color:var(--muted);line-height:1.6">
-      <p>Yarış günleri (28-30 Temmuz) GitHub Actions her 5 dakikada otomatik günceller.</p>
-      <p style="margin-top:6px">Manuel güncelleme için:</p>
-      <ol style="margin:6px 0 0 18px">
-        <li>GitHub reposuna gidin</li>
-        <li>Actions → "SEM Panel Güncelle" → "Run workflow"</li>
-      </ol>
+      Yarış günleri (28-30 Temmuz) GitHub Actions her 5 dk günceller.<br>
+      Manuel güncelleme: GitHub repo → Actions → "SEM Panel Güncelle" → Run workflow
     </div>
   </div>
-  <div class="admin-section">
-    <div class="admin-title">Şifre Değişikliği</div>
-    <div style="font-size:12px;color:var(--muted);line-height:1.6">
-      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">scripts/sem_config.py</code> dosyasındaki<br>
-      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">USER_PASSWORD</code> ve
-      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">ADMIN_PASSWORD</code> değerlerini değiştirin,<br>
-      ardından <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">python scripts/sem_generate.py</code> çalıştırın.
-    </div>
-  </div>
-  <div class="admin-section">
-    <div class="admin-title">JSON İndir</div>
-    <button class="auth-btn" style="width:auto;padding:7px 16px;font-size:12px" onclick="downloadJSON()">⬇ results.json indir</button>
-  </div>
-</div>
 
+  <!-- Şifre değiştirme notu -->
+  <div class="admin-section">
+    <div class="admin-title">Kullanıcı Ekleme (Kalıcı)</div>
+    <div style="font-size:12px;color:var(--muted);line-height:1.7">
+      Panel üzerindeki değişiklikler bu cihazda kalıcıdır.<br>
+      Tüm cihazlarda geçerli olması için:<br>
+      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">scripts/sem_config.py</code> → <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">USERS</code> listesini düzenle →
+      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">python scripts/sem_generate.py</code> çalıştır
+    </div>
+  </div>
+
+  <!-- JSON indir -->
+  <div class="admin-section">
+    <div class="admin-title">Araçlar</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="auth-btn" style="width:auto;padding:7px 14px;font-size:12px" onclick="downloadJSON()">⬇ results.json</button>
+      <button class="auth-btn" style="width:auto;padding:7px 14px;font-size:12px;background:var(--teal)" onclick="downloadUserConfig()">⬇ users_config.py</button>
+    </div>
+  </div>
+
+</div><!-- /tab-yonetim -->
 </div><!-- /mainApp -->
 
 <script>
@@ -350,7 +448,6 @@ const BRANS_ORDER = [
   "50m Kelebek","100m Kelebek","200m Kelebek",
   "200m Karışık","400m Karışık"
 ];
-
 const YB_ORDER  = ['14','13','12','11','10','09','08'];
 const GEN_ORDER = ['Kadın','Erkek'];
 
@@ -358,68 +455,180 @@ const GEN_ORDER = ['Kadın','Erkek'];
    DURUM
    ===================================================================== */
 let DATA = null;
-let currentRole = '';
-let siralamaMode = 'forecast';
-let yarisMode    = 'giris';
-let kulupTab     = 'puan';
-let cityDetailTab = 'topscorers';
-let currentCityIdx = -1;
-let progRaceBrans = '';
-let progRaceMode  = 'giris';
+let currentRole     = '';
+let currentUsername = '';
+let siralamaMode    = 'forecast';
+let yarisMode       = 'giris';
+let kulupTab        = 'puan';
+let cityDetailTab   = 'topscorers';
+let currentCityIdx  = -1;
+let progRaceBrans   = '';
+let progRaceMode    = 'giris';
 
 /* =====================================================================
-   AUTH
+   YARDIMCILAR
    ===================================================================== */
 async function sha256(s) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
 }
 
+function setMsg(id, text, type='err') {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.textContent = text;
+  el.className = 'auth-msg ' + type;
+}
+
+/* =====================================================================
+   KULLANICI VERİTABANI (localStorage)
+   =====================================================================
+   localStorage keys:
+     sem_users        : [{username, hash, role, approved, local}]
+     sem_reg_open     : 'true'/'false'
+     sem_seed_ver     : generated_at string (re-seed trigger)
+     sem_session      : {username, role}
+*/
+
+function getUsers() {
+  try { return JSON.parse(localStorage.getItem('sem_users') || '[]'); }
+  catch { return []; }
+}
+function saveUsers(u) { localStorage.setItem('sem_users', JSON.stringify(u)); }
+
+function isRegOpen() {
+  const stored = localStorage.getItem('sem_reg_open');
+  if (stored !== null) return stored === 'true';
+  return DATA && DATA.auth ? (DATA.auth.registration_open ?? false) : false;
+}
+
+function checkAndSeedUsers() {
+  if (!DATA || !DATA.auth || !DATA.auth.initial_users) return;
+  const seedVer = localStorage.getItem('sem_seed_ver');
+  if (seedVer === DATA.generated_at) return;  // already seeded from this data.js
+
+  // Keep locally-added users, update/add initial users
+  const existing = getUsers();
+  const localOnly = existing.filter(u => u.local);
+  const newUsers  = DATA.auth.initial_users.map(u => ({...u, approved: true, local: false}));
+
+  // Merge: initial users first, then local additions (avoid duplicates)
+  const merged = [...newUsers];
+  for (const lu of localOnly) {
+    if (!merged.find(u => u.username.toLowerCase() === lu.username.toLowerCase())) {
+      merged.push(lu);
+    }
+  }
+  saveUsers(merged);
+  localStorage.setItem('sem_seed_ver', DATA.generated_at);
+}
+
+/* =====================================================================
+   AUTH — GİRİŞ EKRANI
+   ===================================================================== */
 function checkAuth() {
-  if (!DATA || !DATA.auth || !DATA.auth.user_hash) { showMainApp('user'); return; }
-  const role = localStorage.getItem('sem_auth_role');
-  const hash = localStorage.getItem('sem_auth_hash');
-  if (role === 'admin' && hash === DATA.auth.admin_hash) { showMainApp('admin'); return; }
-  if (role === 'user'  && hash === DATA.auth.user_hash)  { showMainApp('user');  return; }
+  try {
+    const sess = JSON.parse(localStorage.getItem('sem_session') || 'null');
+    if (sess && sess.username && sess.role) {
+      const users = getUsers();
+      const user = users.find(u =>
+        u.username === sess.username && u.role === sess.role && u.approved
+      );
+      if (user) { showMainApp(user.role, user.username); return; }
+    }
+  } catch {}
+  showAuthScreen();
+}
+
+function showAuthScreen() {
   document.getElementById('authScreen').style.display = 'flex';
+  // Show/hide registration based on config
+  updateRegUI();
+}
+
+function updateRegUI() {
+  const open = isRegOpen();
+  const closedMsg  = document.getElementById('regClosedMsg');
+  const regFields  = document.getElementById('regFields');
+  if (closedMsg)  closedMsg.style.display  = open ? 'none' : '';
+  if (regFields)  regFields.style.display  = open ? '' : 'none';
+}
+
+function switchAuthTab(tab) {
+  document.getElementById('loginForm').style.display    = tab === 'login'    ? '' : 'none';
+  document.getElementById('registerForm').style.display = tab === 'register' ? '' : 'none';
+  document.getElementById('authTabLogin').classList.toggle('active', tab === 'login');
+  document.getElementById('authTabReg').classList.toggle('active', tab === 'register');
+  setMsg('authMsg', '');
+  if (tab === 'register') updateRegUI();
 }
 
 async function doLogin() {
-  const pw  = document.getElementById('authInput').value;
-  const err = document.getElementById('authErr');
-  if (!pw) { err.textContent = 'Şifre boş olamaz'; return; }
-  err.textContent = 'Kontrol ediliyor…';
-  const h = await sha256(pw);
-  if (h === DATA.auth.admin_hash) {
-    localStorage.setItem('sem_auth_role', 'admin');
-    localStorage.setItem('sem_auth_hash', h);
-    showMainApp('admin');
-  } else if (h === DATA.auth.user_hash) {
-    localStorage.setItem('sem_auth_role', 'user');
-    localStorage.setItem('sem_auth_hash', h);
-    showMainApp('user');
+  const username = (document.getElementById('loginUser').value || '').trim();
+  const password = document.getElementById('loginPass').value || '';
+  setMsg('authMsg', 'Kontrol ediliyor…');
+
+  if (!username || !password) { setMsg('authMsg', 'Kullanıcı adı ve şifre gerekli'); return; }
+
+  const hash  = await sha256(password);
+  const users = getUsers();
+  const user  = users.find(u =>
+    u.username.toLowerCase() === username.toLowerCase() && u.hash === hash
+  );
+
+  if (!user) {
+    setMsg('authMsg', '❌ Kullanıcı adı veya şifre hatalı');
+  } else if (!user.approved) {
+    setMsg('authMsg', '⏳ Hesabınız henüz onaylanmamış. Yönetici ile iletişime geçin.');
   } else {
-    err.textContent = '❌ Şifre hatalı';
+    localStorage.setItem('sem_session', JSON.stringify({username: user.username, role: user.role}));
+    showMainApp(user.role, user.username);
   }
+}
+
+async function doRegister() {
+  if (!isRegOpen()) { setMsg('authMsg', '🔒 Kayıt kapalıdır.'); return; }
+
+  const username = (document.getElementById('regUser').value || '').trim();
+  const password = document.getElementById('regPass').value || '';
+  const confirm  = document.getElementById('regConf').value || '';
+
+  if (username.length < 3)      { setMsg('authMsg', '❌ Kullanıcı adı en az 3 karakter olmalı'); return; }
+  if (password.length < 6)      { setMsg('authMsg', '❌ Şifre en az 6 karakter olmalı'); return; }
+  if (password !== confirm)      { setMsg('authMsg', '❌ Şifreler eşleşmiyor'); return; }
+
+  const users = getUsers();
+  if (users.find(u => u.username.toLowerCase() === username.toLowerCase())) {
+    setMsg('authMsg', '❌ Bu kullanıcı adı zaten alınmış'); return;
+  }
+
+  const hash = await sha256(password);
+  users.push({username, hash, role: 'user', approved: false, local: true});
+  saveUsers(users);
+  setMsg('authMsg', '✅ Kayıt talebiniz alındı. Yönetici onayı bekleniyor.', 'ok');
+  document.getElementById('regUser').value = '';
+  document.getElementById('regPass').value = '';
+  document.getElementById('regConf').value = '';
 }
 
 function doLogout() {
-  localStorage.removeItem('sem_auth_role');
-  localStorage.removeItem('sem_auth_hash');
+  localStorage.removeItem('sem_session');
   location.reload();
 }
 
-function showMainApp(role) {
-  currentRole = role;
+function showMainApp(role, username) {
+  currentRole     = role;
+  currentUsername = username;
   document.getElementById('authScreen').style.display = 'none';
-  document.getElementById('mainApp').style.display = '';
+  document.getElementById('mainApp').style.display    = '';
+
   if (role === 'admin') {
     document.getElementById('adminTab').style.display = '';
-    const rb = document.getElementById('roleBadge');
-    rb.style.display = '';
-    rb.textContent = '⚙ Yönetici';
-    rb.className = 'badge-src badge-admin';
   }
+  const ub = document.getElementById('userBadge');
+  ub.textContent  = (role === 'admin' ? '⚙ ' : '👤 ') + username;
+  ub.className    = 'badge-src ' + (role === 'admin' ? 'badge-admin' : 'badge-user');
+
   init();
 }
 
@@ -429,6 +638,7 @@ function showMainApp(role) {
 function loadData() {
   if (typeof window.SEM_DATA !== 'undefined') {
     DATA = window.SEM_DATA;
+    checkAndSeedUsers();
     checkAuth();
   } else {
     document.body.innerHTML = '<div class="loading">⚠ data.js yüklenemedi.<br><code>python scripts/sem_generate.py</code> çalıştırın.</div>';
@@ -463,122 +673,98 @@ function switchTab(name, el) {
   el.classList.add('active');
 }
 
-function activateStabs(container, clickedBtn) {
+function activateStabs(container, btn) {
   container.querySelectorAll('.stab').forEach(b => b.classList.remove('active'));
-  clickedBtn.classList.add('active');
+  btn.classList.add('active');
 }
 
 /* =====================================================================
-   YARDIMCILAR
+   YARDIMCILAR (panel)
    ===================================================================== */
 function ptsClass(p) {
-  if (p >= 9) return 'pts-9'; if (p >= 7) return 'pts-7'; if (p >= 6) return 'pts-6';
-  if (p >= 5) return 'pts-5'; if (p >= 4) return 'pts-4'; if (p >= 3) return 'pts-3';
-  if (p >= 2) return 'pts-2'; if (p >= 1) return 'pts-1'; return 'pts-0';
+  if (p>=9) return 'pts-9'; if (p>=7) return 'pts-7'; if (p>=6) return 'pts-6';
+  if (p>=5) return 'pts-5'; if (p>=4) return 'pts-4'; if (p>=3) return 'pts-3';
+  if (p>=2) return 'pts-2'; if (p>=1) return 'pts-1'; return 'pts-0';
 }
-
 function medalBadge(rank, cut) {
-  if (rank === 1) return '<span class="mbadge mbadge-1">🥇</span>';
-  if (rank === 2) return '<span class="mbadge mbadge-2">🥈</span>';
-  if (rank === 3) return '<span class="mbadge mbadge-3">🥉</span>';
-  if (rank <= cut) return '<span class="mbadge mbadge-m">' + rank + '</span>';
-  return '<span style="font-weight:700">' + rank + '</span>';
+  if (rank===1) return '<span class="mbadge mbadge-1">🥇</span>';
+  if (rank===2) return '<span class="mbadge mbadge-2">🥈</span>';
+  if (rank===3) return '<span class="mbadge mbadge-3">🥉</span>';
+  if (rank<=cut) return '<span class="mbadge mbadge-m">'+rank+'</span>';
+  return '<span style="font-weight:700">'+rank+'</span>';
 }
-
 function rowClass(rank, cut) {
-  if (rank === 1) return 'gold-row';
-  if (rank === 2) return 'silver-row';
-  if (rank === 3) return 'bronze-row';
-  if (rank <= cut) return 'medal-row';
+  if (rank===1) return 'gold-row';
+  if (rank===2) return 'silver-row';
+  if (rank===3) return 'bronze-row';
+  if (rank<=cut) return 'medal-row';
   return '';
 }
-
 function toggleSection(hdr) {
-  const body = hdr.nextElementSibling;
-  body.style.display = body.style.display === 'none' ? '' : 'none';
+  const b = hdr.nextElementSibling;
+  b.style.display = b.style.display==='none' ? '' : 'none';
+}
+function getFilter(container, attr) {
+  const el = container.querySelector('.fbtn.active[data-'+attr+']');
+  return el ? el.dataset[attr] : 'all';
 }
 
 /* =====================================================================
-   SIRALAMA SEKMESİ
+   SIRALAMA
    ===================================================================== */
 function setSiralamaMode(mode, btn) {
   siralamaMode = mode;
   activateStabs(btn.closest('.stabs'), btn);
   renderSiralama();
 }
-
 function filterSiralama(btn) {
   const attr = Object.keys(btn.dataset)[0];
-  btn.closest('.filters').querySelectorAll('.fbtn[data-' + attr + ']')
-     .forEach(b => b.classList.remove('active'));
+  btn.closest('.filters').querySelectorAll('.fbtn[data-'+attr+']').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   renderSiralama();
 }
-
-function getFilter(container, attr) {
-  const el = container.querySelector('.fbtn.active[data-' + attr + ']');
-  return el ? el.dataset[attr] : 'all';
-}
-
 function renderSiralama() {
   if (!DATA) return;
-  const filters = document.getElementById('filters-siralama');
-  const selYb   = getFilter(filters, 'yb');
-  const selGen  = getFilter(filters, 'gen');
+  const filters   = document.getElementById('filters-siralama');
+  const selYb     = getFilter(filters, 'yb');
+  const selGen    = getFilter(filters, 'gen');
   const container = document.getElementById('siralama-content');
   container.innerHTML = '';
-
-  const isCurrentMode = siralamaMode === 'current';
-  const hasCompleted  = DATA.completed_event_count > 0;
-
-  if (isCurrentMode && !hasCompleted) {
-    container.innerHTML = '<div class="loading">⚡ Anlık sıralama yalnızca canlı yarış sırasında güncellenir.<br>Şu an simülasyon modundasınız.</div>';
+  const isCurrent = siralamaMode === 'current';
+  if (isCurrent && !DATA.completed_event_count) {
+    container.innerHTML = '<div class="loading">⚡ Anlık sıralama yalnızca canlı yarış sırasında güncellenir.</div>';
     return;
   }
-
   for (const yb of YB_ORDER) {
-    if (selYb !== 'all' && selYb !== yb) continue;
+    if (selYb!=='all' && selYb!==yb) continue;
     for (const gen of GEN_ORDER) {
-      if (selGen !== 'all' && selGen !== gen) continue;
-      const key = yb + '_' + gen;
+      if (selGen!=='all' && selGen!==gen) continue;
+      const key = yb+'_'+gen;
       const grp = DATA.groups[key];
       if (!grp) continue;
-
-      const athletes = isCurrentMode ? grp.athletes_current : grp.athletes;
-      if (!athletes || !athletes.length) continue;
+      const athletes = isCurrent ? grp.athletes_current : grp.athletes;
+      if (!athletes||!athletes.length) continue;
       const cut = grp.medal_cut;
-
-      const rows = athletes.map(a => {
-        const top3 = a.events.slice(0,3);
-        const rest = a.events.slice(3);
-        const liveMark = a.events.some(e => e.is_live) ? ' ev-live' : '';
-        const pillsTop = top3.map(ev =>
-          `<span class="ev-pill ev-top${liveMark}" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
-        ).join('');
-        const pillsRest = rest.map(ev =>
-          `<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
-        ).join('');
-        const prizeSp = a.prize ? '<span class="prize-badge">ÖDÜl</span>' : '';
-        return `<tr class="${rowClass(a.rank, cut)}${a.prize ? ' prize-row' : ''}">
-          <td class="col-rank">${medalBadge(a.rank, cut)}</td>
-          <td><div class="name-main">${a.name}${prizeSp}</div><div class="name-city">${a.city}</div></td>
-          <td><div class="ev-pills">${pillsTop}${pillsRest}</div></td>
+      const rows = athletes.map(a=>{
+        const top3  = a.events.slice(0,3);
+        const rest  = a.events.slice(3);
+        const isLive= a.events.some(e=>e.is_live);
+        const pt    = top3.map(ev=>`<span class="ev-pill ev-top${isLive?' ev-live':''}" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
+        const pr    = rest.map(ev=>`<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
+        const psb   = a.prize ? '<span class="prize-badge">ÖDÜl</span>' : '';
+        return `<tr class="${rowClass(a.rank,cut)}">
+          <td class="col-rank">${medalBadge(a.rank,cut)}</td>
+          <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}</div></td>
+          <td><div class="ev-pills">${pt}${pr}</div></td>
           <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
         </tr>`;
       }).join('');
-
-      const modeNote = isCurrentMode ? ' (tamamlanan yarışlar)' : '';
-      container.insertAdjacentHTML('beforeend', `
+      container.insertAdjacentHTML('beforeend',`
       <div class="section">
         <div class="sec-hdr" onclick="toggleSection(this)">
-          <div>
-            <div class="sec-title">${grp.age_label} — ${grp.gender}</div>
-            <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya · İlk 2 ödüllü${modeNote}</div>
-          </div>
-          <div class="sec-meta">
-            ${athletes[0] ? athletes[0].name : ''}
-            <div style="color:var(--gold);font-weight:700">${athletes[0] ? athletes[0].top3 + ' puan' : ''}</div>
-          </div>
+          <div><div class="sec-title">${grp.age_label} — ${grp.gender}</div>
+          <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya · İlk 2 ödüllü</div></div>
+          <div class="sec-meta">${athletes[0]?athletes[0].name:''}<div style="color:var(--gold);font-weight:700">${athletes[0]?athletes[0].top3+' puan':''}</div></div>
         </div>
         <div class="sec-body"><table>
           <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th>Branşlar</th><th class="col-score">Puan</th></tr></thead>
@@ -590,90 +776,52 @@ function renderSiralama() {
 }
 
 /* =====================================================================
-   YARIŞLAR SEKMESİ
+   YARIŞLAR
    ===================================================================== */
 function buildEventSelectors() {
   if (!DATA) return;
-  const events = new Set();
-  const ybs    = new Set();
-  for (const key of Object.keys(DATA.events)) {
-    const p = key.split('|');
-    events.add(p[0]); ybs.add(p[1]);
-  }
-
-  const evSel = document.getElementById('eventSel');
-  const ybSel = document.getElementById('ybSel');
-
-  BRANS_ORDER.filter(b => events.has(b)).forEach(b => {
-    const o = document.createElement('option');
-    o.value = b; o.text = b; evSel.appendChild(o);
+  const events=new Set(), ybs=new Set();
+  for (const k of Object.keys(DATA.events)){const p=k.split('|'); events.add(p[0]); ybs.add(p[1]);}
+  const evSel=document.getElementById('eventSel'), ybSel=document.getElementById('ybSel');
+  BRANS_ORDER.filter(b=>events.has(b)).forEach(b=>{
+    const o=document.createElement('option'); o.value=b; o.text=b; evSel.appendChild(o);
   });
-
-  YB_ORDER.filter(y => ybs.has(y)).forEach(y => {
-    const grp = DATA.groups[y+'_Kadın'] || DATA.groups[y+'_Erkek'];
-    const o = document.createElement('option');
-    o.value = y; o.text = '20' + y + (grp ? ' – ' + grp.age_label : '');
-    ybSel.appendChild(o);
+  YB_ORDER.filter(y=>ybs.has(y)).forEach(y=>{
+    const g=DATA.groups[y+'_Kadın']||DATA.groups[y+'_Erkek'];
+    const o=document.createElement('option'); o.value=y; o.text='20'+y+(g?' – '+g.age_label:''); ybSel.appendChild(o);
   });
 }
-
-function setYarisMode(mode, btn) {
-  yarisMode = mode;
-  activateStabs(btn.closest('.stabs'), btn);
-  renderEvents();
-}
-
+function setYarisMode(mode,btn){ yarisMode=mode; activateStabs(btn.closest('.stabs'),btn); renderEvents(); }
 function renderEvents() {
   if (!DATA) return;
-  const ev  = document.getElementById('eventSel').value;
-  const yb  = document.getElementById('ybSel').value;
-  const gen = document.getElementById('genSel').value;
-  const container = document.getElementById('yarislar-content');
-
-  if (!ev || !yb || !gen) {
-    container.innerHTML = '<div class="loading">Branş, yaş grubu ve cinsiyet seçin</div>';
-    return;
-  }
-
-  const key = ev + '|' + yb + '|' + gen;
+  const ev=document.getElementById('eventSel').value,
+        yb=document.getElementById('ybSel').value,
+        gen=document.getElementById('genSel').value,
+        container=document.getElementById('yarislar-content');
+  if (!ev||!yb||!gen){container.innerHTML='<div class="loading">Branş, yaş grubu ve cinsiyet seçin</div>';return;}
+  const key=ev+'|'+yb+'|'+gen;
   let evData;
-  if (yarisMode === 'sonuc') {
-    evData = DATA.events_current ? DATA.events_current[key] : null;
-    if (!evData) {
-      container.innerHTML = '<div class="empty">Bu yarış henüz koşulmadı veya sonuçlar açıklanmadı.</div>';
-      return;
-    }
+  if (yarisMode==='sonuc'){
+    evData=DATA.events_current?DATA.events_current[key]:null;
+    if (!evData){container.innerHTML='<div class="empty">Bu yarış henüz koşulmadı veya sonuçlar açıklanmadı.</div>';return;}
   } else {
-    evData = DATA.events[key];
+    evData=DATA.events[key];
   }
-
-  if (!evData || !evData.finishers.length) {
-    container.innerHTML = '<div class="empty">Bu kombinasyon için kayıt yok.</div>';
-    return;
-  }
-
-  const cut  = evData.medal_cut || 3;
-  const done = evData.is_completed;
-  const rows = evData.finishers.map(f => {
-    const isMedal = f.rank <= cut;
-    const liveMark = f.is_live ? ' 🟢' : '';
-    return `<tr class="${rowClass(f.rank, cut)}">
-      <td class="col-rank">${medalBadge(f.rank, cut)}</td>
-      <td><div class="name-main">${f.name}${isMedal && f.rank <= 2 ? '<span class="prize-badge">ÖDÜl</span>':''}</div>
-          <div class="name-city">${f.city}</div></td>
-      <td class="col-time">${f.time_raw}${liveMark}</td>
-      <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points || '-'}</span></td>
-    </tr>`;
-  }).join('');
-
-  const modeLabel = done ? '✅ Tamamlandı' : (yarisMode === 'giris' ? '📋 Giriş Listesi' : '⏳ Bekleniyor');
-  container.innerHTML = `
+  if (!evData||!evData.finishers.length){container.innerHTML='<div class="empty">Bu kombinasyon için kayıt yok.</div>';return;}
+  const cut=evData.medal_cut||3, done=evData.is_completed;
+  const rows=evData.finishers.map(f=>`
+    <tr class="${rowClass(f.rank,cut)}">
+      <td class="col-rank">${medalBadge(f.rank,cut)}</td>
+      <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜl</span>':''}</div><div class="name-city">${f.city}</div></td>
+      <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
+      <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
+    </tr>`).join('');
+  const modeLabel=done?'✅ Tamamlandı':(yarisMode==='giris'?'📋 Giriş Listesi':'⏳ Bekleniyor');
+  container.innerHTML=`
   <div class="section">
     <div class="sec-hdr" style="cursor:default">
-      <div>
-        <div class="sec-title">${ev} — 20${yb} ${gen}</div>
-        <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${modeLabel}</div>
-      </div>
+      <div><div class="sec-title">${ev} — 20${yb} ${gen}</div>
+      <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${modeLabel}</div></div>
     </div>
     <div class="sec-body"><table>
       <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
@@ -683,294 +831,343 @@ function renderEvents() {
 }
 
 /* =====================================================================
-   ŞEHİRLER SEKMESİ
+   ŞEHİRLER
    ===================================================================== */
 function renderSehirler() {
   if (!DATA) return;
-  const rows = DATA.city_rankings.map(c => {
-    let numStyle = '';
-    if (c.rank === 1) numStyle = 'color:var(--gold)';
-    else if (c.rank === 2) numStyle = 'color:#94a3b8';
-    else if (c.rank === 3) numStyle = 'color:var(--orange)';
+  const rows=DATA.city_rankings.map(c=>{
+    const ns=c.rank===1?'color:var(--gold)':c.rank===2?'color:#94a3b8':c.rank===3?'color:var(--orange)':'';
     return `<tr class="city-row" onclick="showCityDetail(${c.rank-1})">
-      <td class="rank-num" style="${numStyle}">${c.rank}</td>
-      <td>
-        <div style="font-weight:600;font-size:13px">${c.city}</div>
-        <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0} 🏅${c.medal_count||0}</div>
-      </td>
+      <td class="rank-num" style="${ns}">${c.rank}</td>
+      <td><div style="font-weight:600;font-size:13px">${c.city}</div>
+          <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0} 🏅${c.medal_count||0}</div></td>
       <td class="city-pts">${c.total}</td>
-      <td class="city-arrow">›</td>
+      <td style="color:var(--muted)">›</td>
     </tr>`;
   }).join('');
-
-  document.getElementById('sehir-table').innerHTML = `
-  <table>
-    <thead><tr>
-      <th class="rank-num">#</th><th>Şehir</th>
-      <th class="city-pts" style="font-size:10px">Puan</th><th></th>
-    </tr></thead>
-    <tbody>${rows}</tbody>
-  </table>`;
+  document.getElementById('sehir-table').innerHTML=`
+  <table><thead><tr><th class="rank-num">#</th><th>Şehir</th><th class="city-pts" style="font-size:10px">Puan</th><th></th></tr></thead>
+  <tbody>${rows}</tbody></table>`;
 }
-
 function showCityDetail(idx) {
-  currentCityIdx = idx;
-  cityDetailTab  = 'topscorers';
-  const city = DATA.city_rankings[idx];
-  document.getElementById('city-detail-name').textContent = city.city;
-  document.getElementById('sehir-list-view').style.display   = 'none';
-  document.getElementById('sehir-detail-view').style.display = '';
-  // Reset stabs
-  document.querySelectorAll('#sehir-detail-view .stab').forEach((b,i) => {
-    b.classList.toggle('active', i === 0);
-  });
+  currentCityIdx=idx; cityDetailTab='topscorers';
+  const city=DATA.city_rankings[idx];
+  document.getElementById('city-detail-name').textContent=city.city;
+  document.getElementById('sehir-list-view').style.display='none';
+  document.getElementById('sehir-detail-view').style.display='';
+  document.querySelectorAll('#sehir-detail-view .stab').forEach((b,i)=>b.classList.toggle('active',i===0));
   renderCityDetail();
 }
-
 function backToSehirList() {
-  document.getElementById('sehir-list-view').style.display   = '';
-  document.getElementById('sehir-detail-view').style.display = 'none';
+  document.getElementById('sehir-list-view').style.display='';
+  document.getElementById('sehir-detail-view').style.display='none';
 }
-
-function setCityTab(tab, btn) {
-  cityDetailTab = tab;
-  activateStabs(btn.closest('.stabs'), btn);
-  renderCityDetail();
-}
-
+function setCityTab(tab,btn){ cityDetailTab=tab; activateStabs(btn.closest('.stabs'),btn); renderCityDetail(); }
 function renderCityDetail() {
-  if (currentCityIdx < 0) return;
-  const city = DATA.city_rankings[currentCityIdx];
-  const container = document.getElementById('city-detail-content');
-
-  if (cityDetailTab === 'topscorers') {
-    const list = city.athlete_list || [];
-    if (!list.length) { container.innerHTML = '<div class="empty">Veri yok</div>'; return; }
-    const rows = list.map((a, i) => `
-      <tr>
-        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
-      </tr>`).join('');
-    container.innerHTML = `
-    <div class="section">
-      <div class="sec-hdr" style="cursor:default">
-        <div><div class="sec-title">En Yüksek Puanlılar</div>
-        <div class="sec-sub">${list.length} sporcu · Bireysel puana göre</div></div>
-      </div>
+  if (currentCityIdx<0) return;
+  const city=DATA.city_rankings[currentCityIdx];
+  const container=document.getElementById('city-detail-content');
+  if (cityDetailTab==='topscorers') {
+    const list=city.athlete_list||[];
+    if (!list.length){container.innerHTML='<div class="empty">Veri yok</div>';return;}
+    const rows=list.map((a,i)=>`
+      <tr><td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
+          <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`).join('');
+    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
+      <div><div class="sec-title">En Yüksek Puanlılar</div>
+      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre</div></div></div>
       <div class="sec-body"><table>
         <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table></div>
-    </div>`;
-
+        <tbody>${rows}</tbody></table></div></div>`;
   } else {
-    // Bireysel Ödüller: rank_in_group <= 2
-    const list = city.medal_list || [];
-    if (!list.length) { container.innerHTML = '<div class="empty">Bu şehirden bireysel ödül alan sporcu yok.</div>'; return; }
-    const rows = list.map(a => {
-      const badge = a.rank_in_group === 1 ? '🥇' : '🥈';
-      return `<tr>
-        <td class="col-rank">${badge}</td>
-        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
-      </tr>`;
-    }).join('');
-    container.innerHTML = `
-    <div class="section">
-      <div class="sec-hdr" style="cursor:default">
-        <div><div class="sec-title">Bireysel Ödüller</div>
-        <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler</div></div>
-      </div>
+    const list=city.medal_list||[];
+    if (!list.length){container.innerHTML='<div class="empty">Bu şehirden bireysel ödül alan sporcu yok.</div>';return;}
+    const rows=list.map(a=>`
+      <tr><td class="col-rank">${a.rank_in_group===1?'🥇':'🥈'}</td>
+          <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`).join('');
+    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
+      <div><div class="sec-title">Bireysel Ödüller</div>
+      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler</div></div></div>
       <div class="sec-body"><table>
         <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table></div>
-    </div>`;
+        <tbody>${rows}</tbody></table></div></div>`;
   }
 }
 
 /* =====================================================================
-   KULÜPLER SEKMESİ
+   KULÜPLER
    ===================================================================== */
-function setKulupTab(tab, btn) {
-  kulupTab = tab;
-  activateStabs(btn.closest('.stabs'), btn);
-  const lbl = tab === 'puan'
-    ? 'Toplam puana göre sıralama'
-    : 'Kendi yaş/cinsiyetinde ilk 2\'ye giren sporcu sayısına göre';
-  document.getElementById('kulup-sub-label').textContent = lbl;
+function setKulupTab(tab,btn) {
+  kulupTab=tab;
+  activateStabs(btn.closest('.stabs'),btn);
+  document.getElementById('kulup-sub-label').textContent=
+    tab==='puan'?'Toplam puana göre sıralama':"Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre";
   renderKulupler();
 }
-
 function renderKulupler() {
   if (!DATA) return;
-  const list = [...DATA.city_rankings];
-  if (kulupTab === 'madalya') {
-    list.sort((a,b) => (b.medal_count||0) - (a.medal_count||0) || (b.gold_count||0) - (a.gold_count||0) || b.total - a.total);
-  }
-
-  const rows = list.map((c, i) => {
-    const rank = i + 1;
-    let numStyle = '';
-    if (rank === 1) numStyle = 'color:var(--gold)';
-    else if (rank === 2) numStyle = 'color:#94a3b8';
-    else if (rank === 3) numStyle = 'color:var(--orange)';
-    const mainVal = kulupTab === 'puan' ? c.total + ' puan' : '🥇' + (c.gold_count||0) + ' 🥈' + (c.silver_count||0) + ' = ' + (c.medal_count||0) + ' ödül';
-    return `<tr>
-      <td class="rank-num" style="${numStyle}">${rank}</td>
-      <td>
-        <div style="font-weight:600;font-size:13px">${c.city}</div>
-        <div class="city-sub">${c.athletes} sporcu</div>
-      </td>
-      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${mainVal}</td>
-    </tr>`;
+  const list=[...DATA.city_rankings];
+  if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.gold_count||0)-(a.gold_count||0)||b.total-a.total);
+  const rows=list.map((c,i)=>{
+    const rank=i+1;
+    const ns=rank===1?'color:var(--gold)':rank===2?'color:#94a3b8':rank===3?'color:var(--orange)':'';
+    const val=kulupTab==='puan'?c.total+' puan':'🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0)+' = '+(c.medal_count||0)+' ödül';
+    return `<tr><td class="rank-num" style="${ns}">${rank}</td>
+      <td><div style="font-weight:600;font-size:13px">${c.city}</div><div class="city-sub">${c.athletes} sporcu</div></td>
+      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td></tr>`;
   }).join('');
-
-  document.getElementById('kulup-table').innerHTML = `
-  <table>
-    <thead><tr>
-      <th class="rank-num">#</th><th>Kulüp / Şehir</th>
-      <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab === 'puan' ? 'PUAN' : 'ÖDÜL'}</th>
-    </tr></thead>
-    <tbody>${rows}</tbody>
-  </table>`;
+  document.getElementById('kulup-table').innerHTML=`
+  <table><thead><tr><th class="rank-num">#</th><th>Kulüp / Şehir</th>
+  <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab==='puan'?'PUAN':'ÖDÜL'}</th></tr></thead>
+  <tbody>${rows}</tbody></table>`;
 }
 
 /* =====================================================================
-   PROGRAM SEKMESİ
+   PROGRAM
    ===================================================================== */
 function renderProgram() {
   if (!DATA) return;
-  const byDay = {};
-  for (const p of DATA.program) {
-    if (!byDay[p.gun]) byDay[p.gun] = {};
-    if (!byDay[p.gun][p.seans]) byDay[p.gun][p.seans] = [];
+  const byDay={};
+  for (const p of DATA.program){
+    if (!byDay[p.gun]) byDay[p.gun]={};
+    if (!byDay[p.gun][p.seans]) byDay[p.gun][p.seans]=[];
     byDay[p.gun][p.seans].push(p.brans);
   }
-
-  const dates = ['28 Temmuz Pazartesi','29 Temmuz Salı','30 Temmuz Çarşamba'];
-  let html = '';
-  for (const [day, sessions] of Object.entries(byDay)) {
-    html += `<div class="prog-day"><div class="prog-day-hdr"><h3>📅 ${dates[day-1]||'Gün '+day}</h3></div>`;
-    for (const [sess, events] of Object.entries(sessions)) {
-      const sessTime = sess === 'Sabah' ? '09:00 Sabah' : '17:00 Akşam';
-      html += `<div class="prog-sess-hdr">🕐 ${sessTime}</div>`;
-      for (const brans of events) {
-        const is50m = brans.startsWith('50m');
-        const note = is50m ? ' <span class="prog-race-note">(2013-2014 katılamaz)</span>' : '';
-        // Tamamlandı mı? (herhangi bir yaş grubu için canlı sonuç var mı?)
-        const isDone = Object.keys(DATA.events).some(k => k.startsWith(brans+'|') && DATA.events[k].is_completed);
-        const doneIcon = isDone ? ' ✅' : '';
-        html += `<div class="prog-race-row" onclick="showProgramRace('${brans.replace(/'/g,"\\'")}')">
-          <span class="prog-race-name">${brans}${doneIcon}${note}</span>
-          <span class="prog-race-arrow">›</span>
-        </div>`;
+  const dates=['28 Temmuz Pazartesi','29 Temmuz Salı','30 Temmuz Çarşamba'];
+  let html='';
+  for (const [day,sessions] of Object.entries(byDay)){
+    html+=`<div class="prog-day"><div class="prog-day-hdr"><h3>📅 ${dates[day-1]||'Gün '+day}</h3></div>`;
+    for (const [sess,events] of Object.entries(sessions)){
+      html+=`<div class="prog-sess-hdr">🕐 ${sess==='Sabah'?'09:00 Sabah':'17:00 Akşam'}</div>`;
+      for (const brans of events){
+        const is50=brans.startsWith('50m');
+        const done=Object.keys(DATA.events).some(k=>k.startsWith(brans+'|')&&DATA.events[k].is_completed);
+        const note=is50?'<span class="prog-race-note"> (2013-2014 katılamaz)</span>':'';
+        const esc=brans.replace(/'/g,"\\'");
+        html+=`<div class="prog-race-row" onclick="showProgramRace('${esc}')">
+          <span class="prog-race-name">${brans}${done?' ✅':''}${note}</span>
+          <span class="prog-race-arrow">›</span></div>`;
       }
     }
-    html += '</div>';
+    html+='</div>';
   }
-  document.getElementById('program-list-view').innerHTML = html;
+  document.getElementById('program-list-view').innerHTML=html;
 }
-
 function showProgramRace(brans) {
-  progRaceBrans = brans;
-  progRaceMode  = 'giris';
-  document.getElementById('prog-race-title').textContent = brans;
-  document.getElementById('program-list-view').style.display  = 'none';
-  document.getElementById('program-race-view').style.display = '';
-  document.querySelectorAll('#program-race-view .stab').forEach((b,i) => {
-    b.classList.toggle('active', i === 0);
-  });
+  progRaceBrans=brans; progRaceMode='giris';
+  document.getElementById('prog-race-title').textContent=brans;
+  document.getElementById('program-list-view').style.display='none';
+  document.getElementById('program-race-view').style.display='';
+  document.querySelectorAll('#program-race-view .stab').forEach((b,i)=>b.classList.toggle('active',i===0));
   renderProgramRace();
 }
-
 function backToProgramList() {
-  document.getElementById('program-list-view').style.display  = '';
-  document.getElementById('program-race-view').style.display = 'none';
+  document.getElementById('program-list-view').style.display='';
+  document.getElementById('program-race-view').style.display='none';
 }
-
-function setProgRaceMode(mode, btn) {
-  progRaceMode = mode;
-  activateStabs(btn.closest('.stabs'), btn);
-  renderProgramRace();
-}
-
+function setProgRaceMode(mode,btn){ progRaceMode=mode; activateStabs(btn.closest('.stabs'),btn); renderProgramRace(); }
 function renderProgramRace() {
   if (!progRaceBrans) return;
-  const brans = progRaceBrans;
-  const container = document.getElementById('prog-race-content');
-  container.innerHTML = '';
-
-  for (const yb of YB_ORDER) {
-    for (const gen of GEN_ORDER) {
-      const key = brans + '|' + yb + '|' + gen;
-      let evData;
-      if (progRaceMode === 'sonuc') {
-        evData = DATA.events_current ? DATA.events_current[key] : null;
-        if (!evData) continue;
-      } else {
-        evData = DATA.events[key];
-        if (!evData) continue;
-      }
-
-      const cut   = evData.medal_cut || 3;
-      const grp   = DATA.groups[yb + '_' + gen];
-      const label = grp ? grp.age_label : ('20'+yb);
-      const isDone = evData.is_completed;
-
-      const rows = evData.finishers.map(f => `
-        <tr class="${rowClass(f.rank, cut)}">
-          <td class="col-rank">${medalBadge(f.rank, cut)}</td>
-          <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
-          <td class="col-time">${f.time_raw}${f.is_live ? ' 🟢':''}</td>
-          <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
-        </tr>`).join('');
-
-      const statusNote = isDone ? '✅ Tamamlandı' : (progRaceMode==='giris' ? '📋 Giriş listesi':'⏳ Bekleniyor');
-      container.insertAdjacentHTML('beforeend', `
-      <div class="section">
-        <div class="sec-hdr" onclick="toggleSection(this)">
-          <div>
-            <div class="sec-title">${label} — ${gen}</div>
-            <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${statusNote}</div>
-          </div>
-        </div>
-        <div class="sec-body"><table>
-          <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table></div>
-      </div>`);
+  const container=document.getElementById('prog-race-content');
+  container.innerHTML='';
+  for (const yb of YB_ORDER) for (const gen of GEN_ORDER){
+    const key=progRaceBrans+'|'+yb+'|'+gen;
+    let evData;
+    if (progRaceMode==='sonuc'){
+      evData=DATA.events_current?DATA.events_current[key]:null;
+      if (!evData) continue;
+    } else {
+      evData=DATA.events[key];
+      if (!evData) continue;
     }
+    const cut=evData.medal_cut||3, grp=DATA.groups[yb+'_'+gen];
+    const label=grp?grp.age_label:('20'+yb);
+    const done=evData.is_completed;
+    const rows=evData.finishers.map(f=>`
+      <tr class="${rowClass(f.rank,cut)}">
+        <td class="col-rank">${medalBadge(f.rank,cut)}</td>
+        <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
+        <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
+        <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
+      </tr>`).join('');
+    const st=done?'✅ Tamamlandı':(progRaceMode==='giris'?'📋 Giriş listesi':'⏳ Bekleniyor');
+    container.insertAdjacentHTML('beforeend',`
+    <div class="section">
+      <div class="sec-hdr" onclick="toggleSection(this)">
+        <div><div class="sec-title">${label} — ${gen}</div>
+        <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${st}</div></div>
+      </div>
+      <div class="sec-body"><table>
+        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>
+    </div>`);
   }
-
-  if (!container.children.length) {
-    container.innerHTML = progRaceMode === 'sonuc'
-      ? '<div class="empty">Bu yarış henüz koşulmadı.</div>'
-      : '<div class="empty">Bu yarış için giriş kaydı bulunamadı.</div>';
-  }
+  if (!container.children.length)
+    container.innerHTML=progRaceMode==='sonuc'
+      ?'<div class="empty">Bu yarış henüz koşulmadı.</div>'
+      :'<div class="empty">Bu yarış için kayıt bulunamadı.</div>';
 }
 
 /* =====================================================================
-   YÖNETİM SEKMESİ (admin)
+   YÖNETİM — Admin Panel
    ===================================================================== */
 function renderAdmin() {
-  const completed = DATA.completed_event_count || 0;
-  const total = Object.keys(DATA.events).length;
-  document.getElementById('admin-status').innerHTML = `
+  const completed=DATA.completed_event_count||0;
+  const total=Object.keys(DATA.events).length;
+  document.getElementById('admin-status').innerHTML=`
     <div class="admin-row"><span class="admin-key">Kaynak</span><span class="admin-val">${DATA.source}</span></div>
     <div class="admin-row"><span class="admin-key">Güncelleme</span><span class="admin-val">${DATA.generated_at}</span></div>
-    <div class="admin-row"><span class="admin-key">Tamamlanan Yarışlar</span><span class="admin-val">${completed} / ${total}</span></div>
-    <div class="admin-row"><span class="admin-key">Toplam Sporcu</span><span class="admin-val">${DATA.total_athletes}</span></div>
-    <div class="admin-row"><span class="admin-key">Kullanıcı Şifresi</span><span class="admin-val" style="font-family:monospace;font-size:11px">${(DATA.auth.user_hash||'').slice(0,12)}…</span></div>
-    <div class="admin-row"><span class="admin-key">Admin Şifresi</span><span class="admin-val" style="font-family:monospace;font-size:11px">${(DATA.auth.admin_hash||'').slice(0,12)}…</span></div>`;
+    <div class="admin-row"><span class="admin-key">Tamamlanan</span><span class="admin-val">${completed}/${total} yarış</span></div>
+    <div class="admin-row"><span class="admin-key">Toplam Sporcu</span><span class="admin-val">${DATA.total_athletes}</span></div>`;
+  renderAdminUsers();
+}
+
+function renderAdminUsers() {
+  const users   = getUsers();
+  const regOpen = isRegOpen();
+  const btn     = document.getElementById('regToggleBtn');
+  if (btn) {
+    btn.textContent = regOpen ? 'Kayıt: Açık ✓' : 'Kayıt: Kapalı ✗';
+    btn.className   = 'toggle-reg-btn ' + (regOpen ? 'toggle-reg-on' : 'toggle-reg-off');
+  }
+
+  const approved = users.filter(u => u.approved);
+  const pending  = users.filter(u => !u.approved);
+
+  // Approved users
+  const listEl = document.getElementById('admin-users-list');
+  if (listEl) {
+    listEl.innerHTML = approved.map(u => {
+      const roleHtml = `<span class="role-badge ${u.role==='admin'?'role-admin':'role-user'}">${u.role==='admin'?'Yönetici':'Kullanıcı'}</span>`;
+      const isSelf   = u.username === currentUsername;
+      return `<div class="user-item">
+        <span class="user-name">${u.username} ${isSelf?'<span style="font-size:10px;color:var(--muted)">(siz)</span>':''}</span>
+        ${roleHtml}
+        <div class="user-actions">
+          <button class="ua-btn ua-pass" onclick="changeUserPassword('${esc(u.username)}')">Şifre</button>
+          <button class="ua-btn ua-role" onclick="toggleUserRole('${esc(u.username)}')">${u.role==='admin'?'→ Kullanıcı':'→ Yönetici'}</button>
+          ${!isSelf?`<button class="ua-btn ua-del" onclick="deleteUser('${esc(u.username)}')">Sil</button>`:''}
+        </div>
+      </div>`;
+    }).join('') || '<div class="empty">Kullanıcı yok</div>';
+  }
+
+  // Pending users
+  const pendingSec = document.getElementById('pendingSection');
+  const pendingEl  = document.getElementById('pending-users-list');
+  if (pendingEl) {
+    if (pending.length) {
+      pendingSec.style.display = '';
+      pendingEl.innerHTML = pending.map(u => `
+        <div class="user-item">
+          <span class="user-name">${u.username}</span>
+          <span class="role-badge role-pending">Bekliyor</span>
+          <div class="user-actions">
+            <button class="ua-btn ua-ok" onclick="approveUser('${esc(u.username)}')">Onayla</button>
+            <button class="ua-btn ua-rej" onclick="deleteUser('${esc(u.username)}')">Reddet</button>
+          </div>
+        </div>`).join('');
+    } else {
+      pendingSec.style.display = 'none';
+    }
+  }
+}
+
+function esc(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function toggleRegistration() {
+  const now = isRegOpen();
+  localStorage.setItem('sem_reg_open', String(!now));
+  renderAdminUsers();
+}
+
+async function changeUserPassword(username) {
+  const newPass = prompt(`"${username}" için yeni şifre (en az 6 karakter):`);
+  if (!newPass) return;
+  if (newPass.length < 6) { alert('Şifre en az 6 karakter olmalı'); return; }
+  const hash  = await sha256(newPass);
+  const users = getUsers();
+  const idx   = users.findIndex(u => u.username === username);
+  if (idx < 0) return;
+  users[idx].hash = hash;
+  saveUsers(users);
+  // Update own session if changing own password
+  if (username === currentUsername) {
+    localStorage.setItem('sem_session', JSON.stringify({username, role: users[idx].role}));
+  }
+  renderAdminUsers();
+  alert(`✅ "${username}" şifresi güncellendi.`);
+}
+
+function toggleUserRole(username) {
+  const users = getUsers();
+  const idx   = users.findIndex(u => u.username === username);
+  if (idx < 0) return;
+  if (username === currentUsername) { alert('Kendi rolünüzü değiştiremezsiniz.'); return; }
+  users[idx].role = users[idx].role === 'admin' ? 'user' : 'admin';
+  saveUsers(users);
+  renderAdminUsers();
+}
+
+function deleteUser(username) {
+  if (username === currentUsername) { alert('Kendi hesabınızı silemezsiniz.'); return; }
+  if (!confirm(`"${username}" kullanıcısını silmek istediğinize emin misiniz?`)) return;
+  const users = getUsers().filter(u => u.username !== username);
+  saveUsers(users);
+  renderAdminUsers();
+}
+
+function approveUser(username) {
+  const users = getUsers();
+  const idx   = users.findIndex(u => u.username === username);
+  if (idx >= 0) { users[idx].approved = true; saveUsers(users); renderAdminUsers(); }
+}
+
+function showAddUserForm() { document.getElementById('add-user-form').style.display=''; document.getElementById('addUserMsg').textContent=''; }
+function hideAddUserForm() { document.getElementById('add-user-form').style.display='none'; }
+
+async function doAddUser() {
+  const username = (document.getElementById('newUserName').value||'').trim();
+  const password = document.getElementById('newUserPass').value||'';
+  const role     = document.getElementById('newUserRole').value;
+  const msgEl    = document.getElementById('addUserMsg');
+
+  if (username.length<3){ setMsg('addUserMsg','❌ En az 3 karakter'); return; }
+  if (password.length<6){ setMsg('addUserMsg','❌ Şifre en az 6 karakter'); return; }
+
+  const users=getUsers();
+  if (users.find(u=>u.username.toLowerCase()===username.toLowerCase())){
+    setMsg('addUserMsg','❌ Bu kullanıcı adı zaten var'); return;
+  }
+  const hash=await sha256(password);
+  users.push({username, hash, role, approved:true, local:true});
+  saveUsers(users);
+  document.getElementById('newUserName').value='';
+  document.getElementById('newUserPass').value='';
+  hideAddUserForm();
+  renderAdminUsers();
 }
 
 function downloadJSON() {
-  const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href = url; a.download = 'sem_results.json'; a.click();
+  const blob=new Blob([JSON.stringify(DATA,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='sem_results.json'; a.click();
+  URL.revokeObjectURL(url);
+}
+
+function downloadUserConfig() {
+  const users=getUsers().filter(u=>u.approved);
+  let py='# sem_config.py — USERS listesi\n# Bu bölümü kopyalayıp sem_config.py içindeki USERS değişkenini güncelleyin\n\n';
+  py+='USERS = [\n';
+  for (const u of users) {
+    py+=`    {"username": "${u.username}", "role": "${u.role}", "password": "SIFREYI_BURAYA_YAZIN"},\n`;
+  }
+  py+=']\n\n# NOT: password alanlarını gerçek şifrelerle doldurun,\n# sonra: python scripts/sem_generate.py';
+  const blob=new Blob([py],{type:'text/plain'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='users_config.py'; a.click();
   URL.revokeObjectURL(url);
 }
 

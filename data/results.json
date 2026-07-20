@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20 08:30 (TR)",
+  "generated_at": "2026-07-20 08:46 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -58392,7 +58392,23 @@
     "8": 1
   },
   "auth": {
-    "user_hash": "93d985bcede54bcb1fd82256d7266ea73034698c0dba163d3b5522a629498535",
-    "admin_hash": "b26501c62045e58aa9d9174645dda6ddc6716fc445d327b7220d357c04c389e7"
+    "initial_users": [
+      {
+        "username": "Admin",
+        "hash": "83d9fda21866c72ec4cca3a881292a82c919ee9e19e82b49c9c061bcd9f1d339",
+        "role": "admin"
+      },
+      {
+        "username": "gokaygunduz",
+        "hash": "45d86c2c414c5efbdcb027909d80e439da12b9a5c4a395522f8612a3c405baf0",
+        "role": "user"
+      },
+      {
+        "username": "Vamos",
+        "hash": "15a452892a1f3a065c16822d8ef87373885b4d19c2665e6f1960a8b1f0e9cf42",
+        "role": "user"
+      }
+    ],
+    "registration_open": true
   }
 }
