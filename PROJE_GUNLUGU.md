@@ -4,7 +4,7 @@
 **Tarih:** 28-29-30 Temmuz 2026, Samsun Olimpik Yüzme Havuzu  
 **Yarış URL:** https://canli.tyf.gov.tr/tyf/cs-390/  
 **Reglament:** https://dosya.tyf.gov.tr/public/upload/0/2026-07/SEMREGLEMAN11062026.pdf  
-**Panel Linki (hedef):** https://gokaygunduz-gg.github.io/sem-samsun-2026/
+**Panel Linki:** https://gokaygunduz-gg.github.io/sem-samsun-2026/ ✅ YAYINDA
 
 ---
 
@@ -123,13 +123,68 @@
 
 ---
 
+## GitHub Deployment (2026-07-20 Tamamlandı)
+
+**Repo:** https://github.com/gokaygunduz-gg/sem-samsun-2026  
+**Pages:** https://gokaygunduz-gg.github.io/sem-samsun-2026/ ✅ **CANLI (built)**
+
+### Deployment Notları
+- GitHub Pages `/` (main) kaynak olarak ayarlandı (`/docs` veya alt klasör desteklenmiyor)
+- Root `index.html` → `panel/index.html` yönlendirmesi yapıldı
+- `git pull --rebase` ile uzak değişiklikler alındı, sonra push
+- Git user ayarlandı: gokaygunduz@gmail.com / Gokay
+
+### Validation (Tüm kontroller geçti ✅)
+| Kontrol | Sonuç |
+|---------|-------|
+| Puan aralığı (0-27) | ✅ Tüm 348 sporcu |
+| 50m kısıtı (2013-2014) | ✅ Hiç 50m kaydı yok |
+| Sıralama tutarlılığı | ✅ Rank serileri tam |
+| Puan mantığı (azalan top3) | ✅ |
+| Sporcu sayısı | ✅ 348 (1 header) |
+| Grup tamlığı | ✅ 13 grup (2008K yok = normal) |
+
+### Çıktı İstatistikleri
+- 348 sporcu, 22 şehir, 13 grup
+- Top 5 şehir: İstanbul 892pt (48 sporcu), Bursa 600pt (40), Ankara 554pt (50), İzmir 396pt (34), Samsun 300pt (28)
+
+---
+
+## Panel v2 (2026-07-20 — İkinci Oturum)
+
+**Ne yapıldı:**
+
+### Bug Düzeltmeler
+- **"? Serbest" bug:** Excel'deki bozuk hücre değerleri artık `KNOWN_EVENTS` filtresiyle engelleniyor (sem_entry.py)
+- Branş dropdown sıraması düzeltildi: Serbest→Sırtüstü→Kurbağalama→Kelebek→Karışık
+
+### Yeni Özellikler
+1. **Şifre koruması:** Kullanıcı + Yönetici şifre sistemi (SHA-256, sem_config.py'den değiştirilebilir)
+2. **Anlık + Tahmin sıralama:** Tamamlanan yarışlar "Anlık", tümü "Tahmin" olarak ayrı hesaplanıyor
+3. **Yarışlar sub-tabları:** Giriş ve Sonuç ayrı görünümler
+4. **Şehir detayı:** Şehire tıklayınca → "En Yüksek Puanlılar" + "Bireysel Ödüller (ilk 2)"
+5. **Kulüpler sekmesi:** Puana göre + Madalya sayısına göre ayrı sıralama
+6. **Program tıkla:** Yarışa tıklayınca tüm yaş/cinsiyet gruplarına göre sporcular
+7. **Madalya vurgusu:** Per-event medal_cut (2014→8, 2013→6, vb.) + Bireysel ödül (🎖 ilk 2)
+8. **Admin paneli:** Yönetim sekmesi (Yönetici şifresiyle) — veri durumu, JSON indir
+
+### Teknik
+- JSON'a `athletes_current`, `events_current`, `city_rankings.athlete_list`, `auth` alanları eklendi
+- `sem_score.py` ve `sem_generate.py`: `is_live` flag'i tüm event zincirinden geçiyor
+- `sem_config.py`: şifre yönetimi + SHA-256 hash hesaplama
+- Tüm kontroller 10/10 geçti ✅
+
+---
+
 ## Gelecek Adımlar
 
-1. GitHub reposu oluştur: `gokaygunduz-gg/sem-samsun-2026`
-2. GitHub Pages aktive et (main branch, /panel klasörü)
-3. GitHub Actions ile auto-update (yarış süresince her 5 dk)
-4. Yarış başlangıcında (28 Temmuz): cs-390 URL aktif olduktan sonra canlı test
-5. Eğer URL değişirse: `sem_config.py` içindeki `RACE_URL` güncelle
+1. ✅ GitHub reposu oluştur: `gokaygunduz-gg/sem-samsun-2026`
+2. ✅ GitHub Pages aktive et (main branch, / kök)
+3. ✅ GitHub Actions ile auto-update (yarış süresince her 5 dk)
+4. ✅ Panel v2: şifre, madalya, forecast/anlık, şehir/kulüp detay
+5. ⏳ Yarış başlangıcında (28 Temmuz): cs-390 URL aktif olduktan sonra canlı test
+6. ⏳ Eğer URL değişirse: `sem_config.py` içindeki `RACE_URL` güncelle
+7. ⏳ Şifreleri değiştir: `sem_config.py` → `USER_PASSWORD` + `ADMIN_PASSWORD`
 
 ---
 
