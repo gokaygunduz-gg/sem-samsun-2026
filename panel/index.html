@@ -227,6 +227,17 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 .loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
 .empty{padding:20px;text-align:center;color:var(--muted);font-size:12px;font-style:italic}
 
+/* ── SIRALAMA FREEZE PANE (stabs + filters + search satırları sticky) ── */
+#tab-siralama .stabs{position:sticky;z-index:82;top:0}
+#tab-siralama .filters{position:sticky;z-index:81;top:0}
+.siralama-search-row{position:sticky;z-index:80;top:0;padding:7px 10px;background:var(--card);border-bottom:1px solid var(--border)}
+.siralama-search-row input{width:100%;padding:7px 10px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;outline:none}
+.siralama-search-row input:focus{border-color:var(--blue)}
+
+/* ── KULÜP SATIRI (tıklanabilir) ── */
+tr.kulup-row{cursor:pointer;transition:background .12s}
+tr.kulup-row:hover{background:rgba(59,130,246,.08)}
+
 /* ── RESPONSIVE ── */
 @media(max-width:480px){
   .col-city{display:none}
@@ -290,7 +301,7 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 
 <!-- ═══════ SIRALAMA ═══════ -->
 <div class="tab-content active" id="tab-siralama">
-  <div class="stabs">
+  <div class="stabs" id="siralama-stabs">
     <button class="stab" onclick="setSiralamaMode('giris',this)">📋 Giriş</button>
     <button class="stab" onclick="setSiralamaMode('anlık',this)">⚡ Anlık</button>
     <button class="stab active" onclick="setSiralamaMode('tahmin',this)">📊 Tahmin</button>
@@ -310,6 +321,9 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     <button class="fbtn active" data-gen="all" onclick="filterSiralama(this)">Tümü</button>
     <button class="fbtn" data-gen="Kadın" onclick="filterSiralama(this)">Kadın</button>
     <button class="fbtn" data-gen="Erkek" onclick="filterSiralama(this)">Erkek</button>
+  </div>
+  <div class="siralama-search-row" id="siralama-search-row">
+    <input id="siralama-search-input" type="text" placeholder="🔍 Sporcu veya şehir adı ara…" oninput="renderSiralama()">
   </div>
   <div id="siralama-content"></div>
 </div>
@@ -339,11 +353,15 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 <!-- ═══════ ŞEHİRLER ═══════ -->
 <div class="tab-content" id="tab-sehirler">
   <div id="sehir-list-view">
+    <div class="stabs">
+      <button class="stab active" onclick="setSehirSort('puan',this)">📊 Puana Göre</button>
+      <button class="stab" onclick="setSehirSort('madalya',this)">🏅 Madalya Sayısı</button>
+    </div>
     <div class="section">
       <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
         <div>
           <div class="sec-title">Şehir Sıralaması</div>
-          <div class="sec-sub">Sporcuların bireysel en iyi 3 yarış puanları toplamı · Şehre tıklayın</div>
+          <div class="sec-sub" id="sehir-sub-label">Sporcuların bireysel en iyi 3 yarış puanları toplamı · Şehre tıklayın</div>
         </div>
       </div>
       <div class="sec-body" id="sehir-table"></div>
@@ -366,18 +384,33 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 
 <!-- ═══════ KULÜPLER ═══════ -->
 <div class="tab-content" id="tab-kulupler">
-  <div class="stabs">
-    <button class="stab active" onclick="setKulupTab('puan',this)">📊 Puana Göre</button>
-    <button class="stab" onclick="setKulupTab('madalya',this)">🏅 Madalya Sayısı</button>
+  <div id="kulup-list-view">
+    <div class="stabs">
+      <button class="stab active" onclick="setKulupTab('puan',this)">📊 Puana Göre</button>
+      <button class="stab" onclick="setKulupTab('madalya',this)">🏅 Madalya Sayısı</button>
+    </div>
+    <div class="section" style="margin-top:10px">
+      <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
+        <div>
+          <div class="sec-title">Kulüp Sıralaması</div>
+          <div class="sec-sub" id="kulup-sub-label">Toplam puana göre · Kulübe tıklayın</div>
+        </div>
+      </div>
+      <div class="sec-body" id="kulup-table"></div>
+    </div>
   </div>
-  <div class="section" style="margin-top:10px">
-    <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
-      <div>
-        <div class="sec-title">Kulüp Sıralaması</div>
-        <div class="sec-sub" id="kulup-sub-label">Toplam puana göre</div>
+  <div id="kulup-detail-view" style="display:none">
+    <div class="detail-sticky" id="kulup-detail-sticky">
+      <div class="detail-back" onclick="backToKulupList()">
+        <span class="back-btn">← Kulüpler</span>
+        <span class="detail-title" id="kulup-detail-name"></span>
+      </div>
+      <div class="stabs">
+        <button class="stab active" onclick="setKulupDetailTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
+        <button class="stab" onclick="setKulupDetailTab('medals',this)">🥇 Bireysel Ödüller</button>
       </div>
     </div>
-    <div class="sec-body" id="kulup-table"></div>
+    <div id="kulup-detail-content"></div>
   </div>
 </div>
 
@@ -430,13 +463,17 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
   <div class="section">
     <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
       <div><div class="sec-title">SEM Giriş Barajları</div>
-      <div class="sec-sub">Reglament 11.06.2026 · Katılım için gerekli minimum süreler</div></div>
+      <div class="sec-sub">Reglament 11.06.2026 · Branş ve yaş grubuna göre minimum katılım süreleri</div></div>
     </div>
     <div class="sec-body" style="padding:12px">
-      <div class="info-box" style="background:rgba(59,130,246,.08);border-color:rgba(59,130,246,.25);color:var(--blue)">
-        ℹ️ Baraj değerleri için reglament PDF içeriğini paylaşın; tabloya eklenecek.
+      <div class="info-box" style="background:rgba(59,130,246,.08);border-color:rgba(59,130,246,.25);color:var(--blue);margin-bottom:12px">
+        ℹ️ 2013-2014 doğumlular 50m yarışlara katılamaz (baraj N/A). Cinsiyet seçin:
+        <span style="margin-left:8px">
+          <button class="fbtn active" id="baraj-gen-kadin" onclick="showBarajGender('Kadın')">Kadın</button>
+          <button class="fbtn" id="baraj-gen-erkek" onclick="showBarajGender('Erkek')">Erkek</button>
+        </span>
       </div>
-      <div style="font-size:11px;color:var(--muted);padding:4px 0">Branş ve yaş grubuna göre baraj süreleri aşağıda yer alacaktır.</div>
+      <div id="baraj-table-wrap"></div>
     </div>
   </div>
 
@@ -464,6 +501,16 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     <button class="fbtn active" data-sgen="all" onclick="filterSporcular(this)">Tümü</button>
     <button class="fbtn" data-sgen="Kadın" onclick="filterSporcular(this)">Kadın</button>
     <button class="fbtn" data-sgen="Erkek" onclick="filterSporcular(this)">Erkek</button>
+    <div class="filter-sep"></div>
+    <span class="sporcu-sort-lbl">Yaş:</span>
+    <button class="fbtn active" data-syb="all" onclick="filterSporculaYb(this)">Tümü</button>
+    <button class="fbtn" data-syb="14" onclick="filterSporculaYb(this)">2014</button>
+    <button class="fbtn" data-syb="13" onclick="filterSporculaYb(this)">2013</button>
+    <button class="fbtn" data-syb="12" onclick="filterSporculaYb(this)">2012</button>
+    <button class="fbtn" data-syb="11" onclick="filterSporculaYb(this)">2011</button>
+    <button class="fbtn" data-syb="10" onclick="filterSporculaYb(this)">2010</button>
+    <button class="fbtn" data-syb="09" onclick="filterSporculaYb(this)">2009</button>
+    <button class="fbtn" data-syb="08" onclick="filterSporculaYb(this)">2008</button>
   </div>
   <div class="sporcu-search">
     <input id="sporcu-filter-input" type="text" placeholder="🔍 Sporcu adı ile filtrele…" oninput="renderSporcular()">
@@ -589,6 +636,61 @@ const BRANS_ORDER = [
 const YB_ORDER  = ['14','13','12','11','10','09','08'];
 const GEN_ORDER = ['Kadın','Erkek'];
 
+/* ── BARAJLAR (Kaynak: SEMREGLEMAN11062026.pdf — Müsabaka Katılım Barajları) ── */
+const BARAJLAR = {
+  "50m Serbest":{
+    Kadın:{12:"00:28,97",11:"00:28,07",10:"00:27,52","09":"00:27,36","08":"00:27,36"},
+    Erkek:{12:"00:26,71",11:"00:25,68",10:"00:25,03","09":"00:24,68","08":"00:24,68"}},
+  "100m Serbest":{
+    Kadın:{14:"01:07,42",13:"01:04,30",12:"01:02,59",11:"01:00,76",10:"00:59,66","09":"00:59,48","08":"00:59,48"},
+    Erkek:{14:"01:04,74",13:"01:00,68",12:"00:58,74",11:"00:56,24",10:"00:54,86","09":"00:54,09","08":"00:54,09"}},
+  "200m Serbest":{
+    Kadın:{14:"02:27,49",13:"02:19,23",12:"02:15,59",11:"02:11,75",10:"02:08,58","09":"02:07,94","08":"02:07,94"},
+    Erkek:{14:"02:23,54",13:"02:13,26",12:"02:09,01",11:"02:03,16",10:"01:59,87","09":"01:58,57","08":"01:58,57"}},
+  "400m Serbest":{
+    Kadın:{14:"05:09,94",13:"04:53,85",12:"04:46,47",11:"04:38,11",10:"04:31,70","09":"04:30,84","08":"04:30,84"},
+    Erkek:{14:"04:58,08",13:"04:43,55",12:"04:35,32",11:"04:23,02",10:"04:14,54","09":"04:11,10","08":"04:11,10"}},
+  "800m Serbest":{
+    Kadın:{14:"10:44,74",13:"10:06,59",12:"09:47,73",11:"09:32,47",10:"09:10,60","09":"09:09,11","08":"09:09,11"},
+    Erkek:{14:"10:37,03",13:"09:55,12",12:"09:32,85",11:"09:11,34",10:"08:41,67","09":"08:32,46","08":"08:32,46"}},
+  "1500m Serbest":{
+    Kadın:{14:"20:43,08",13:"19:35,07",12:"19:03,59",11:"18:15,52",10:"17:37,00","09":"17:24,10","08":"17:24,10"},
+    Erkek:{14:"20:08,94",13:"18:47,24",12:"18:10,55",11:"17:24,82",10:"16:33,93","09":"16:18,87","08":"16:18,87"}},
+  "50m Sırtüstü":{
+    Kadın:{12:"00:32,80",11:"00:31,86",10:"00:31,20","09":"00:30,84","08":"00:30,84"},
+    Erkek:{12:"00:30,72",11:"00:29,41",10:"00:28,27","09":"00:27,83","08":"00:27,83"}},
+  "100m Sırtüstü":{
+    Kadın:{14:"01:16,20",13:"01:12,77",12:"01:10,26",11:"01:08,39",10:"01:06,93","09":"01:06,37","08":"01:06,37"},
+    Erkek:{14:"01:14,41",13:"01:09,09",12:"01:05,96",11:"01:03,41",10:"01:01,12","09":"01:00,05","08":"01:00,05"}},
+  "200m Sırtüstü":{
+    Kadın:{14:"02:45,21",13:"02:37,30",12:"02:31,58",11:"02:26,75",10:"02:23,60","09":"02:22,80","08":"02:22,80"},
+    Erkek:{14:"02:41,47",13:"02:30,75",12:"02:23,52",11:"02:17,96",10:"02:13,45","09":"02:11,67","08":"02:11,67"}},
+  "50m Kurbağalama":{
+    Kadın:{12:"00:36,29",11:"00:35,20",10:"00:34,38","09":"00:34,29","08":"00:34,29"},
+    Erkek:{12:"00:33,45",11:"00:32,26",10:"00:31,34","09":"00:30,62","08":"00:30,62"}},
+  "100m Kurbağalama":{
+    Kadın:{14:"01:26,49",13:"01:21,96",12:"01:19,21",11:"01:16,42",10:"01:14,74","09":"01:14,50","08":"01:14,50"},
+    Erkek:{14:"01:23,06",13:"01:17,03",12:"01:13,33",11:"01:10,73",10:"01:08,27","09":"01:07,31","08":"01:07,31"}},
+  "200m Kurbağalama":{
+    Kadın:{14:"03:05,48",13:"02:56,55",12:"02:50,88",11:"02:45,14",10:"02:40,77","09":"02:39,64","08":"02:39,64"},
+    Erkek:{14:"02:59,78",13:"02:47,96",12:"02:39,65",11:"02:34,61",10:"02:28,15","09":"02:25,61","08":"02:25,61"}},
+  "50m Kelebek":{
+    Kadın:{12:"00:30,79",11:"00:29,71",10:"00:28,98","09":"00:28,70","08":"00:28,70"},
+    Erkek:{12:"00:28,53",11:"00:27,47",10:"00:26,57","09":"00:26,28","08":"00:26,28"}},
+  "100m Kelebek":{
+    Kadın:{14:"01:15,31",13:"01:10,54",12:"01:07,76",11:"01:05,96",10:"01:04,44","09":"01:04,18","08":"01:04,18"},
+    Erkek:{14:"01:12,41",13:"01:06,84",12:"01:03,75",11:"01:00,71",10:"00:58,72","09":"00:58,38","08":"00:58,38"}},
+  "200m Kelebek":{
+    Kadın:{14:"02:47,03",13:"02:37,24",12:"02:30,67",11:"02:25,74",10:"02:22,82","09":"02:22,59","08":"02:22,59"},
+    Erkek:{14:"02:43,10",13:"02:30,10",12:"02:22,79",11:"02:16,28",10:"02:12,03","09":"02:09,95","08":"02:09,95"}},
+  "200m Karışık":{
+    Kadın:{14:"02:48,93",13:"02:41,53",12:"02:33,42",11:"02:28,68",10:"02:25,12","09":"02:24,54","08":"02:24,54"},
+    Erkek:{14:"02:44,35",13:"02:33,57",12:"02:25,21",11:"02:18,70",10:"02:15,28","09":"02:13,39","08":"02:13,39"}},
+  "400m Karışık":{
+    Kadın:{14:"05:55,19",13:"05:36,66",12:"05:25,86",11:"05:16,71",10:"05:08,55","09":"05:07,14","08":"05:07,14"},
+    Erkek:{14:"05:46,79",13:"05:22,85",12:"05:09,53",11:"04:57,71",10:"04:47,58","09":"04:43,81","08":"04:43,81"}}
+};
+
 /* =====================================================================
    DURUM
    ===================================================================== */
@@ -600,8 +702,13 @@ let yarisMode       = 'giris';
 let kulupTab        = 'puan';
 let cityDetailTab   = 'topscorers';
 let currentCityIdx  = -1;
+let sehirSortMode   = 'puan';
+let currentKulupCityName = '';
+let kulupDetailTab  = 'topscorers';
 let progRaceBrans   = '';
 let progRaceMode    = 'giris';
+let sporculaYb      = 'all';
+let barajGender     = 'Kadın';
 
 /* =====================================================================
    YARDIMCILAR
@@ -830,6 +937,20 @@ function fixStickyTops() {
   if (tabs) tabs.style.top = h + 'px';
   const t = tabs?.offsetHeight || 0;
   document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = (h + t) + 'px'; });
+
+  // Sıralama freeze pane: stabs → filters → search satırları
+  const sStabs   = document.getElementById('siralama-stabs');
+  const sFilters = document.getElementById('filters-siralama');
+  const sSearch  = document.getElementById('siralama-search-row');
+  if (sStabs) {
+    sStabs.style.top = (h + t) + 'px';
+    const st = sStabs.offsetHeight || 38;
+    if (sFilters) {
+      sFilters.style.top = (h + t + st) + 'px';
+      const ft = sFilters.offsetHeight || 40;
+      if (sSearch) sSearch.style.top = (h + t + st + ft) + 'px';
+    }
+  }
 }
 
 /* Bir sporcunun genel grup sıralamasına göre ödül kazanıp kazanmadığını döndürür.
@@ -849,6 +970,7 @@ function switchTab(name, el) {
   document.querySelectorAll('#mainTabs .tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   el.classList.add('active');
+  requestAnimationFrame(fixStickyTops);
 }
 
 function activateStabs(container, btn) {
@@ -906,6 +1028,7 @@ function renderSiralama() {
   const filters   = document.getElementById('filters-siralama');
   const selYb     = getFilter(filters, 'yb');
   const selGen    = getFilter(filters, 'gen');
+  const searchQ   = (document.getElementById('siralama-search-input')?.value || '').trim().toLowerCase();
   const container = document.getElementById('siralama-content');
   container.innerHTML = '';
 
@@ -926,6 +1049,9 @@ function renderSiralama() {
       else if (siralamaMode === 'giris') athletes = grp.athletes_entry || grp.athletes;
       else                               athletes = grp.athletes; // tahmin
       if (!athletes||!athletes.length) continue;
+      if (searchQ) athletes = athletes.filter(a =>
+        a.name.toLowerCase().includes(searchQ) || a.city.toLowerCase().includes(searchQ));
+      if (!athletes.length) continue;
       const cut = grp.medal_cut;
       const modeNote = siralamaMode==='giris'?'Giriş süreleri':siralamaMode==='anlık'?'Yalnızca tamamlanan yarışlar':'Canlı + giriş tahmini';
       const rows = athletes.map(a=>{
@@ -1043,20 +1169,39 @@ function renderEvents() {
 /* =====================================================================
    ŞEHİRLER
    ===================================================================== */
+function setSehirSort(mode, btn) {
+  sehirSortMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  const lbl = document.getElementById('sehir-sub-label');
+  if (lbl) lbl.textContent = mode === 'puan'
+    ? 'Sporcuların bireysel en iyi 3 yarış puanları toplamı · Şehre tıklayın'
+    : "Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre · Şehre tıklayın";
+  renderSehirler();
+}
 function renderSehirler() {
   if (!DATA) return;
-  const rows=DATA.city_rankings.map(c=>{
-    const ns=c.rank===1?'color:var(--gold)':c.rank===2?'color:#94a3b8':c.rank===3?'color:var(--orange)':'';
-    return `<tr class="city-row" onclick="showCityDetail(${c.rank-1})">
-      <td class="rank-num" style="${ns}">${c.rank}</td>
+  let list = [...DATA.city_rankings];
+  if (sehirSortMode === 'madalya') {
+    list.sort((a,b) => (b.medal_count||0)-(a.medal_count||0) || (b.gold_count||0)-(a.gold_count||0) || b.total-a.total);
+  }
+  const rows = list.map((c, i) => {
+    const displayRank = sehirSortMode === 'puan' ? c.rank : i+1;
+    const ns = displayRank===1?'color:var(--gold)':displayRank===2?'color:#94a3b8':displayRank===3?'color:var(--orange)':'';
+    const val = sehirSortMode === 'puan'
+      ? `<td class="city-pts">${c.total}</td>`
+      : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🥇${c.gold_count||0} 🥈${c.silver_count||0}</td>`;
+    const originalIdx = DATA.city_rankings.indexOf(c);
+    return `<tr class="city-row" onclick="showCityDetail(${originalIdx})">
+      <td class="rank-num" style="${ns}">${displayRank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div>
-          <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
-      <td class="city-pts">${c.total}</td>
+          <div class="city-sub">${c.athletes} sporcu · ${c.total} puan · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
+      ${val}
       <td style="color:var(--muted)">›</td>
     </tr>`;
   }).join('');
+  const hdr = sehirSortMode === 'puan' ? 'Puan' : 'Ödül';
   document.getElementById('sehir-table').innerHTML=`
-  <table><thead><tr><th class="rank-num">#</th><th>Şehir</th><th class="city-pts" style="font-size:10px">Puan</th><th></th></tr></thead>
+  <table><thead><tr><th class="rank-num">#</th><th>Şehir</th><th style="text-align:right;font-size:10px;padding-right:12px">${hdr}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
 }
 function showCityDetail(idx) {
@@ -1080,13 +1225,16 @@ function renderCityDetail() {
   if (cityDetailTab==='topscorers') {
     const list=city.athlete_list||[];
     if (!list.length){container.innerHTML='<div class="empty">Veri yok</div>';return;}
-    const rows=list.map((a,i)=>`
-      <tr><td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
-          <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`).join('');
+    const rows=list.map((a,i)=>{
+      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+    }).join('');
     container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
       <div><div class="sec-title">En Yüksek Puanlılar</div>
-      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre</div></div></div>
+      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre · Sporcuya tıkla → profil</div></div></div>
       <div class="sec-body"><table>
         <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
         <tbody>${rows}</tbody></table></div></div>`;
@@ -1096,13 +1244,15 @@ function renderCityDetail() {
     const rows=list.map(a=>{
       const isGold=a.rank_in_group===1;
       const badge=`<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
-      return `<tr><td class="col-rank">${badge}</td>
-          <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+        <td class="col-rank">${badge}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
     }).join('');
     container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
       <div><div class="sec-title">Bireysel Ödüller</div>
-      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler</div></div></div>
+      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
       <div class="sec-body"><table>
         <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
         <tbody>${rows}</tbody></table></div></div>`;
@@ -1116,8 +1266,68 @@ function setKulupTab(tab,btn) {
   kulupTab=tab;
   activateStabs(btn.closest('.stabs'),btn);
   document.getElementById('kulup-sub-label').textContent=
-    tab==='puan'?'Toplam puana göre sıralama':"Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre";
+    tab==='puan'?"Toplam puana göre sıralama · Kulübe tıklayın":"Kendi yaş/cinsiyetinde ilk 2'ye giren sporcu sayısına göre · Kulübe tıklayın";
   renderKulupler();
+}
+
+function showKulupDetail(cityName) {
+  currentKulupCityName = cityName;
+  kulupDetailTab = 'topscorers';
+  document.getElementById('kulup-detail-name').textContent = cityName;
+  document.getElementById('kulup-list-view').style.display = 'none';
+  document.getElementById('kulup-detail-view').style.display = '';
+  document.querySelectorAll('#kulup-detail-view .stab').forEach((b,i) => b.classList.toggle('active', i===0));
+  renderKulupDetail();
+  requestAnimationFrame(fixStickyTops);
+}
+function backToKulupList() {
+  document.getElementById('kulup-list-view').style.display = '';
+  document.getElementById('kulup-detail-view').style.display = 'none';
+}
+function setKulupDetailTab(tab, btn) {
+  kulupDetailTab = tab;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderKulupDetail();
+}
+function renderKulupDetail() {
+  const city = DATA.city_rankings.find(c => c.city === currentKulupCityName);
+  if (!city) return;
+  const container = document.getElementById('kulup-detail-content');
+  if (kulupDetailTab === 'topscorers') {
+    const list = city.athlete_list || [];
+    if (!list.length) { container.innerHTML='<div class="empty">Veri yok</div>'; return; }
+    const rows = list.map((a,i) => {
+      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+        <td class="col-rank" style="font-weight:700;text-align:center">${i+1}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+    }).join('');
+    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
+      <div><div class="sec-title">En Yüksek Puanlılar</div>
+      <div class="sec-sub">${list.length} sporcu · Bireysel puana göre · Sporcuya tıkla → profil</div></div></div>
+      <div class="sec-body"><table>
+        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+        <tbody>${rows}</tbody></table></div></div>`;
+  } else {
+    const list = city.medal_list || [];
+    if (!list.length) { container.innerHTML='<div class="empty">Bu kulüpten bireysel ödül alan sporcu yok.</div>'; return; }
+    const rows = list.map(a => {
+      const isGold = a.rank_in_group === 1;
+      const badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
+      const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
+      return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+        <td class="col-rank">${badge}</td>
+        <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
+        <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+    }).join('');
+    container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
+      <div><div class="sec-title">Bireysel Ödüller</div>
+      <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
+      <div class="sec-body"><table>
+        <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+        <tbody>${rows}</tbody></table></div></div>`;
+  }
 }
 function renderKulupler() {
   if (!DATA) return;
@@ -1127,13 +1337,15 @@ function renderKulupler() {
     const rank=i+1;
     const ns=rank===1?'color:var(--gold)':rank===2?'color:#94a3b8':rank===3?'color:var(--orange)':'';
     const val=kulupTab==='puan'?c.total+' puan':'🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0)+' = '+(c.medal_count||0)+' ödül';
-    return `<tr><td class="rank-num" style="${ns}">${rank}</td>
+    return `<tr class="kulup-row" onclick="showKulupDetail('${esc(c.city)}')">
+      <td class="rank-num" style="${ns}">${rank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div><div class="city-sub">${c.athletes} sporcu</div></td>
-      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td></tr>`;
+      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td>
+      <td style="color:var(--muted)">›</td></tr>`;
   }).join('');
   document.getElementById('kulup-table').innerHTML=`
   <table><thead><tr><th class="rank-num">#</th><th>Kulüp / Şehir</th>
-  <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab==='puan'?'PUAN':'ÖDÜL'}</th></tr></thead>
+  <th style="text-align:right;font-size:10px;padding-right:12px">${kulupTab==='puan'?'PUAN':'ÖDÜL'}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
 }
 
@@ -1395,12 +1607,17 @@ function downloadUserConfig() {
 }
 
 /* =====================================================================
-   ŞEHİRE YÖNLENDİR (arama → şehir detayı)
+   ŞEHİRE / KULÜBE YÖNLENDİR
    ===================================================================== */
 function goToCity(idx) {
   const sehirTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Şehirler'));
   if (sehirTab) switchTab('sehirler', sehirTab);
   showCityDetail(idx);
+}
+function goToKulup(cityName) {
+  const kulupTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Kulüpler'));
+  if (kulupTab) switchTab('kulupler', kulupTab);
+  showKulupDetail(cityName);
 }
 
 /* =====================================================================
@@ -1446,10 +1663,12 @@ function showAthleteProfile(name, yb, gender) {
     const isTop   = i < 3;
     const isMedal = ev.rank <= cut;
     const rankLbl = ev.rank === 1 ? '🥇' : ev.rank === 2 ? '🥈' : ev.rank === 3 ? '🥉' : `${ev.rank}.`;
-    const medalCls = isMedal ? `style="background:rgba(20,184,166,.07)"` : '';
+    const medalBg = isMedal ? 'background:rgba(20,184,166,.07);' : '';
     const mLbl = isMedal ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:3px">${rankLbl} madalya</span>` : `<span style="font-size:9px;color:var(--muted)">${rankLbl}</span>`;
-    return `<tr ${medalCls}>
-      <td style="font-size:12px;padding:6px 8px">${isTop?'<b>':''}${ev.event}${isTop?'</b>':''}</td>
+    const evEsc=esc(ev.event), ybEsc=esc(yb), genEsc=esc(gender);
+    return `<tr style="${medalBg}cursor:pointer" title="Bu yarışın tam sıralamasına git"
+        onclick="closeAthleteModal();goToEventTahmin('${evEsc}','${ybEsc}','${genEsc}')">
+      <td style="font-size:12px;padding:6px 8px">${isTop?'<b>':''}${ev.event}${isTop?'</b>':''} <span style="font-size:9px;color:var(--muted)">›</span></td>
       <td style="font-family:monospace;font-size:11px;padding:6px 8px">${mLbl}</td>
       <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px">${ev.time_raw}${ev.is_live?' 🟢':''}</td>
       <td style="text-align:center;font-weight:700;padding:6px 8px" class="${ptsClass(ev.points)}">${ev.points}</td>
@@ -1647,6 +1866,58 @@ function renderPuanlama() {
         </div>`;
       }).join('');
   }
+
+  // Barajlar tablosu
+  renderBarajTable();
+}
+
+function showBarajGender(gen) {
+  barajGender = gen;
+  document.getElementById('baraj-gen-kadin')?.classList.toggle('active', gen === 'Kadın');
+  document.getElementById('baraj-gen-erkek')?.classList.toggle('active', gen === 'Erkek');
+  renderBarajTable();
+}
+
+function renderBarajTable() {
+  const wrap = document.getElementById('baraj-table-wrap');
+  if (!wrap) return;
+  const gen = barajGender;
+  const ybs = ['14','13','12','11','10','09','08'];
+  const hdrYbs = ybs.map(y => {
+    const grp = DATA?.groups?.[y+'_Kadın'] || DATA?.groups?.[y+'_Erkek'];
+    return `<th style="text-align:center;padding:5px 6px;font-size:9px;color:var(--muted)">20${y}</th>`;
+  }).join('');
+  const rows = BRANS_ORDER.map(brans => {
+    const bData = BARAJLAR[brans];
+    if (!bData) return '';
+    const genData = bData[gen] || {};
+    const cells = ybs.map(y => {
+      const t = genData[y] || null;
+      const val = t || '<span style="color:var(--border)">—</span>';
+      const style = t ? 'font-family:monospace;font-size:10px' : '';
+      return `<td style="${style};padding:4px 6px;text-align:center">${val}</td>`;
+    }).join('');
+    const is50 = brans.startsWith('50m');
+    const bStyle = is50 ? 'color:var(--teal);font-weight:700' : '';
+    return `<tr>
+      <td style="font-weight:600;font-size:11px;padding:5px 8px;${bStyle};white-space:nowrap">${brans}</td>
+      ${cells}
+    </tr>`;
+  }).join('');
+  wrap.innerHTML = `<div class="baraj-wrap">
+    <table class="baraj-tbl">
+      <thead><tr>
+        <th style="text-align:left;padding:5px 8px">${gen} Branş</th>
+        ${hdrYbs}
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+  <div style="font-size:10px;color:var(--muted);margin-top:8px;line-height:1.7">
+    • — (çizgi): Bu yaş grubu o branşa katılamaz veya baraj belirlenmemiş<br>
+    • 50m branşları (yeşil): 2013-2014 doğumlular katılamaz (reglament gereği)<br>
+    • Kaynak: <a href="https://dosya.tyf.gov.tr/public/upload/0/2026-07/SEMREGLEMAN11062026.pdf" target="_blank" style="color:var(--blue)">SEMREGLEMAN11062026.pdf</a>
+  </div>`;
 }
 
 /* =====================================================================
@@ -1667,6 +1938,12 @@ function filterSporcular(btn) {
   btn.classList.add('active');
   renderSporcular();
 }
+function filterSporculaYb(btn) {
+  sporculaYb = btn.dataset.syb;
+  btn.closest('.sporcu-sort-bar').querySelectorAll('[data-syb]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSporcular();
+}
 
 function renderSporcular() {
   if (!DATA) return;
@@ -1674,6 +1951,7 @@ function renderSporcular() {
   let list = computeAllAthletes();
 
   if (sporculaGen !== 'all') list = list.filter(a => a.gender === sporculaGen);
+  if (sporculaYb  !== 'all') list = list.filter(a => a.yb === sporculaYb);
   if (q) list = list.filter(a => a.name.toLowerCase().includes(q) || a.city.toLowerCase().includes(q));
 
   if (sporculaSort === 'puan')   list.sort((a,b) => b.top3-a.top3 || b.medal_count-a.medal_count);
@@ -1746,9 +2024,9 @@ function doSearch() {
     if (!c.city.toLowerCase().includes(q)) continue;
     cards.push(`<div class="src-card" onclick="goToCity(${idx})">
       <div class="src-card-hdr">
-        <span class="src-type">🏙️ Şehir</span>
+        <span class="src-type">🏙️ Şehir/Kulüp</span>
         <div class="src-name">${c.city}</div>
-        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu</div>
+        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div>
       </div>
     </div>`);
   }
