@@ -179,6 +179,9 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 .toggle-reg-off{background:rgba(239,68,68,.2);color:var(--red)}
 .add-main-btn{padding:5px 12px;border-radius:6px;border:none;font-size:11px;font-weight:600;cursor:pointer;background:var(--blue);color:#fff}
 
+/* ── STICKY DETAIL HEADER ── */
+.detail-sticky{position:sticky;top:0;z-index:50;background:var(--bg)}
+
 /* ── LOADING / EMPTY ── */
 .loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
 .empty{padding:20px;text-align:center;color:var(--muted);font-size:12px;font-style:italic}
@@ -320,13 +323,15 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     </div>
   </div>
   <div id="sehir-detail-view" style="display:none">
-    <div class="detail-back" onclick="backToSehirList()">
-      <span class="back-btn">← Şehirler</span>
-      <span class="detail-title" id="city-detail-name"></span>
-    </div>
-    <div class="stabs">
-      <button class="stab active" onclick="setCityTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
-      <button class="stab" onclick="setCityTab('medals',this)">🥇 Bireysel Ödüller</button>
+    <div class="detail-sticky" id="city-detail-sticky">
+      <div class="detail-back" onclick="backToSehirList()">
+        <span class="back-btn">← Şehirler</span>
+        <span class="detail-title" id="city-detail-name"></span>
+      </div>
+      <div class="stabs">
+        <button class="stab active" onclick="setCityTab('topscorers',this)">🏆 En Yüksek Puanlılar</button>
+        <button class="stab" onclick="setCityTab('medals',this)">🥇 Bireysel Ödüller</button>
+      </div>
     </div>
     <div id="city-detail-content"></div>
   </div>
@@ -353,14 +358,16 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 <div class="tab-content" id="tab-program">
   <div id="program-list-view"></div>
   <div id="program-race-view" style="display:none">
-    <div class="detail-back" onclick="backToProgramList()">
-      <span class="back-btn">← Program</span>
-      <span class="detail-title" id="prog-race-title"></span>
-    </div>
-    <div class="stabs">
-      <button class="stab active" onclick="setProgRaceMode('giris',this)">📋 Giriş</button>
-      <button class="stab" onclick="setProgRaceMode('canli',this)">⚡ Canlı</button>
-      <button class="stab" onclick="setProgRaceMode('tahmin',this)">📊 Tahmin</button>
+    <div class="detail-sticky" id="prog-race-sticky">
+      <div class="detail-back" onclick="backToProgramList()">
+        <span class="back-btn">← Program</span>
+        <span class="detail-title" id="prog-race-title"></span>
+      </div>
+      <div class="stabs">
+        <button class="stab active" onclick="setProgRaceMode('giris',this)">📋 Giriş</button>
+        <button class="stab" onclick="setProgRaceMode('canli',this)">⚡ Canlı</button>
+        <button class="stab" onclick="setProgRaceMode('tahmin',this)">📊 Tahmin</button>
+      </div>
     </div>
     <div id="prog-race-content"></div>
   </div>
@@ -671,6 +678,21 @@ function init() {
   renderKulupler();
   renderProgram();
   if (currentRole === 'admin') renderAdmin();
+  fixStickyTops();
+}
+
+function fixStickyTops() {
+  const h = document.querySelector('header')?.offsetHeight || 0;
+  document.querySelectorAll('.detail-sticky').forEach(el => { el.style.top = h + 'px'; });
+}
+
+/* Bir sporcunun genel grup sıralamasına göre ödül kazanıp kazanmadığını döndürür.
+   f.rank = event içi sıra (yanlış), a.prize = grup sırası ≤ 2 (doğru). */
+function hasGroupPrize(name, yb, gender) {
+  const grp = DATA.groups[yb + '_' + gender];
+  if (!grp) return false;
+  const a = grp.athletes.find(x => x.name === name);
+  return a ? (a.prize === true) : false;
 }
 
 /* =====================================================================
@@ -827,14 +849,15 @@ function renderEvents() {
   if (!evData||!evData.finishers.length){container.innerHTML='<div class="empty">Bu kombinasyon için kayıt yok.</div>';return;}
   const cut=evData.medal_cut||3;
   const rows=evData.finishers.map(f=>{
-    const isMedal=f.rank<=cut;
-    const medalLbl=isMedal&&yarisMode!=='giris'?`<span class="mbadge-label" style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>`:'';
-    const liveIco=f.is_live?' 🟢':'';
+    const isMedal = f.rank <= cut;
+    const hasPrize = hasGroupPrize(f.name, yb, gen);
+    const medalLbl = isMedal ? `<span style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>` : '';
+    const prizeLbl = hasPrize ? '<span class="prize-badge">ÖDÜL</span>' : '';
     const eName=esc(f.name), eYb=esc(yb), eGen=esc(gen);
     return `<tr class="${rowClass(f.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${eName}','${eYb}','${eGen}')">
       <td class="col-rank">${medalBadge(f.rank,cut)}</td>
-      <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜL</span>':''}${medalLbl}</div><div class="name-city">${f.city}</div></td>
-      <td class="col-time">${f.time_raw}${liveIco}</td>
+      <td><div class="name-main">${f.name}${prizeLbl}${medalLbl}</div><div class="name-city">${f.city}</div></td>
+      <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
       <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
     </tr>`;
   }).join('');
@@ -1015,12 +1038,14 @@ function renderProgramRace() {
     const cut=evData.medal_cut||3, grp=DATA.groups[yb+'_'+gen];
     const label=grp?grp.age_label:('20'+yb);
     const rows=evData.finishers.map(f=>{
-      const isMedal=f.rank<=cut;
-      const medalLbl=isMedal&&progRaceMode!=='giris'?`<span style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>`:'';
+      const isMedal = f.rank <= cut;
+      const hasPrize = hasGroupPrize(f.name, yb, gen);
+      const medalLbl = isMedal ? `<span style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>` : '';
+      const prizeLbl = hasPrize ? '<span class="prize-badge">ÖDÜL</span>' : '';
       const eN=esc(f.name),eY=esc(yb),eG=esc(gen);
       return `<tr class="${rowClass(f.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${eN}','${eY}','${eG}')">
         <td class="col-rank">${medalBadge(f.rank,cut)}</td>
-        <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜL</span>':''}${medalLbl}</div><div class="name-city">${f.city}</div></td>
+        <td><div class="name-main">${f.name}${prizeLbl}${medalLbl}</div><div class="name-city">${f.city}</div></td>
         <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
         <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
       </tr>`;
