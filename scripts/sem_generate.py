@@ -292,8 +292,8 @@ def save_json(data: dict):
     with open(OUT_DATA_JS, "w", encoding="utf-8") as f:
         f.write(f"window.SEM_DATA = {json_str};\n")
 
-    print(f"  ✓ {OUT_JSON}")
-    print(f"  ✓ {OUT_DATA_JS}")
+    print(f"  OK {OUT_JSON}")
+    print(f"  OK {OUT_DATA_JS}")
 
 
 def run(use_live: bool = False, verbose: bool = True):

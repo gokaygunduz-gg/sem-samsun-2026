@@ -33,9 +33,10 @@ NAME_FIXES: dict[tuple[str, str], str] = {
     # Ömer Selman Karaköse — Excel'de "KARAKÖSE" (ALLCAPS), start-list'te "KARAKÖS1E4" (OCR)
     ("omer selman karakose",   "14"): "Ömer Selman Karaköse",
     ("omer selman karakos1e4", "14"): "Ömer Selman Karaköse",
-    # Başar İrem Altunzincir — start-list'te "B. ALTUNZİNCİR" (kısaltma)
-    ("b. altunzincir",         "14"): "Başar İrem Altunzincir",
-    ("basak irem altunzincir", "14"): "Başar İrem Altunzincir",
+    # Başak İrem Altunzincir — start-list'te "B. ALTUNZİNCİR" (kısaltma)
+    ("b. altunzincir",         "14"): "Başak İrem Altunzincir",
+    ("basak irem altunzincir", "14"): "Başak İrem Altunzincir",
+    ("basar irem altunzincir", "14"): "Başak İrem Altunzincir",
     # Çağdaş Çolakoğulları — start-list'te "Ç. ÇOLAKOĞULLARI" (kısaltma)
     ("c. colakogullari",       "10"): "Çağdaş Çolakoğulları",
     ("cagdas colakogullari",   "10"): "Çağdaş Çolakoğulları",
