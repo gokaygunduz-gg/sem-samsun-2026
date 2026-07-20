@@ -244,31 +244,12 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     <div class="auth-title">SEM Türkiye Finali 2026</div>
     <div class="auth-sub">Samsun Olimpik Yüzme Havuzu · 28-30 Temmuz</div>
 
-    <div class="auth-tabs">
-      <button class="auth-tab active" id="authTabLogin" onclick="switchAuthTab('login')">Giriş Yap</button>
-      <button class="auth-tab" id="authTabReg" onclick="switchAuthTab('register')">Kayıt Ol</button>
-    </div>
-
     <!-- GİRİŞ formu -->
     <div id="loginForm">
       <input id="loginUser" class="auth-input" type="text" placeholder="Kullanıcı adı" autocomplete="username">
       <input id="loginPass" class="auth-input" type="password" placeholder="Şifre" autocomplete="current-password"
              onkeydown="if(event.key==='Enter')doLogin()">
       <button class="auth-btn" onclick="doLogin()">Giriş Yap</button>
-    </div>
-
-    <!-- KAYIT formu -->
-    <div id="registerForm" style="display:none">
-      <div class="auth-closed" id="regClosedMsg" style="display:none">
-        🔒 Kayıt şu an kapalıdır.<br>Erişim için yönetici ile iletişime geçin.
-      </div>
-      <div id="regFields">
-        <input id="regUser" class="auth-input" type="text" placeholder="Kullanıcı adı (en az 3 karakter)" autocomplete="username">
-        <input id="regPass" class="auth-input" type="password" placeholder="Şifre (en az 6 karakter)" autocomplete="new-password">
-        <input id="regConf" class="auth-input" type="password" placeholder="Şifre tekrar"
-               onkeydown="if(event.key==='Enter')doRegister()">
-        <button class="auth-btn" onclick="doRegister()">Kayıt Ol</button>
-      </div>
     </div>
 
     <div class="auth-msg" id="authMsg"></div>
@@ -553,14 +534,24 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     </div>
   </div>
 
-  <!-- Şifre değiştirme notu -->
+  <!-- Tüm Cihazlara Yayınla -->
   <div class="admin-section">
-    <div class="admin-title">Kullanıcı Ekleme (Kalıcı)</div>
-    <div style="font-size:12px;color:var(--muted);line-height:1.7">
-      Panel üzerindeki değişiklikler bu cihazda kalıcıdır.<br>
-      Tüm cihazlarda geçerli olması için:<br>
-      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">scripts/sem_config.py</code> → <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">USERS</code> listesini düzenle →
-      <code style="background:var(--bg);padding:2px 6px;border-radius:4px;font-size:11px">python scripts/sem_generate.py</code> çalıştır
+    <div class="admin-title">🔄 Tüm Cihazlara Yayınla</div>
+    <div style="font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:10px">
+      Kullanıcı değişikliklerini <b style="color:var(--text)">tüm cihazlara</b> yayınlamak için GitHub token girip butona basın.<br>
+      Token bir kez kaydedilir, tekrar girmenize gerek kalmaz.
+    </div>
+    <input id="ghTokenInput" type="password"
+      style="width:100%;padding:8px 10px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:12px;margin-bottom:6px;outline:none"
+      placeholder="GitHub Personal Access Token (contents: write)">
+    <div style="display:flex;gap:6px;margin-bottom:8px">
+      <button class="auth-btn" style="flex:1;padding:8px;font-size:12px;background:var(--teal)" onclick="saveGhToken()">Token Kaydet</button>
+      <button class="auth-btn" style="flex:1;padding:8px;font-size:12px" onclick="syncUsersToGitHub()">🔄 Yayınla</button>
+    </div>
+    <div id="syncMsg" class="auth-msg"></div>
+    <div style="font-size:10px;color:var(--muted);margin-top:6px;line-height:1.6">
+      Token oluştur: GitHub → Settings → Developer settings → Personal access tokens<br>
+      → Fine-grained token → Repo: <b>sem-samsun-2026</b> → Contents: <b>Read &amp; write</b>
     </div>
   </div>
 
@@ -782,14 +773,33 @@ function showMainApp(role, username) {
 /* =====================================================================
    VERİ YÜKLEME
    ===================================================================== */
-function loadData() {
+async function loadData() {
   if (typeof window.SEM_DATA !== 'undefined') {
     DATA = window.SEM_DATA;
     checkAndSeedUsers();
+    await loadAuthOverride();
     checkAuth();
   } else {
     document.body.innerHTML = '<div class="loading">⚠ data.js yüklenemedi.<br><code>python scripts/sem_generate.py</code> çalıştırın.</div>';
   }
+}
+
+/* auth_override.json — admin tarafından "Yayınla" ile güncellenen global kullanıcı listesi */
+async function loadAuthOverride() {
+  try {
+    const r = await fetch('./auth_override.json?t=' + Date.now(), {cache: 'no-store'});
+    if (!r.ok) return;
+    const override = await r.json();
+    if (!override || !Array.isArray(override.users) || !override.users.length) return;
+    // Onaylı kullanıcıları override ile değiştir, yerel bekleyenleri koru
+    const existing  = getUsers();
+    const pending   = existing.filter(u => u.local && !u.approved);
+    const merged    = override.users.map(u => ({...u, approved: true, local: false}));
+    for (const p of pending) {
+      if (!merged.find(u => u.username.toLowerCase() === p.username.toLowerCase())) merged.push(p);
+    }
+    saveUsers(merged);
+  } catch(e) { /* auth_override.json henüz oluşturulmamış olabilir */ }
 }
 
 function init() {
@@ -1482,6 +1492,69 @@ function showAthleteProfile(name, yb, gender) {
 
 function closeAthleteModal() {
   document.getElementById('athleteModal').style.display = 'none';
+}
+
+/* =====================================================================
+   GITHUB SYNC — auth_override.json güncelle
+   ===================================================================== */
+const GH_REPO = 'gokaygunduz-gg/sem-samsun-2026';
+const GH_FILE = 'panel/auth_override.json';
+
+function saveGhToken() {
+  const val = (document.getElementById('ghTokenInput')?.value || '').trim();
+  if (!val) { setMsg('syncMsg', '❌ Token boş', 'err'); return; }
+  localStorage.setItem('sem_gh_token', val);
+  document.getElementById('ghTokenInput').value = '';
+  document.getElementById('ghTokenInput').placeholder = '✓ Token kaydedildi';
+  setMsg('syncMsg', '✅ Token kaydedildi. Artık Yayınla butonunu kullanabilirsiniz.', 'ok');
+}
+
+async function syncUsersToGitHub() {
+  const token = localStorage.getItem('sem_gh_token');
+  if (!token) { setMsg('syncMsg', '❌ Önce GitHub token kaydedin', 'err'); return; }
+
+  setMsg('syncMsg', '⏳ GitHub\'a bağlanıyor…', 'ok');
+
+  const users    = getUsers().filter(u => u.approved);
+  const override = {
+    users:      users.map(({local, ...u}) => ({...u})),
+    updated_at: new Date().toISOString(),
+    updated_by: currentUsername
+  };
+  const contentStr = JSON.stringify(override, null, 2);
+  const contentB64 = btoa(unescape(encodeURIComponent(contentStr)));
+
+  const hdrs = {
+    'Authorization': 'Bearer ' + token,
+    'Accept':        'application/vnd.github.v3+json',
+    'Content-Type':  'application/json',
+  };
+  const apiUrl = `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`;
+
+  // Mevcut SHA'yı al (güncelleme için zorunlu)
+  let sha = null;
+  try {
+    const getR = await fetch(apiUrl, {headers: hdrs});
+    if (getR.ok) { sha = (await getR.json()).sha; }
+    else if (getR.status !== 404) {
+      const e = await getR.json();
+      setMsg('syncMsg', '❌ SHA alınamadı: ' + (e.message || getR.status), 'err'); return;
+    }
+  } catch(e) { setMsg('syncMsg', '❌ Bağlantı hatası: ' + e.message, 'err'); return; }
+
+  // Dosyayı güncelle (veya oluştur)
+  const body = {message: `Kullanıcı listesi güncellendi (${currentUsername})`, content: contentB64, branch: 'main'};
+  if (sha) body.sha = sha;
+
+  try {
+    const putR = await fetch(apiUrl, {method:'PUT', headers:hdrs, body:JSON.stringify(body)});
+    if (putR.ok) {
+      setMsg('syncMsg', `✅ ${users.length} kullanıcı GitHub'a kaydedildi. Diğer cihazlar 1-2 dakika içinde senkronize olur.`, 'ok');
+    } else {
+      const e = await putR.json();
+      setMsg('syncMsg', '❌ GitHub hatası: ' + (e.message || putR.status), 'err');
+    }
+  } catch(e) { setMsg('syncMsg', '❌ Bağlantı hatası: ' + e.message, 'err'); }
 }
 
 /* =====================================================================
