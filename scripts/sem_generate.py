@@ -220,28 +220,31 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
                 for f in finishers
             ],
         }
-    # Current event sonuçları (yalnızca tamamlanan yarışlar)
+    # Current event sonuçları (yalnızca gerçekten tamamlanan yarışlar)
     events_current_out = {}
-    for (yb, gender, event), finishers in ev_rankings_current.items():
-        ekey = f"{event}|{yb}|{gender}"
-        events_current_out[ekey] = {
-            "event":        event,
-            "yb":           yb,
-            "gender":       gender,
-            "is_completed": True,
-            "medal_cut":    MEDAL_CUTOFFS.get(yb, 3),
-            "finishers": [
-                {
-                    "rank":     f["rank"],
-                    "name":     f["name"],
-                    "city":     f.get("city", ""),
-                    "time_raw": f["time_raw"],
-                    "points":   f["points"],
-                    "is_live":  True,
-                }
-                for f in finishers
-            ],
-        }
+    if completed_events:  # simülasyon modunda boş kalır
+        for (yb, gender, event), finishers in ev_rankings_current.items():
+            if (yb, event) not in completed_events:
+                continue  # sadece is_live sonucu olan yarışlar
+            ekey = f"{event}|{yb}|{gender}"
+            events_current_out[ekey] = {
+                "event":        event,
+                "yb":           yb,
+                "gender":       gender,
+                "is_completed": True,
+                "medal_cut":    MEDAL_CUTOFFS.get(yb, 3),
+                "finishers": [
+                    {
+                        "rank":     f["rank"],
+                        "name":     f["name"],
+                        "city":     f.get("city", ""),
+                        "time_raw": f["time_raw"],
+                        "points":   f["points"],
+                        "is_live":  True,
+                    }
+                    for f in finishers
+                ],
+            }
 
     return {
         "generated_at":           _tr_now(),

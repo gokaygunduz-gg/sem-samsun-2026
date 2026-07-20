@@ -288,7 +288,8 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 <div class="tab-content" id="tab-yarislar">
   <div class="stabs">
     <button class="stab active" onclick="setYarisMode('giris',this)">📋 Giriş</button>
-    <button class="stab" onclick="setYarisMode('sonuc',this)">🏁 Sonuç</button>
+    <button class="stab" onclick="setYarisMode('canli',this)">⚡ Canlı</button>
+    <button class="stab" onclick="setYarisMode('tahmin',this)">📊 Tahmin</button>
   </div>
   <div style="padding:10px;display:flex;flex-direction:column;gap:6px">
     <select class="event-sel" id="eventSel" onchange="renderEvents()">
@@ -358,7 +359,8 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
     </div>
     <div class="stabs">
       <button class="stab active" onclick="setProgRaceMode('giris',this)">📋 Giriş</button>
-      <button class="stab" onclick="setProgRaceMode('sonuc',this)">🏁 Sonuç</button>
+      <button class="stab" onclick="setProgRaceMode('canli',this)">⚡ Canlı</button>
+      <button class="stab" onclick="setProgRaceMode('tahmin',this)">📊 Tahmin</button>
     </div>
     <div id="prog-race-content"></div>
   </div>
@@ -436,6 +438,14 @@ tr.city-row:hover{background:rgba(59,130,246,.08)}
 
 </div><!-- /tab-yonetim -->
 </div><!-- /mainApp -->
+
+<!-- ═══ SPORCU MODAL ═══ -->
+<div id="athleteModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:500;align-items:center;justify-content:center" onclick="if(event.target===this)closeAthleteModal()">
+  <div style="background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;max-width:420px;width:92%;max-height:82vh;overflow-y:auto">
+    <div id="athleteModalContent"></div>
+    <button onclick="closeAthleteModal()" style="margin-top:12px;width:100%;padding:8px;background:var(--border);color:var(--text);border:none;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600">Kapat</button>
+  </div>
+</div>
 
 <script>
 /* =====================================================================
@@ -751,7 +761,7 @@ function renderSiralama() {
         const isLive= a.events.some(e=>e.is_live);
         const pt    = top3.map(ev=>`<span class="ev-pill ev-top${isLive?' ev-live':''}" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
         const pr    = rest.map(ev=>`<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`).join('');
-        const psb   = a.prize ? '<span class="prize-badge">ÖDÜl</span>' : '';
+        const psb   = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
         return `<tr class="${rowClass(a.rank,cut)}">
           <td class="col-rank">${medalBadge(a.rank,cut)}</td>
           <td><div class="name-main">${a.name}${psb}</div><div class="name-city">${a.city}</div></td>
@@ -800,23 +810,34 @@ function renderEvents() {
         container=document.getElementById('yarislar-content');
   if (!ev||!yb||!gen){container.innerHTML='<div class="loading">Branş, yaş grubu ve cinsiyet seçin</div>';return;}
   const key=ev+'|'+yb+'|'+gen;
-  let evData;
-  if (yarisMode==='sonuc'){
-    evData=DATA.events_current?DATA.events_current[key]:null;
-    if (!evData){container.innerHTML='<div class="empty">Bu yarış henüz koşulmadı veya sonuçlar açıklanmadı.</div>';return;}
-  } else {
-    evData=DATA.events[key];
+  let evData, modeLabel;
+
+  if (yarisMode==='canli') {
+    evData = DATA.events_current ? DATA.events_current[key] : null;
+    if (!evData) { container.innerHTML='<div class="empty">⏳ Bu yarış henüz koşulmadı veya sonuçlar açıklanmadı.</div>'; return; }
+    modeLabel = '✅ Tamamlandı';
+  } else if (yarisMode==='tahmin') {
+    evData = DATA.events[key];
+    modeLabel = evData&&evData.is_completed ? '✅ Tamamlandı' : '📊 Tahmin (giriş listesi + canlı)';
+  } else { // giris
+    evData = DATA.events[key];
+    modeLabel = '📋 Giriş Listesi';
   }
+
   if (!evData||!evData.finishers.length){container.innerHTML='<div class="empty">Bu kombinasyon için kayıt yok.</div>';return;}
-  const cut=evData.medal_cut||3, done=evData.is_completed;
-  const rows=evData.finishers.map(f=>`
-    <tr class="${rowClass(f.rank,cut)}">
+  const cut=evData.medal_cut||3;
+  const rows=evData.finishers.map(f=>{
+    const isMedal=f.rank<=cut;
+    const medalLbl=isMedal&&yarisMode!=='giris'?`<span class="mbadge-label" style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>`:'';
+    const liveIco=f.is_live?' 🟢':'';
+    const eName=esc(f.name), eYb=esc(yb), eGen=esc(gen);
+    return `<tr class="${rowClass(f.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${eName}','${eYb}','${eGen}')">
       <td class="col-rank">${medalBadge(f.rank,cut)}</td>
-      <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜl</span>':''}</div><div class="name-city">${f.city}</div></td>
-      <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
+      <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜL</span>':''}${medalLbl}</div><div class="name-city">${f.city}</div></td>
+      <td class="col-time">${f.time_raw}${liveIco}</td>
       <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
-    </tr>`).join('');
-  const modeLabel=done?'✅ Tamamlandı':(yarisMode==='giris'?'📋 Giriş Listesi':'⏳ Bekleniyor');
+    </tr>`;
+  }).join('');
   container.innerHTML=`
   <div class="section">
     <div class="sec-hdr" style="cursor:default">
@@ -824,7 +845,7 @@ function renderEvents() {
       <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${modeLabel}</div></div>
     </div>
     <div class="sec-body"><table>
-      <thead><tr><th class="col-rank">#</th><th>Ad Soyad</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
+      <thead><tr><th class="col-rank">#</th><th>Ad Soyad (tıkla → profil)</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
       <tbody>${rows}</tbody>
     </table></div>
   </div>`;
@@ -840,7 +861,7 @@ function renderSehirler() {
     return `<tr class="city-row" onclick="showCityDetail(${c.rank-1})">
       <td class="rank-num" style="${ns}">${c.rank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div>
-          <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0} 🏅${c.medal_count||0}</div></td>
+          <div class="city-sub">${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
       <td class="city-pts">${c.total}</td>
       <td style="color:var(--muted)">›</td>
     </tr>`;
@@ -883,15 +904,18 @@ function renderCityDetail() {
   } else {
     const list=city.medal_list||[];
     if (!list.length){container.innerHTML='<div class="empty">Bu şehirden bireysel ödül alan sporcu yok.</div>';return;}
-    const rows=list.map(a=>`
-      <tr><td class="col-rank">${a.rank_in_group===1?'🥇':'🥈'}</td>
+    const rows=list.map(a=>{
+      const isGold=a.rank_in_group===1;
+      const badge=`<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
+      return `<tr><td class="col-rank">${badge}</td>
           <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}</div></td>
-          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`).join('');
+          <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
+    }).join('');
     container.innerHTML=`<div class="section"><div class="sec-hdr" style="cursor:default">
       <div><div class="sec-title">Bireysel Ödüller</div>
       <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler</div></div></div>
       <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+        <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
         <tbody>${rows}</tbody></table></div></div>`;
   }
 }
@@ -943,7 +967,7 @@ function renderProgram() {
       html+=`<div class="prog-sess-hdr">🕐 ${sess==='Sabah'?'09:00 Sabah':'17:00 Akşam'}</div>`;
       for (const brans of events){
         const is50=brans.startsWith('50m');
-        const done=Object.keys(DATA.events).some(k=>k.startsWith(brans+'|')&&DATA.events[k].is_completed);
+        const done=Object.keys(DATA.events_current||{}).some(k=>k.startsWith(brans+'|'));
         const note=is50?'<span class="prog-race-note"> (2013-2014 katılamaz)</span>':'';
         const esc=brans.replace(/'/g,"\\'");
         html+=`<div class="prog-race-row" onclick="showProgramRace('${esc}')">
@@ -974,25 +998,33 @@ function renderProgramRace() {
   container.innerHTML='';
   for (const yb of YB_ORDER) for (const gen of GEN_ORDER){
     const key=progRaceBrans+'|'+yb+'|'+gen;
-    let evData;
-    if (progRaceMode==='sonuc'){
+    let evData, st;
+    if (progRaceMode==='canli') {
       evData=DATA.events_current?DATA.events_current[key]:null;
       if (!evData) continue;
+      st='✅ Tamamlandı';
+    } else if (progRaceMode==='tahmin') {
+      evData=DATA.events[key];
+      if (!evData) continue;
+      st=evData.is_completed?'✅ Tamamlandı':'📊 Tahmin';
     } else {
       evData=DATA.events[key];
       if (!evData) continue;
+      st='📋 Giriş Listesi';
     }
     const cut=evData.medal_cut||3, grp=DATA.groups[yb+'_'+gen];
     const label=grp?grp.age_label:('20'+yb);
-    const done=evData.is_completed;
-    const rows=evData.finishers.map(f=>`
-      <tr class="${rowClass(f.rank,cut)}">
+    const rows=evData.finishers.map(f=>{
+      const isMedal=f.rank<=cut;
+      const medalLbl=isMedal&&progRaceMode!=='giris'?`<span style="font-size:9px;background:rgba(20,184,166,.2);color:var(--teal);border-radius:5px;padding:1px 5px;margin-left:4px;font-weight:700">Madalya</span>`:'';
+      const eN=esc(f.name),eY=esc(yb),eG=esc(gen);
+      return `<tr class="${rowClass(f.rank,cut)}" style="cursor:pointer" onclick="showAthleteProfile('${eN}','${eY}','${eG}')">
         <td class="col-rank">${medalBadge(f.rank,cut)}</td>
-        <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
+        <td><div class="name-main">${f.name}${f.rank<=2?'<span class="prize-badge">ÖDÜL</span>':''}${medalLbl}</div><div class="name-city">${f.city}</div></td>
         <td class="col-time">${f.time_raw}${f.is_live?' 🟢':''}</td>
         <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points||'-'}</span></td>
-      </tr>`).join('');
-    const st=done?'✅ Tamamlandı':(progRaceMode==='giris'?'📋 Giriş listesi':'⏳ Bekleniyor');
+      </tr>`;
+    }).join('');
     container.insertAdjacentHTML('beforeend',`
     <div class="section">
       <div class="sec-hdr" onclick="toggleSection(this)">
@@ -1000,12 +1032,12 @@ function renderProgramRace() {
         <div class="sec-sub">${evData.finishers.length} sporcu · İlk ${cut} madalya · ${st}</div></div>
       </div>
       <div class="sec-body"><table>
-        <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
+        <thead><tr><th class="col-rank">#</th><th>Sporcu (tıkla → profil)</th><th class="col-time">Süre</th><th class="col-pts">Puan</th></tr></thead>
         <tbody>${rows}</tbody></table></div>
     </div>`);
   }
   if (!container.children.length)
-    container.innerHTML=progRaceMode==='sonuc'
+    container.innerHTML=progRaceMode==='canli'
       ?'<div class="empty">Bu yarış henüz koşulmadı.</div>'
       :'<div class="empty">Bu yarış için kayıt bulunamadı.</div>';
 }
@@ -1169,6 +1201,58 @@ function downloadUserConfig() {
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a'); a.href=url; a.download='users_config.py'; a.click();
   URL.revokeObjectURL(url);
+}
+
+/* =====================================================================
+   SPORCU PROFİL MODAL
+   ===================================================================== */
+function showAthleteProfile(name, yb, gender) {
+  const groupKey = yb + '_' + gender;
+  const grp = DATA.groups[groupKey];
+  if (!grp) return;
+  const athlete = grp.athletes.find(a => a.name === name);
+  if (!athlete) return;
+
+  const cut = grp.medal_cut;
+  const evRows = athlete.events.map((ev,i) => {
+    const isTop = i < 3;
+    return `<tr style="${isTop?'background:rgba(20,184,166,.06)':''}">
+      <td style="font-size:12px;padding:6px 8px">${isTop?'<b>':''}${ev.event}${isTop?'</b>':''}</td>
+      <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px">${ev.time_raw}${ev.is_live?' 🟢':''}</td>
+      <td style="text-align:center;font-weight:700;padding:6px 8px" class="${ptsClass(ev.points)}">${ev.points}</td>
+    </tr>`;
+  }).join('');
+
+  const rankBadge = medalBadge(athlete.rank, cut);
+  const prizeLbl = athlete.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
+
+  document.getElementById('athleteModalContent').innerHTML = `
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <div style="font-size:28px">${rankBadge}</div>
+      <div>
+        <div style="font-size:15px;font-weight:700">${athlete.name}${prizeLbl}</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px">${grp.age_label} ${gender} · ${athlete.city}</div>
+      </div>
+    </div>
+    <table style="width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+      <thead><tr style="background:#1a2740">
+        <th style="font-size:10px;color:var(--muted);padding:6px 8px;text-align:left">Branş</th>
+        <th style="font-size:10px;color:var(--muted);text-align:right;padding:6px 8px">Süre</th>
+        <th style="font-size:10px;color:var(--muted);text-align:center;padding:6px 8px">Puan</th>
+      </tr></thead>
+      <tbody>${evRows}</tbody>
+    </table>
+    <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;display:flex;justify-content:space-between;align-items:center">
+      <span style="font-size:11px;color:var(--muted)">Toplam (En iyi 3) · Sıra: ${athlete.rank}. / ${grp.athlete_count}</span>
+      <span style="font-size:20px;font-weight:800;color:var(--gold)">${athlete.top3}</span>
+    </div>`;
+
+  const modal = document.getElementById('athleteModal');
+  modal.style.display = 'flex';
+}
+
+function closeAthleteModal() {
+  document.getElementById('athleteModal').style.display = 'none';
 }
 
 /* =====================================================================
