@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>SEM Final 2026 – Samsun</title>
+<script src="data.js"></script>
+<style>
+:root {
+  --bg:     #0f172a;
+  --card:   #1e293b;
+  --border: #334155;
+  --text:   #e2e8f0;
+  --muted:  #94a3b8;
+  --gold:   #f59e0b;
+  --green:  #22c55e;
+  --blue:   #3b82f6;
+  --red:    #ef4444;
+  --teal:   #14b8a6;
+  --purple: #a855f7;
+  --orange: #fb923c;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;min-height:100vh}
+
+/* ── HEADER ── */
+header{background:#0f172a;border-bottom:1px solid var(--border);padding:10px 14px;position:sticky;top:0;z-index:100}
+.hdr-row{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.hdr-left h1{font-size:15px;font-weight:700;color:var(--gold)}
+.hdr-left .sub{font-size:11px;color:var(--muted)}
+.hdr-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.badge-src{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700}
+.badge-live{background:rgba(34,197,94,.2);color:var(--green)}
+.badge-sim{background:rgba(245,158,11,.2);color:var(--gold)}
+.upd{font-size:10px;color:var(--muted)}
+.btn-refresh{background:var(--blue);color:#fff;border:none;padding:5px 10px;border-radius:6px;font-size:12px;cursor:pointer}
+
+/* ── TABS ── */
+.tabs{display:flex;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto;gap:0}
+.tab{padding:11px 16px;font-size:12px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s}
+.tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+.tab-content{display:none}
+.tab-content.active{display:block}
+
+/* ── FILTRELER ── */
+.filters{padding:8px 12px;background:var(--card);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.filter-sep{width:1px;height:20px;background:var(--border)}
+.filter-lbl{font-size:10px;color:var(--muted)}
+.fbtn{padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--bg);color:var(--muted);font-size:11px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.fbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+
+/* ── KART / TABLO ── */
+.section{margin:10px 10px 0}
+.sec-hdr{background:var(--card);border:1px solid var(--border);border-radius:10px 10px 0 0;padding:9px 12px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.sec-title{font-size:13px;font-weight:600}
+.sec-sub{font-size:10px;color:var(--muted);margin-top:2px}
+.sec-meta{font-size:10px;color:var(--muted);text-align:right}
+.sec-body{border:1px solid var(--border);border-top:0;border-radius:0 0 10px 10px;overflow:hidden;margin-bottom:10px}
+table{width:100%;border-collapse:collapse}
+th{background:#1a2740;color:var(--muted);font-size:10px;font-weight:600;padding:6px 8px;text-align:left;border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:.4px}
+td{padding:7px 8px;border-bottom:1px solid #1e293b;vertical-align:middle}
+tr:last-child td{border-bottom:0}
+tr.gold{background:rgba(245,158,11,.07)}
+tr.silver{background:rgba(148,163,184,.07)}
+tr.bronze{background:rgba(251,146,60,.07)}
+
+/* Sütun genişlikleri */
+.col-rank{width:30px;text-align:center;font-weight:700;font-size:13px}
+.col-name{min-width:120px}
+.col-city{width:90px;font-size:11px;color:var(--muted)}
+.col-score{width:40px;text-align:center;font-weight:700}
+.col-ev{min-width:200px}
+.col-pts{width:34px;text-align:center}
+.col-time{width:80px;text-align:center;font-size:11px;font-family:monospace}
+
+.name-main{font-weight:600;font-size:12px}
+.name-city{font-size:10px;color:var(--muted);margin-top:1px}
+
+/* Puan rengi */
+.pts-9{color:var(--gold);font-weight:800}
+.pts-7{color:var(--green);font-weight:700}
+.pts-6{color:var(--teal);font-weight:700}
+.pts-5{color:var(--blue);font-weight:600}
+.pts-4,.pts-3,.pts-2,.pts-1{color:var(--muted)}
+.pts-0{color:#374151}
+
+/* Madalya badge */
+.medal{display:inline-block;width:18px;height:18px;border-radius:50%;font-size:9px;font-weight:800;text-align:center;line-height:18px;margin-right:4px}
+.medal-1{background:rgba(245,158,11,.3);color:var(--gold)}
+.medal-2{background:rgba(148,163,184,.3);color:#e2e8f0}
+.medal-3{background:rgba(251,146,60,.3);color:var(--orange)}
+
+/* Event pill */
+.ev-pills{display:flex;flex-wrap:wrap;gap:3px}
+.ev-pill{font-size:10px;padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);white-space:nowrap}
+.ev-top{border-color:var(--teal);color:var(--teal)}
+
+/* ── ŞEHİR / KULÜP TABLO ── */
+.rank-num{font-size:16px;font-weight:800;text-align:center;width:36px}
+.city-pts{font-size:18px;font-weight:800;color:var(--gold);text-align:right;width:60px}
+.city-sub{font-size:10px;color:var(--muted)}
+
+/* ── PROGRAM TABLO ── */
+.prog-day{background:var(--card);border-radius:8px;padding:10px 12px;margin:10px;border:1px solid var(--border)}
+.prog-day h3{font-size:13px;color:var(--gold);margin-bottom:8px}
+.prog-sess{margin-bottom:6px}
+.prog-sess h4{font-size:11px;color:var(--teal);margin-bottom:4px}
+.prog-event{font-size:12px;padding:3px 0;border-bottom:1px solid var(--border);color:var(--text)}
+.prog-event:last-child{border-bottom:0}
+
+/* ── YARIŞLAR DROPDOWN ── */
+.event-sel{width:100%;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;margin:10px 10px 0}
+
+/* ── YÜKLEME ── */
+.loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
+
+/* ── RESPONSIVE ── */
+@media(max-width:480px){
+  .col-city{display:none}
+  .col-ev{min-width:140px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-row">
+    <div class="hdr-left">
+      <h1 id="compName">SEM Türkiye Finali 2026</h1>
+      <div class="sub" id="compSub">Samsun · 28-29-30 Temmuz 2026</div>
+    </div>
+    <div class="hdr-right">
+      <span class="badge-src" id="srcBadge">Yükleniyor…</span>
+      <span class="upd" id="updTime"></span>
+      <button class="btn-refresh" onclick="reload()">⟳ Yenile</button>
+    </div>
+  </div>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('siralama',this)">🏅 Sıralama</div>
+  <div class="tab" onclick="switchTab('yarislar',this)">🏊 Yarışlar</div>
+  <div class="tab" onclick="switchTab('sehirler',this)">🏙️ Şehirler</div>
+  <div class="tab" onclick="switchTab('program',this)">📅 Program</div>
+</div>
+
+<!-- ═══════ SIRALAMA ═══════ -->
+<div class="tab-content active" id="tab-siralama">
+  <div class="filters" id="filters-siralama">
+    <span class="filter-lbl">Yaş:</span>
+    <button class="fbtn active" data-yb="all" onclick="filterSiralama()">Tümü</button>
+    <button class="fbtn" data-yb="14" onclick="filterSiralama()">2014</button>
+    <button class="fbtn" data-yb="13" onclick="filterSiralama()">2013</button>
+    <button class="fbtn" data-yb="12" onclick="filterSiralama()">2012</button>
+    <button class="fbtn" data-yb="11" onclick="filterSiralama()">2011</button>
+    <button class="fbtn" data-yb="10" onclick="filterSiralama()">2010</button>
+    <button class="fbtn" data-yb="09" onclick="filterSiralama()">2009</button>
+    <button class="fbtn" data-yb="08" onclick="filterSiralama()">2008</button>
+    <div class="filter-sep"></div>
+    <span class="filter-lbl">Cinsiyet:</span>
+    <button class="fbtn active" data-gen="all" onclick="filterSiralama()">Tümü</button>
+    <button class="fbtn" data-gen="Kadın" onclick="filterSiralama()">Kadın</button>
+    <button class="fbtn" data-gen="Erkek" onclick="filterSiralama()">Erkek</button>
+  </div>
+  <div id="siralama-content"></div>
+</div>
+
+<!-- ═══════ YARIŞLAR ═══════ -->
+<div class="tab-content" id="tab-yarislar">
+  <div style="padding:10px">
+    <select class="event-sel" id="eventSel" onchange="renderEvents()" style="margin:0">
+      <option value="">— Branş seçin —</option>
+    </select>
+    <select class="event-sel" id="ybSel" onchange="renderEvents()" style="margin-top:6px">
+      <option value="">— Yaş grubu seçin —</option>
+    </select>
+    <select class="event-sel" id="genSel" onchange="renderEvents()" style="margin-top:6px">
+      <option value="Kadın">Kadın</option>
+      <option value="Erkek">Erkek</option>
+    </select>
+  </div>
+  <div id="yarislar-content"></div>
+</div>
+
+<!-- ═══════ ŞEHİRLER ═══════ -->
+<div class="tab-content" id="tab-sehirler">
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default">
+      <div><div class="sec-title">Şehir Sıralaması</div>
+      <div class="sec-sub">Sporcuların bireysel en iyi 3 yarış puanları toplamı</div></div>
+    </div>
+    <div class="sec-body" id="sehir-table"></div>
+  </div>
+</div>
+
+<!-- ═══════ PROGRAM ═══════ -->
+<div class="tab-content" id="tab-program">
+  <div id="program-content"></div>
+</div>
+
+<script>
+let DATA = null;
+
+// ── Veri yükle ──
+function loadData() {
+  if (typeof window.SEM_DATA !== 'undefined') {
+    DATA = window.SEM_DATA;
+    init();
+  } else {
+    document.body.innerHTML = '<div class="loading">⚠ data.js yüklenemedi.<br>Önce <code>python scripts/sem_generate.py</code> çalıştırın.</div>';
+  }
+}
+
+function init() {
+  // Header
+  document.getElementById('compName').textContent = DATA.comp_name;
+  document.getElementById('compSub').textContent  = DATA.comp_location + ' · ' + DATA.comp_dates;
+  document.getElementById('updTime').textContent  = DATA.generated_at;
+
+  const srcBadge = document.getElementById('srcBadge');
+  if (DATA.source === 'live') {
+    srcBadge.textContent = '🔴 CANLI';
+    srcBadge.className = 'badge-src badge-live';
+  } else {
+    srcBadge.textContent = '📋 Simülasyon';
+    srcBadge.className = 'badge-src badge-sim';
+  }
+
+  renderSiralama();
+  buildEventSelectors();
+  renderSehirler();
+  renderProgram();
+}
+
+// ── Tab geçişi ──
+function switchTab(name, el) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  el.classList.add('active');
+}
+
+// ── Filtre yardımcıları ──
+function getFilter(container, attr) {
+  const active = container.querySelector('.fbtn.active[data-' + attr + ']');
+  return active ? active.dataset[attr] : 'all';
+}
+
+function setFilter(btn) {
+  const parent = btn.closest('.filters');
+  const attr   = Object.keys(btn.dataset)[0];
+  parent.querySelectorAll('.fbtn[data-' + attr + ']').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function filterSiralama() {
+  const btn = event.target;
+  setFilter(btn);
+  renderSiralama();
+}
+
+// ── Puan rengi ──
+function ptsClass(pts) {
+  if (pts >= 9) return 'pts-9';
+  if (pts >= 7) return 'pts-7';
+  if (pts >= 6) return 'pts-6';
+  if (pts >= 5) return 'pts-5';
+  if (pts >= 4) return 'pts-4';
+  if (pts >= 3) return 'pts-3';
+  if (pts >= 2) return 'pts-2';
+  if (pts >= 1) return 'pts-1';
+  return 'pts-0';
+}
+
+// ── Madalya row class ──
+function medalRow(rank) {
+  if (rank === 1) return ' gold';
+  if (rank === 2) return ' silver';
+  if (rank === 3) return ' bronze';
+  return '';
+}
+
+// ── Sıralama sekmesi ──
+function renderSiralama() {
+  if (!DATA) return;
+  const filters = document.getElementById('filters-siralama');
+  const selYb   = getFilter(filters, 'yb');
+  const selGen  = getFilter(filters, 'gen');
+
+  const container = document.getElementById('siralama-content');
+  container.innerHTML = '';
+
+  const order = ['14','13','12','11','10','09','08'];
+  const gens  = ['Kadın','Erkek'];
+
+  for (const yb of order) {
+    if (selYb !== 'all' && selYb !== yb) continue;
+    for (const gen of gens) {
+      if (selGen !== 'all' && selGen !== gen) continue;
+      const key = yb + '_' + gen;
+      const grp = DATA.groups[key];
+      if (!grp) continue;
+
+      const cut = grp.medal_cut;
+      const html = `
+      <div class="section">
+        <div class="sec-hdr" onclick="toggleSection(this)">
+          <div>
+            <div class="sec-title">${grp.age_label} — ${grp.gender}</div>
+            <div class="sec-sub">${grp.athlete_count} sporcu · İlk ${cut} madalya</div>
+          </div>
+          <div class="sec-meta">
+            ${grp.athletes[0] ? '1. ' + grp.athletes[0].name : ''}
+            <div style="color:var(--gold);font-weight:700">${grp.athletes[0] ? grp.athletes[0].top3 + ' puan' : ''}</div>
+          </div>
+        </div>
+        <div class="sec-body">
+          <table>
+            <thead><tr>
+              <th class="col-rank">#</th>
+              <th>Ad Soyad</th>
+              <th>Branşlar</th>
+              <th class="col-score">Puan</th>
+            </tr></thead>
+            <tbody>
+              ${grp.athletes.map(a => renderAthlete(a, cut)).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>`;
+      container.insertAdjacentHTML('beforeend', html);
+    }
+  }
+}
+
+function renderAthlete(a, medalCut) {
+  const isMedal = a.rank <= medalCut;
+  let medalSpan = '';
+  if (a.rank === 1) medalSpan = '<span class="medal medal-1">🥇</span>';
+  else if (a.rank === 2) medalSpan = '<span class="medal medal-2">🥈</span>';
+  else if (a.rank === 3) medalSpan = '<span class="medal medal-3">🥉</span>';
+
+  // Top 3 events (en iyi 3)
+  const top3events = a.events.slice(0, 3);
+  const restEvents = a.events.slice(3);
+
+  const pillsTop = top3events.map(ev =>
+    `<span class="ev-pill ev-top" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
+  ).join('');
+  const pillsRest = restEvents.map(ev =>
+    `<span class="ev-pill" title="${ev.time_raw}">${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`
+  ).join('');
+
+  return `<tr class="${medalRow(a.rank)}">
+    <td class="col-rank">${medalSpan || a.rank}</td>
+    <td>
+      <div class="name-main">${a.name}</div>
+      <div class="name-city">${a.city}</div>
+    </td>
+    <td><div class="ev-pills">${pillsTop}${pillsRest}</div></td>
+    <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td>
+  </tr>`;
+}
+
+function toggleSection(hdr) {
+  const body = hdr.nextElementSibling;
+  body.style.display = body.style.display === 'none' ? '' : 'none';
+}
+
+// ── Yarışlar sekmesi ──
+function buildEventSelectors() {
+  if (!DATA) return;
+
+  // Benzersiz event isimleri
+  const events = new Set();
+  const ybs    = new Set();
+  for (const key of Object.keys(DATA.events)) {
+    const parts = key.split('|');
+    events.add(parts[0]);
+    ybs.add(parts[1]);
+  }
+
+  const evSel = document.getElementById('eventSel');
+  const ybSel = document.getElementById('ybSel');
+
+  // Program sırasına göre sort
+  const progOrder = DATA.program.map(p => p.brans);
+  const evArr = [...events].sort((a,b) => {
+    const ia = progOrder.indexOf(a);
+    const ib = progOrder.indexOf(b);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+
+  evArr.forEach(ev => {
+    const opt = document.createElement('option');
+    opt.value = ev; opt.text = ev;
+    evSel.appendChild(opt);
+  });
+
+  const ybOrder = ['14','13','12','11','10','09','08'];
+  ybOrder.filter(y => ybs.has(y)).forEach(y => {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.text = '20' + y + ' (' + (DATA.groups[y+'_Kadın'] || DATA.groups[y+'_Erkek'] || {age_label:y}).age_label + ')';
+    ybSel.appendChild(opt);
+  });
+}
+
+function renderEvents() {
+  if (!DATA) return;
+  const ev  = document.getElementById('eventSel').value;
+  const yb  = document.getElementById('ybSel').value;
+  const gen = document.getElementById('genSel').value;
+  const container = document.getElementById('yarislar-content');
+
+  if (!ev || !yb || !gen) {
+    container.innerHTML = '<div class="loading">Branş, yaş grubu ve cinsiyet seçin</div>';
+    return;
+  }
+
+  const key = ev + '|' + yb + '|' + gen;
+  const evData = DATA.events[key];
+  if (!evData || !evData.finishers.length) {
+    container.innerHTML = '<div class="loading">Bu kombinasyon için sonuç yok</div>';
+    return;
+  }
+
+  const rows = evData.finishers.map(f => `
+    <tr class="${medalRow(f.rank)}">
+      <td class="col-rank">${f.rank}</td>
+      <td><div class="name-main">${f.name}</div><div class="name-city">${f.city}</div></td>
+      <td class="col-time">${f.time_raw}</td>
+      <td class="col-pts"><span class="${ptsClass(f.points)}">${f.points || '-'}</span></td>
+    </tr>`).join('');
+
+  container.innerHTML = `
+  <div class="section">
+    <div class="sec-hdr" style="cursor:default">
+      <div>
+        <div class="sec-title">${ev} — 20${yb} ${gen}</div>
+        <div class="sec-sub">${evData.finishers.length} sporcu</div>
+      </div>
+    </div>
+    <div class="sec-body">
+      <table>
+        <thead><tr>
+          <th class="col-rank">#</th><th>Ad Soyad</th>
+          <th class="col-time">Süre</th><th class="col-pts">Puan</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </div>`;
+}
+
+// ── Şehirler sekmesi ──
+function renderSehirler() {
+  if (!DATA) return;
+  const rows = DATA.city_rankings.map(c => {
+    let numStyle = '';
+    if (c.rank === 1) numStyle = 'color:var(--gold)';
+    else if (c.rank === 2) numStyle = 'color:#94a3b8';
+    else if (c.rank === 3) numStyle = 'color:var(--orange)';
+
+    return `<tr class="${medalRow(c.rank)}">
+      <td class="rank-num" style="${numStyle}">${c.rank}</td>
+      <td>
+        <div style="font-weight:600;font-size:13px">${c.city}</div>
+        <div class="city-sub">${c.athletes} sporcu</div>
+      </td>
+      <td class="city-pts">${c.total}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('sehir-table').innerHTML = `
+  <table>
+    <thead><tr>
+      <th class="rank-num">#</th>
+      <th>Şehir</th>
+      <th class="city-pts" style="font-size:10px">Puan</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+// ── Program sekmesi ──
+function renderProgram() {
+  if (!DATA) return;
+  const byDay = {};
+  for (const p of DATA.program) {
+    if (!byDay[p.gun]) byDay[p.gun] = {};
+    if (!byDay[p.gun][p.seans]) byDay[p.gun][p.seans] = [];
+    byDay[p.gun][p.seans].push(p.brans);
+  }
+
+  const dates = ['28 Temmuz Pazartesi','29 Temmuz Salı','30 Temmuz Çarşamba'];
+  let html = '';
+  for (const [day, sessions] of Object.entries(byDay)) {
+    html += `<div class="prog-day">
+      <h3>📅 ${dates[day-1] || 'Gün ' + day}</h3>`;
+    for (const [sess, events] of Object.entries(sessions)) {
+      html += `<div class="prog-sess"><h4>🕐 ${sess === 'Sabah' ? '09:00 Sabah' : '17:00 Akşam'}</h4>`;
+      for (const ev of events) {
+        html += `<div class="prog-event">• ${ev} (Kadın-Erkek)</div>`;
+      }
+      if (parseInt(day) >= 3 && sess === 'Sabah') {
+        html += `<div class="prog-event" style="color:var(--muted);font-size:11px">NOT: 2014-2013 doğumlular 50m yarışlara katılamaz</div>`;
+      }
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+  document.getElementById('program-content').innerHTML = html;
+}
+
+// ── Yenile ──
+function reload() {
+  location.reload();
+}
+
+// ── Başlat ──
+loadData();
+</script>
+</body>
+</html>

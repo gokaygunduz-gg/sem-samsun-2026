@@ -1,0 +1,22782 @@
+window.SEM_DATA = {
+  "generated_at": "2026-07-20 07:48 (TR)",
+  "source": "entry",
+  "comp_name": "SEM Türkiye Finali 2026",
+  "comp_location": "Samsun Olimpik Yüzme Havuzu",
+  "comp_dates": "28-29-30 Temmuz 2026",
+  "race_url": "https://canli.tyf.gov.tr/tyf/cs-390/",
+  "total_athletes": 348,
+  "groups": {
+    "08_Erkek": {
+      "yb": "08",
+      "gender": "Erkek",
+      "age_label": "2008 (18 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 1,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Batın Kıvanç KURTULUŞ",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.55",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.99",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "52.65",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.37",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        }
+      ]
+    },
+    "09_Erkek": {
+      "yb": "09",
+      "gender": "Erkek",
+      "age_label": "2009 (17 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 14,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Ata SARIKAYA",
+          "city": "Izmir",
+          "top3": 27,
+          "top4": 29,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "52.88",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "58.49",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:04.95",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:13.50",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Ahmet Yağız PARLAK",
+          "city": "Ankara",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.25",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.03",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.88",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.18",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Alper ALİKAN",
+          "city": "Samsun",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "30.67",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:56.91",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:06.84",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:21.07",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Yalçın ULUSOY",
+          "city": "Kayseri",
+          "top3": 23,
+          "top4": 26,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:24.75",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "15:54.98",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:05.87",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.05",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 5,
+          "name": "Tarık Eren TÜFEKÇİ",
+          "city": "Gaziantep",
+          "top3": 23,
+          "top4": 23,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.73",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.36",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:06.79",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "top3": 21,
+          "top4": 26,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:55.13",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:03.84",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.26",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.76",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Rüzgar Batu ALTAY",
+          "city": "Bursa",
+          "top3": 19,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:55.52",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.64",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:04.48",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:29.08",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Mustafa Özgür YALÇIN",
+          "city": "Istanbul",
+          "top3": 19,
+          "top4": 19,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:04.08",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:16.79",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:09.84",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.99",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "top3": 18,
+          "top4": 21,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.00",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.55",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.36",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.00",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Aydın Efe KÜÇÜK",
+          "city": "Samsun",
+          "top3": 17,
+          "top4": 19,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:26.02",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:56.59",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:07.63",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.25",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Berkin AVCI",
+          "city": "Istanbul",
+          "top3": 17,
+          "top4": 17,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:03.18",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.99",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:57.11",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "56.82",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Yiğit Ahmet NARİN",
+          "city": "Kayseri",
+          "top3": 15,
+          "top4": 17,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "15:56.45",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:29.58",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:10.52",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:02.18",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Eymen BAYINDIR",
+          "city": "Eskişehir",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:56.67",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.35",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.94",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:27.49",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Kartal KAYAR",
+          "city": "Gaziantep",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.48",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.33",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.34",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "09_Kadın": {
+      "yb": "09",
+      "gender": "Kadın",
+      "age_label": "2009 (17 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 3,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Eylül ÖZGÜR",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.33",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.77",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "33.53",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.54",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Azra Kayra ÖĞMEN",
+          "city": "Izmir",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.96",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.52",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.84",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.72",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Duru VATANSEVER",
+          "city": "Bursa",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.20",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:22.48",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.64",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.96",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        }
+      ]
+    },
+    "10_Erkek": {
+      "yb": "10",
+      "gender": "Erkek",
+      "age_label": "2010 (16 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 27,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Kaan Güngör ÖZDİL",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:08.65",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:38.51",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "29.90",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:05.86",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Berhan ILİŞİK",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 31,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:19.05",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:05.05",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "15:51.63",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:58.12",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Doruk AÇAR",
+          "city": "Kocaeli",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "59.52",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:07.52",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:56.38",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:07.64",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Poyraz ARABACI",
+          "city": "Bursa",
+          "top3": 24,
+          "top4": 27,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.40",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "56.43",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.11",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.64",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 5,
+          "name": "Ahmet KOŞUM",
+          "city": "Bursa",
+          "top3": 22,
+          "top4": 22,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "27.61",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.73",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:01.13",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.33",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Akın Sarp KIRIŞ",
+          "city": "Kütahya",
+          "top3": 22,
+          "top4": 22,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:25.69",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:06.69",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "30.60",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.85",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Toprak DURMAZ",
+          "city": "Istanbul",
+          "top3": 21,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:55.54",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:07.09",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.49",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.50",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Toprak Kemal MASALCI",
+          "city": "Istanbul",
+          "top3": 21,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:00.23",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "28.07",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:09.10",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.27",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Civan VURAL",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:13.17",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:09.84",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:41.29",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:24.85",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Kıvanç ÖZKAN",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 25,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "23.86",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "52.56",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.87",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:57.89",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Yağızhan Aydın DEMİR",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 24,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:09.28",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:57.85",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:08.49",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "59.58",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Hüseyin BIDI",
+          "city": "Istanbul",
+          "top3": 19,
+          "top4": 24,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:40.49",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:13.48",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:13.04",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "28.37",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Ismail Esad SÜSLÜ",
+          "city": "Istanbul",
+          "top3": 19,
+          "top4": 19,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "30.34",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.47",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:08.24",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Eymen Batu IBOLAR",
+          "city": "Istanbul",
+          "top3": 18,
+          "top4": 18,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "23.66",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "51.96",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Ç. ÇOLAKOĞULLARI",
+          "city": "Izmir",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "23.96",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.88",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "31.58",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.64",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Arda KAFADAR",
+          "city": "Izmir",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:31.29",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:10.35",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "31.99",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.15",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Bekir SIVACI",
+          "city": "Kayseri",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:39.67",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:33.80",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:14.16",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:01.34",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Kerem BAYAR",
+          "city": "Istanbul",
+          "top3": 15,
+          "top4": 17,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:40.37",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:35.63",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:13.96",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.40",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Tuna TURAN",
+          "city": "Tekirdağ",
+          "top3": 15,
+          "top4": 15,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "28.16",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.06",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "25.99",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Kerem TOPAL",
+          "city": "Eskişehir",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:13.60",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.92",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:58.86",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.28",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Kuzey ALEMDAĞ",
+          "city": "Izmir",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "58.38",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.23",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.01",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.04",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Yusuf KÖSE",
+          "city": "Samsun",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:41.84",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:12.99",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.56",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.71",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Umut ŞEN",
+          "city": "Sakarya",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "28.74",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.25",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.90",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:01.53",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Alp ALPER",
+          "city": "Ankara",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:16.19",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.87",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:01.38",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.01",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Murat Çağan OLCAY",
+          "city": "Istanbul",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "53.82",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:28.21",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.13",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.89",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Ulus MEMİŞ",
+          "city": "Istanbul",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.76",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.46",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.36",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Ateş DURMAZ",
+          "city": "Istanbul",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.46",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.15",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.02",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.75",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "10_Kadın": {
+      "yb": "10",
+      "gender": "Kadın",
+      "age_label": "2010 (16 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 9,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Lina Deniz OĞUZHAN",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "59.91",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:05.30",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "31.31",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:20.49",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Su YÜKSEL",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.95",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:33.81",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:10.77",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:55.94",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Asya Melek ALP",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.25",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.86",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:19.42",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:02.16",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Ikra SIVACI",
+          "city": "Kayseri",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.90",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:27.61",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:27.91",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:15.83",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 5,
+          "name": "Seher KAYA",
+          "city": "Eskişehir",
+          "top3": 25,
+          "top4": 30,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:01.51",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:13.72",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.17",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:26.93",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep HADANOĞLU",
+          "city": "Ankara",
+          "top3": 21,
+          "top4": 27,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:09.50",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:14.52",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:31.36",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:41.05",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Azra AŞKAR",
+          "city": "Istanbul",
+          "top3": 21,
+          "top4": 21,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "33.81",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:36.97",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:14.68",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Elif Ayla TURGUT",
+          "city": "Istanbul",
+          "top3": 18,
+          "top4": 24,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.72",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.45",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:40.15",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:15.54",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Gökçe ÖZTÜRK",
+          "city": "Mersin",
+          "top3": 18,
+          "top4": 18,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:05.82",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:17.02",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "11_Erkek": {
+      "yb": "11",
+      "gender": "Erkek",
+      "age_label": "2011 (15 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 28,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Tunç UÇAN",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:00.48",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:07.84",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:08.29",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:33.81",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar APAYDIN",
+          "city": "Istanbul",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:08.26",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "31.19",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.93",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.34",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Çınar Ege PERİT",
+          "city": "Ankara",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:27.89",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:10.13",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:08.69",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:00.62",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Ali Mete KOÇAK",
+          "city": "Istanbul",
+          "top3": 25,
+          "top4": 30,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.75",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "28.40",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:01.76",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.34",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 5,
+          "name": "Cem Berkay YARAY",
+          "city": "Istanbul",
+          "top3": 24,
+          "top4": 28,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:58.99",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "54.67",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.41",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.81",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Ali Rüzgar KURTOĞLU",
+          "city": "Antalya",
+          "top3": 23,
+          "top4": 23,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "15:56.41",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:28.42",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:10.46",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:07.23",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Kaan Tamer ŞENGÜL",
+          "city": "Izmir",
+          "top3": 22,
+          "top4": 22,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:09.73",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:48.73",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:11.56",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Tuğrul ÖZBAY",
+          "city": "Samsun",
+          "top3": 21,
+          "top4": 24,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:30.53",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:20.59",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:09.95",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.39",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Miraç Efe KARGIN",
+          "city": "Bursa",
+          "top3": 20,
+          "top4": 26,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:13.32",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:16.68",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:01.03",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:02.92",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Erol Kaan ÖZCAN",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 24,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:00.04",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "31.72",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.64",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.49",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Serkan Yiğit CÖMERT",
+          "city": "Ankara",
+          "top3": 20,
+          "top4": 23,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.66",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.34",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.41",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:03.93",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Erhan Efe DÖNMEZ",
+          "city": "Ankara",
+          "top3": 20,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "59.19",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:14.03",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.68",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:04.00",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Kağan KOÇUK",
+          "city": "Bursa",
+          "top3": 18,
+          "top4": 18,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.15",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:17.93",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:03.19",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Ali Kaan ŞEN",
+          "city": "Eskişehir",
+          "top3": 17,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.23",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:00.68",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.89",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:05.43",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Kadir YAYLA",
+          "city": "Istanbul",
+          "top3": 17,
+          "top4": 21,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:32.37",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:10.06",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.26",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:27.22",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Çınar KIROĞLU",
+          "city": "Ankara",
+          "top3": 17,
+          "top4": 21,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:14.64",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:15.11",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:18.06",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:00.88",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Orhan Eray ŞENYILDIZ",
+          "city": "Samsun",
+          "top3": 17,
+          "top4": 17,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:09.94",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:33.65",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.37",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:14.22",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Kerim Deniz Köken",
+          "city": "Istanbul",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.17",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:39.56",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:58.99",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:10.14",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Çınar GÜLSOY",
+          "city": "Kayseri",
+          "top3": 16,
+          "top4": 18,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:50.88",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:37.82",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:18.09",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:03.37",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Efe AYDINÇAKIR",
+          "city": "Trabzon",
+          "top3": 15,
+          "top4": 16,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:00.85",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:14.75",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.26",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.49",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Onur Çağan ERTEN",
+          "city": "Eskişehir",
+          "top3": 14,
+          "top4": 18,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.33",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.18",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.94",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:03.65",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Çınar Alikan",
+          "city": "Samsun",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:57.58",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:21.01",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:22.93",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:07.54",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Deniz YAVUZ",
+          "city": "Eskişehir",
+          "top3": 9,
+          "top4": 11,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:02.06",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.29",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "56.09",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.32",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Alp AKAN",
+          "city": "Samsun",
+          "top3": 9,
+          "top4": 10,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.81",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.39",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "56.71",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "30.21",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Osman Ayaz Türker",
+          "city": "Antalya",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:05.28",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:24.82",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:15.69",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:31.93",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Kağan Benveniste",
+          "city": "Trabzon",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:18.08",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:05.70",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Enes Berkay Onlat",
+          "city": "Eskişehir",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:18.85",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:08.83",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:25.44",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:06.76",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "İbrahim Eren Atakan",
+          "city": "Kayseri",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:53.76",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:10.11",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:27.03",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:06.84",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "11_Kadın": {
+      "yb": "11",
+      "gender": "Kadın",
+      "age_label": "2011 (15 Yaş)",
+      "medal_cut": 3,
+      "athlete_count": 11,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Ayşe Nazlı SÖNMEZ",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.09",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.01",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "59.20",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:03.83",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Asya Beren ÇELİK",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 33,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:04.80",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.12",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:22.87",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "28.08",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Pelin KIZILDERE",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 33,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.19",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:40.06",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:12.91",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:25.83",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "IDIL GÜLCAN",
+          "city": "Istanbul",
+          "top3": 24,
+          "top4": 29,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:20.57",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:08.67",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.28",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:28.43",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 5,
+          "name": "Cemre INCE",
+          "city": "Izmir",
+          "top3": 23,
+          "top4": 30,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:25.17",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.27",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.11",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:21.16",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "top3": 23,
+          "top4": 30,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:33.22",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:17.13",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:25.80",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:09.68",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Ipek SÖZER",
+          "city": "Izmir",
+          "top3": 21,
+          "top4": 24,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:05.06",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.28",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:23.28",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "28.42",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Lena CENGİZ",
+          "city": "Bursa",
+          "top3": 21,
+          "top4": 21,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.47",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "59.31",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:10.97",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Azra GEDİKOĞLU",
+          "city": "Trabzon",
+          "top3": 19,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:44.18",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:17.99",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:14.03",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.05",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Beren RİZELİ",
+          "city": "Trabzon",
+          "top3": 19,
+          "top4": 22,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:10.34",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.42",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "28.37",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.79",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Elvin ALVER",
+          "city": "Istanbul",
+          "top3": 17,
+          "top4": 22,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:08.26",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "31.57",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "28.25",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.20",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "12_Erkek": {
+      "yb": "12",
+      "gender": "Erkek",
+      "age_label": "2012 (14 Yaş)",
+      "medal_cut": 4,
+      "athlete_count": 32,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Doruk Efe DONBAYCI",
+          "city": "Ankara",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "24.97",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "1:59.96",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "55.75",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "26.88",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Pars IKİKARDAŞLAR",
+          "city": "Izmir",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "30.47",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:08.66",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:27.34",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.35",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Taha SADE",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 33,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:15.35",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:19.78",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:34.36",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:03.49",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Tan ÇAKIROĞLU",
+          "city": "Ankara",
+          "top3": 27,
+          "top4": 31,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.57",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:17.40",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:03.93",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.94",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Deniz Baray TOZ",
+          "city": "Istanbul",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:00.03",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:10.58",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "27.82",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:03.83",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Osman Ata KARADAĞ",
+          "city": "Mersin",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:17.60",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:45.54",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "16:52.15",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:14.08",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Umut Ata SARIKAYA",
+          "city": "Ankara",
+          "top3": 21,
+          "top4": 28,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:20.48",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:00.76",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:13.94",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:58.40",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Eray BÜYÜKKORKMAZ",
+          "city": "Istanbul",
+          "top3": 21,
+          "top4": 27,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:03.44",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:19.07",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:53.36",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:01.28",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Furkan Emir ABLAK",
+          "city": "Izmir",
+          "top3": 21,
+          "top4": 22,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "29.70",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:22.79",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:04.04",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.19",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Kadir Eymen AKSU",
+          "city": "Bursa",
+          "top3": 20,
+          "top4": 20,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:09.37",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:30.92",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.51",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.83",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Ilkut Girayhan AKYÜZ",
+          "city": "Izmir",
+          "top3": 18,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "57.12",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.35",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:04.68",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.53",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Ismail Engin AKDOĞAN",
+          "city": "Ankara",
+          "top3": 17,
+          "top4": 20,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "56.07",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.90",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:04.56",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "32.65",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Poyraz YÜKSEL",
+          "city": "Istanbul",
+          "top3": 17,
+          "top4": 20,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:11.33",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:31.88",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:05.54",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:24.85",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Erdem KIRCA",
+          "city": "Eskişehir",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:23.32",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:08.15",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:05.56",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:22.25",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Mustafa Demir AY",
+          "city": "Istanbul",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:23.91",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.94",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:11.85",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:40.82",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Ahmet Yahya Karabulut",
+          "city": "Kayseri",
+          "top3": 16,
+          "top4": 18,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:03.55",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.08",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:20.45",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:11.71",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Kerem YAVUZ",
+          "city": "Ankara",
+          "top3": 16,
+          "top4": 17,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "25.88",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "57.23",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.41",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:06.95",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Timur DONAT",
+          "city": "Antalya",
+          "top3": 14,
+          "top4": 17,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:24.76",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:09.96",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:58.22",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:08.01",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Yağız KANCA",
+          "city": "Edirne",
+          "top3": 14,
+          "top4": 17,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "28.00",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "26.40",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "31.63",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "57.65",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Poyraz Dere",
+          "city": "Mersin",
+          "top3": 13,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:26.73",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:06.28",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:30.51",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:58.83",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Aras IPEK",
+          "city": "Samsun",
+          "top3": 13,
+          "top4": 15,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "32.48",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.33",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:44.33",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:25.57",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "ılgaz FIRTINA",
+          "city": "Edirne",
+          "top3": 13,
+          "top4": 15,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:38.83",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:28.16",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:11.35",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:06.57",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Erdem AVENOĞLU",
+          "city": "Ankara",
+          "top3": 12,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:24.22",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.09",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.00",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.51",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Eymen AKAR",
+          "city": "Ankara",
+          "top3": 11,
+          "top4": 11,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:39.63",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.28",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.01",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Ege Kandemir",
+          "city": "Izmir",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.67",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:22.37",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.12",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:35.32",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Mustafa Kocamaz",
+          "city": "Kayseri",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:24.73",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:15.66",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:51.36",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:47.39",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "top3": 7,
+          "top4": 8,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "33.44",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:46.64",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.85",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:25.82",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "Ali Ege KÜTAHYA",
+          "city": "Istanbul",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:22.46",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:24.00",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:34.04",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.65",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 29,
+          "name": "Ali Kaan KARAMAN",
+          "city": "Izmir",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "57.38",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:05.74",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.67",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:26.13",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 30,
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.14",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.26",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:35.43",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.42",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 31,
+          "name": "Tuna Özcan Kubat",
+          "city": "Izmir",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.17",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.96",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:18.39",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:27.96",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 32,
+          "name": "Yunus Emre Kul",
+          "city": "Bursa",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "38.38",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "29.02",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.20",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "39.35",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "12_Kadın": {
+      "yb": "12",
+      "gender": "Kadın",
+      "age_label": "2012 (14 Yaş)",
+      "medal_cut": 4,
+      "athlete_count": 21,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.41",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.96",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.73",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:06.46",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Tuğba YILDIZ",
+          "city": "Istanbul",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "8:56.20",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:29.69",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:06.67",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:13.13",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Zeynep Derin GÜLDEMİR",
+          "city": "Izmir",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:46.15",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:18.19",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:12.97",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:01.51",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Deniz ANIL",
+          "city": "Ankara",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.92",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.57",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.87",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:29.48",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Melodi DEMİREL",
+          "city": "Mersin",
+          "top3": 23,
+          "top4": 30,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:11.78",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:26.33",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.08",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:09.19",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 6,
+          "name": "Jasmin ARSLAN",
+          "city": "Istanbul",
+          "top3": 22,
+          "top4": 28,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "27.66",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "30.93",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "30.40",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:07.66",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 7,
+          "name": "Sahra ÇELİKKÖKÜ",
+          "city": "Bursa",
+          "top3": 22,
+          "top4": 28,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:39.96",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:39.64",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:12.99",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:01.93",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Elif Ipek BAYRAK",
+          "city": "Trabzon",
+          "top3": 22,
+          "top4": 27,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:24.94",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:07.23",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "31.41",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.46",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Duru AYDIN",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 24,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "34.46",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:18.80",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "30.79",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:54.46",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Merve MENGÜBERTİ",
+          "city": "Izmir",
+          "top3": 20,
+          "top4": 24,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:24.40",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:14.28",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.47",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.54",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "top3": 20,
+          "top4": 22,
+          "events": [
+            {
+              "event": "50m Kelebek",
+              "time_raw": "29.72",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:06.45",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "50m Serbest",
+              "time_raw": "29.14",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.41",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "Izmir",
+          "top3": 18,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:47.77",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.29",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:20.05",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:19.68",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Ipek Gökçe DEMİRBAŞAK",
+          "city": "Kocaeli",
+          "top3": 18,
+          "top4": 20,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:44.74",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:43.90",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:30.87",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.50",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.16",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:30.31",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "30.48",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:29.53",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Dora ÖZER",
+          "city": "Trabzon",
+          "top3": 16,
+          "top4": 19,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "35.70",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.25",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:52.24",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.49",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Nehir Berin DAĞLI",
+          "city": "Samsun",
+          "top3": 16,
+          "top4": 19,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:40.81",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:14.98",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.68",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.00",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Elif Rüya KANDEMİR",
+          "city": "Kocaeli",
+          "top3": 16,
+          "top4": 18,
+          "events": [
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "36.17",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.66",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.08",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.29",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Mısra Saygılı",
+          "city": "Bursa",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:19.19",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "50m Kurbağalama",
+              "time_raw": "36.80",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.90",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Mira AYDIN",
+          "city": "Samsun",
+          "top3": 14,
+          "top4": 18,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:46.76",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:47.85",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:16.17",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:49.04",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Ekin YILMAZ",
+          "city": "Eskişehir",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "50m Sırtüstü",
+              "time_raw": "32.70",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:14.15",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.26",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.80",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Ela AYGÜN",
+          "city": "Samsun",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "50m Serbest",
+              "time_raw": "29.15",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:31.97",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:17.62",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.86",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "13_Erkek": {
+      "yb": "13",
+      "gender": "Erkek",
+      "age_label": "2013 (13 Yaş)",
+      "medal_cut": 6,
+      "athlete_count": 30,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Çağkan Demir BİÇEN",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:26.43",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:20.50",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:08.72",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.23",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "top3": 24,
+          "top4": 30,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:43.71",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.62",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:26.91",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:13.43",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz ALBAYRAK",
+          "city": "Trabzon",
+          "top3": 23,
+          "top4": 25,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.04",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:21.33",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:12.53",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.81",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Ekin YALDAEI",
+          "city": "Mersin",
+          "top3": 23,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:26.46",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:09.56",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:24.91",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.92",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Miraç Yağız ÖZTÜRK",
+          "city": "Trabzon",
+          "top3": 22,
+          "top4": 24,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "56.97",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:26.89",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:14.21",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:13.56",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 6,
+          "name": "Ahmet Tuna ATCI",
+          "city": "Ankara",
+          "top3": 21,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:06.35",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.32",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.93",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:33.69",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 7,
+          "name": "Kerem BALIK",
+          "city": "Istanbul",
+          "top3": 21,
+          "top4": 23,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:06.67",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:25.10",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:27.11",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.75",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Emir Yağız ULUPINAR",
+          "city": "Trabzon",
+          "top3": 20,
+          "top4": 26,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:27.99",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:14.44",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.70",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:08.38",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Koray GÜNDÜZ",
+          "city": "Ankara",
+          "top3": 20,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:20.47",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:04.68",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:13.69",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:37.07",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Çağan Murat COŞKUNOĞLU",
+          "city": "Izmir",
+          "top3": 19,
+          "top4": 24,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "01:04.53",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "04:31.22",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:22.59",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:21.62",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Tuna ÖZTOPRAK",
+          "city": "Edirne",
+          "top3": 19,
+          "top4": 19,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:23.35",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:07.87",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:17.70",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:43.05",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Uras GÜNEŞ",
+          "city": "Izmir",
+          "top3": 18,
+          "top4": 20,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:44.45",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:13.67",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:28.58",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:28.15",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Tahir Ömer AKAR",
+          "city": "Ankara",
+          "top3": 18,
+          "top4": 18,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:39.91",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:17.08",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:32.98",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.56",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Mustafa Mert KIRAÇ",
+          "city": "Istanbul",
+          "top3": 17,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:06.76",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "58.80",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:09.43",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.53",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "İsmail OTLAK",
+          "city": "Samsun",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:30.08",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:08.70",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.88",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.19",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Yusuf Eymen CAN",
+          "city": "Istanbul",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:16.01",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:32.10",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:36.06",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Efe AĞABABAOĞLU",
+          "city": "Ankara",
+          "top3": 10,
+          "top4": 13,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:10.69",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.83",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:33.86",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:28.31",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Eren ÇINAR",
+          "city": "Edirne",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:27.95",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:27.67",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:37.70",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:08.17",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Doruk SARPDERE",
+          "city": "Edirne",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "59.87",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:11.91",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:31.74",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.47",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Kerem Burak GÜRBÜZ",
+          "city": "Istanbul",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:02.02",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:30.87",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.28",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:31.82",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.90",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.79",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:29.93",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.58",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Alperen Güzey",
+          "city": "Kayseri",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:22.46",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.29",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:49.04",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Batuhan KAYA",
+          "city": "Çanakkale",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:17.49",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:31.29",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:06.30",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Bora AĞDERE",
+          "city": "Giresun",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:05.57",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:29.26",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.11",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:35.13",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Rüzgar Buyruk",
+          "city": "Ankara",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:26.25",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:47.81",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:51.66",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.39",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Deniz KAYMAK",
+          "city": "Ankara",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:35.05",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:39.12",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:38.35",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:36.45",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Yağız IŞILDAK",
+          "city": "Mersin",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:23.09",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.09",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.19",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:34.71",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "İbrahim MUTLU",
+          "city": "Kayseri",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:28.76",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:39.87",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:39.69",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:34.05",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 29,
+          "name": "Enes Kayra Söğüt",
+          "city": "Bolu",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.21",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.26",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.40",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:59.61",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 30,
+          "name": "Efe KOÇ",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:45.72",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:20.48",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:40.50",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:36.43",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "13_Kadın": {
+      "yb": "13",
+      "gender": "Kadın",
+      "age_label": "2013 (13 Yaş)",
+      "medal_cut": 6,
+      "athlete_count": 36,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Meryem ÇETİN",
+          "city": "Bursa",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:09.52",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:36.68",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:30.54",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:27.30",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Fatma Berra ÖZER",
+          "city": "Gaziantep",
+          "top3": 25,
+          "top4": 31,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:06.21",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:21.48",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.76",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:27.84",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "top3": 23,
+          "top4": 30,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:33.39",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:38.92",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:34.90",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:25.58",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Naz HAZIROLAN",
+          "city": "Ankara",
+          "top3": 23,
+          "top4": 27,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:29.83",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:10.11",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.48",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:15.91",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Berilay BATUR",
+          "city": "Kayseri",
+          "top3": 20,
+          "top4": 26,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:14.63",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:33.80",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:42.00",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:38.95",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 6,
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "top3": 20,
+          "top4": 23,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:33.04",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:15.11",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:44.76",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:46.23",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 7,
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "top3": 19,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:27.80",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:39.89",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:26.12",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:40.79",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 8,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "top3": 19,
+          "top4": 19,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.29",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.11",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:33.80",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.23",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 9,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "top3": 18,
+          "top4": 22,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:35.00",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:34.32",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:28.85",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:44.51",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Deniz ÇALIŞKAN",
+          "city": "Istanbul",
+          "top3": 18,
+          "top4": 21,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:01.94",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.21",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:16.00",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:36.48",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Ömür GÜVEL",
+          "city": "Adana",
+          "top3": 17,
+          "top4": 18,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.43",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:35.19",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.46",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:17.93",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "Izmir",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:49.72",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.34",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.24",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:42.40",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Cemre KAYNAŞ",
+          "city": "Izmir",
+          "top3": 15,
+          "top4": 15,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:02.45",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:15.34",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:36.62",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:37.38",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Yağmur KONT",
+          "city": "Gaziantep",
+          "top3": 14,
+          "top4": 16,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:42.50",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:40.08",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:45.04",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:16.75",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:06.35",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:30.83",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.63",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.26",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Ada ÖZEN",
+          "city": "Izmir",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:58.11",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.83",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.66",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.52",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Zeynep Dilara Ünlü",
+          "city": "Bursa",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.99",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.61",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.74",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.47",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Elçin Uzun",
+          "city": "Ankara",
+          "top3": 11,
+          "top4": 11,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:35.99",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.17",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.79",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.85",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "ırmak BARUTÇUOĞLU",
+          "city": "Ankara",
+          "top3": 11,
+          "top4": 11,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.41",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.18",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.60",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.16",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "top3": 9,
+          "top4": 10,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:32.02",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.34",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:00.44",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:28.38",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Belemir Ada KAYA",
+          "city": "Gaziantep",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.28",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.98",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.63",
+              "rank": 21,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "top3": 8,
+          "top4": 9,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:34.66",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.87",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:34.49",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.72",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Efsa TORUN",
+          "city": "Giresun",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:25.05",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.24",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.08",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.59",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Esil Erva DURU",
+          "city": "Edirne",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:07.55",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:54.42",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:47.89",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:18.94",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:00.14",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:37.03",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.73",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:42.83",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Zeynep Kanıgür",
+          "city": "Ankara",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.14",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:41.63",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.72",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:28.76",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Kumsal İkra Yaşar",
+          "city": "Adana",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "02:36.72",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "04:49.94",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "02:18.64",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "02:38.79",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.08",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:50.72",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.58",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.80",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 29,
+          "name": "Tanem Can YAVUZÖZ",
+          "city": "Izmir",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.28",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:30.58",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.03",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:20.06",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 30,
+          "name": "Zeynep KAYA",
+          "city": "Ankara",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.83",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.93",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:14.26",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:11.13",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 31,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.17",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:36.03",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:39.33",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:55.88",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 32,
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.51",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:39.48",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.90",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.80",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 33,
+          "name": "Zeynep Irmak Yalçın",
+          "city": "Gaziantep",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:17.65",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.85",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:55.89",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.13",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 34,
+          "name": "Ela Nira Çizer",
+          "city": "Sakarya",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:10.46",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.07",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.30",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.21",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 35,
+          "name": "Elif Rüya Canoğlu",
+          "city": "Antalya",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.19",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.34",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:37.79",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:17.32",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 36,
+          "name": "Selen Naz Ağababaoğlu",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:20.16",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.43",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.39",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.24",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "14_Erkek": {
+      "yb": "14",
+      "gender": "Erkek",
+      "age_label": "2014 (12 Yaş)",
+      "medal_cut": 8,
+      "athlete_count": 68,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:06.63",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:29.71",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:22.89",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:48.54",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Yağız ALICI",
+          "city": "Mersin",
+          "top3": 27,
+          "top4": 34,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:24.16",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "4:59.25",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:34.82",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:24.25",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Ali ÇOKÇETİN",
+          "city": "Samsun",
+          "top3": 25,
+          "top4": 29,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:27.30",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:08.25",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:01.41",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:35.49",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Yaman KARACAÖREN",
+          "city": "Ankara",
+          "top3": 25,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:12.42",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.73",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:08.78",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Yavuz AKDAĞ",
+          "city": "Bursa",
+          "top3": 21,
+          "top4": 25,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:08.59",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:30.27",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:34.11",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:36.85",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 6,
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "top3": 20,
+          "top4": 26,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:20.63",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:37.88",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:31.62",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:56.98",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 7,
+          "name": "Ömer ULUDAĞ",
+          "city": "Istanbul",
+          "top3": 20,
+          "top4": 20,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:58.36",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:23.20",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:43.98",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.64",
+              "rank": 25,
+              "points": 0
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 8,
+          "name": "Çağlayan GÜNEŞ",
+          "city": "Eskişehir",
+          "top3": 17,
+          "top4": 17,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:21.89",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:58.64",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:36.89",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.36",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 9,
+          "name": "Rüzgar Armin ATİK",
+          "city": "Ankara",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:30.58",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:10.18",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.59",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.57",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Batuhan ARSLAN",
+          "city": "Ankara",
+          "top3": 15,
+          "top4": 15,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:21.74",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:09.83",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.31",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:12.90",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Kerim IŞIL",
+          "city": "Antalya",
+          "top3": 14,
+          "top4": 17,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:33.16",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:11.75",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:41.41",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:37.40",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Demir ERDOĞAN",
+          "city": "Antalya",
+          "top3": 14,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:18.10",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:38.15",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:29.55",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:43.62",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Can KINABAŞ",
+          "city": "Bursa",
+          "top3": 14,
+          "top4": 15,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:15.15",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:40.63",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:58.44",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:56.97",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Yusuf ZOPCUK",
+          "city": "Mersin",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:37.16",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.86",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:09.10",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.84",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Mustafa Yiğit KESKİN",
+          "city": "Antalya",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:16.22",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:41.29",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:52.64",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:14.74",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Batu KARAMAN",
+          "city": "Ankara",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:32.45",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:40.08",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:53.46",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:10.89",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Egemen ATÇI",
+          "city": "Eskişehir",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:37.84",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.04",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.83",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Muhsin Demir BOYLU",
+          "city": "Istanbul",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.93",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:24.58",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:11.89",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.30",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Barbaros KONUŞ",
+          "city": "Bursa",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:39.56",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.34",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.25",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.75",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:45.24",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "18:55.97",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:56.61",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:41.21",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Mert BOSTAN",
+          "city": "Trabzon",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:04.90",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:51.02",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:28.54",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.61",
+              "rank": 24,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Kayrahan ÇELİK",
+          "city": "Mersin",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:35.45",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:48.05",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.49",
+              "rank": 28,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.47",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Poyraz KAYA",
+          "city": "Samsun",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.42",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:20.17",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:49.84",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.57",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Kerem KILIÇASLAN",
+          "city": "Trabzon",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.97",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.64",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:15.24",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:00.58",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Kıvanç GÜL",
+          "city": "Çanakkale",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:40.87",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:15.34",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.58",
+              "rank": 38,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:08.52",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Mert AYGÜN",
+          "city": "Trabzon",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:04.92",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:28.41",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:39.99",
+              "rank": 28,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:46.69",
+              "rank": 32,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:33.49",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "Ömer Ali BABUŞCU",
+          "city": "Samsun",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:09.28",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:39.19",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.74",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 29,
+          "name": "Yusuf BAYSAL",
+          "city": "Sakarya",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:08.80",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:14.16",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:41.28",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:43.00",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 30,
+          "name": "Ahmet Talha AKKAŞ",
+          "city": "Kayseri",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:52.62",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.15",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:54.43",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:37.39",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 31,
+          "name": "Pamir Çağan ÖZTÜRK",
+          "city": "Ankara",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:18.74",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:31.58",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.90",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:22.86",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 32,
+          "name": "Yusuf Taha SAĞIR",
+          "city": "Trabzon",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:14.82",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.21",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.15",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:43.81",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 33,
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.92",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.60",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.66",
+              "rank": 26,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:43.64",
+              "rank": 18,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 34,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.48",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.55",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 35,
+          "name": "Kutay BOYAR",
+          "city": "Ankara",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.20",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.26",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:07.71",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 36,
+          "name": "Mert KONUKBAY",
+          "city": "Ankara",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.18",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:20.27",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:44.23",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.85",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 37,
+          "name": "Tolga ABBASOV",
+          "city": "Samsun",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:41.05",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:40.99",
+              "rank": 29,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:09.62",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:17.75",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 38,
+          "name": "Can VECAN",
+          "city": "Izmir",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:41.89",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.55",
+              "rank": 29,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 39,
+          "name": "Doruk ATİK",
+          "city": "Adana",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:20.14",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:08.88",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:52.66",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.06",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 40,
+          "name": "Kadir Ensar KOCADAŞ",
+          "city": "Bolu",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:16.09",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.74",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "3:15.79",
+              "rank": 18,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 41,
+          "name": "Taha BAŞ",
+          "city": "Samsun",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:15.40",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.79",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:04.01",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.03",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 42,
+          "name": "Arjin KARAMAN",
+          "city": "Izmir",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:42.32",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.77",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:18.34",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 43,
+          "name": "Demir DEMİRCİGİL",
+          "city": "Izmir",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:51.23",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:37.45",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:53.05",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "21:34.28",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 44,
+          "name": "Doğu IPEK",
+          "city": "Samsun",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:16.31",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:28.34",
+              "rank": 24,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.43",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:54.38",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 45,
+          "name": "Kaan KAPTAN",
+          "city": "Sakarya",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:39.39",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.58",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.10",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 46,
+          "name": "Ahmet Arın ÖLMEZ",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:29.18",
+              "rank": 25,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:22.70",
+              "rank": 28,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:46.71",
+              "rank": 33,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:53.51",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 47,
+          "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.05",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:54.95",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.65",
+              "rank": 37,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 48,
+          "name": "Ali KALYON",
+          "city": "Antalya",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.89",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:57.99",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.83",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:45.74",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 49,
+          "name": "Ali Kemal ERYAMAN",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.97",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:03.45",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.06",
+              "rank": 40,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.55",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 50,
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:48.16",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.35",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:07.44",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:21.58",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 51,
+          "name": "Alperen KALKAN",
+          "city": "Kayseri",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:11.69",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:00.09",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.50",
+              "rank": 34,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:54.09",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 52,
+          "name": "Baturalp ŞANLI",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:58.63",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:14.84",
+              "rank": 27,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.02",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:50.01",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 53,
+          "name": "Berat PALA",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:22.80",
+              "rank": 25,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:04.96",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.39",
+              "rank": 35,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "23:03.93",
+              "rank": 20,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 54,
+          "name": "Burak TURAN",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:30.30",
+              "rank": 26,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:28.04",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:14.52",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:41.31",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 55,
+          "name": "Can BAL",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:34.02",
+              "rank": 27,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.30",
+              "rank": 41,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.18",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 56,
+          "name": "Eymen KUTLU",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:07.14",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:51.79",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:46.54",
+              "rank": 31,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:40.77",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 57,
+          "name": "Eymen ÇEVİK",
+          "city": "Gaziantep",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.29",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.03",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.45",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:56.17",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 58,
+          "name": "Feridun Toprak ERÇORA",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.63",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:55.74",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "3:00.11",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:20.83",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 59,
+          "name": "Hamza OTLAK",
+          "city": "Samsun",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.63",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:11.69",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:37.10",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:24.63",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 60,
+          "name": "Kaan CEYLAN",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:16.72",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:05.53",
+              "rank": 24,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:51.77",
+              "rank": 42,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:38.90",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 61,
+          "name": "Kayra ŞANLIER",
+          "city": "Antalya",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.87",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.60",
+              "rank": 36,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:08.26",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:15.79",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 62,
+          "name": "Mehmet DAVER",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:11.47",
+              "rank": 26,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.59",
+              "rank": 39,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:16.43",
+              "rank": 20,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 63,
+          "name": "Muhammed Enes ILYAN",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:26.33",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:09.57",
+              "rank": 25,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.18",
+              "rank": 27,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:23.21",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 64,
+          "name": "Murat SAKA",
+          "city": "Eskişehir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:25.33",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:21.09",
+              "rank": 24,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.04",
+              "rank": 20,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 65,
+          "name": "Mustafa BİRİNCİ",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.12",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:42.80",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:43.09",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:17.43",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 66,
+          "name": "Rüzgar BAŞARICI",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "12:01.37",
+              "rank": 26,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:59.78",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.97",
+              "rank": 30,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "23:14.93",
+              "rank": 21,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 67,
+          "name": "Toprak URAL",
+          "city": "Mersin",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:29.10",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:05.19",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.87",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:54.08",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 68,
+          "name": "Ömer Mete ŞİMŞEK",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.80",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:09.71",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:54.39",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.36",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    },
+    "14_Kadın": {
+      "yb": "14",
+      "gender": "Kadın",
+      "age_label": "2014 (12 Yaş)",
+      "medal_cut": 8,
+      "athlete_count": 68,
+      "athletes": [
+        {
+          "rank": 1,
+          "name": "ılgım ERTAŞ",
+          "city": "Edirne",
+          "top3": 27,
+          "top4": 36,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:32.03",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:07.54",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:18.88",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:34.01",
+              "rank": 1,
+              "points": 9
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 2,
+          "name": "Asya KAPLANOĞLU",
+          "city": "Antalya",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:30.89",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "9:26.86",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:40.69",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:32.18",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 3,
+          "name": "Peri USLU",
+          "city": "Antalya",
+          "top3": 25,
+          "top4": 32,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:09.27",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:10.55",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:33.36",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:00.60",
+              "rank": 2,
+              "points": 7
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 4,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "top3": 24,
+          "top4": 24,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:19.59",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.53",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:36.79",
+              "rank": 3,
+              "points": 6
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 5,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "top3": 21,
+          "top4": 26,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:19.59",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:53.24",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:40.64",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.24",
+              "rank": 4,
+              "points": 5
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 6,
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "top3": 21,
+          "top4": 24,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:32.32",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:17.66",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.21",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.38",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 7,
+          "name": "Ayşem ÖZÇELTİKÇİ",
+          "city": "Bursa",
+          "top3": 19,
+          "top4": 19,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "12:49.57",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:25.26",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:02.15",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.84",
+              "rank": 22,
+              "points": 0
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 8,
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "top3": 16,
+          "top4": 20,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:53.93",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.43",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:21.55",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.45",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": true
+        },
+        {
+          "rank": 9,
+          "name": "Mira TUFAN",
+          "city": "Istanbul",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:09.24",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:46.41",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.82",
+              "rank": 5,
+              "points": 4
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 10,
+          "name": "Zeynep KÜÇÜK",
+          "city": "Trabzon",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "57.72",
+              "rank": 1,
+              "points": 9
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:48.79",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.85",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:28.69",
+              "rank": 25,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 11,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:09.95",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.72",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.33",
+              "rank": 6,
+              "points": 3
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 12,
+          "name": "Linda Derin OĞUZHAN",
+          "city": "Samsun",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:11.63",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:34.32",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.41",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.51",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 13,
+          "name": "Duru DEMİR",
+          "city": "Mersin",
+          "top3": 13,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:45.45",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:48.57",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:04.07",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.46",
+              "rank": 8,
+              "points": 1
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 14,
+          "name": "Tuana YİRİK",
+          "city": "Istanbul",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:03.10",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:18.60",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.14",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:48.20",
+              "rank": 18,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 15,
+          "name": "Zeynep Duru YARDIMCI",
+          "city": "Ankara",
+          "top3": 12,
+          "top4": 14,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:09.47",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:04.25",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.72",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.63",
+              "rank": 7,
+              "points": 2
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 16,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:17.24",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:50.87",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:57.42",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.78",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 17,
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:12.82",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:44.94",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:01.06",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:51.29",
+              "rank": 43,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 18,
+          "name": "Nil ÖZGE",
+          "city": "Istanbul",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:23.71",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:03.07",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:59.60",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.76",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 19,
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:55.88",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:18.53",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:16.45",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 20,
+          "name": "Yağmur ADALIYILMAZ",
+          "city": "Antalya",
+          "top3": 12,
+          "top4": 12,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:25.86",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:18.27",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:00.10",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.85",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 21,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:47.86",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:19.67",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:38.62",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.18",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 22,
+          "name": "Aysima VATANSEVER",
+          "city": "Bursa",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:01.38",
+              "rank": 3,
+              "points": 6
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:26.68",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.93",
+              "rank": 29,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:21.40",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 23,
+          "name": "Defne UÇAR",
+          "city": "Eskişehir",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:43.22",
+              "rank": 2,
+              "points": 7
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.37",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.67",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.92",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 24,
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.70",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:54.00",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.06",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.97",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 25,
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:45.31",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:22.10",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:00.33",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:22.22",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 26,
+          "name": "Aslı Beren KOLCU",
+          "city": "Ankara",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:35.60",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.43",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.73",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:41.45",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 27,
+          "name": "Elif INAT",
+          "city": "Samsun",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:26.02",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:03.77",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.14",
+              "rank": 24,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:29.94",
+              "rank": 26,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 28,
+          "name": "IDIL Nilay KARSLI",
+          "city": "Giresun",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:12.45",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.01",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:26.46",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.58",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 29,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.24",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:38.23",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.29",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 30,
+          "name": "Melis MENCİK",
+          "city": "Samsun",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:13.11",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:37.70",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.63",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:25.71",
+              "rank": 18,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 31,
+          "name": "ırmak AKCENGİZ",
+          "city": "Ankara",
+          "top3": 6,
+          "top4": 6,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:55.93",
+              "rank": 4,
+              "points": 5
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.67",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:14.97",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:45.23",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 32,
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:57.68",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:25.27",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:40.38",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.84",
+              "rank": 39,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 33,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:52.57",
+              "rank": 5,
+              "points": 4
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.50",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.67",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:06.63",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 34,
+          "name": "Berrak ÖZBAL",
+          "city": "Gaziantep",
+          "top3": 4,
+          "top4": 4,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:57.71",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:21.73",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.37",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.42",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 35,
+          "name": "Beren ULUAĞAÇ",
+          "city": "Edirne",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:38.08",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:08.33",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:07.46",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:31.03",
+              "rank": 27,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 36,
+          "name": "Hira Zeyneb MUTLU",
+          "city": "Eskişehir",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:03.25",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:54.94",
+              "rank": 46,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.20",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:14.32",
+              "rank": 20,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 37,
+          "name": "Zeynep Beren YILDIZ",
+          "city": "Ankara",
+          "top3": 3,
+          "top4": 3,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:26.03",
+              "rank": 6,
+              "points": 3
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.03",
+              "rank": 33,
+              "points": 0
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:06.83",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:43.21",
+              "rank": 30,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 38,
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:00.13",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:24.78",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:14.70",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:46.50",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 39,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.28",
+              "rank": 7,
+              "points": 2
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.86",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:11.73",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 40,
+          "name": "Mira Nurgül ALTAY",
+          "city": "Mersin",
+          "top3": 2,
+          "top4": 2,
+          "events": [
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:26.78",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:05.27",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.33",
+              "rank": 26,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:48.84",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 41,
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:10.57",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:16.01",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:01.42",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.29",
+              "rank": 31,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 42,
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:40.12",
+              "rank": 8,
+              "points": 1
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:05.20",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:14.74",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:27.19",
+              "rank": 21,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 43,
+          "name": "Arya Gönül KAHRAMAN",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:09.13",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "21:43.48",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "12:45.27",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.08",
+              "rank": 35,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 44,
+          "name": "Aysu KABAOĞLU",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:16.80",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:43.86",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:31.22",
+              "rank": 29,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:09.25",
+              "rank": 19,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 45,
+          "name": "Ayşe Beren ONAY",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:02.24",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.60",
+              "rank": 27,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:23.76",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 46,
+          "name": "Azra MUTLU",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:46.58",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.76",
+              "rank": 38,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:29.67",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:07.41",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 47,
+          "name": "B. ALTUNZİNCİR",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:57.02",
+              "rank": 47,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:19.06",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:44.23",
+              "rank": 12,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:31.04",
+              "rank": 28,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 48,
+          "name": "Beren MUTAŞ",
+          "city": "Konya",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:03.47",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:17.69",
+              "rank": 17,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:26.99",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:07.88",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 49,
+          "name": "Burcu Ece ORHAN",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:16.22",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:45.24",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:20.41",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:05.72",
+              "rank": 9,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 50,
+          "name": "Defne GÖNEN",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.22",
+              "rank": 25,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:44.65",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:17.94",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:23.01",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 51,
+          "name": "Deniz ERÇELEBİ",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:48.36",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.65",
+              "rank": 37,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:17.81",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:46.48",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 52,
+          "name": "Dünyam Aden Su KÜÇÜK",
+          "city": "Adana",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:10.25",
+              "rank": 19,
+              "points": 0
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:11.25",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:41.99",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.45",
+              "rank": 34,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 53,
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:45.92",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.94",
+              "rank": 41,
+              "points": 0
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:17.68",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 54,
+          "name": "Elif Naz OKUYUCU",
+          "city": "Samsun",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:06.45",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:12.27",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:51.59",
+              "rank": 44,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:25.62",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 55,
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:06.21",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.18",
+              "rank": 36,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.63",
+              "rank": 13,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:08.33",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 56,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "21:17.72",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.90",
+              "rank": 32,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:50.50",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "6:18.29",
+              "rank": 10,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 57,
+          "name": "Eylül ÇOTUR",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:50.91",
+              "rank": 40,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:19.00",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:44.59",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 58,
+          "name": "Inci TANRIVERDİ",
+          "city": "Eskişehir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:17.18",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:48.06",
+              "rank": 30,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:14.76",
+              "rank": 11,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 59,
+          "name": "Melis Ece ILTER",
+          "city": "Eskişehir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:01.41",
+              "rank": 11,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:51.21",
+              "rank": 42,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.77",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 60,
+          "name": "Melis LİZOR",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:10.74",
+              "rank": 20,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "13:02.44",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:24.74",
+              "rank": 15,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:08.08",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 61,
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:47.61",
+              "rank": 28,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:17.26",
+              "rank": 14,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:43.34",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:07.29",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 62,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "Izmir",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "22:49.37",
+              "rank": 16,
+              "points": 0
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "11:43.65",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.53",
+              "rank": 14,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 63,
+          "name": "Nisa Nur ILYAN",
+          "city": "Trabzon",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:40.19",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:27.32",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:14.28",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:07.74",
+              "rank": 13,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 64,
+          "name": "Serenay Tuğçe Gülöksüz",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:16.34",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:58.25",
+              "rank": 48,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:27.28",
+              "rank": 22,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:23.11",
+              "rank": 17,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 65,
+          "name": "Zeynep MEYİLLİ",
+          "city": "Kayseri",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:28.10",
+              "rank": 18,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:07.89",
+              "rank": 15,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 66,
+          "name": "Zümra KOÇOĞLU",
+          "city": "Bursa",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:54.49",
+              "rank": 45,
+              "points": 0
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:15.84",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:41.02",
+              "rank": 9,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:22.27",
+              "rank": 16,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 67,
+          "name": "Öykü ÖZGÜL",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.56",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:27.22",
+              "rank": 10,
+              "points": 0
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:14.85",
+              "rank": 12,
+              "points": 0
+            }
+          ],
+          "medal": false
+        },
+        {
+          "rank": 68,
+          "name": "Özüm ÖZBEY",
+          "city": "Ankara",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "400m Serbest",
+              "time_raw": "5:11.15",
+              "rank": 21,
+              "points": 0
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:46.92",
+              "rank": 23,
+              "points": 0
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:28.50",
+              "rank": 24,
+              "points": 0
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:08.63",
+              "rank": 18,
+              "points": 0
+            }
+          ],
+          "medal": false
+        }
+      ]
+    }
+  },
+  "city_rankings": [
+    {
+      "rank": 1,
+      "city": "Istanbul",
+      "total": 892,
+      "athletes": 48,
+      "events_won": 0
+    },
+    {
+      "rank": 2,
+      "city": "Bursa",
+      "total": 600,
+      "athletes": 40,
+      "events_won": 0
+    },
+    {
+      "rank": 3,
+      "city": "Ankara",
+      "total": 554,
+      "athletes": 50,
+      "events_won": 0
+    },
+    {
+      "rank": 4,
+      "city": "Izmir",
+      "total": 396,
+      "athletes": 34,
+      "events_won": 0
+    },
+    {
+      "rank": 5,
+      "city": "Samsun",
+      "total": 300,
+      "athletes": 28,
+      "events_won": 0
+    },
+    {
+      "rank": 6,
+      "city": "Antalya",
+      "total": 257,
+      "athletes": 22,
+      "events_won": 0
+    },
+    {
+      "rank": 7,
+      "city": "Tekirdağ",
+      "total": 233,
+      "athletes": 14,
+      "events_won": 0
+    },
+    {
+      "rank": 8,
+      "city": "Trabzon",
+      "total": 211,
+      "athletes": 21,
+      "events_won": 0
+    },
+    {
+      "rank": 9,
+      "city": "Mersin",
+      "total": 169,
+      "athletes": 12,
+      "events_won": 0
+    },
+    {
+      "rank": 10,
+      "city": "Eskişehir",
+      "total": 167,
+      "athletes": 16,
+      "events_won": 0
+    },
+    {
+      "rank": 11,
+      "city": "Kayseri",
+      "total": 163,
+      "athletes": 15,
+      "events_won": 0
+    },
+    {
+      "rank": 12,
+      "city": "Gaziantep",
+      "total": 109,
+      "athletes": 9,
+      "events_won": 0
+    },
+    {
+      "rank": 13,
+      "city": "Edirne",
+      "total": 102,
+      "athletes": 8,
+      "events_won": 0
+    },
+    {
+      "rank": 14,
+      "city": "Kocaeli",
+      "total": 59,
+      "athletes": 3,
+      "events_won": 0
+    },
+    {
+      "rank": 15,
+      "city": "Çanakkale",
+      "total": 32,
+      "athletes": 9,
+      "events_won": 0
+    },
+    {
+      "rank": 16,
+      "city": "Adana",
+      "total": 24,
+      "athletes": 4,
+      "events_won": 0
+    },
+    {
+      "rank": 17,
+      "city": "Kütahya",
+      "total": 22,
+      "athletes": 1,
+      "events_won": 0
+    },
+    {
+      "rank": 18,
+      "city": "Giresun",
+      "total": 19,
+      "athletes": 3,
+      "events_won": 0
+    },
+    {
+      "rank": 19,
+      "city": "Sakarya",
+      "total": 14,
+      "athletes": 4,
+      "events_won": 0
+    },
+    {
+      "rank": 20,
+      "city": "Konya",
+      "total": 14,
+      "athletes": 2,
+      "events_won": 0
+    },
+    {
+      "rank": 21,
+      "city": "Bolu",
+      "total": 4,
+      "athletes": 2,
+      "events_won": 0
+    },
+    {
+      "rank": 22,
+      "city": "Tokat",
+      "total": 1,
+      "athletes": 3,
+      "events_won": 0
+    }
+  ],
+  "program": [
+    {
+      "gun": 1,
+      "seans": "Sabah",
+      "brans": "50m Kurbağalama"
+    },
+    {
+      "gun": 1,
+      "seans": "Sabah",
+      "brans": "100m Serbest"
+    },
+    {
+      "gun": 1,
+      "seans": "Sabah",
+      "brans": "200m Karışık"
+    },
+    {
+      "gun": 1,
+      "seans": "Akşam",
+      "brans": "100m Kelebek"
+    },
+    {
+      "gun": 1,
+      "seans": "Akşam",
+      "brans": "200m Kurbağalama"
+    },
+    {
+      "gun": 1,
+      "seans": "Akşam",
+      "brans": "400m Serbest"
+    },
+    {
+      "gun": 2,
+      "seans": "Sabah",
+      "brans": "50m Sırtüstü"
+    },
+    {
+      "gun": 2,
+      "seans": "Sabah",
+      "brans": "100m Kurbağalama"
+    },
+    {
+      "gun": 2,
+      "seans": "Sabah",
+      "brans": "200m Kelebek"
+    },
+    {
+      "gun": 2,
+      "seans": "Akşam",
+      "brans": "200m Sırtüstü"
+    },
+    {
+      "gun": 2,
+      "seans": "Akşam",
+      "brans": "800m Serbest"
+    },
+    {
+      "gun": 2,
+      "seans": "Akşam",
+      "brans": "1500m Serbest"
+    },
+    {
+      "gun": 3,
+      "seans": "Sabah",
+      "brans": "50m Kelebek"
+    },
+    {
+      "gun": 3,
+      "seans": "Sabah",
+      "brans": "200m Serbest"
+    },
+    {
+      "gun": 3,
+      "seans": "Sabah",
+      "brans": "400m Karışık"
+    },
+    {
+      "gun": 3,
+      "seans": "Akşam",
+      "brans": "50m Serbest"
+    },
+    {
+      "gun": 3,
+      "seans": "Akşam",
+      "brans": "100m Sırtüstü"
+    }
+  ],
+  "events": {
+    "200m Serbest|14|Erkek": {
+      "event": "200m Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yaman KARACAÖREN",
+          "city": "Ankara",
+          "time_raw": "2:12.42",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Can KINABAŞ",
+          "city": "Bursa",
+          "time_raw": "2:15.15",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mustafa Yiğit KESKİN",
+          "city": "Antalya",
+          "time_raw": "2:16.22",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Demir ERDOĞAN",
+          "city": "Antalya",
+          "time_raw": "2:18.10",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Pamir Çağan ÖZTÜRK",
+          "city": "Ankara",
+          "time_raw": "2:18.74",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kerem KILIÇASLAN",
+          "city": "Trabzon",
+          "time_raw": "2:19.64",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Doruk ATİK",
+          "city": "Adana",
+          "time_raw": "2:20.14",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Poyraz KAYA",
+          "city": "Samsun",
+          "time_raw": "2:20.17",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Mert KONUKBAY",
+          "city": "Ankara",
+          "time_raw": "2:20.27",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ahmet Talha AKKAŞ",
+          "city": "Kayseri",
+          "time_raw": "2:21.15",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Çağlayan GÜNEŞ",
+          "city": "Eskişehir",
+          "time_raw": "2:21.36",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ömer Mete ŞİMŞEK",
+          "city": "Trabzon",
+          "time_raw": "2:21.80",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Ali Kemal ERYAMAN",
+          "city": "Ankara",
+          "time_raw": "2:21.97",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "time_raw": "2:22.05",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Yusuf Taha SAĞIR",
+          "city": "Trabzon",
+          "time_raw": "2:22.21",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Muhsin Demir BOYLU",
+          "city": "Istanbul",
+          "time_raw": "2:22.30",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Taha BAŞ",
+          "city": "Samsun",
+          "time_raw": "2:22.79",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Ali KALYON",
+          "city": "Antalya",
+          "time_raw": "2:22.89",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Eymen ÇEVİK",
+          "city": "Gaziantep",
+          "time_raw": "2:23.29",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Feridun Toprak ERÇORA",
+          "city": "Izmir",
+          "time_raw": "2:23.63",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "time_raw": "2:24.60",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Kayra ŞANLIER",
+          "city": "Antalya",
+          "time_raw": "2:24.87",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Murat SAKA",
+          "city": "Eskişehir",
+          "time_raw": "2:25.33",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Doğu IPEK",
+          "city": "Samsun",
+          "time_raw": "2:28.34",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Ahmet Arın ÖLMEZ",
+          "city": "Trabzon",
+          "time_raw": "2:29.18",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Burak TURAN",
+          "city": "Trabzon",
+          "time_raw": "2:30.30",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Can BAL",
+          "city": "Izmir",
+          "time_raw": "2:34.02",
+          "points": 0
+        },
+        {
+          "rank": 28,
+          "name": "Mert AYGÜN",
+          "city": "Trabzon",
+          "time_raw": "2:39.99",
+          "points": 0
+        }
+      ]
+    },
+    "800m Serbest|14|Erkek": {
+      "event": "800m Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "time_raw": "9:06.63",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "time_raw": "9:20.63",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerim IŞIL",
+          "city": "Antalya",
+          "time_raw": "9:33.16",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Demir ERDOĞAN",
+          "city": "Antalya",
+          "time_raw": "9:38.15",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ahmet Talha AKKAŞ",
+          "city": "Kayseri",
+          "time_raw": "9:52.62",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Mustafa Yiğit KESKİN",
+          "city": "Antalya",
+          "time_raw": "9:52.64",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "time_raw": "9:56.61",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Can KINABAŞ",
+          "city": "Bursa",
+          "time_raw": "9:56.97",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Eymen KUTLU",
+          "city": "Bursa",
+          "time_raw": "10:07.14",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Doruk ATİK",
+          "city": "Adana",
+          "time_raw": "10:08.88",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ömer Mete ŞİMŞEK",
+          "city": "Trabzon",
+          "time_raw": "10:09.71",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Alperen KALKAN",
+          "city": "Kayseri",
+          "time_raw": "10:11.69",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Kerem KILIÇASLAN",
+          "city": "Trabzon",
+          "time_raw": "10:15.24",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Kaan CEYLAN",
+          "city": "Ankara",
+          "time_raw": "10:16.72",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Muhammed Enes ILYAN",
+          "city": "Trabzon",
+          "time_raw": "10:26.33",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Burak TURAN",
+          "city": "Trabzon",
+          "time_raw": "10:28.04",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Toprak URAL",
+          "city": "Mersin",
+          "time_raw": "10:29.10",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Pamir Çağan ÖZTÜRK",
+          "city": "Ankara",
+          "time_raw": "10:31.58",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Demir DEMİRCİGİL",
+          "city": "Izmir",
+          "time_raw": "10:37.45",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Mert KONUKBAY",
+          "city": "Ankara",
+          "time_raw": "10:44.23",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "time_raw": "10:48.16",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Baturalp ŞANLI",
+          "city": "Izmir",
+          "time_raw": "10:58.63",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Yusuf BAYSAL",
+          "city": "Sakarya",
+          "time_raw": "11:14.16",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Murat SAKA",
+          "city": "Eskişehir",
+          "time_raw": "11:21.09",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Berat PALA",
+          "city": "Bursa",
+          "time_raw": "11:22.80",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Rüzgar BAŞARICI",
+          "city": "Izmir",
+          "time_raw": "12:01.37",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|14|Erkek": {
+      "event": "400m Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "time_raw": "4:29.71",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "time_raw": "4:37.88",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Batu KARAMAN",
+          "city": "Ankara",
+          "time_raw": "4:40.08",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Can KINABAŞ",
+          "city": "Bursa",
+          "time_raw": "4:40.63",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Yiğit KESKİN",
+          "city": "Antalya",
+          "time_raw": "4:41.29",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kerim IŞIL",
+          "city": "Antalya",
+          "time_raw": "4:41.41",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Demir ERDOĞAN",
+          "city": "Antalya",
+          "time_raw": "4:43.62",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Poyraz KAYA",
+          "city": "Samsun",
+          "time_raw": "4:49.84",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Eymen KUTLU",
+          "city": "Bursa",
+          "time_raw": "4:51.79",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Doruk ATİK",
+          "city": "Adana",
+          "time_raw": "4:52.66",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ömer Mete ŞİMŞEK",
+          "city": "Trabzon",
+          "time_raw": "4:54.39",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ahmet Talha AKKAŞ",
+          "city": "Kayseri",
+          "time_raw": "4:54.43",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "time_raw": "4:54.95",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Eymen ÇEVİK",
+          "city": "Gaziantep",
+          "time_raw": "4:56.03",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Pamir Çağan ÖZTÜRK",
+          "city": "Ankara",
+          "time_raw": "4:56.90",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Ali KALYON",
+          "city": "Antalya",
+          "time_raw": "4:57.99",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Rüzgar BAŞARICI",
+          "city": "Izmir",
+          "time_raw": "4:59.78",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Alperen KALKAN",
+          "city": "Kayseri",
+          "time_raw": "5:00.09",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Kerem KILIÇASLAN",
+          "city": "Trabzon",
+          "time_raw": "5:00.58",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Ali Kemal ERYAMAN",
+          "city": "Ankara",
+          "time_raw": "5:03.45",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Taha BAŞ",
+          "city": "Samsun",
+          "time_raw": "5:04.01",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Berat PALA",
+          "city": "Bursa",
+          "time_raw": "5:04.96",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Toprak URAL",
+          "city": "Mersin",
+          "time_raw": "5:05.19",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Kaan CEYLAN",
+          "city": "Ankara",
+          "time_raw": "5:05.53",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Muhammed Enes ILYAN",
+          "city": "Trabzon",
+          "time_raw": "5:09.57",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Mehmet DAVER",
+          "city": "Bursa",
+          "time_raw": "5:11.47",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Baturalp ŞANLI",
+          "city": "Izmir",
+          "time_raw": "5:14.84",
+          "points": 0
+        },
+        {
+          "rank": 28,
+          "name": "Ahmet Arın ÖLMEZ",
+          "city": "Trabzon",
+          "time_raw": "5:22.70",
+          "points": 0
+        },
+        {
+          "rank": 29,
+          "name": "Tolga ABBASOV",
+          "city": "Samsun",
+          "time_raw": "5:40.99",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|14|Erkek": {
+      "event": "200m Karışık",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yağız ALICI",
+          "city": "Mersin",
+          "time_raw": "2:24.16",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Batu KARAMAN",
+          "city": "Ankara",
+          "time_raw": "2:32.45",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "time_raw": "2:33.49",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yavuz AKDAĞ",
+          "city": "Bursa",
+          "time_raw": "2:34.11",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ali ÇOKÇETİN",
+          "city": "Samsun",
+          "time_raw": "2:35.49",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Çağlayan GÜNEŞ",
+          "city": "Eskişehir",
+          "time_raw": "2:36.89",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Batuhan ARSLAN",
+          "city": "Ankara",
+          "time_raw": "2:38.31",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "time_raw": "2:39.55",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Eymen ÇEVİK",
+          "city": "Gaziantep",
+          "time_raw": "2:40.45",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Hamza OTLAK",
+          "city": "Samsun",
+          "time_raw": "2:40.63",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ömer Ali BABUŞCU",
+          "city": "Samsun",
+          "time_raw": "2:40.74",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Doruk ATİK",
+          "city": "Adana",
+          "time_raw": "2:41.06",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Yusuf ZOPCUK",
+          "city": "Mersin",
+          "time_raw": "2:41.84",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Toprak URAL",
+          "city": "Mersin",
+          "time_raw": "2:42.87",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Taha BAŞ",
+          "city": "Samsun",
+          "time_raw": "2:43.03",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Poyraz KAYA",
+          "city": "Samsun",
+          "time_raw": "2:43.57",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Kaan KAPTAN",
+          "city": "Sakarya",
+          "time_raw": "2:43.58",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Arjin KARAMAN",
+          "city": "Izmir",
+          "time_raw": "2:43.77",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Ali KALYON",
+          "city": "Antalya",
+          "time_raw": "2:43.83",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Murat SAKA",
+          "city": "Eskişehir",
+          "time_raw": "2:44.04",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Kutay BOYAR",
+          "city": "Ankara",
+          "time_raw": "2:44.26",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "time_raw": "2:44.35",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Doğu IPEK",
+          "city": "Samsun",
+          "time_raw": "2:44.43",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Mert BOSTAN",
+          "city": "Trabzon",
+          "time_raw": "2:44.61",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Ömer ULUDAĞ",
+          "city": "Istanbul",
+          "time_raw": "2:44.64",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "time_raw": "2:44.66",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Muhammed Enes ILYAN",
+          "city": "Trabzon",
+          "time_raw": "2:45.18",
+          "points": 0
+        },
+        {
+          "rank": 28,
+          "name": "Kayrahan ÇELİK",
+          "city": "Mersin",
+          "time_raw": "2:45.49",
+          "points": 0
+        },
+        {
+          "rank": 29,
+          "name": "Can VECAN",
+          "city": "Izmir",
+          "time_raw": "2:45.55",
+          "points": 0
+        },
+        {
+          "rank": 30,
+          "name": "Rüzgar BAŞARICI",
+          "city": "Izmir",
+          "time_raw": "2:45.97",
+          "points": 0
+        },
+        {
+          "rank": 31,
+          "name": "Eymen KUTLU",
+          "city": "Bursa",
+          "time_raw": "2:46.54",
+          "points": 0
+        },
+        {
+          "rank": 32,
+          "name": "Mert AYGÜN",
+          "city": "Trabzon",
+          "time_raw": "2:46.69",
+          "points": 0
+        },
+        {
+          "rank": 33,
+          "name": "Ahmet Arın ÖLMEZ",
+          "city": "Trabzon",
+          "time_raw": "2:46.71",
+          "points": 0
+        },
+        {
+          "rank": 34,
+          "name": "Alperen KALKAN",
+          "city": "Kayseri",
+          "time_raw": "2:47.50",
+          "points": 0
+        },
+        {
+          "rank": 35,
+          "name": "Berat PALA",
+          "city": "Bursa",
+          "time_raw": "2:48.39",
+          "points": 0
+        },
+        {
+          "rank": 36,
+          "name": "Kayra ŞANLIER",
+          "city": "Antalya",
+          "time_raw": "2:48.60",
+          "points": 0
+        },
+        {
+          "rank": 37,
+          "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "time_raw": "2:48.65",
+          "points": 0
+        },
+        {
+          "rank": 38,
+          "name": "Kıvanç GÜL",
+          "city": "Çanakkale",
+          "time_raw": "2:49.58",
+          "points": 0
+        },
+        {
+          "rank": 39,
+          "name": "Mehmet DAVER",
+          "city": "Bursa",
+          "time_raw": "2:49.59",
+          "points": 0
+        },
+        {
+          "rank": 40,
+          "name": "Ali Kemal ERYAMAN",
+          "city": "Ankara",
+          "time_raw": "2:50.06",
+          "points": 0
+        },
+        {
+          "rank": 41,
+          "name": "Can BAL",
+          "city": "Izmir",
+          "time_raw": "2:50.30",
+          "points": 0
+        },
+        {
+          "rank": 42,
+          "name": "Kaan CEYLAN",
+          "city": "Ankara",
+          "time_raw": "2:51.77",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|14|Kadın": {
+      "event": "400m Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya KAPLANOĞLU",
+          "city": "Antalya",
+          "time_raw": "4:30.89",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "time_raw": "4:53.93",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "time_raw": "4:55.88",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "ırmak AKCENGİZ",
+          "city": "Ankara",
+          "time_raw": "4:55.93",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "time_raw": "4:57.68",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Berrak ÖZBAL",
+          "city": "Gaziantep",
+          "time_raw": "4:57.71",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Nil ÖZGE",
+          "city": "Istanbul",
+          "time_raw": "4:59.60",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Yağmur ADALIYILMAZ",
+          "city": "Antalya",
+          "time_raw": "5:00.10",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "time_raw": "5:00.33",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "time_raw": "5:01.06",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Melis Ece ILTER",
+          "city": "Eskişehir",
+          "time_raw": "5:01.41",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ayşe Beren ONAY",
+          "city": "Bursa",
+          "time_raw": "5:02.24",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Beren MUTAŞ",
+          "city": "Konya",
+          "time_raw": "5:03.47",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "time_raw": "5:05.20",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "time_raw": "5:06.21",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Elif Naz OKUYUCU",
+          "city": "Samsun",
+          "time_raw": "5:06.45",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Beren ULUAĞAÇ",
+          "city": "Edirne",
+          "time_raw": "5:07.46",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Arya Gönül KAHRAMAN",
+          "city": "Ankara",
+          "time_raw": "5:09.13",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Dünyam Aden Su KÜÇÜK",
+          "city": "Adana",
+          "time_raw": "5:10.25",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Melis LİZOR",
+          "city": "Bursa",
+          "time_raw": "5:10.74",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Özüm ÖZBEY",
+          "city": "Ankara",
+          "time_raw": "5:11.15",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "time_raw": "5:16.01",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Serenay Tuğçe Gülöksüz",
+          "city": "Ankara",
+          "time_raw": "5:16.34",
+          "points": 0
+        }
+      ]
+    },
+    "1500m Serbest|14|Kadın": {
+      "event": "1500m Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ayşem ÖZÇELTİKÇİ",
+          "city": "Bursa",
+          "time_raw": "12:49.57",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Asya KAPLANOĞLU",
+          "city": "Antalya",
+          "time_raw": "17:40.69",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yağmur ADALIYILMAZ",
+          "city": "Antalya",
+          "time_raw": "19:25.86",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "time_raw": "19:44.94",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "time_raw": "19:45.31",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "19:50.87",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Duru DEMİR",
+          "city": "Mersin",
+          "time_raw": "20:04.07",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Beren ULUAĞAÇ",
+          "city": "Edirne",
+          "time_raw": "20:08.33",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Dünyam Aden Su KÜÇÜK",
+          "city": "Adana",
+          "time_raw": "20:11.25",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "time_raw": "20:14.74",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "ırmak AKCENGİZ",
+          "city": "Ankara",
+          "time_raw": "20:14.97",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "time_raw": "20:24.78",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "time_raw": "20:25.27",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "21:17.72",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Arya Gönül KAHRAMAN",
+          "city": "Ankara",
+          "time_raw": "21:43.48",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "Izmir",
+          "time_raw": "22:49.37",
+          "points": 0
+        }
+      ]
+    },
+    "800m Serbest|14|Kadın": {
+      "event": "800m Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya KAPLANOĞLU",
+          "city": "Antalya",
+          "time_raw": "9:26.86",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "time_raw": "10:12.82",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "10:17.24",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yağmur ADALIYILMAZ",
+          "city": "Antalya",
+          "time_raw": "10:18.27",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "time_raw": "10:21.55",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "time_raw": "10:22.10",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Beren ULUAĞAÇ",
+          "city": "Edirne",
+          "time_raw": "10:38.08",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "time_raw": "10:40.12",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Nisa Nur ILYAN",
+          "city": "Trabzon",
+          "time_raw": "10:40.19",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "time_raw": "10:40.38",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Dünyam Aden Su KÜÇÜK",
+          "city": "Adana",
+          "time_raw": "10:41.99",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "ırmak AKCENGİZ",
+          "city": "Ankara",
+          "time_raw": "10:45.23",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "time_raw": "10:45.92",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "time_raw": "11:01.42",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Elif Naz OKUYUCU",
+          "city": "Samsun",
+          "time_raw": "11:12.27",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Inci TANRIVERDİ",
+          "city": "Eskişehir",
+          "time_raw": "11:17.18",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Beren MUTAŞ",
+          "city": "Konya",
+          "time_raw": "11:17.69",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "Izmir",
+          "time_raw": "11:43.65",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Azra MUTLU",
+          "city": "Izmir",
+          "time_raw": "11:46.58",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Deniz ERÇELEBİ",
+          "city": "Izmir",
+          "time_raw": "11:48.36",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Arya Gönül KAHRAMAN",
+          "city": "Ankara",
+          "time_raw": "12:45.27",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Melis LİZOR",
+          "city": "Bursa",
+          "time_raw": "13:02.44",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Melis Ece ILTER",
+          "city": "Eskişehir",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|14|Kadın": {
+      "event": "200m Karışık",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "ılgım ERTAŞ",
+          "city": "Edirne",
+          "time_raw": "2:32.03",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Asya KAPLANOĞLU",
+          "city": "Antalya",
+          "time_raw": "2:32.18",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "time_raw": "2:36.79",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "2:37.24",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mira TUFAN",
+          "city": "Istanbul",
+          "time_raw": "2:37.82",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "2:38.33",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Zeynep Duru YARDIMCI",
+          "city": "Ankara",
+          "time_raw": "2:39.72",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "IDIL Nilay KARSLI",
+          "city": "Giresun",
+          "time_raw": "2:40.01",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Berrak ÖZBAL",
+          "city": "Gaziantep",
+          "time_raw": "2:40.37",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "2:41.86",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "2:42.18",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "time_raw": "2:43.06",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "2:43.29",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "Izmir",
+          "time_raw": "2:43.53",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Melis MENCİK",
+          "city": "Samsun",
+          "time_raw": "2:43.63",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Aslı Beren KOLCU",
+          "city": "Ankara",
+          "time_raw": "2:43.73",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Nil ÖZGE",
+          "city": "Istanbul",
+          "time_raw": "2:43.76",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Defne UÇAR",
+          "city": "Eskişehir",
+          "time_raw": "2:44.37",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Yağmur ADALIYILMAZ",
+          "city": "Antalya",
+          "time_raw": "2:44.85",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "2:45.50",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Öykü ÖZGÜL",
+          "city": "Ankara",
+          "time_raw": "2:45.56",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Ayşem ÖZÇELTİKÇİ",
+          "city": "Bursa",
+          "time_raw": "2:45.84",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Özüm ÖZBEY",
+          "city": "Ankara",
+          "time_raw": "2:46.92",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Elif INAT",
+          "city": "Samsun",
+          "time_raw": "2:47.14",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Defne GÖNEN",
+          "city": "Izmir",
+          "time_raw": "2:47.22",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Mira Nurgül ALTAY",
+          "city": "Mersin",
+          "time_raw": "2:47.33",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Ayşe Beren ONAY",
+          "city": "Bursa",
+          "time_raw": "2:47.60",
+          "points": 0
+        },
+        {
+          "rank": 28,
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "time_raw": "2:47.61",
+          "points": 0
+        },
+        {
+          "rank": 29,
+          "name": "Aysima VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "2:47.93",
+          "points": 0
+        },
+        {
+          "rank": 30,
+          "name": "Inci TANRIVERDİ",
+          "city": "Eskişehir",
+          "time_raw": "2:48.06",
+          "points": 0
+        },
+        {
+          "rank": 31,
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "time_raw": "2:48.29",
+          "points": 0
+        },
+        {
+          "rank": 32,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "2:48.90",
+          "points": 0
+        },
+        {
+          "rank": 33,
+          "name": "Zeynep Beren YILDIZ",
+          "city": "Ankara",
+          "time_raw": "2:49.03",
+          "points": 0
+        },
+        {
+          "rank": 34,
+          "name": "Dünyam Aden Su KÜÇÜK",
+          "city": "Adana",
+          "time_raw": "2:49.45",
+          "points": 0
+        },
+        {
+          "rank": 35,
+          "name": "Arya Gönül KAHRAMAN",
+          "city": "Ankara",
+          "time_raw": "2:50.08",
+          "points": 0
+        },
+        {
+          "rank": 36,
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "time_raw": "2:50.18",
+          "points": 0
+        },
+        {
+          "rank": 37,
+          "name": "Deniz ERÇELEBİ",
+          "city": "Izmir",
+          "time_raw": "2:50.65",
+          "points": 0
+        },
+        {
+          "rank": 38,
+          "name": "Azra MUTLU",
+          "city": "Izmir",
+          "time_raw": "2:50.76",
+          "points": 0
+        },
+        {
+          "rank": 39,
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "time_raw": "2:50.84",
+          "points": 0
+        },
+        {
+          "rank": 40,
+          "name": "Eylül ÇOTUR",
+          "city": "Ankara",
+          "time_raw": "2:50.91",
+          "points": 0
+        },
+        {
+          "rank": 41,
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "time_raw": "2:50.94",
+          "points": 0
+        },
+        {
+          "rank": 42,
+          "name": "Melis Ece ILTER",
+          "city": "Eskişehir",
+          "time_raw": "2:51.21",
+          "points": 0
+        },
+        {
+          "rank": 43,
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "time_raw": "2:51.29",
+          "points": 0
+        },
+        {
+          "rank": 44,
+          "name": "Elif Naz OKUYUCU",
+          "city": "Samsun",
+          "time_raw": "2:51.59",
+          "points": 0
+        },
+        {
+          "rank": 45,
+          "name": "Zümra KOÇOĞLU",
+          "city": "Bursa",
+          "time_raw": "2:54.49",
+          "points": 0
+        },
+        {
+          "rank": 46,
+          "name": "Hira Zeyneb MUTLU",
+          "city": "Eskişehir",
+          "time_raw": "2:54.94",
+          "points": 0
+        },
+        {
+          "rank": 47,
+          "name": "B. ALTUNZİNCİR",
+          "city": "Ankara",
+          "time_raw": "2:57.02",
+          "points": 0
+        },
+        {
+          "rank": 48,
+          "name": "Serenay Tuğçe Gülöksüz",
+          "city": "Ankara",
+          "time_raw": "2:58.25",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|13|Kadın": {
+      "event": "200m Serbest",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Meryem ÇETİN",
+          "city": "Bursa",
+          "time_raw": "2:09.52",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Berilay BATUR",
+          "city": "Kayseri",
+          "time_raw": "2:14.63",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "time_raw": "2:15.11",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Cemre KAYNAŞ",
+          "city": "Izmir",
+          "time_raw": "2:15.34",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Naz HAZIROLAN",
+          "city": "Ankara",
+          "time_raw": "2:15.91",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Deniz ÇALIŞKAN",
+          "city": "Istanbul",
+          "time_raw": "2:16.00",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Yağmur KONT",
+          "city": "Gaziantep",
+          "time_raw": "2:16.75",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ömür GÜVEL",
+          "city": "Adana",
+          "time_raw": "2:17.93",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Kumsal İkra Yaşar",
+          "city": "Adana",
+          "time_raw": "02:18.64",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Esil Erva DURU",
+          "city": "Edirne",
+          "time_raw": "2:18.94",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Selen Naz Ağababaoğlu",
+          "city": "Ankara",
+          "time_raw": "2:20.16",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Zeynep Irmak Yalçın",
+          "city": "Gaziantep",
+          "time_raw": "2:21.85",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Ela Nira Çizer",
+          "city": "Sakarya",
+          "time_raw": "2:22.07",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Efsa TORUN",
+          "city": "Giresun",
+          "time_raw": "2:23.08",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "time_raw": "2:23.58",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Ada ÖZEN",
+          "city": "Izmir",
+          "time_raw": "2:23.66",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "ırmak BARUTÇUOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:24.60",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Tanem Can YAVUZÖZ",
+          "city": "Izmir",
+          "time_raw": "2:30.58",
+          "points": 0
+        }
+      ]
+    },
+    "200m Sırtüstü|13|Kadın": {
+      "event": "200m Sırtüstü",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Naz HAZIROLAN",
+          "city": "Ankara",
+          "time_raw": "2:29.83",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "2:35.00",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elçin Uzun",
+          "city": "Ankara",
+          "time_raw": "2:35.99",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "ırmak BARUTÇUOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:36.18",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Kumsal İkra Yaşar",
+          "city": "Adana",
+          "time_raw": "02:36.72",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep Dilara Ünlü",
+          "city": "Bursa",
+          "time_raw": "2:36.74",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Belemir Ada KAYA",
+          "city": "Gaziantep",
+          "time_raw": "2:36.98",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "2:37.03",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "2:39.33",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "time_raw": "2:39.48",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|13|Kadın": {
+      "event": "400m Serbest",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Meryem ÇETİN",
+          "city": "Bursa",
+          "time_raw": "4:36.68",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "time_raw": "4:38.92",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Berilay BATUR",
+          "city": "Kayseri",
+          "time_raw": "4:42.00",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yağmur KONT",
+          "city": "Gaziantep",
+          "time_raw": "4:42.50",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "4:44.51",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "time_raw": "4:46.23",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Esil Erva DURU",
+          "city": "Edirne",
+          "time_raw": "4:47.89",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kumsal İkra Yaşar",
+          "city": "Adana",
+          "time_raw": "04:49.94",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "4:55.88",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Zeynep Irmak Yalçın",
+          "city": "Gaziantep",
+          "time_raw": "4:55.89",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Elif Rüya Canoğlu",
+          "city": "Antalya",
+          "time_raw": "4:56.19",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ela Nira Çizer",
+          "city": "Sakarya",
+          "time_raw": "4:56.30",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Selen Naz Ağababaoğlu",
+          "city": "Ankara",
+          "time_raw": "4:56.43",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|13|Kadın": {
+      "event": "200m Karışık",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Meryem ÇETİN",
+          "city": "Bursa",
+          "time_raw": "2:30.54",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Fatma Berra ÖZER",
+          "city": "Gaziantep",
+          "time_raw": "2:33.76",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "2:34.32",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ömür GÜVEL",
+          "city": "Adana",
+          "time_raw": "2:35.19",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Cemre KAYNAŞ",
+          "city": "Izmir",
+          "time_raw": "2:36.62",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "time_raw": "2:37.34",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "time_raw": "2:37.63",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "time_raw": "2:38.72",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Kumsal İkra Yaşar",
+          "city": "Adana",
+          "time_raw": "02:38.79",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "Izmir",
+          "time_raw": "2:39.24",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Elçin Uzun",
+          "city": "Ankara",
+          "time_raw": "2:39.85",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "2:40.23",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "2:40.73",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "time_raw": "2:40.90",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "ırmak BARUTÇUOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:41.16",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Efsa TORUN",
+          "city": "Giresun",
+          "time_raw": "2:41.59",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Ela Nira Çizer",
+          "city": "Sakarya",
+          "time_raw": "2:42.21",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Selen Naz Ağababaoğlu",
+          "city": "Ankara",
+          "time_raw": "2:42.39",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Zeynep Dilara Ünlü",
+          "city": "Bursa",
+          "time_raw": "2:42.47",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Zeynep KAYA",
+          "city": "Ankara",
+          "time_raw": "2:42.93",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Belemir Ada KAYA",
+          "city": "Gaziantep",
+          "time_raw": "2:43.63",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Zeynep Kanıgür",
+          "city": "Ankara",
+          "time_raw": "2:43.72",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Elif Rüya Canoğlu",
+          "city": "Antalya",
+          "time_raw": "2:45.34",
+          "points": 0
+        }
+      ]
+    },
+    "100m Serbest|13|Kadın": {
+      "event": "100m Serbest",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Deniz ÇALIŞKAN",
+          "city": "Istanbul",
+          "time_raw": "1:01.94",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ömür GÜVEL",
+          "city": "Adana",
+          "time_raw": "1:02.43",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Cemre KAYNAŞ",
+          "city": "Izmir",
+          "time_raw": "1:02.45",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Naz HAZIROLAN",
+          "city": "Ankara",
+          "time_raw": "1:02.48",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep Dilara Ünlü",
+          "city": "Bursa",
+          "time_raw": "1:03.61",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep KAYA",
+          "city": "Ankara",
+          "time_raw": "1:03.83",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "time_raw": "1:04.08",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "1:04.17",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Selen Naz Ağababaoğlu",
+          "city": "Ankara",
+          "time_raw": "1:04.24",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "time_raw": "1:04.26",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ada ÖZEN",
+          "city": "Izmir",
+          "time_raw": "1:04.52",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "time_raw": "1:04.80",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Tanem Can YAVUZÖZ",
+          "city": "Izmir",
+          "time_raw": "1:06.03",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Zeynep Irmak Yalçın",
+          "city": "Gaziantep",
+          "time_raw": "1:06.13",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kelebek|13|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Fatma Berra ÖZER",
+          "city": "Gaziantep",
+          "time_raw": "1:06.21",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "time_raw": "1:06.35",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Deniz ÇALIŞKAN",
+          "city": "Istanbul",
+          "time_raw": "1:07.21",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ömür GÜVEL",
+          "city": "Adana",
+          "time_raw": "1:07.46",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep Kanıgür",
+          "city": "Ankara",
+          "time_raw": "1:11.14",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Efsa TORUN",
+          "city": "Giresun",
+          "time_raw": "1:11.24",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "time_raw": "1:11.87",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Elçin Uzun",
+          "city": "Ankara",
+          "time_raw": "1:13.79",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "time_raw": "1:13.80",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Zeynep KAYA",
+          "city": "Ankara",
+          "time_raw": "1:14.26",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Tanem Can YAVUZÖZ",
+          "city": "Izmir",
+          "time_raw": "1:20.06",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Belemir Ada KAYA",
+          "city": "Gaziantep",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Serbest|13|Erkek": {
+      "event": "100m Serbest",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Miraç Yağız ÖZTÜRK",
+          "city": "Trabzon",
+          "time_raw": "56.97",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ahmet Tuna ATCI",
+          "city": "Ankara",
+          "time_raw": "58.32",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Emir Yağız ULUPINAR",
+          "city": "Trabzon",
+          "time_raw": "58.70",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mustafa Mert KIRAÇ",
+          "city": "Istanbul",
+          "time_raw": "58.80",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Doruk SARPDERE",
+          "city": "Edirne",
+          "time_raw": "59.87",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Efe AĞABABAOĞLU",
+          "city": "Ankara",
+          "time_raw": "1:00.83",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Poyraz ALBAYRAK",
+          "city": "Trabzon",
+          "time_raw": "1:02.81",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Enes Kayra Söğüt",
+          "city": "Bolu",
+          "time_raw": "1:03.21",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Alperen Güzey",
+          "city": "Kayseri",
+          "time_raw": "1:04.29",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|13|Erkek": {
+      "event": "400m Serbest",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Çağkan Demir BİÇEN",
+          "city": "Bursa",
+          "time_raw": "4:26.43",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Emir Yağız ULUPINAR",
+          "city": "Trabzon",
+          "time_raw": "4:27.99",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çağan Murat COŞKUNOĞLU",
+          "city": "Izmir",
+          "time_raw": "04:31.22",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Tahir Ömer AKAR",
+          "city": "Ankara",
+          "time_raw": "4:32.98",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ahmet Tuna ATCI",
+          "city": "Ankara",
+          "time_raw": "4:33.69",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Efe AĞABABAOĞLU",
+          "city": "Ankara",
+          "time_raw": "4:33.86",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Yusuf Eymen CAN",
+          "city": "Istanbul",
+          "time_raw": "4:36.06",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Deniz KAYMAK",
+          "city": "Ankara",
+          "time_raw": "4:39.12",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "İbrahim MUTLU",
+          "city": "Kayseri",
+          "time_raw": "4:39.87",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Tuna ÖZTOPRAK",
+          "city": "Edirne",
+          "time_raw": "4:43.05",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Efe KOÇ",
+          "city": "Ankara",
+          "time_raw": "4:45.72",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Rüzgar Buyruk",
+          "city": "Ankara",
+          "time_raw": "4:47.81",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Alperen Güzey",
+          "city": "Kayseri",
+          "time_raw": "4:49.04",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|13|Erkek": {
+      "event": "200m Serbest",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ahmet Tuna ATCI",
+          "city": "Ankara",
+          "time_raw": "2:06.35",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çağkan Demir BİÇEN",
+          "city": "Bursa",
+          "time_raw": "2:08.23",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Emir Yağız ULUPINAR",
+          "city": "Trabzon",
+          "time_raw": "2:08.38",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mustafa Mert KIRAÇ",
+          "city": "Istanbul",
+          "time_raw": "2:09.43",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Efe AĞABABAOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:10.69",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Doruk SARPDERE",
+          "city": "Edirne",
+          "time_raw": "2:11.91",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Miraç Yağız ÖZTÜRK",
+          "city": "Trabzon",
+          "time_raw": "2:13.56",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Enes Kayra Söğüt",
+          "city": "Bolu",
+          "time_raw": "2:19.26",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Efe KOÇ",
+          "city": "Ankara",
+          "time_raw": "2:20.48",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Bora AĞDERE",
+          "city": "Giresun",
+          "time_raw": "2:23.11",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kelebek|13|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Poyraz ALBAYRAK",
+          "city": "Trabzon",
+          "time_raw": "1:04.04",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çağan Murat COŞKUNOĞLU",
+          "city": "Izmir",
+          "time_raw": "01:04.53",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Koray GÜNDÜZ",
+          "city": "Ankara",
+          "time_raw": "1:04.68",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ahmet Tuna ATCI",
+          "city": "Ankara",
+          "time_raw": "1:04.93",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Mert KIRAÇ",
+          "city": "Istanbul",
+          "time_raw": "1:05.53",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Bora AĞDERE",
+          "city": "Giresun",
+          "time_raw": "1:05.57",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Kerem BALIK",
+          "city": "Istanbul",
+          "time_raw": "1:05.75",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "time_raw": "1:05.79",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ekin YALDAEI",
+          "city": "Mersin",
+          "time_raw": "1:05.92",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Batuhan KAYA",
+          "city": "Çanakkale",
+          "time_raw": "1:06.30",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "İsmail OTLAK",
+          "city": "Samsun",
+          "time_raw": "1:07.19",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Enes Kayra Söğüt",
+          "city": "Bolu",
+          "time_raw": "1:07.40",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Eren ÇINAR",
+          "city": "Edirne",
+          "time_raw": "1:08.17",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Yağız IŞILDAK",
+          "city": "Mersin",
+          "time_raw": "1:10.09",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Kerem Burak GÜRBÜZ",
+          "city": "Istanbul",
+          "time_raw": "1:10.28",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Doruk SARPDERE",
+          "city": "Edirne",
+          "time_raw": "1:10.47",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|09|Erkek": {
+      "event": "50m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ahmet Yağız PARLAK",
+          "city": "Ankara",
+          "time_raw": "24.25",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kartal KAYAR",
+          "city": "Gaziantep",
+          "time_raw": "24.48",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "time_raw": "25.00",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "25.26",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Berkin AVCI",
+          "city": "Istanbul",
+          "time_raw": "25.99",
+          "points": 4
+        }
+      ]
+    },
+    "50m Kelebek|09|Erkek": {
+      "event": "50m Kelebek",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tarık Eren TÜFEKÇİ",
+          "city": "Gaziantep",
+          "time_raw": "25.73",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ahmet Yağız PARLAK",
+          "city": "Ankara",
+          "time_raw": "25.88",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "time_raw": "26.55",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kartal KAYAR",
+          "city": "Gaziantep",
+          "time_raw": "27.33",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Eymen BAYINDIR",
+          "city": "Eskişehir",
+          "time_raw": "27.35",
+          "points": 4
+        }
+      ]
+    },
+    "100m Serbest|09|Erkek": {
+      "event": "100m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ata SARIKAYA",
+          "city": "Izmir",
+          "time_raw": "52.88",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ahmet Yağız PARLAK",
+          "city": "Ankara",
+          "time_raw": "53.18",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Rüzgar Batu ALTAY",
+          "city": "Bursa",
+          "time_raw": "53.64",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "53.76",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Eymen BAYINDIR",
+          "city": "Eskişehir",
+          "time_raw": "53.94",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "time_raw": "54.00",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Aydın Efe KÜÇÜK",
+          "city": "Samsun",
+          "time_raw": "54.25",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kartal KAYAR",
+          "city": "Gaziantep",
+          "time_raw": "54.34",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Mustafa Özgür YALÇIN",
+          "city": "Istanbul",
+          "time_raw": "55.99",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Berkin AVCI",
+          "city": "Istanbul",
+          "time_raw": "56.82",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kelebek|09|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ahmet Yağız PARLAK",
+          "city": "Ankara",
+          "time_raw": "58.03",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Tarık Eren TÜFEKÇİ",
+          "city": "Gaziantep",
+          "time_raw": "58.36",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "time_raw": "58.36",
+          "points": 6
+        }
+      ]
+    },
+    "100m Serbest|14|Erkek": {
+      "event": "100m Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yaman KARACAÖREN",
+          "city": "Ankara",
+          "time_raw": "1:00.73",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ali ÇOKÇETİN",
+          "city": "Samsun",
+          "time_raw": "1:01.41",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz KAYA",
+          "city": "Samsun",
+          "time_raw": "1:03.42",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Muhsin Demir BOYLU",
+          "city": "Istanbul",
+          "time_raw": "1:03.93",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Kerem KILIÇASLAN",
+          "city": "Trabzon",
+          "time_raw": "1:03.97",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Mert KONUKBAY",
+          "city": "Ankara",
+          "time_raw": "1:04.18",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Rüzgar Armin ATİK",
+          "city": "Ankara",
+          "time_raw": "1:04.59",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Egemen ATÇI",
+          "city": "Eskişehir",
+          "time_raw": "1:04.83",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yusuf Taha SAĞIR",
+          "city": "Trabzon",
+          "time_raw": "1:05.15",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ali Kemal ERYAMAN",
+          "city": "Ankara",
+          "time_raw": "1:05.55",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Barbaros KONUŞ",
+          "city": "Bursa",
+          "time_raw": "1:06.25",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Ömer Mete ŞİMŞEK",
+          "city": "Trabzon",
+          "time_raw": "1:06.36",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Kadir Ensar KOCADAŞ",
+          "city": "Bolu",
+          "time_raw": "1:06.74",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Kutay BOYAR",
+          "city": "Ankara",
+          "time_raw": "1:07.71",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Kayra ŞANLIER",
+          "city": "Antalya",
+          "time_raw": "1:08.26",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Kıvanç GÜL",
+          "city": "Çanakkale",
+          "time_raw": "1:08.52",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Tolga ABBASOV",
+          "city": "Samsun",
+          "time_raw": "1:09.62",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|10|Erkek": {
+      "event": "50m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Eymen Batu IBOLAR",
+          "city": "Istanbul",
+          "time_raw": "23.66",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kıvanç ÖZKAN",
+          "city": "Istanbul",
+          "time_raw": "23.86",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ç. ÇOLAKOĞULLARI",
+          "city": "Izmir",
+          "time_raw": "23.96",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Tuna TURAN",
+          "city": "Tekirdağ",
+          "time_raw": "24.06",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Toprak DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "24.50",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Poyraz ARABACI",
+          "city": "Bursa",
+          "time_raw": "24.64",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ulus MEMİŞ",
+          "city": "Istanbul",
+          "time_raw": "24.76",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Alp ALPER",
+          "city": "Ankara",
+          "time_raw": "24.87",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Umut ŞEN",
+          "city": "Sakarya",
+          "time_raw": "24.90",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Kuzey ALEMDAĞ",
+          "city": "Izmir",
+          "time_raw": "25.01",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ateş DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "25.02",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Murat Çağan OLCAY",
+          "city": "Istanbul",
+          "time_raw": "25.13",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|10|Erkek": {
+      "event": "200m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Toprak DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "1:55.54",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Doruk AÇAR",
+          "city": "Kocaeli",
+          "time_raw": "1:56.38",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yağızhan Aydın DEMİR",
+          "city": "Istanbul",
+          "time_raw": "1:57.85",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kıvanç ÖZKAN",
+          "city": "Istanbul",
+          "time_raw": "1:57.89",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Berhan ILİŞİK",
+          "city": "Istanbul",
+          "time_raw": "1:58.12",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kerem TOPAL",
+          "city": "Eskişehir",
+          "time_raw": "1:58.86",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Kerem BAYAR",
+          "city": "Istanbul",
+          "time_raw": "1:59.40",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ateş DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "1:59.46",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yusuf KÖSE",
+          "city": "Samsun",
+          "time_raw": "1:59.56",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Murat Çağan OLCAY",
+          "city": "Istanbul",
+          "time_raw": "1:59.89",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Bekir SIVACI",
+          "city": "Kayseri",
+          "time_raw": "2:01.34",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Alp ALPER",
+          "city": "Ankara",
+          "time_raw": "2:01.38",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Umut ŞEN",
+          "city": "Sakarya",
+          "time_raw": "2:01.53",
+          "points": 0
+        }
+      ]
+    },
+    "100m Serbest|10|Erkek": {
+      "event": "100m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Eymen Batu IBOLAR",
+          "city": "Istanbul",
+          "time_raw": "51.96",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kıvanç ÖZKAN",
+          "city": "Istanbul",
+          "time_raw": "52.56",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz ARABACI",
+          "city": "Bursa",
+          "time_raw": "53.11",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Toprak DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "53.49",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ç. ÇOLAKOĞULLARI",
+          "city": "Izmir",
+          "time_raw": "53.64",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Murat Çağan OLCAY",
+          "city": "Istanbul",
+          "time_raw": "53.82",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Umut ŞEN",
+          "city": "Sakarya",
+          "time_raw": "54.25",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kerem TOPAL",
+          "city": "Eskişehir",
+          "time_raw": "54.28",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ahmet KOŞUM",
+          "city": "Bursa",
+          "time_raw": "54.33",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ulus MEMİŞ",
+          "city": "Istanbul",
+          "time_raw": "54.36",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ateş DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "54.75",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Akın Sarp KIRIŞ",
+          "city": "Kütahya",
+          "time_raw": "54.85",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Alp ALPER",
+          "city": "Ankara",
+          "time_raw": "55.01",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Kuzey ALEMDAĞ",
+          "city": "Izmir",
+          "time_raw": "55.04",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Yusuf KÖSE",
+          "city": "Samsun",
+          "time_raw": "55.71",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Toprak Kemal MASALCI",
+          "city": "Istanbul",
+          "time_raw": "1:00.27",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|10|Erkek": {
+      "event": "200m Karışık",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kaan Güngör ÖZDİL",
+          "city": "Istanbul",
+          "time_raw": "2:08.65",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Civan VURAL",
+          "city": "Istanbul",
+          "time_raw": "2:13.17",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Hüseyin BIDI",
+          "city": "Istanbul",
+          "time_raw": "2:13.48",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerem TOPAL",
+          "city": "Eskişehir",
+          "time_raw": "2:13.60",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Alp ALPER",
+          "city": "Ankara",
+          "time_raw": "2:16.19",
+          "points": 4
+        }
+      ]
+    },
+    "100m Kelebek|14|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yavuz AKDAĞ",
+          "city": "Bursa",
+          "time_raw": "1:08.59",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Yaman KARACAÖREN",
+          "city": "Ankara",
+          "time_raw": "1:08.78",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yusuf BAYSAL",
+          "city": "Sakarya",
+          "time_raw": "1:08.80",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ömer Ali BABUŞCU",
+          "city": "Samsun",
+          "time_raw": "1:09.28",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Batuhan ARSLAN",
+          "city": "Ankara",
+          "time_raw": "1:09.83",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kutay BOYAR",
+          "city": "Ankara",
+          "time_raw": "1:10.20",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "time_raw": "1:10.48",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "time_raw": "1:10.48",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Kayrahan ÇELİK",
+          "city": "Mersin",
+          "time_raw": "1:11.47",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Hamza OTLAK",
+          "city": "Samsun",
+          "time_raw": "1:11.69",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Mert KONUKBAY",
+          "city": "Ankara",
+          "time_raw": "1:11.85",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Can BAL",
+          "city": "Izmir",
+          "time_raw": "1:12.18",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Rüzgar Armin ATİK",
+          "city": "Ankara",
+          "time_raw": "1:12.57",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Barbaros KONUŞ",
+          "city": "Bursa",
+          "time_raw": "1:12.75",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Baturalp ŞANLI",
+          "city": "Izmir",
+          "time_raw": "1:13.02",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Kaan KAPTAN",
+          "city": "Sakarya",
+          "time_raw": "1:13.10",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Mustafa BİRİNCİ",
+          "city": "Trabzon",
+          "time_raw": "1:13.12",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Burak TURAN",
+          "city": "Trabzon",
+          "time_raw": "1:14.52",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Kayra ŞANLIER",
+          "city": "Antalya",
+          "time_raw": "1:15.79",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Mehmet DAVER",
+          "city": "Bursa",
+          "time_raw": "1:16.43",
+          "points": 0
+        }
+      ]
+    },
+    "200m Kelebek|14|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "time_raw": "2:22.89",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Yağız ALICI",
+          "city": "Mersin",
+          "time_raw": "2:24.25",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "time_raw": "2:31.62",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kayrahan ÇELİK",
+          "city": "Mersin",
+          "time_raw": "2:35.45",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yavuz AKDAĞ",
+          "city": "Bursa",
+          "time_raw": "2:36.85",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kerim IŞIL",
+          "city": "Antalya",
+          "time_raw": "2:37.40",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ömer Ali BABUŞCU",
+          "city": "Samsun",
+          "time_raw": "2:39.19",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kaan KAPTAN",
+          "city": "Sakarya",
+          "time_raw": "2:39.39",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "time_raw": "2:41.21",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Yusuf BAYSAL",
+          "city": "Sakarya",
+          "time_raw": "2:41.28",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Burak TURAN",
+          "city": "Trabzon",
+          "time_raw": "2:41.31",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Mustafa BİRİNCİ",
+          "city": "Trabzon",
+          "time_raw": "2:42.80",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Baturalp ŞANLI",
+          "city": "Izmir",
+          "time_raw": "2:50.01",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Demir DEMİRCİGİL",
+          "city": "Izmir",
+          "time_raw": "2:53.05",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Batu KARAMAN",
+          "city": "Ankara",
+          "time_raw": "2:53.46",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Feridun Toprak ERÇORA",
+          "city": "Izmir",
+          "time_raw": "2:55.74",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Eymen ÇEVİK",
+          "city": "Gaziantep",
+          "time_raw": "2:56.17",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Kadir Ensar KOCADAŞ",
+          "city": "Bolu",
+          "time_raw": "3:15.79",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Kutay BOYAR",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Yaman KARACAÖREN",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Mehmet DAVER",
+          "city": "Bursa",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Murat SAKA",
+          "city": "Eskişehir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Can BAL",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "400m Karışık|14|Erkek": {
+      "event": "400m Karışık",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yağız ALICI",
+          "city": "Mersin",
+          "time_raw": "4:59.25",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Yavuz AKDAĞ",
+          "city": "Bursa",
+          "time_raw": "5:30.27",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yusuf ZOPCUK",
+          "city": "Mersin",
+          "time_raw": "5:37.16",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ömer ULUDAĞ",
+          "city": "Istanbul",
+          "time_raw": "5:43.98",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "time_raw": "5:45.24",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kayrahan ÇELİK",
+          "city": "Mersin",
+          "time_raw": "5:48.05",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Mert BOSTAN",
+          "city": "Trabzon",
+          "time_raw": "5:51.02",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Demir DEMİRCİGİL",
+          "city": "Izmir",
+          "time_raw": "5:51.23",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Toprak URAL",
+          "city": "Mersin",
+          "time_raw": "5:54.08",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "time_raw": "6:07.44",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Batu KARAMAN",
+          "city": "Ankara",
+          "time_raw": "6:10.89",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Batuhan ARSLAN",
+          "city": "Ankara",
+          "time_raw": "6:12.90",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Barış DÜZGÜN",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Kadir Ensar KOCADAŞ",
+          "city": "Bolu",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Utku KARAKAŞ",
+          "city": "Bursa",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Egemen ATÇI",
+          "city": "Eskişehir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Arjin KARAMAN",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Can VECAN",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Kaan KAPTAN",
+          "city": "Sakarya",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Ömer Ali BABUŞCU",
+          "city": "Samsun",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|14|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Batuhan ARSLAN",
+          "city": "Ankara",
+          "time_raw": "1:21.74",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çağlayan GÜNEŞ",
+          "city": "Eskişehir",
+          "time_raw": "1:21.89",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ömer ULUDAĞ",
+          "city": "Istanbul",
+          "time_raw": "1:23.20",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Muhsin Demir BOYLU",
+          "city": "Istanbul",
+          "time_raw": "1:24.58",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yusuf ZOPCUK",
+          "city": "Mersin",
+          "time_raw": "1:27.86",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "time_raw": "1:27.92",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Mert AYGÜN",
+          "city": "Trabzon",
+          "time_raw": "1:28.41",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mert BOSTAN",
+          "city": "Trabzon",
+          "time_raw": "1:28.54",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Hamza OTLAK",
+          "city": "Samsun",
+          "time_raw": "1:37.10",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Doğu IPEK",
+          "city": "Samsun",
+          "time_raw": "1:54.38",
+          "points": 0
+        }
+      ]
+    },
+    "1500m Serbest|13|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Çağkan Demir BİÇEN",
+          "city": "Bursa",
+          "time_raw": "17:20.50",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Tahir Ömer AKAR",
+          "city": "Ankara",
+          "time_raw": "17:39.91",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yusuf Eymen CAN",
+          "city": "Istanbul",
+          "time_raw": "18:16.01",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Rüzgar Buyruk",
+          "city": "Ankara",
+          "time_raw": "18:26.25",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Eren ÇINAR",
+          "city": "Edirne",
+          "time_raw": "18:27.95",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "İbrahim MUTLU",
+          "city": "Kayseri",
+          "time_raw": "18:28.76",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Deniz KAYMAK",
+          "city": "Ankara",
+          "time_raw": "18:35.05",
+          "points": 2
+        }
+      ]
+    },
+    "800m Serbest|13|Erkek": {
+      "event": "800m Serbest",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Çağkan Demir BİÇEN",
+          "city": "Bursa",
+          "time_raw": "9:08.72",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Emir Yağız ULUPINAR",
+          "city": "Trabzon",
+          "time_raw": "9:14.44",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tahir Ömer AKAR",
+          "city": "Ankara",
+          "time_raw": "9:17.08",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Çağan Murat COŞKUNOĞLU",
+          "city": "Izmir",
+          "time_raw": "9:21.62",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yusuf Eymen CAN",
+          "city": "Istanbul",
+          "time_raw": "9:32.10",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Koray GÜNDÜZ",
+          "city": "Ankara",
+          "time_raw": "9:37.07",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Eren ÇINAR",
+          "city": "Edirne",
+          "time_raw": "9:37.70",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Deniz KAYMAK",
+          "city": "Ankara",
+          "time_raw": "9:38.35",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "İbrahim MUTLU",
+          "city": "Kayseri",
+          "time_raw": "9:39.69",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Efe KOÇ",
+          "city": "Ankara",
+          "time_raw": "9:40.50",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Rüzgar Buyruk",
+          "city": "Ankara",
+          "time_raw": "9:51.66",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|13|Erkek": {
+      "event": "200m Karışık",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ekin YALDAEI",
+          "city": "Mersin",
+          "time_raw": "2:26.46",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Miraç Yağız ÖZTÜRK",
+          "city": "Trabzon",
+          "time_raw": "2:26.89",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "time_raw": "2:26.91",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerem BALIK",
+          "city": "Istanbul",
+          "time_raw": "2:27.11",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Uras GÜNEŞ",
+          "city": "Izmir",
+          "time_raw": "2:28.58",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "İsmail OTLAK",
+          "city": "Samsun",
+          "time_raw": "2:30.88",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Batuhan KAYA",
+          "city": "Çanakkale",
+          "time_raw": "2:31.29",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Doruk SARPDERE",
+          "city": "Edirne",
+          "time_raw": "2:31.74",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Kerem Burak GÜRBÜZ",
+          "city": "Istanbul",
+          "time_raw": "2:31.82",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Yağız IŞILDAK",
+          "city": "Mersin",
+          "time_raw": "2:33.19",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Tahir Ömer AKAR",
+          "city": "Ankara",
+          "time_raw": "2:33.56",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "İbrahim MUTLU",
+          "city": "Kayseri",
+          "time_raw": "2:34.05",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Bora AĞDERE",
+          "city": "Giresun",
+          "time_raw": "2:35.13",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Efe KOÇ",
+          "city": "Ankara",
+          "time_raw": "2:36.43",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Deniz KAYMAK",
+          "city": "Ankara",
+          "time_raw": "2:36.45",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "time_raw": "2:39.58",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Rüzgar Buyruk",
+          "city": "Ankara",
+          "time_raw": "2:40.39",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|12|Erkek": {
+      "event": "50m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk Efe DONBAYCI",
+          "city": "Ankara",
+          "time_raw": "24.97",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Pars IKİKARDAŞLAR",
+          "city": "Izmir",
+          "time_raw": "25.35",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerem YAVUZ",
+          "city": "Ankara",
+          "time_raw": "25.88",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ismail Engin AKDOĞAN",
+          "city": "Ankara",
+          "time_raw": "25.90",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yağız KANCA",
+          "city": "Edirne",
+          "time_raw": "26.40",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ilkut Girayhan AKYÜZ",
+          "city": "Izmir",
+          "time_raw": "26.53",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "time_raw": "27.14",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Furkan Emir ABLAK",
+          "city": "Izmir",
+          "time_raw": "27.19",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ali Kaan KARAMAN",
+          "city": "Izmir",
+          "time_raw": "27.67",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Kadir Eymen AKSU",
+          "city": "Bursa",
+          "time_raw": "27.83",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Yunus Emre Kul",
+          "city": "Bursa",
+          "time_raw": "29.02",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|12|Erkek": {
+      "event": "200m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk Efe DONBAYCI",
+          "city": "Ankara",
+          "time_raw": "1:59.96",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Eray BÜYÜKKORKMAZ",
+          "city": "Istanbul",
+          "time_raw": "2:03.44",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Taha SADE",
+          "city": "Istanbul",
+          "time_raw": "2:03.49",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ismail Engin AKDOĞAN",
+          "city": "Ankara",
+          "time_raw": "2:04.56",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Erdem KIRCA",
+          "city": "Eskişehir",
+          "time_raw": "2:05.56",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ali Kaan KARAMAN",
+          "city": "Izmir",
+          "time_raw": "2:05.74",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "ılgaz FIRTINA",
+          "city": "Edirne",
+          "time_raw": "2:06.57",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kerem YAVUZ",
+          "city": "Ankara",
+          "time_raw": "2:06.95",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "time_raw": "2:08.42",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ali Ege KÜTAHYA",
+          "city": "Istanbul",
+          "time_raw": "2:08.65",
+          "points": 0
+        }
+      ]
+    },
+    "100m Serbest|12|Erkek": {
+      "event": "100m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk Efe DONBAYCI",
+          "city": "Ankara",
+          "time_raw": "55.75",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ismail Engin AKDOĞAN",
+          "city": "Ankara",
+          "time_raw": "56.07",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ilkut Girayhan AKYÜZ",
+          "city": "Izmir",
+          "time_raw": "57.12",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerem YAVUZ",
+          "city": "Ankara",
+          "time_raw": "57.23",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ali Kaan KARAMAN",
+          "city": "Izmir",
+          "time_raw": "57.38",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Yağız KANCA",
+          "city": "Edirne",
+          "time_raw": "57.65",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "time_raw": "58.26",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ege Kandemir",
+          "city": "Izmir",
+          "time_raw": "1:02.12",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yunus Emre Kul",
+          "city": "Bursa",
+          "time_raw": "1:02.20",
+          "points": 0
+        }
+      ]
+    },
+    "50m Kelebek|12|Erkek": {
+      "event": "50m Kelebek",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk Efe DONBAYCI",
+          "city": "Ankara",
+          "time_raw": "26.88",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Deniz Baray TOZ",
+          "city": "Istanbul",
+          "time_raw": "27.82",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Yağız KANCA",
+          "city": "Edirne",
+          "time_raw": "28.00",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ahmet Yahya Karabulut",
+          "city": "Kayseri",
+          "time_raw": "29.08",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Erdem AVENOĞLU",
+          "city": "Ankara",
+          "time_raw": "29.09",
+          "points": 4
+        }
+      ]
+    },
+    "200m Kelebek|13|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Koray GÜNDÜZ",
+          "city": "Ankara",
+          "time_raw": "2:20.47",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Poyraz ALBAYRAK",
+          "city": "Trabzon",
+          "time_raw": "2:21.33",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çağan Murat COŞKUNOĞLU",
+          "city": "Izmir",
+          "time_raw": "2:22.59",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ekin YALDAEI",
+          "city": "Mersin",
+          "time_raw": "2:24.91",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Eren ÇINAR",
+          "city": "Edirne",
+          "time_raw": "2:27.67",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Efe AĞABABAOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:28.31",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Bora AĞDERE",
+          "city": "Giresun",
+          "time_raw": "2:29.26",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "time_raw": "2:29.93",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yağız IŞILDAK",
+          "city": "Mersin",
+          "time_raw": "2:34.71",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Enes Kayra Söğüt",
+          "city": "Bolu",
+          "time_raw": "2:59.61",
+          "points": 0
+        }
+      ]
+    },
+    "50m Kurbağalama|12|Erkek": {
+      "event": "50m Kurbağalama",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pars IKİKARDAŞLAR",
+          "city": "Izmir",
+          "time_raw": "30.47",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Aras IPEK",
+          "city": "Samsun",
+          "time_raw": "32.48",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kadir Eymen AKSU",
+          "city": "Bursa",
+          "time_raw": "32.51",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mustafa Demir AY",
+          "city": "Istanbul",
+          "time_raw": "32.94",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "time_raw": "33.44",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Erdem AVENOĞLU",
+          "city": "Ankara",
+          "time_raw": "34.00",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Eymen AKAR",
+          "city": "Ankara",
+          "time_raw": "34.01",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Tuna Özcan Kubat",
+          "city": "Izmir",
+          "time_raw": "34.96",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yunus Emre Kul",
+          "city": "Bursa",
+          "time_raw": "39.35",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|12|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pars IKİKARDAŞLAR",
+          "city": "Izmir",
+          "time_raw": "1:08.66",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kadir Eymen AKSU",
+          "city": "Bursa",
+          "time_raw": "1:09.37",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "1:11.33",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mustafa Demir AY",
+          "city": "Istanbul",
+          "time_raw": "1:11.85",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Eymen AKAR",
+          "city": "Ankara",
+          "time_raw": "1:13.28",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Aras IPEK",
+          "city": "Samsun",
+          "time_raw": "1:13.33",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Erdem AVENOĞLU",
+          "city": "Ankara",
+          "time_raw": "1:13.51",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "time_raw": "1:13.85",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Tuna Özcan Kubat",
+          "city": "Izmir",
+          "time_raw": "1:18.39",
+          "points": 0
+        }
+      ]
+    },
+    "200m Karışık|12|Erkek": {
+      "event": "200m Karışık",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Osman Ata KARADAĞ",
+          "city": "Mersin",
+          "time_raw": "2:17.60",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Umut Ata SARIKAYA",
+          "city": "Ankara",
+          "time_raw": "2:20.48",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mustafa Demir AY",
+          "city": "Istanbul",
+          "time_raw": "2:23.91",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Erdem AVENOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:24.22",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Kocamaz",
+          "city": "Kayseri",
+          "time_raw": "2:24.73",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Poyraz YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "2:24.85",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Aras IPEK",
+          "city": "Samsun",
+          "time_raw": "2:25.57",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "time_raw": "2:25.82",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Tuna Özcan Kubat",
+          "city": "Izmir",
+          "time_raw": "2:27.96",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ege Kandemir",
+          "city": "Izmir",
+          "time_raw": "2:35.32",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|11|Erkek": {
+      "event": "200m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Cem Berkay YARAY",
+          "city": "Istanbul",
+          "time_raw": "1:58.99",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Erol Kaan ÖZCAN",
+          "city": "Istanbul",
+          "time_raw": "2:00.04",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çınar Ege PERİT",
+          "city": "Ankara",
+          "time_raw": "2:00.62",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ali Kaan ŞEN",
+          "city": "Eskişehir",
+          "time_raw": "2:00.68",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Çınar KIROĞLU",
+          "city": "Ankara",
+          "time_raw": "2:00.88",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Deniz YAVUZ",
+          "city": "Eskişehir",
+          "time_raw": "2:02.06",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Çınar GÜLSOY",
+          "city": "Kayseri",
+          "time_raw": "2:03.37",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Erhan Efe DÖNMEZ",
+          "city": "Ankara",
+          "time_raw": "2:04.00",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Enes Berkay Onlat",
+          "city": "Eskişehir",
+          "time_raw": "2:06.76",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "İbrahim Eren Atakan",
+          "city": "Kayseri",
+          "time_raw": "2:06.84",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ali Rüzgar KURTOĞLU",
+          "city": "Antalya",
+          "time_raw": "2:07.23",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Çınar Alikan",
+          "city": "Samsun",
+          "time_raw": "2:07.54",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Orhan Eray ŞENYILDIZ",
+          "city": "Samsun",
+          "time_raw": "2:14.22",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Osman Ayaz Türker",
+          "city": "Antalya",
+          "time_raw": "2:15.69",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kelebek|11|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Erhan Efe DÖNMEZ",
+          "city": "Ankara",
+          "time_raw": "59.19",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Efe AYDINÇAKIR",
+          "city": "Trabzon",
+          "time_raw": "1:00.85",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Miraç Efe KARGIN",
+          "city": "Bursa",
+          "time_raw": "1:01.03",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Alp AKAN",
+          "city": "Samsun",
+          "time_raw": "1:07.81",
+          "points": 5
+        }
+      ]
+    },
+    "50m Kelebek|11|Erkek": {
+      "event": "50m Kelebek",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ali Mete KOÇAK",
+          "city": "Istanbul",
+          "time_raw": "26.75",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar APAYDIN",
+          "city": "Istanbul",
+          "time_raw": "26.93",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Erol Kaan ÖZCAN",
+          "city": "Istanbul",
+          "time_raw": "27.64",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Erhan Efe DÖNMEZ",
+          "city": "Ankara",
+          "time_raw": "27.68",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Onur Çağan ERTEN",
+          "city": "Eskişehir",
+          "time_raw": "28.18",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Efe AYDINÇAKIR",
+          "city": "Trabzon",
+          "time_raw": "28.26",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Deniz YAVUZ",
+          "city": "Eskişehir",
+          "time_raw": "28.32",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Alp AKAN",
+          "city": "Samsun",
+          "time_raw": "30.21",
+          "points": 1
+        }
+      ]
+    },
+    "200m Kelebek|11|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kaan Tamer ŞENGÜL",
+          "city": "Izmir",
+          "time_raw": "2:09.73",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Miraç Efe KARGIN",
+          "city": "Bursa",
+          "time_raw": "2:13.32",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Erhan Efe DÖNMEZ",
+          "city": "Ankara",
+          "time_raw": "2:14.03",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Efe AYDINÇAKIR",
+          "city": "Trabzon",
+          "time_raw": "2:14.75",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|12|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pars IKİKARDAŞLAR",
+          "city": "Izmir",
+          "time_raw": "2:27.34",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kadir Eymen AKSU",
+          "city": "Bursa",
+          "time_raw": "2:30.92",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "2:31.88",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Eymen AKAR",
+          "city": "Ankara",
+          "time_raw": "2:39.63",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Demir AY",
+          "city": "Istanbul",
+          "time_raw": "2:40.82",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Aras IPEK",
+          "city": "Samsun",
+          "time_raw": "2:44.33",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "time_raw": "2:46.64",
+          "points": 2
+        }
+      ]
+    },
+    "50m Sırtüstü|12|Erkek": {
+      "event": "50m Sırtüstü",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tan ÇAKIROĞLU",
+          "city": "Ankara",
+          "time_raw": "29.57",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Furkan Emir ABLAK",
+          "city": "Izmir",
+          "time_raw": "29.70",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ilkut Girayhan AKYÜZ",
+          "city": "Izmir",
+          "time_raw": "30.35",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerem YAVUZ",
+          "city": "Ankara",
+          "time_raw": "30.41",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yağız KANCA",
+          "city": "Edirne",
+          "time_raw": "31.63",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ismail Engin AKDOĞAN",
+          "city": "Ankara",
+          "time_raw": "32.65",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Yunus Emre Kul",
+          "city": "Bursa",
+          "time_raw": "38.38",
+          "points": 2
+        }
+      ]
+    },
+    "1500m Serbest|14|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yağız ALICI",
+          "city": "Mersin",
+          "time_raw": "17:34.82",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "time_raw": "17:48.54",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "time_raw": "17:56.98",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerim IŞIL",
+          "city": "Antalya",
+          "time_raw": "18:11.75",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Demir ERDOĞAN",
+          "city": "Antalya",
+          "time_raw": "18:29.55",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "time_raw": "18:55.97",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Can KINABAŞ",
+          "city": "Bursa",
+          "time_raw": "18:58.44",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mustafa Yiğit KESKİN",
+          "city": "Antalya",
+          "time_raw": "19:14.74",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ahmet Talha AKKAŞ",
+          "city": "Kayseri",
+          "time_raw": "19:37.39",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Kaan CEYLAN",
+          "city": "Ankara",
+          "time_raw": "19:38.90",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Eymen KUTLU",
+          "city": "Bursa",
+          "time_raw": "19:40.77",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Yusuf BAYSAL",
+          "city": "Sakarya",
+          "time_raw": "19:43.00",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Ali KALYON",
+          "city": "Antalya",
+          "time_raw": "19:45.74",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Alperen KALKAN",
+          "city": "Kayseri",
+          "time_raw": "19:54.09",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "time_raw": "20:21.58",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Pamir Çağan ÖZTÜRK",
+          "city": "Ankara",
+          "time_raw": "20:22.86",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Muhammed Enes ILYAN",
+          "city": "Trabzon",
+          "time_raw": "20:23.21",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "time_raw": "20:43.64",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Demir DEMİRCİGİL",
+          "city": "Izmir",
+          "time_raw": "21:34.28",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Berat PALA",
+          "city": "Bursa",
+          "time_raw": "23:03.93",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Rüzgar BAŞARICI",
+          "city": "Izmir",
+          "time_raw": "23:14.93",
+          "points": 0
+        }
+      ]
+    },
+    "400m Karışık|13|Erkek": {
+      "event": "400m Karışık",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ekin YALDAEI",
+          "city": "Mersin",
+          "time_raw": "5:09.56",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Poyraz ALBAYRAK",
+          "city": "Trabzon",
+          "time_raw": "5:12.53",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "time_raw": "5:13.43",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Koray GÜNDÜZ",
+          "city": "Ankara",
+          "time_raw": "5:13.69",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Tuna ÖZTOPRAK",
+          "city": "Edirne",
+          "time_raw": "5:17.70",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Yağız IŞILDAK",
+          "city": "Mersin",
+          "time_raw": "5:23.09",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Uras GÜNEŞ",
+          "city": "Izmir",
+          "time_raw": "5:28.15",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Kerem Burak GÜRBÜZ",
+          "city": "Istanbul",
+          "time_raw": "5:30.87",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Yusuf Eymen CAN",
+          "city": "Istanbul",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Batuhan KAYA",
+          "city": "Çanakkale",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "200m Sırtüstü|14|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ali ÇOKÇETİN",
+          "city": "Samsun",
+          "time_raw": "2:27.30",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar Armin ATİK",
+          "city": "Ankara",
+          "time_raw": "2:30.58",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Egemen ATÇI",
+          "city": "Eskişehir",
+          "time_raw": "2:37.84",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Barbaros KONUŞ",
+          "city": "Bursa",
+          "time_raw": "2:39.56",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Kıvanç GÜL",
+          "city": "Çanakkale",
+          "time_raw": "2:40.87",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Tolga ABBASOV",
+          "city": "Samsun",
+          "time_raw": "2:41.05",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Can VECAN",
+          "city": "Izmir",
+          "time_raw": "2:41.89",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Arjin KARAMAN",
+          "city": "Izmir",
+          "time_raw": "2:42.32",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Mustafa BİRİNCİ",
+          "city": "Trabzon",
+          "time_raw": "2:43.09",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Yusuf Taha SAĞIR",
+          "city": "Trabzon",
+          "time_raw": "2:43.81",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ahmet Arın ÖLMEZ",
+          "city": "Trabzon",
+          "time_raw": "2:53.51",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Feridun Toprak ERÇORA",
+          "city": "Izmir",
+          "time_raw": "3:00.11",
+          "points": 0
+        }
+      ]
+    },
+    "100m Sırtüstü|14|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ali ÇOKÇETİN",
+          "city": "Samsun",
+          "time_raw": "1:08.25",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar Armin ATİK",
+          "city": "Ankara",
+          "time_raw": "1:10.18",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Egemen ATÇI",
+          "city": "Eskişehir",
+          "time_raw": "1:12.04",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Barbaros KONUŞ",
+          "city": "Bursa",
+          "time_raw": "1:13.34",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yusuf Taha SAĞIR",
+          "city": "Trabzon",
+          "time_raw": "1:14.82",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kıvanç GÜL",
+          "city": "Çanakkale",
+          "time_raw": "1:15.34",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Taha BAŞ",
+          "city": "Samsun",
+          "time_raw": "1:15.40",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Doğu IPEK",
+          "city": "Samsun",
+          "time_raw": "1:16.31",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Mustafa BİRİNCİ",
+          "city": "Trabzon",
+          "time_raw": "1:17.43",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Tolga ABBASOV",
+          "city": "Samsun",
+          "time_raw": "1:17.75",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Arjin KARAMAN",
+          "city": "Izmir",
+          "time_raw": "1:18.34",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Feridun Toprak ERÇORA",
+          "city": "Izmir",
+          "time_raw": "1:20.83",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Hamza OTLAK",
+          "city": "Samsun",
+          "time_raw": "1:24.63",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|11|Erkek": {
+      "event": "50m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Serkan Yiğit CÖMERT",
+          "city": "Ankara",
+          "time_raw": "24.66",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar APAYDIN",
+          "city": "Istanbul",
+          "time_raw": "25.34",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Cem Berkay YARAY",
+          "city": "Istanbul",
+          "time_raw": "25.41",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ali Kaan ŞEN",
+          "city": "Eskişehir",
+          "time_raw": "25.89",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Onur Çağan ERTEN",
+          "city": "Eskişehir",
+          "time_raw": "25.94",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Deniz YAVUZ",
+          "city": "Eskişehir",
+          "time_raw": "26.29",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Alp AKAN",
+          "city": "Samsun",
+          "time_raw": "26.39",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Efe AYDINÇAKIR",
+          "city": "Trabzon",
+          "time_raw": "27.49",
+          "points": 1
+        }
+      ]
+    },
+    "50m Sırtüstü|11|Erkek": {
+      "event": "50m Sırtüstü",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ali Mete KOÇAK",
+          "city": "Istanbul",
+          "time_raw": "28.40",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kağan KOÇUK",
+          "city": "Bursa",
+          "time_raw": "29.15",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Onur Çağan ERTEN",
+          "city": "Eskişehir",
+          "time_raw": "29.33",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Serkan Yiğit CÖMERT",
+          "city": "Ankara",
+          "time_raw": "29.41",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Cem Berkay YARAY",
+          "city": "Istanbul",
+          "time_raw": "29.81",
+          "points": 4
+        }
+      ]
+    },
+    "100m Serbest|11|Erkek": {
+      "event": "100m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Cem Berkay YARAY",
+          "city": "Istanbul",
+          "time_raw": "54.67",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ali Kaan ŞEN",
+          "city": "Eskişehir",
+          "time_raw": "55.23",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Serkan Yiğit CÖMERT",
+          "city": "Ankara",
+          "time_raw": "55.34",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ali Mete KOÇAK",
+          "city": "Istanbul",
+          "time_raw": "55.34",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Erol Kaan ÖZCAN",
+          "city": "Istanbul",
+          "time_raw": "55.49",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Deniz YAVUZ",
+          "city": "Eskişehir",
+          "time_raw": "56.09",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Alp AKAN",
+          "city": "Samsun",
+          "time_raw": "56.71",
+          "points": 2
+        }
+      ]
+    },
+    "100m Sırtüstü|11|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tunç UÇAN",
+          "city": "Istanbul",
+          "time_raw": "1:00.48",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ali Mete KOÇAK",
+          "city": "Istanbul",
+          "time_raw": "1:01.76",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Miraç Efe KARGIN",
+          "city": "Bursa",
+          "time_raw": "1:02.92",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kağan KOÇUK",
+          "city": "Bursa",
+          "time_raw": "1:03.19",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Onur Çağan ERTEN",
+          "city": "Eskişehir",
+          "time_raw": "1:03.65",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Serkan Yiğit CÖMERT",
+          "city": "Ankara",
+          "time_raw": "1:03.93",
+          "points": 3
+        }
+      ]
+    },
+    "200m Sırtüstü|12|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tan ÇAKIROĞLU",
+          "city": "Ankara",
+          "time_raw": "2:17.40",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Furkan Emir ABLAK",
+          "city": "Izmir",
+          "time_raw": "2:22.79",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Poyraz Dere",
+          "city": "Mersin",
+          "time_raw": "2:26.73",
+          "points": 6
+        }
+      ]
+    },
+    "100m Sırtüstü|12|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tan ÇAKIROĞLU",
+          "city": "Ankara",
+          "time_raw": "1:03.93",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Furkan Emir ABLAK",
+          "city": "Izmir",
+          "time_raw": "1:04.04",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ilkut Girayhan AKYÜZ",
+          "city": "Izmir",
+          "time_raw": "1:04.68",
+          "points": 6
+        }
+      ]
+    },
+    "100m Kelebek|12|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Deniz Baray TOZ",
+          "city": "Istanbul",
+          "time_raw": "1:00.03",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Umut Ata SARIKAYA",
+          "city": "Ankara",
+          "time_raw": "1:00.76",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ahmet Yahya Karabulut",
+          "city": "Kayseri",
+          "time_raw": "1:03.55",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ege Kandemir",
+          "city": "Izmir",
+          "time_raw": "1:04.67",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Tan ÇAKIROĞLU",
+          "city": "Ankara",
+          "time_raw": "1:04.94",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Tuna Özcan Kubat",
+          "city": "Izmir",
+          "time_raw": "1:05.17",
+          "points": 3
+        }
+      ]
+    },
+    "200m Kelebek|12|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Deniz Baray TOZ",
+          "city": "Istanbul",
+          "time_raw": "2:10.58",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Umut Ata SARIKAYA",
+          "city": "Ankara",
+          "time_raw": "2:13.94",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Osman Ata KARADAĞ",
+          "city": "Mersin",
+          "time_raw": "2:14.08",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ahmet Yahya Karabulut",
+          "city": "Kayseri",
+          "time_raw": "2:20.45",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Erdem KIRCA",
+          "city": "Eskişehir",
+          "time_raw": "2:22.25",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ege Kandemir",
+          "city": "Izmir",
+          "time_raw": "2:22.37",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ali Ege KÜTAHYA",
+          "city": "Istanbul",
+          "time_raw": "2:24.00",
+          "points": 2
+        }
+      ]
+    },
+    "400m Karışık|12|Erkek": {
+      "event": "400m Karışık",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Osman Ata KARADAĞ",
+          "city": "Mersin",
+          "time_raw": "4:45.54",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Umut Ata SARIKAYA",
+          "city": "Ankara",
+          "time_raw": "4:58.40",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Deniz Baray TOZ",
+          "city": "Istanbul",
+          "time_raw": "5:03.83",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Poyraz YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "5:05.54",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Poyraz Dere",
+          "city": "Mersin",
+          "time_raw": "5:06.28",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Timur DONAT",
+          "city": "Antalya",
+          "time_raw": "5:08.01",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ahmet Yahya Karabulut",
+          "city": "Kayseri",
+          "time_raw": "5:11.71",
+          "points": 2
+        }
+      ]
+    },
+    "800m Serbest|11|Erkek": {
+      "event": "800m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Çınar Ege PERİT",
+          "city": "Ankara",
+          "time_raw": "8:27.89",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ali Rüzgar KURTOĞLU",
+          "city": "Antalya",
+          "time_raw": "8:28.42",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çınar GÜLSOY",
+          "city": "Kayseri",
+          "time_raw": "8:50.88",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Osman Ayaz Türker",
+          "city": "Antalya",
+          "time_raw": "9:05.28",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ali Kaan ŞEN",
+          "city": "Eskişehir",
+          "time_raw": "9:05.43",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kağan Benveniste",
+          "city": "Trabzon",
+          "time_raw": "9:05.70",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Enes Berkay Onlat",
+          "city": "Eskişehir",
+          "time_raw": "9:08.83",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "İbrahim Eren Atakan",
+          "city": "Kayseri",
+          "time_raw": "9:10.11",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Kaan Tamer ŞENGÜL",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|11|Erkek": {
+      "event": "400m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Çınar Ege PERİT",
+          "city": "Ankara",
+          "time_raw": "4:10.13",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ali Rüzgar KURTOĞLU",
+          "city": "Antalya",
+          "time_raw": "4:10.46",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kaan Tamer ŞENGÜL",
+          "city": "Izmir",
+          "time_raw": "4:11.56",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Çınar KIROĞLU",
+          "city": "Ankara",
+          "time_raw": "4:15.11",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Çınar GÜLSOY",
+          "city": "Kayseri",
+          "time_raw": "4:18.09",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Çınar Alikan",
+          "city": "Samsun",
+          "time_raw": "4:22.93",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Enes Berkay Onlat",
+          "city": "Eskişehir",
+          "time_raw": "4:25.44",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "İbrahim Eren Atakan",
+          "city": "Kayseri",
+          "time_raw": "4:27.03",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Osman Ayaz Türker",
+          "city": "Antalya",
+          "time_raw": "4:31.93",
+          "points": 0
+        }
+      ]
+    },
+    "1500m Serbest|11|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ali Rüzgar KURTOĞLU",
+          "city": "Antalya",
+          "time_raw": "15:56.41",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çınar Ege PERİT",
+          "city": "Ankara",
+          "time_raw": "16:08.69",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çınar GÜLSOY",
+          "city": "Kayseri",
+          "time_raw": "16:37.82",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kağan Benveniste",
+          "city": "Trabzon",
+          "time_raw": "17:18.08",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Osman Ayaz Türker",
+          "city": "Antalya",
+          "time_raw": "17:24.82",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "İbrahim Eren Atakan",
+          "city": "Kayseri",
+          "time_raw": "17:53.76",
+          "points": 3
+        }
+      ]
+    },
+    "200m Sırtüstü|11|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tunç UÇAN",
+          "city": "Istanbul",
+          "time_raw": "2:07.84",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Miraç Efe KARGIN",
+          "city": "Bursa",
+          "time_raw": "2:16.68",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kağan KOÇUK",
+          "city": "Bursa",
+          "time_raw": "2:17.93",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Çınar KIROĞLU",
+          "city": "Ankara",
+          "time_raw": "2:18.06",
+          "points": 5
+        }
+      ]
+    },
+    "200m Karışık|11|Erkek": {
+      "event": "200m Karışık",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tunç UÇAN",
+          "city": "Istanbul",
+          "time_raw": "2:08.29",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çınar KIROĞLU",
+          "city": "Ankara",
+          "time_raw": "2:14.64",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tuğrul ÖZBAY",
+          "city": "Samsun",
+          "time_raw": "2:20.59",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Çınar Alikan",
+          "city": "Samsun",
+          "time_raw": "2:21.01",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Kadir YAYLA",
+          "city": "Istanbul",
+          "time_raw": "2:27.22",
+          "points": 4
+        }
+      ]
+    },
+    "100m Sırtüstü|14|Kadın": {
+      "event": "100m Sırtüstü",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Peri USLU",
+          "city": "Antalya",
+          "time_raw": "1:09.27",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "1:09.95",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Linda Derin OĞUZHAN",
+          "city": "Samsun",
+          "time_raw": "1:11.63",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "time_raw": "1:12.21",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "1:12.24",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Melis MENCİK",
+          "city": "Samsun",
+          "time_raw": "1:13.11",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Tuana YİRİK",
+          "city": "Istanbul",
+          "time_raw": "1:13.14",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Aslı Beren KOLCU",
+          "city": "Ankara",
+          "time_raw": "1:13.43",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "time_raw": "1:14.70",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Zümra KOÇOĞLU",
+          "city": "Bursa",
+          "time_raw": "1:15.84",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Burcu Ece ORHAN",
+          "city": "Bursa",
+          "time_raw": "1:16.22",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "time_raw": "1:16.45",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Aysu KABAOĞLU",
+          "city": "Bursa",
+          "time_raw": "1:16.80",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "time_raw": "1:17.26",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Deniz ERÇELEBİ",
+          "city": "Izmir",
+          "time_raw": "1:17.81",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Eylül ÇOTUR",
+          "city": "Ankara",
+          "time_raw": "1:19.00",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "B. ALTUNZİNCİR",
+          "city": "Ankara",
+          "time_raw": "1:19.06",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|14|Kadın": {
+      "event": "100m Kurbağalama",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "time_raw": "1:19.59",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "1:19.59",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Nil ÖZGE",
+          "city": "Istanbul",
+          "time_raw": "1:23.71",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ayşem ÖZÇELTİKÇİ",
+          "city": "Bursa",
+          "time_raw": "1:25.26",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Elif INAT",
+          "city": "Samsun",
+          "time_raw": "1:26.02",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep Beren YILDIZ",
+          "city": "Ankara",
+          "time_raw": "1:26.03",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Aysima VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "1:26.68",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mira Nurgül ALTAY",
+          "city": "Mersin",
+          "time_raw": "1:26.78",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Hira Zeyneb MUTLU",
+          "city": "Eskişehir",
+          "time_raw": "1:27.20",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Öykü ÖZGÜL",
+          "city": "Ankara",
+          "time_raw": "1:27.22",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Berrak ÖZBAL",
+          "city": "Gaziantep",
+          "time_raw": "1:27.42",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "1:27.67",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Azra MUTLU",
+          "city": "Izmir",
+          "time_raw": "1:29.67",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Aslı Beren KOLCU",
+          "city": "Ankara",
+          "time_raw": "1:41.45",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "200m Sırtüstü|14|Kadın": {
+      "event": "200m Sırtüstü",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "time_raw": "2:32.32",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Peri USLU",
+          "city": "Antalya",
+          "time_raw": "2:33.36",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Linda Derin OĞUZHAN",
+          "city": "Samsun",
+          "time_raw": "2:34.32",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Aslı Beren KOLCU",
+          "city": "Ankara",
+          "time_raw": "2:35.60",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "2:36.72",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Melis MENCİK",
+          "city": "Samsun",
+          "time_raw": "2:37.70",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "2:38.23",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "2:38.62",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Zümra KOÇOĞLU",
+          "city": "Bursa",
+          "time_raw": "2:41.02",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "time_raw": "2:43.34",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Aysu KABAOĞLU",
+          "city": "Bursa",
+          "time_raw": "2:43.86",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "B. ALTUNZİNCİR",
+          "city": "Ankara",
+          "time_raw": "2:44.23",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Eylül ÇOTUR",
+          "city": "Ankara",
+          "time_raw": "2:44.59",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Defne GÖNEN",
+          "city": "Izmir",
+          "time_raw": "2:44.65",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Burcu Ece ORHAN",
+          "city": "Bursa",
+          "time_raw": "2:45.24",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Deniz ERÇELEBİ",
+          "city": "Izmir",
+          "time_raw": "2:46.48",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "time_raw": "2:46.50",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Tuana YİRİK",
+          "city": "Istanbul",
+          "time_raw": "2:48.20",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Mira Nurgül ALTAY",
+          "city": "Mersin",
+          "time_raw": "2:48.84",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "2:50.50",
+          "points": 0
+        }
+      ]
+    },
+    "? Serbest|14|Kadın": {
+      "event": "? Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "200m Kurbağalama|14|Kadın": {
+      "event": "200m Kurbağalama",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "time_raw": "2:50.53",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "2:53.24",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Aysima VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "3:01.38",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ayşem ÖZÇELTİKÇİ",
+          "city": "Bursa",
+          "time_raw": "3:02.15",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Nil ÖZGE",
+          "city": "Istanbul",
+          "time_raw": "3:03.07",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Hira Zeyneb MUTLU",
+          "city": "Eskişehir",
+          "time_raw": "3:03.25",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Elif INAT",
+          "city": "Samsun",
+          "time_raw": "3:03.77",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mira Nurgül ALTAY",
+          "city": "Mersin",
+          "time_raw": "3:05.27",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "3:06.63",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Zeynep Beren YILDIZ",
+          "city": "Ankara",
+          "time_raw": "3:06.83",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Azra MUTLU",
+          "city": "Izmir",
+          "time_raw": "3:07.41",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "time_raw": "3:17.68",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Zeynep MEYİLLİ",
+          "city": "Kayseri",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|14|Kadın": {
+      "event": "200m Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Peri USLU",
+          "city": "Antalya",
+          "time_raw": "2:10.55",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "time_raw": "2:17.66",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "time_raw": "2:18.53",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Tuana YİRİK",
+          "city": "Istanbul",
+          "time_raw": "2:18.60",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "time_raw": "2:19.45",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "2:19.67",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Zeynep Duru YARDIMCI",
+          "city": "Ankara",
+          "time_raw": "2:21.63",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Berrak ÖZBAL",
+          "city": "Gaziantep",
+          "time_raw": "2:21.73",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "time_raw": "2:22.22",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Linda Derin OĞUZHAN",
+          "city": "Samsun",
+          "time_raw": "2:22.51",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Ayşe Beren ONAY",
+          "city": "Bursa",
+          "time_raw": "2:23.76",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "time_raw": "2:23.97",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "time_raw": "2:24.63",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Defne UÇAR",
+          "city": "Eskişehir",
+          "time_raw": "2:24.67",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Melis LİZOR",
+          "city": "Bursa",
+          "time_raw": "2:24.74",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Melis Ece ILTER",
+          "city": "Eskişehir",
+          "time_raw": "2:24.77",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Elif Naz OKUYUCU",
+          "city": "Samsun",
+          "time_raw": "2:25.62",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Melis MENCİK",
+          "city": "Samsun",
+          "time_raw": "2:25.71",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "IDIL Nilay KARSLI",
+          "city": "Giresun",
+          "time_raw": "2:26.46",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Beren MUTAŞ",
+          "city": "Konya",
+          "time_raw": "2:26.99",
+          "points": 0
+        },
+        {
+          "rank": 21,
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "time_raw": "2:27.19",
+          "points": 0
+        },
+        {
+          "rank": 22,
+          "name": "Serenay Tuğçe Gülöksüz",
+          "city": "Ankara",
+          "time_raw": "2:27.28",
+          "points": 0
+        },
+        {
+          "rank": 23,
+          "name": "Nisa Nur ILYAN",
+          "city": "Trabzon",
+          "time_raw": "2:27.32",
+          "points": 0
+        },
+        {
+          "rank": 24,
+          "name": "Özüm ÖZBEY",
+          "city": "Ankara",
+          "time_raw": "2:28.50",
+          "points": 0
+        },
+        {
+          "rank": 25,
+          "name": "Zeynep KÜÇÜK",
+          "city": "Trabzon",
+          "time_raw": "2:28.69",
+          "points": 0
+        },
+        {
+          "rank": 26,
+          "name": "Elif INAT",
+          "city": "Samsun",
+          "time_raw": "2:29.94",
+          "points": 0
+        },
+        {
+          "rank": 27,
+          "name": "Beren ULUAĞAÇ",
+          "city": "Edirne",
+          "time_raw": "2:31.03",
+          "points": 0
+        },
+        {
+          "rank": 28,
+          "name": "B. ALTUNZİNCİR",
+          "city": "Ankara",
+          "time_raw": "2:31.04",
+          "points": 0
+        },
+        {
+          "rank": 29,
+          "name": "Aysu KABAOĞLU",
+          "city": "Bursa",
+          "time_raw": "2:31.22",
+          "points": 0
+        },
+        {
+          "rank": 30,
+          "name": "Zeynep Beren YILDIZ",
+          "city": "Ankara",
+          "time_raw": "2:43.21",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|12|Kadın": {
+      "event": "50m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Jasmin ARSLAN",
+          "city": "Istanbul",
+          "time_raw": "27.66",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Deniz ANIL",
+          "city": "Ankara",
+          "time_raw": "27.87",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "time_raw": "29.14",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ela AYGÜN",
+          "city": "Samsun",
+          "time_raw": "29.15",
+          "points": 5
+        }
+      ]
+    },
+    "200m Serbest|12|Kadın": {
+      "event": "200m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Deniz ANIL",
+          "city": "Ankara",
+          "time_raw": "2:08.92",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zeynep Derin GÜLDEMİR",
+          "city": "Izmir",
+          "time_raw": "2:12.97",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Sahra ÇELİKKÖKÜ",
+          "city": "Bursa",
+          "time_raw": "2:12.99",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Nehir Berin DAĞLI",
+          "city": "Samsun",
+          "time_raw": "2:14.98",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mira AYDIN",
+          "city": "Samsun",
+          "time_raw": "2:16.17",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ela AYGÜN",
+          "city": "Samsun",
+          "time_raw": "2:17.62",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ipek Gökçe DEMİRBAŞAK",
+          "city": "Kocaeli",
+          "time_raw": "2:19.50",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ekin YILMAZ",
+          "city": "Eskişehir",
+          "time_raw": "2:19.80",
+          "points": 1
+        }
+      ]
+    },
+    "100m Serbest|12|Kadın": {
+      "event": "100m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Deniz ANIL",
+          "city": "Ankara",
+          "time_raw": "1:00.57",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zeynep Derin GÜLDEMİR",
+          "city": "Izmir",
+          "time_raw": "1:01.51",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Sahra ÇELİKKÖKÜ",
+          "city": "Bursa",
+          "time_raw": "1:01.93",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Dora ÖZER",
+          "city": "Trabzon",
+          "time_raw": "1:02.25",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Nehir Berin DAĞLI",
+          "city": "Samsun",
+          "time_raw": "1:02.68",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ekin YILMAZ",
+          "city": "Eskişehir",
+          "time_raw": "1:03.26",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "time_raw": "1:03.41",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ela AYGÜN",
+          "city": "Samsun",
+          "time_raw": "1:03.86",
+          "points": 1
+        }
+      ]
+    },
+    "200m Kelebek|12|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Merve MENGÜBERTİ",
+          "city": "Izmir",
+          "time_raw": "2:24.40",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Melodi DEMİREL",
+          "city": "Mersin",
+          "time_raw": "2:26.33",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Deniz ANIL",
+          "city": "Ankara",
+          "time_raw": "2:29.48",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "2:30.31",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Mira AYDIN",
+          "city": "Samsun",
+          "time_raw": "2:49.04",
+          "points": 4
+        }
+      ]
+    },
+    "100m Sırtüstü|13|Kadın": {
+      "event": "100m Sırtüstü",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Naz HAZIROLAN",
+          "city": "Ankara",
+          "time_raw": "1:10.11",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Belemir Ada KAYA",
+          "city": "Gaziantep",
+          "time_raw": "1:12.28",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "ırmak BARUTÇUOĞLU",
+          "city": "Ankara",
+          "time_raw": "1:12.41",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Zeynep Dilara Ünlü",
+          "city": "Bursa",
+          "time_raw": "1:12.99",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Elçin Uzun",
+          "city": "Ankara",
+          "time_raw": "1:13.17",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Tanem Can YAVUZÖZ",
+          "city": "Izmir",
+          "time_raw": "1:13.28",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "time_raw": "1:13.51",
+          "points": 2
+        }
+      ]
+    },
+    "100m Kelebek|14|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "ılgım ERTAŞ",
+          "city": "Edirne",
+          "time_raw": "1:07.54",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Mira TUFAN",
+          "city": "Istanbul",
+          "time_raw": "1:09.24",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Zeynep Duru YARDIMCI",
+          "city": "Ankara",
+          "time_raw": "1:09.47",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "IDIL Nilay KARSLI",
+          "city": "Giresun",
+          "time_raw": "1:12.45",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "time_raw": "1:12.70",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep KÜÇÜK",
+          "city": "Trabzon",
+          "time_raw": "1:12.85",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "1:13.28",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Duru DEMİR",
+          "city": "Mersin",
+          "time_raw": "1:13.46",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Defne UÇAR",
+          "city": "Eskişehir",
+          "time_raw": "1:13.92",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Nisa Nur ILYAN",
+          "city": "Trabzon",
+          "time_raw": "1:14.28",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Inci TANRIVERDİ",
+          "city": "Eskişehir",
+          "time_raw": "1:14.76",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Öykü ÖZGÜL",
+          "city": "Ankara",
+          "time_raw": "1:14.85",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Defne GÖNEN",
+          "city": "Izmir",
+          "time_raw": "1:17.94",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Burcu Ece ORHAN",
+          "city": "Bursa",
+          "time_raw": "1:20.41",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Aysima VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "1:21.40",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Zümra KOÇOĞLU",
+          "city": "Bursa",
+          "time_raw": "1:22.27",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Serenay Tuğçe Gülöksüz",
+          "city": "Ankara",
+          "time_raw": "1:23.11",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Zeynep MEYİLLİ",
+          "city": "Kayseri",
+          "time_raw": "1:28.10",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Eylül ÇOTUR",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Serbest|14|Kadın": {
+      "event": "100m Serbest",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Zeynep KÜÇÜK",
+          "city": "Trabzon",
+          "time_raw": "57.72",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Peri USLU",
+          "city": "Antalya",
+          "time_raw": "1:00.60",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tuana YİRİK",
+          "city": "Istanbul",
+          "time_raw": "1:03.10",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "time_raw": "1:03.43",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep Duru YARDIMCI",
+          "city": "Ankara",
+          "time_raw": "1:04.25",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "time_raw": "1:04.38",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Linda Derin OĞUZHAN",
+          "city": "Samsun",
+          "time_raw": "1:05.41",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "ırmak AKCENGİZ",
+          "city": "Ankara",
+          "time_raw": "1:05.67",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Burcu Ece ORHAN",
+          "city": "Bursa",
+          "time_raw": "1:05.72",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "1:05.78",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "IDIL Nilay KARSLI",
+          "city": "Giresun",
+          "time_raw": "1:06.58",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "time_raw": "1:07.29",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Nisa Nur ILYAN",
+          "city": "Trabzon",
+          "time_raw": "1:07.74",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Beren MUTAŞ",
+          "city": "Konya",
+          "time_raw": "1:07.88",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Zeynep MEYİLLİ",
+          "city": "Kayseri",
+          "time_raw": "1:07.89",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Melis LİZOR",
+          "city": "Bursa",
+          "time_raw": "1:08.08",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "time_raw": "1:08.33",
+          "points": 0
+        },
+        {
+          "rank": 18,
+          "name": "Özüm ÖZBEY",
+          "city": "Ankara",
+          "time_raw": "1:08.63",
+          "points": 0
+        },
+        {
+          "rank": 19,
+          "name": "Aysu KABAOĞLU",
+          "city": "Bursa",
+          "time_raw": "1:09.25",
+          "points": 0
+        },
+        {
+          "rank": 20,
+          "name": "Hira Zeyneb MUTLU",
+          "city": "Eskişehir",
+          "time_raw": "1:14.32",
+          "points": 0
+        }
+      ]
+    },
+    "200m Serbest|10|Kadın": {
+      "event": "200m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ikra SIVACI",
+          "city": "Kayseri",
+          "time_raw": "2:08.90",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zeynep HADANOĞLU",
+          "city": "Ankara",
+          "time_raw": "2:09.50",
+          "points": 7
+        }
+      ]
+    },
+    "800m Serbest|10|Kadın": {
+      "event": "800m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Gökçe ÖZTÜRK",
+          "city": "Mersin",
+          "time_raw": "9:05.82",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zeynep HADANOĞLU",
+          "city": "Ankara",
+          "time_raw": "9:14.52",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ikra SIVACI",
+          "city": "Kayseri",
+          "time_raw": "9:15.83",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Seher KAYA",
+          "city": "Eskişehir",
+          "time_raw": "9:26.93",
+          "points": 5
+        }
+      ]
+    },
+    "400m Serbest|10|Kadın": {
+      "event": "400m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ikra SIVACI",
+          "city": "Kayseri",
+          "time_raw": "4:27.61",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zeynep HADANOĞLU",
+          "city": "Ankara",
+          "time_raw": "4:31.36",
+          "points": 7
+        }
+      ]
+    },
+    "1500m Serbest|10|Kadın": {
+      "event": "1500m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Gökçe ÖZTÜRK",
+          "city": "Mersin",
+          "time_raw": "17:17.02",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ikra SIVACI",
+          "city": "Kayseri",
+          "time_raw": "17:27.91",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Zeynep HADANOĞLU",
+          "city": "Ankara",
+          "time_raw": "17:41.05",
+          "points": 6
+        }
+      ]
+    },
+    "1500m Serbest|13|Kadın": {
+      "event": "1500m Serbest",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "time_raw": "18:33.04",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "time_raw": "18:34.90",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Berilay BATUR",
+          "city": "Kayseri",
+          "time_raw": "18:38.95",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yağmur KONT",
+          "city": "Gaziantep",
+          "time_raw": "18:40.08",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "time_raw": "18:40.79",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Esil Erva DURU",
+          "city": "Edirne",
+          "time_raw": "19:07.55",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Zeynep Irmak Yalçın",
+          "city": "Gaziantep",
+          "time_raw": "19:17.65",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "time_raw": "19:28.38",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Zeynep Kanıgür",
+          "city": "Ankara",
+          "time_raw": "19:28.76",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Elif Rüya Canoğlu",
+          "city": "Antalya",
+          "time_raw": "19:37.79",
+          "points": 0
+        }
+      ]
+    },
+    "200m Kelebek|13|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Meryem ÇETİN",
+          "city": "Bursa",
+          "time_raw": "2:27.30",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "time_raw": "2:27.80",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Fatma Berra ÖZER",
+          "city": "Gaziantep",
+          "time_raw": "2:27.84",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "time_raw": "2:30.83",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "time_raw": "2:34.66",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Deniz ÇALIŞKAN",
+          "city": "Istanbul",
+          "time_raw": "2:36.48",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Zeynep Kanıgür",
+          "city": "Ankara",
+          "time_raw": "2:41.63",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "time_raw": "2:50.72",
+          "points": 1
+        }
+      ]
+    },
+    "800m Serbest|13|Kadın": {
+      "event": "800m Serbest",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "time_raw": "9:33.39",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Berilay BATUR",
+          "city": "Kayseri",
+          "time_raw": "9:33.80",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "time_raw": "9:39.89",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "time_raw": "9:44.76",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yağmur KONT",
+          "city": "Gaziantep",
+          "time_raw": "9:45.04",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Esil Erva DURU",
+          "city": "Edirne",
+          "time_raw": "9:54.42",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "time_raw": "10:00.44",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ela Nira Çizer",
+          "city": "Sakarya",
+          "time_raw": "10:10.46",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Zeynep KAYA",
+          "city": "Ankara",
+          "time_raw": "10:11.13",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Elif Rüya Canoğlu",
+          "city": "Antalya",
+          "time_raw": "10:17.32",
+          "points": 0
+        }
+      ]
+    },
+    "400m Karışık|14|Kadın": {
+      "event": "400m Karışık",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "ılgım ERTAŞ",
+          "city": "Edirne",
+          "time_raw": "5:18.88",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "5:40.64",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "5:47.86",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Duru DEMİR",
+          "city": "Mersin",
+          "time_raw": "5:48.57",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "5:52.57",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "5:57.42",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "time_raw": "6:00.13",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "time_raw": "6:10.57",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "6:11.73",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "6:18.29",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Defne GÖNEN",
+          "city": "Izmir",
+          "time_raw": "6:23.01",
+          "points": 0
+        },
+        {
+          "rank": 12,
+          "name": "Öykü ÖZGÜL",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 13,
+          "name": "Ayşe Beren ONAY",
+          "city": "Bursa",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 14,
+          "name": "Mira TUFAN",
+          "city": "Istanbul",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 15,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 16,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 17,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "400m Serbest|12|Erkek": {
+      "event": "400m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Taha SADE",
+          "city": "Istanbul",
+          "time_raw": "4:15.35",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Eray BÜYÜKKORKMAZ",
+          "city": "Istanbul",
+          "time_raw": "4:19.07",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Erdem KIRCA",
+          "city": "Eskişehir",
+          "time_raw": "4:23.32",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Timur DONAT",
+          "city": "Antalya",
+          "time_raw": "4:24.76",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "ılgaz FIRTINA",
+          "city": "Edirne",
+          "time_raw": "4:28.16",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Poyraz Dere",
+          "city": "Mersin",
+          "time_raw": "4:30.51",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ali Ege KÜTAHYA",
+          "city": "Istanbul",
+          "time_raw": "4:34.04",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "time_raw": "4:35.43",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Mustafa Kocamaz",
+          "city": "Kayseri",
+          "time_raw": "4:47.39",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Ali Kaan KARAMAN",
+          "city": "Izmir",
+          "time_raw": "5:26.13",
+          "points": 0
+        }
+      ]
+    },
+    "1500m Serbest|12|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Taha SADE",
+          "city": "Istanbul",
+          "time_raw": "16:19.78",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Osman Ata KARADAĞ",
+          "city": "Mersin",
+          "time_raw": "16:52.15",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Eray BÜYÜKKORKMAZ",
+          "city": "Istanbul",
+          "time_raw": "17:01.28",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "ılgaz FIRTINA",
+          "city": "Edirne",
+          "time_raw": "17:38.83",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Timur DONAT",
+          "city": "Antalya",
+          "time_raw": "17:58.22",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Poyraz Dere",
+          "city": "Mersin",
+          "time_raw": "17:58.83",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Mustafa Kocamaz",
+          "city": "Kayseri",
+          "time_raw": "19:15.66",
+          "points": 2
+        }
+      ]
+    },
+    "800m Serbest|12|Erkek": {
+      "event": "800m Serbest",
+      "yb": "12",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Taha SADE",
+          "city": "Istanbul",
+          "time_raw": "8:34.36",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Eray BÜYÜKKORKMAZ",
+          "city": "Istanbul",
+          "time_raw": "8:53.36",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Erdem KIRCA",
+          "city": "Eskişehir",
+          "time_raw": "9:08.15",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Timur DONAT",
+          "city": "Antalya",
+          "time_raw": "9:09.96",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "ılgaz FIRTINA",
+          "city": "Edirne",
+          "time_raw": "9:11.35",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ali Ege KÜTAHYA",
+          "city": "Istanbul",
+          "time_raw": "9:22.46",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Mustafa Kocamaz",
+          "city": "Kayseri",
+          "time_raw": "9:51.36",
+          "points": 2
+        }
+      ]
+    },
+    "400m Karışık|13|Kadın": {
+      "event": "400m Karışık",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Fatma Berra ÖZER",
+          "city": "Gaziantep",
+          "time_raw": "5:21.48",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "time_raw": "5:25.58",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "time_raw": "5:26.12",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "5:28.85",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "time_raw": "5:32.02",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "5:33.80",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "time_raw": "5:34.49",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "5:36.03",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Cemre KAYNAŞ",
+          "city": "Izmir",
+          "time_raw": "5:37.38",
+          "points": 0
+        },
+        {
+          "rank": 10,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "Izmir",
+          "time_raw": "5:42.40",
+          "points": 0
+        },
+        {
+          "rank": 11,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "5:42.83",
+          "points": 0
+        }
+      ]
+    },
+    "200m Kurbağalama|14|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ömer ULUDAĞ",
+          "city": "Istanbul",
+          "time_raw": "2:58.36",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Çağlayan GÜNEŞ",
+          "city": "Eskişehir",
+          "time_raw": "2:58.64",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mert BOSTAN",
+          "city": "Trabzon",
+          "time_raw": "3:04.90",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mert AYGÜN",
+          "city": "Trabzon",
+          "time_raw": "3:04.92",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yusuf ZOPCUK",
+          "city": "Mersin",
+          "time_raw": "3:09.10",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Muhsin Demir BOYLU",
+          "city": "Istanbul",
+          "time_raw": "3:11.89",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Kadir Ensar KOCADAŞ",
+          "city": "Bolu",
+          "time_raw": "3:16.09",
+          "points": 2
+        }
+      ]
+    },
+    "100m Sırtüstü|10|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk AÇAR",
+          "city": "Kocaeli",
+          "time_raw": "59.52",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Toprak Kemal MASALCI",
+          "city": "Istanbul",
+          "time_raw": "1:00.23",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ahmet KOŞUM",
+          "city": "Bursa",
+          "time_raw": "1:01.13",
+          "points": 6
+        }
+      ]
+    },
+    "50m Sırtüstü|10|Erkek": {
+      "event": "50m Sırtüstü",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ahmet KOŞUM",
+          "city": "Bursa",
+          "time_raw": "27.61",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Toprak Kemal MASALCI",
+          "city": "Istanbul",
+          "time_raw": "28.07",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tuna TURAN",
+          "city": "Tekirdağ",
+          "time_raw": "28.16",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Hüseyin BIDI",
+          "city": "Istanbul",
+          "time_raw": "28.37",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Umut ŞEN",
+          "city": "Sakarya",
+          "time_raw": "28.74",
+          "points": 4
+        }
+      ]
+    },
+    "50m Kelebek|10|Erkek": {
+      "event": "50m Kelebek",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Poyraz ARABACI",
+          "city": "Bursa",
+          "time_raw": "25.40",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ahmet KOŞUM",
+          "city": "Bursa",
+          "time_raw": "25.73",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kıvanç ÖZKAN",
+          "city": "Istanbul",
+          "time_raw": "25.87",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ç. ÇOLAKOĞULLARI",
+          "city": "Izmir",
+          "time_raw": "25.88",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Tuna TURAN",
+          "city": "Tekirdağ",
+          "time_raw": "25.99",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kuzey ALEMDAĞ",
+          "city": "Izmir",
+          "time_raw": "26.23",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ulus MEMİŞ",
+          "city": "Istanbul",
+          "time_raw": "26.46",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Ateş DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "27.15",
+          "points": 1
+        },
+        {
+          "rank": 9,
+          "name": "Arda KAFADAR",
+          "city": "Izmir",
+          "time_raw": "29.15",
+          "points": 0
+        }
+      ]
+    },
+    "50m Serbest|08|Erkek": {
+      "event": "50m Serbest",
+      "yb": "08",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Batın Kıvanç KURTULUŞ",
+          "city": "Bursa",
+          "time_raw": "24.55",
+          "points": 9
+        }
+      ]
+    },
+    "50m Kelebek|08|Erkek": {
+      "event": "50m Kelebek",
+      "yb": "08",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Batın Kıvanç KURTULUŞ",
+          "city": "Bursa",
+          "time_raw": "26.99",
+          "points": 9
+        }
+      ]
+    },
+    "100m Serbest|08|Erkek": {
+      "event": "100m Serbest",
+      "yb": "08",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Batın Kıvanç KURTULUŞ",
+          "city": "Bursa",
+          "time_raw": "52.65",
+          "points": 9
+        }
+      ]
+    },
+    "100m Kelebek|08|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "08",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Batın Kıvanç KURTULUŞ",
+          "city": "Bursa",
+          "time_raw": "58.37",
+          "points": 9
+        }
+      ]
+    },
+    "100m Kelebek|10|Erkek": {
+      "event": "100m Kelebek",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Poyraz ARABACI",
+          "city": "Bursa",
+          "time_raw": "56.43",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kuzey ALEMDAĞ",
+          "city": "Izmir",
+          "time_raw": "58.38",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ismail Esad SÜSLÜ",
+          "city": "Istanbul",
+          "time_raw": "58.47",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerem TOPAL",
+          "city": "Eskişehir",
+          "time_raw": "58.92",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yağızhan Aydın DEMİR",
+          "city": "Istanbul",
+          "time_raw": "59.58",
+          "points": 4
+        }
+      ]
+    },
+    "400m Serbest|09|Erkek": {
+      "event": "400m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Berkin AVCI",
+          "city": "Istanbul",
+          "time_raw": "4:03.18",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "4:03.84",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Rüzgar Batu ALTAY",
+          "city": "Bursa",
+          "time_raw": "4:04.48",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yalçın ULUSOY",
+          "city": "Kayseri",
+          "time_raw": "4:05.87",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Aydın Efe KÜÇÜK",
+          "city": "Samsun",
+          "time_raw": "4:07.63",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Yiğit Ahmet NARİN",
+          "city": "Kayseri",
+          "time_raw": "4:10.52",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Ata SARIKAYA",
+          "city": "Izmir",
+          "time_raw": "4:13.50",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Eymen BAYINDIR",
+          "city": "Eskişehir",
+          "time_raw": "4:27.49",
+          "points": 1
+        }
+      ]
+    },
+    "200m Serbest|09|Erkek": {
+      "event": "200m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "1:55.13",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Rüzgar Batu ALTAY",
+          "city": "Bursa",
+          "time_raw": "1:55.52",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Aydın Efe KÜÇÜK",
+          "city": "Samsun",
+          "time_raw": "1:56.59",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Eymen BAYINDIR",
+          "city": "Eskişehir",
+          "time_raw": "1:56.67",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Berkin AVCI",
+          "city": "Istanbul",
+          "time_raw": "1:57.11",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Yalçın ULUSOY",
+          "city": "Kayseri",
+          "time_raw": "1:59.05",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Yiğit Ahmet NARİN",
+          "city": "Kayseri",
+          "time_raw": "2:02.18",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Mustafa Özgür YALÇIN",
+          "city": "Istanbul",
+          "time_raw": "2:09.84",
+          "points": 1
+        }
+      ]
+    },
+    "800m Serbest|09|Erkek": {
+      "event": "800m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yalçın ULUSOY",
+          "city": "Kayseri",
+          "time_raw": "8:24.75",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Aydın Efe KÜÇÜK",
+          "city": "Samsun",
+          "time_raw": "8:26.02",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Rüzgar Batu ALTAY",
+          "city": "Bursa",
+          "time_raw": "8:29.08",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yiğit Ahmet NARİN",
+          "city": "Kayseri",
+          "time_raw": "8:29.58",
+          "points": 5
+        }
+      ]
+    },
+    "50m Serbest|11|Kadın": {
+      "event": "50m Serbest",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ayşe Nazlı SÖNMEZ",
+          "city": "Bursa",
+          "time_raw": "27.09",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Lena CENGİZ",
+          "city": "Bursa",
+          "time_raw": "27.47",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Asya Beren ÇELİK",
+          "city": "Bursa",
+          "time_raw": "28.08",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Elvin ALVER",
+          "city": "Istanbul",
+          "time_raw": "28.25",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Beren RİZELİ",
+          "city": "Trabzon",
+          "time_raw": "28.37",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Ipek SÖZER",
+          "city": "Izmir",
+          "time_raw": "28.42",
+          "points": 3
+        }
+      ]
+    },
+    "100m Sırtüstü|11|Kadın": {
+      "event": "100m Sırtüstü",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Beren ÇELİK",
+          "city": "Bursa",
+          "time_raw": "1:04.80",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ipek SÖZER",
+          "city": "Izmir",
+          "time_raw": "1:05.06",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elvin ALVER",
+          "city": "Istanbul",
+          "time_raw": "1:08.26",
+          "points": 6
+        }
+      ]
+    },
+    "50m Sırtüstü|11|Kadın": {
+      "event": "50m Sırtüstü",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Beren ÇELİK",
+          "city": "Bursa",
+          "time_raw": "30.12",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ipek SÖZER",
+          "city": "Izmir",
+          "time_raw": "30.28",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elvin ALVER",
+          "city": "Istanbul",
+          "time_raw": "31.57",
+          "points": 6
+        }
+      ]
+    },
+    "200m Sırtüstü|11|Kadın": {
+      "event": "200m Sırtüstü",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Beren ÇELİK",
+          "city": "Bursa",
+          "time_raw": "2:22.87",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ipek SÖZER",
+          "city": "Izmir",
+          "time_raw": "2:23.28",
+          "points": 7
+        }
+      ]
+    },
+    "50m Serbest|10|Kadın": {
+      "event": "50m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Melek ALP",
+          "city": "Bursa",
+          "time_raw": "27.25",
+          "points": 9
+        }
+      ]
+    },
+    "100m Kelebek|10|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Seher KAYA",
+          "city": "Eskişehir",
+          "time_raw": "1:01.51",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Asya Melek ALP",
+          "city": "Bursa",
+          "time_raw": "1:02.16",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kelebek|10|Kadın": {
+      "event": "50m Kelebek",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Melek ALP",
+          "city": "Bursa",
+          "time_raw": "27.86",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Seher KAYA",
+          "city": "Eskişehir",
+          "time_raw": "28.17",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Ayla TURGUT",
+          "city": "Istanbul",
+          "time_raw": "29.72",
+          "points": 6
+        }
+      ]
+    },
+    "200m Karışık|10|Kadın": {
+      "event": "200m Karışık",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Asya Melek ALP",
+          "city": "Bursa",
+          "time_raw": "2:19.42",
+          "points": 9
+        }
+      ]
+    },
+    "50m Kelebek|11|Kadın": {
+      "event": "50m Kelebek",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ayşe Nazlı SÖNMEZ",
+          "city": "Bursa",
+          "time_raw": "28.01",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Cemre INCE",
+          "city": "Izmir",
+          "time_raw": "29.27",
+          "points": 7
+        }
+      ]
+    },
+    "100m Serbest|11|Kadın": {
+      "event": "100m Serbest",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ayşe Nazlı SÖNMEZ",
+          "city": "Bursa",
+          "time_raw": "59.20",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Lena CENGİZ",
+          "city": "Bursa",
+          "time_raw": "59.31",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Beren RİZELİ",
+          "city": "Trabzon",
+          "time_raw": "1:00.42",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Elvin ALVER",
+          "city": "Istanbul",
+          "time_raw": "1:02.20",
+          "points": 5
+        }
+      ]
+    },
+    "100m Kelebek|11|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ayşe Nazlı SÖNMEZ",
+          "city": "Bursa",
+          "time_raw": "1:03.83",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Cemre INCE",
+          "city": "Izmir",
+          "time_raw": "1:04.11",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "IDIL GÜLCAN",
+          "city": "Istanbul",
+          "time_raw": "1:05.28",
+          "points": 6
+        }
+      ]
+    },
+    "50m Serbest|09|Kadın": {
+      "event": "50m Serbest",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Eylül ÖZGÜR",
+          "city": "Bursa",
+          "time_raw": "26.33",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra Kayra ÖĞMEN",
+          "city": "Izmir",
+          "time_raw": "26.84",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Duru VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "27.96",
+          "points": 6
+        }
+      ]
+    },
+    "100m Kelebek|09|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Duru VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "1:04.20",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra Kayra ÖĞMEN",
+          "city": "Izmir",
+          "time_raw": "1:04.72",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kelebek|09|Kadın": {
+      "event": "50m Kelebek",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Azra Kayra ÖĞMEN",
+          "city": "Izmir",
+          "time_raw": "27.96",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Duru VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "28.64",
+          "points": 7
+        }
+      ]
+    },
+    "200m Kelebek|09|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Duru VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "2:22.48",
+          "points": 9
+        }
+      ]
+    },
+    "50m Kelebek|12|Kadın": {
+      "event": "50m Kelebek",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "time_raw": "29.41",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "time_raw": "29.72",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Jasmin ARSLAN",
+          "city": "Istanbul",
+          "time_raw": "30.40",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "30.48",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Duru AYDIN",
+          "city": "Istanbul",
+          "time_raw": "30.79",
+          "points": 4
+        }
+      ]
+    },
+    "100m Kelebek|12|Kadın": {
+      "event": "100m Kelebek",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "time_raw": "1:04.96",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "time_raw": "1:06.45",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "1:07.16",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Merve MENGÜBERTİ",
+          "city": "Izmir",
+          "time_raw": "1:07.47",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Duru AYDIN",
+          "city": "Istanbul",
+          "time_raw": "1:54.46",
+          "points": 4
+        }
+      ]
+    },
+    "400m Karışık|12|Kadın": {
+      "event": "400m Karışık",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Melodi DEMİREL",
+          "city": "Mersin",
+          "time_raw": "5:11.78",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Tuğba YILDIZ",
+          "city": "Istanbul",
+          "time_raw": "5:13.13",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Merve MENGÜBERTİ",
+          "city": "Izmir",
+          "time_raw": "5:14.28",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "Izmir",
+          "time_raw": "5:20.05",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "5:29.53",
+          "points": 4
+        }
+      ]
+    },
+    "50m Sırtüstü|09|Kadın": {
+      "event": "50m Sırtüstü",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Eylül ÖZGÜR",
+          "city": "Bursa",
+          "time_raw": "30.77",
+          "points": 9
+        }
+      ]
+    },
+    "100m Serbest|09|Kadın": {
+      "event": "100m Serbest",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Azra Kayra ÖĞMEN",
+          "city": "Izmir",
+          "time_raw": "58.52",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Eylül ÖZGÜR",
+          "city": "Bursa",
+          "time_raw": "58.54",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kurbağalama|09|Kadın": {
+      "event": "50m Kurbağalama",
+      "yb": "09",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Eylül ÖZGÜR",
+          "city": "Bursa",
+          "time_raw": "33.53",
+          "points": 9
+        }
+      ]
+    },
+    "200m Serbest|11|Kadın": {
+      "event": "200m Serbest",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Beren RİZELİ",
+          "city": "Trabzon",
+          "time_raw": "2:10.34",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Lena CENGİZ",
+          "city": "Bursa",
+          "time_raw": "2:10.97",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kurbağalama|12|Kadın": {
+      "event": "50m Kurbağalama",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Duru AYDIN",
+          "city": "Istanbul",
+          "time_raw": "34.46",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Dora ÖZER",
+          "city": "Trabzon",
+          "time_raw": "35.70",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Rüya KANDEMİR",
+          "city": "Kocaeli",
+          "time_raw": "36.17",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mısra Saygılı",
+          "city": "Bursa",
+          "time_raw": "36.80",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|12|Kadın": {
+      "event": "200m Kurbağalama",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Zeynep Derin GÜLDEMİR",
+          "city": "Izmir",
+          "time_raw": "2:46.15",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "Izmir",
+          "time_raw": "2:47.77",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Rüya KANDEMİR",
+          "city": "Kocaeli",
+          "time_raw": "2:50.66",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mısra Saygılı",
+          "city": "Bursa",
+          "time_raw": "2:50.90",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Dora ÖZER",
+          "city": "Trabzon",
+          "time_raw": "2:52.24",
+          "points": 4
+        }
+      ]
+    },
+    "100m Kurbağalama|12|Kadın": {
+      "event": "100m Kurbağalama",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Zeynep Derin GÜLDEMİR",
+          "city": "Izmir",
+          "time_raw": "1:18.19",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Duru AYDIN",
+          "city": "Istanbul",
+          "time_raw": "1:18.80",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mısra Saygılı",
+          "city": "Bursa",
+          "time_raw": "1:19.19",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "Izmir",
+          "time_raw": "1:19.68",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Elif Rüya KANDEMİR",
+          "city": "Kocaeli",
+          "time_raw": "1:20.08",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Dora ÖZER",
+          "city": "Trabzon",
+          "time_raw": "1:20.49",
+          "points": 3
+        }
+      ]
+    },
+    "50m Kurbağalama|11|Kadın": {
+      "event": "50m Kurbağalama",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pelin KIZILDERE",
+          "city": "Bursa",
+          "time_raw": "34.19",
+          "points": 9
+        }
+      ]
+    },
+    "200m Kurbağalama|11|Kadın": {
+      "event": "200m Kurbağalama",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pelin KIZILDERE",
+          "city": "Bursa",
+          "time_raw": "2:40.06",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra GEDİKOĞLU",
+          "city": "Trabzon",
+          "time_raw": "2:44.18",
+          "points": 7
+        }
+      ]
+    },
+    "100m Kurbağalama|11|Kadın": {
+      "event": "100m Kurbağalama",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Pelin KIZILDERE",
+          "city": "Bursa",
+          "time_raw": "1:12.91",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "time_raw": "1:17.13",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Azra GEDİKOĞLU",
+          "city": "Trabzon",
+          "time_raw": "1:17.99",
+          "points": 6
+        }
+      ]
+    },
+    "200m Karışık|11|Kadın": {
+      "event": "200m Karışık",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Cemre INCE",
+          "city": "Izmir",
+          "time_raw": "2:25.17",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "time_raw": "2:25.80",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Pelin KIZILDERE",
+          "city": "Bursa",
+          "time_raw": "2:25.83",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "IDIL GÜLCAN",
+          "city": "Istanbul",
+          "time_raw": "2:28.43",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Azra GEDİKOĞLU",
+          "city": "Trabzon",
+          "time_raw": "2:30.05",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Beren RİZELİ",
+          "city": "Trabzon",
+          "time_raw": "2:30.79",
+          "points": 3
+        }
+      ]
+    },
+    "400m Serbest|12|Kadın": {
+      "event": "400m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Sahra ÇELİKKÖKÜ",
+          "city": "Bursa",
+          "time_raw": "4:39.96",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Nehir Berin DAĞLI",
+          "city": "Samsun",
+          "time_raw": "4:40.81",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ipek Gökçe DEMİRBAŞAK",
+          "city": "Kocaeli",
+          "time_raw": "4:44.74",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mira AYDIN",
+          "city": "Samsun",
+          "time_raw": "4:46.76",
+          "points": 5
+        }
+      ]
+    },
+    "800m Serbest|12|Kadın": {
+      "event": "800m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tuğba YILDIZ",
+          "city": "Istanbul",
+          "time_raw": "8:56.20",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Sahra ÇELİKKÖKÜ",
+          "city": "Bursa",
+          "time_raw": "9:39.64",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ipek Gökçe DEMİRBAŞAK",
+          "city": "Kocaeli",
+          "time_raw": "9:43.90",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mira AYDIN",
+          "city": "Samsun",
+          "time_raw": "9:47.85",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|13|Kadın": {
+      "event": "200m Kurbağalama",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "Izmir",
+          "time_raw": "2:49.72",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "2:50.11",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ada ÖZEN",
+          "city": "Izmir",
+          "time_raw": "2:58.11",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "3:00.14",
+          "points": 5
+        }
+      ]
+    },
+    "200m Sırtüstü|13|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tuna ÖZTOPRAK",
+          "city": "Edirne",
+          "time_raw": "2:23.35",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kerem BALIK",
+          "city": "Istanbul",
+          "time_raw": "2:25.10",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "İsmail OTLAK",
+          "city": "Samsun",
+          "time_raw": "2:30.08",
+          "points": 6
+        }
+      ]
+    },
+    "100m Sırtüstü|13|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kerem BALIK",
+          "city": "Istanbul",
+          "time_raw": "1:06.67",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Mustafa Mert KIRAÇ",
+          "city": "Istanbul",
+          "time_raw": "1:06.76",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tuna ÖZTOPRAK",
+          "city": "Edirne",
+          "time_raw": "1:07.87",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "İsmail OTLAK",
+          "city": "Samsun",
+          "time_raw": "1:08.70",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "time_raw": "1:12.90",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Batuhan KAYA",
+          "city": "Çanakkale",
+          "time_raw": "1:17.49",
+          "points": 3
+        }
+      ]
+    },
+    "200m Kelebek|14|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "14",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "ılgım ERTAŞ",
+          "city": "Edirne",
+          "time_raw": "2:34.01",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Defne UÇAR",
+          "city": "Eskişehir",
+          "time_raw": "2:43.22",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Duru DEMİR",
+          "city": "Mersin",
+          "time_raw": "2:45.45",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Mira TUFAN",
+          "city": "Istanbul",
+          "time_raw": "2:46.41",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Zeynep KÜÇÜK",
+          "city": "Trabzon",
+          "time_raw": "2:48.79",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "time_raw": "2:54.00",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Inci TANRIVERDİ",
+          "city": "Eskişehir",
+          "time_raw": "NT",
+          "points": 0
+        },
+        {
+          "rank": 8,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|11|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Rüzgar APAYDIN",
+          "city": "Istanbul",
+          "time_raw": "1:08.26",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Orhan Eray ŞENYILDIZ",
+          "city": "Samsun",
+          "time_raw": "1:09.94",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Tuğrul ÖZBAY",
+          "city": "Samsun",
+          "time_raw": "1:09.95",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kadir YAYLA",
+          "city": "Istanbul",
+          "time_raw": "1:10.06",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Kerim Deniz Köken",
+          "city": "Istanbul",
+          "time_raw": "1:10.14",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Enes Berkay Onlat",
+          "city": "Eskişehir",
+          "time_raw": "1:18.85",
+          "points": 3
+        }
+      ]
+    },
+    "50m Sırtüstü|12|Kadın": {
+      "event": "50m Sırtüstü",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "time_raw": "30.73",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Jasmin ARSLAN",
+          "city": "Istanbul",
+          "time_raw": "30.93",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Ipek BAYRAK",
+          "city": "Trabzon",
+          "time_raw": "31.41",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ekin YILMAZ",
+          "city": "Eskişehir",
+          "time_raw": "32.70",
+          "points": 5
+        }
+      ]
+    },
+    "100m Sırtüstü|12|Kadın": {
+      "event": "100m Sırtüstü",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "time_raw": "1:06.46",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Elif Ipek BAYRAK",
+          "city": "Trabzon",
+          "time_raw": "1:07.23",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Jasmin ARSLAN",
+          "city": "Istanbul",
+          "time_raw": "1:07.66",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ekin YILMAZ",
+          "city": "Eskişehir",
+          "time_raw": "1:14.15",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kelebek|10|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Seher KAYA",
+          "city": "Eskişehir",
+          "time_raw": "2:13.72",
+          "points": 9
+        }
+      ]
+    },
+    "100m Sırtüstü|09|Erkek": {
+      "event": "100m Sırtüstü",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ata SARIKAYA",
+          "city": "Izmir",
+          "time_raw": "58.49",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Tarık Eren TÜFEKÇİ",
+          "city": "Gaziantep",
+          "time_raw": "1:06.79",
+          "points": 7
+        }
+      ]
+    },
+    "200m Kelebek|09|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tarık Eren TÜFEKÇİ",
+          "city": "Gaziantep",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|13|Kadın": {
+      "event": "100m Kurbağalama",
+      "yb": "13",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "1:20.29",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "Izmir",
+          "time_raw": "1:20.34",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ada ÖZEN",
+          "city": "Izmir",
+          "time_raw": "1:20.83",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Efsa TORUN",
+          "city": "Giresun",
+          "time_raw": "1:25.05",
+          "points": 5
+        }
+      ]
+    },
+    "800m Serbest|10|Erkek": {
+      "event": "800m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Berhan ILİŞİK",
+          "city": "Istanbul",
+          "time_raw": "8:19.05",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Bekir SIVACI",
+          "city": "Kayseri",
+          "time_raw": "8:39.67",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerem BAYAR",
+          "city": "Istanbul",
+          "time_raw": "8:40.37",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yusuf KÖSE",
+          "city": "Samsun",
+          "time_raw": "8:41.84",
+          "points": 5
+        }
+      ]
+    },
+    "400m Serbest|10|Erkek": {
+      "event": "400m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Berhan ILİŞİK",
+          "city": "Istanbul",
+          "time_raw": "4:05.05",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Toprak DURMAZ",
+          "city": "Istanbul",
+          "time_raw": "4:07.09",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Doruk AÇAR",
+          "city": "Kocaeli",
+          "time_raw": "4:07.64",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Yağızhan Aydın DEMİR",
+          "city": "Istanbul",
+          "time_raw": "4:08.49",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Yusuf KÖSE",
+          "city": "Samsun",
+          "time_raw": "4:12.99",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Kerem BAYAR",
+          "city": "Istanbul",
+          "time_raw": "4:13.96",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Bekir SIVACI",
+          "city": "Kayseri",
+          "time_raw": "4:14.16",
+          "points": 2
+        },
+        {
+          "rank": 8,
+          "name": "Murat Çağan OLCAY",
+          "city": "Istanbul",
+          "time_raw": "4:28.21",
+          "points": 1
+        }
+      ]
+    },
+    "1500m Serbest|10|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Berhan ILİŞİK",
+          "city": "Istanbul",
+          "time_raw": "15:51.63",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Bekir SIVACI",
+          "city": "Kayseri",
+          "time_raw": "16:33.80",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerem BAYAR",
+          "city": "Istanbul",
+          "time_raw": "16:35.63",
+          "points": 6
+        }
+      ]
+    },
+    "200m Sırtüstü|10|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Doruk AÇAR",
+          "city": "Kocaeli",
+          "time_raw": "2:07.52",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Toprak Kemal MASALCI",
+          "city": "Istanbul",
+          "time_raw": "2:09.10",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Hüseyin BIDI",
+          "city": "Istanbul",
+          "time_raw": "2:13.04",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Civan VURAL",
+          "city": "Istanbul",
+          "time_raw": "2:24.85",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kelebek|10|Erkek": {
+      "event": "200m Kelebek",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yağızhan Aydın DEMİR",
+          "city": "Istanbul",
+          "time_raw": "2:09.28",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Civan VURAL",
+          "city": "Istanbul",
+          "time_raw": "2:09.84",
+          "points": 7
+        }
+      ]
+    },
+    "400m Karışık|10|Erkek": {
+      "event": "400m Karışık",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kaan Güngör ÖZDİL",
+          "city": "Istanbul",
+          "time_raw": "4:38.51",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Hüseyin BIDI",
+          "city": "Istanbul",
+          "time_raw": "4:40.49",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Civan VURAL",
+          "city": "Istanbul",
+          "time_raw": "4:41.29",
+          "points": 6
+        }
+      ]
+    },
+    "50m Kurbağalama|11|Erkek": {
+      "event": "50m Kurbağalama",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Rüzgar APAYDIN",
+          "city": "Istanbul",
+          "time_raw": "31.19",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Erol Kaan ÖZCAN",
+          "city": "Istanbul",
+          "time_raw": "31.72",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerim Deniz Köken",
+          "city": "Istanbul",
+          "time_raw": "32.17",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kadir YAYLA",
+          "city": "Istanbul",
+          "time_raw": "32.26",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Orhan Eray ŞENYILDIZ",
+          "city": "Samsun",
+          "time_raw": "32.37",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Tuğrul ÖZBAY",
+          "city": "Samsun",
+          "time_raw": "32.39",
+          "points": 3
+        }
+      ]
+    },
+    "50m Kurbağalama|10|Erkek": {
+      "event": "50m Kurbağalama",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kaan Güngör ÖZDİL",
+          "city": "Istanbul",
+          "time_raw": "29.90",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Ismail Esad SÜSLÜ",
+          "city": "Istanbul",
+          "time_raw": "30.34",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Akın Sarp KIRIŞ",
+          "city": "Kütahya",
+          "time_raw": "30.60",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ç. ÇOLAKOĞULLARI",
+          "city": "Izmir",
+          "time_raw": "31.58",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Arda KAFADAR",
+          "city": "Izmir",
+          "time_raw": "31.99",
+          "points": 4
+        }
+      ]
+    },
+    "100m Kurbağalama|10|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Kaan Güngör ÖZDİL",
+          "city": "Istanbul",
+          "time_raw": "1:05.86",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Akın Sarp KIRIŞ",
+          "city": "Kütahya",
+          "time_raw": "1:06.69",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ismail Esad SÜSLÜ",
+          "city": "Istanbul",
+          "time_raw": "1:08.24",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Arda KAFADAR",
+          "city": "Izmir",
+          "time_raw": "1:10.35",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|11|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tuğrul ÖZBAY",
+          "city": "Samsun",
+          "time_raw": "2:30.53",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kadir YAYLA",
+          "city": "Istanbul",
+          "time_raw": "2:32.37",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Orhan Eray ŞENYILDIZ",
+          "city": "Samsun",
+          "time_raw": "2:33.65",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerim Deniz Köken",
+          "city": "Istanbul",
+          "time_raw": "2:39.56",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|13|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "time_raw": "2:43.71",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Uras GÜNEŞ",
+          "city": "Izmir",
+          "time_raw": "2:44.45",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Kerem Burak GÜRBÜZ",
+          "city": "Istanbul",
+          "time_raw": "3:02.02",
+          "points": 6
+        }
+      ]
+    },
+    "400m Karışık|11|Erkek": {
+      "event": "400m Karışık",
+      "yb": "11",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tunç UÇAN",
+          "city": "Istanbul",
+          "time_raw": "4:33.81",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Kaan Tamer ŞENGÜL",
+          "city": "Izmir",
+          "time_raw": "4:48.73",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Çınar Alikan",
+          "city": "Samsun",
+          "time_raw": "4:57.58",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Kerim Deniz Köken",
+          "city": "Istanbul",
+          "time_raw": "4:58.99",
+          "points": 5
+        }
+      ]
+    },
+    "100m Kurbağalama|09|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Mustafa Özgür YALÇIN",
+          "city": "Istanbul",
+          "time_raw": "1:04.08",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Alper ALİKAN",
+          "city": "Samsun",
+          "time_raw": "1:06.84",
+          "points": 7
+        }
+      ]
+    },
+    "200m Kurbağalama|09|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Mustafa Özgür YALÇIN",
+          "city": "Istanbul",
+          "time_raw": "2:16.79",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Alper ALİKAN",
+          "city": "Samsun",
+          "time_raw": "2:21.07",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kurbağalama|10|Kadın": {
+      "event": "50m Kurbağalama",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Su YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "32.95",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra AŞKAR",
+          "city": "Istanbul",
+          "time_raw": "33.81",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Ayla TURGUT",
+          "city": "Istanbul",
+          "time_raw": "34.45",
+          "points": 6
+        }
+      ]
+    },
+    "200m Kurbağalama|10|Kadın": {
+      "event": "200m Kurbağalama",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Su YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "2:33.81",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra AŞKAR",
+          "city": "Istanbul",
+          "time_raw": "2:36.97",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Ayla TURGUT",
+          "city": "Istanbul",
+          "time_raw": "2:40.15",
+          "points": 6
+        }
+      ]
+    },
+    "100m Kurbağalama|10|Kadın": {
+      "event": "100m Kurbağalama",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Su YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "1:10.77",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Azra AŞKAR",
+          "city": "Istanbul",
+          "time_raw": "1:14.68",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Elif Ayla TURGUT",
+          "city": "Istanbul",
+          "time_raw": "1:15.54",
+          "points": 6
+        }
+      ]
+    },
+    "200m Kelebek|11|Kadın": {
+      "event": "200m Kelebek",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "IDIL GÜLCAN",
+          "city": "Istanbul",
+          "time_raw": "2:20.57",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Cemre INCE",
+          "city": "Izmir",
+          "time_raw": "2:21.16",
+          "points": 7
+        }
+      ]
+    },
+    "400m Karışık|11|Kadın": {
+      "event": "400m Karışık",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "IDIL GÜLCAN",
+          "city": "Istanbul",
+          "time_raw": "5:08.67",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "time_raw": "5:09.68",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Azra GEDİKOĞLU",
+          "city": "Trabzon",
+          "time_raw": "5:14.03",
+          "points": 6
+        }
+      ]
+    },
+    "100m Serbest|10|Kadın": {
+      "event": "100m Serbest",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Lina Deniz OĞUZHAN",
+          "city": "Istanbul",
+          "time_raw": "59.91",
+          "points": 9
+        }
+      ]
+    },
+    "100m Sırtüstü|10|Kadın": {
+      "event": "100m Sırtüstü",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Lina Deniz OĞUZHAN",
+          "city": "Istanbul",
+          "time_raw": "1:05.30",
+          "points": 9
+        }
+      ]
+    },
+    "50m Sırtüstü|10|Kadın": {
+      "event": "50m Sırtüstü",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Lina Deniz OĞUZHAN",
+          "city": "Istanbul",
+          "time_raw": "31.31",
+          "points": 9
+        }
+      ]
+    },
+    "200m Sırtüstü|10|Kadın": {
+      "event": "200m Sırtüstü",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Lina Deniz OĞUZHAN",
+          "city": "Istanbul",
+          "time_raw": "2:20.49",
+          "points": 9
+        }
+      ]
+    },
+    "400m Karışık|10|Kadın": {
+      "event": "400m Karışık",
+      "yb": "10",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Su YÜKSEL",
+          "city": "Istanbul",
+          "time_raw": "4:55.94",
+          "points": 9
+        }
+      ]
+    },
+    "200m Karışık|12|Kadın": {
+      "event": "200m Karışık",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tuğba YILDIZ",
+          "city": "Istanbul",
+          "time_raw": "2:29.69",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Melodi DEMİREL",
+          "city": "Mersin",
+          "time_raw": "2:30.08",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "Izmir",
+          "time_raw": "2:30.29",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Elif Ipek BAYRAK",
+          "city": "Trabzon",
+          "time_raw": "2:30.46",
+          "points": 5
+        },
+        {
+          "rank": 5,
+          "name": "Merve MENGÜBERTİ",
+          "city": "Izmir",
+          "time_raw": "2:30.54",
+          "points": 4
+        },
+        {
+          "rank": 6,
+          "name": "Nehir Berin DAĞLI",
+          "city": "Samsun",
+          "time_raw": "2:37.00",
+          "points": 3
+        },
+        {
+          "rank": 7,
+          "name": "Elif Rüya KANDEMİR",
+          "city": "Kocaeli",
+          "time_raw": "2:37.29",
+          "points": 2
+        }
+      ]
+    },
+    "1500m Serbest|12|Kadın": {
+      "event": "1500m Serbest",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Tuğba YILDIZ",
+          "city": "Istanbul",
+          "time_raw": "17:06.67",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Melodi DEMİREL",
+          "city": "Mersin",
+          "time_raw": "18:09.19",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Ipek Gökçe DEMİRBAŞAK",
+          "city": "Kocaeli",
+          "time_raw": "18:30.87",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Ela AYGÜN",
+          "city": "Samsun",
+          "time_raw": "18:31.97",
+          "points": 5
+        }
+      ]
+    },
+    "200m Kurbağalama|10|Erkek": {
+      "event": "200m Kurbağalama",
+      "yb": "10",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Akın Sarp KIRIŞ",
+          "city": "Kütahya",
+          "time_raw": "2:25.69",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Arda KAFADAR",
+          "city": "Izmir",
+          "time_raw": "2:31.29",
+          "points": 7
+        }
+      ]
+    },
+    "200m Sırtüstü|09|Erkek": {
+      "event": "200m Sırtüstü",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Ata SARIKAYA",
+          "city": "Izmir",
+          "time_raw": "2:04.95",
+          "points": 9
+        }
+      ]
+    },
+    "? Serbest|14|Erkek": {
+      "event": "? Serbest",
+      "yb": "14",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Can VECAN",
+          "city": "Izmir",
+          "time_raw": "NT",
+          "points": 0
+        }
+      ]
+    },
+    "100m Kurbağalama|13|Erkek": {
+      "event": "100m Kurbağalama",
+      "yb": "13",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "time_raw": "1:13.62",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Uras GÜNEŞ",
+          "city": "Izmir",
+          "time_raw": "1:13.67",
+          "points": 7
+        },
+        {
+          "rank": 3,
+          "name": "Miraç Yağız ÖZTÜRK",
+          "city": "Trabzon",
+          "time_raw": "1:14.21",
+          "points": 6
+        },
+        {
+          "rank": 4,
+          "name": "Alperen Güzey",
+          "city": "Kayseri",
+          "time_raw": "1:22.46",
+          "points": 5
+        }
+      ]
+    },
+    "1500m Serbest|09|Erkek": {
+      "event": "1500m Serbest",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Yalçın ULUSOY",
+          "city": "Kayseri",
+          "time_raw": "15:54.98",
+          "points": 9
+        },
+        {
+          "rank": 2,
+          "name": "Yiğit Ahmet NARİN",
+          "city": "Kayseri",
+          "time_raw": "15:56.45",
+          "points": 7
+        }
+      ]
+    },
+    "50m Kurbağalama|09|Erkek": {
+      "event": "50m Kurbağalama",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Alper ALİKAN",
+          "city": "Samsun",
+          "time_raw": "30.67",
+          "points": 9
+        }
+      ]
+    },
+    "400m Karışık|09|Erkek": {
+      "event": "400m Karışık",
+      "yb": "09",
+      "gender": "Erkek",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Alper ALİKAN",
+          "city": "Samsun",
+          "time_raw": "4:56.91",
+          "points": 9
+        }
+      ]
+    },
+    "400m Serbest|11|Kadın": {
+      "event": "400m Serbest",
+      "yb": "11",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "time_raw": "4:33.22",
+          "points": 9
+        }
+      ]
+    },
+    "200m Sırtüstü|12|Kadın": {
+      "event": "200m Sırtüstü",
+      "yb": "12",
+      "gender": "Kadın",
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Elif Ipek BAYRAK",
+          "city": "Trabzon",
+          "time_raw": "2:24.94",
+          "points": 9
+        }
+      ]
+    }
+  },
+  "points_table": {
+    "1": 9,
+    "2": 7,
+    "3": 6,
+    "4": 5,
+    "5": 4,
+    "6": 3,
+    "7": 2,
+    "8": 1
+  }
+};

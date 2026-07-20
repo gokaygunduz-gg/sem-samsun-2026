@@ -1,0 +1,42 @@
+name: SEM Panel Güncelle
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Yarış günleri (28-30 Temmuz) her 5 dakikada bir güncelle
+    - cron: '*/5 6-18 28-30 7 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları yükle
+        run: pip install openpyxl requests beautifulsoup4 pdfplumber
+
+      - name: Panel verisi üret (canlı)
+        run: python scripts/sem_generate.py --live
+        continue-on-error: true
+
+      - name: Fallback — giriş listesiyle üret
+        if: failure()
+        run: python scripts/sem_generate.py
+
+      - name: Değişiklikleri commit ve push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add panel/data.js data/results.json
+          git diff --cached --quiet || git commit -m "Panel güncellendi: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
