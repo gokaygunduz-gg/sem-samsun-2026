@@ -176,15 +176,49 @@
 
 ---
 
+## Auth Sistemi v2 (2026-07-20 — Üçüncü Oturum)
+
+**Ne yapıldı:**
+
+### Kullanıcı Adı + Şifre Sistemi
+- Auth ekranı: **Giriş Yap** + **Kayıt Ol** iki ayrı tab
+- Giriş: kullanıcı adı + şifre (SHA-256)
+- Kayıt: admin onayı gerekli (approved=false); admin panelden onaylama
+- `localStorage['sem_users']`: kullanıcı DB (hash'li şifre, rol, onay durumu)
+- `localStorage['sem_session']`: aktif oturum {username, role}
+- `localStorage['sem_seed_ver']`: data.js generated_at ile tohum takibi
+
+### Kullanıcılar (sem_config.py USERS)
+| Kullanıcı adı | Rol | Şifre |
+|---|---|---|
+| Admin | admin | Koray2013 |
+| gokaygunduz | user | Asya2017 |
+| Vamos | user | Vamos202607 |
+
+### Admin Kullanıcı Yönetimi
+- Kullanıcı listesi: tüm onaylı kullanıcılar
+- Şifre değiştir, rol değiştir (admin ↔ kullanıcı), kullanıcı sil
+- Kayıt aç/kapat butonu (`localStorage['sem_reg_open']`)
+- Onay bekleyen kayıtlar ayrı bölümde gösterilir
+- "users_config.py" indir butonu (kalıcı ekleme için)
+
+### Teknik Notlar
+- `initial_users` tohum: data.js yeniden üretilince (yeni generated_at) tüm cihazlarda yeniden seeder
+- Yerel eklentiler (`local: true` flag) tohum sırasında korunur
+- Kayıt: admin onayı olmadan giriş yapılamaz
+- Admin kendi hesabını silemez / kendi rolünü değiştiremez
+
+---
+
 ## Gelecek Adımlar
 
 1. ✅ GitHub reposu oluştur: `gokaygunduz-gg/sem-samsun-2026`
 2. ✅ GitHub Pages aktive et (main branch, / kök)
 3. ✅ GitHub Actions ile auto-update (yarış süresince her 5 dk)
 4. ✅ Panel v2: şifre, madalya, forecast/anlık, şehir/kulüp detay
-5. ⏳ Yarış başlangıcında (28 Temmuz): cs-390 URL aktif olduktan sonra canlı test
-6. ⏳ Eğer URL değişirse: `sem_config.py` içindeki `RACE_URL` güncelle
-7. ⏳ Şifreleri değiştir: `sem_config.py` → `USER_PASSWORD` + `ADMIN_PASSWORD`
+5. ✅ Auth v2: kullanıcı adı + kayıt/giriş + admin kullanıcı yönetimi
+6. ⏳ Yarış başlangıcında (28 Temmuz): cs-390 URL aktif olduktan sonra canlı test
+7. ⏳ Eğer URL değişirse: `sem_config.py` içindeki `RACE_URL` güncelle
 
 ---
 
