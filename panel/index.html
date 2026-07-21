@@ -353,6 +353,11 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
 <!-- ═══════ ŞEHİRLER ═══════ -->
 <div class="tab-content" id="tab-sehirler">
   <div id="sehir-list-view">
+    <div class="stabs" id="sehir-mode-stabs">
+      <button class="stab" onclick="setSehirMode('giris',this)">📋 Giriş</button>
+      <button class="stab" onclick="setSehirMode('anlik',this)">⚡ Anlık</button>
+      <button class="stab active" onclick="setSehirMode('tahmin',this)">📊 Tahmin</button>
+    </div>
     <div class="stabs">
       <button class="stab active" onclick="setSehirSort('puan',this)">📊 Puana Göre</button>
       <button class="stab" onclick="setSehirSort('madalya',this)">🏅 Madalya Sayısı</button>
@@ -387,6 +392,11 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
 <!-- ═══════ KULÜPLER ═══════ -->
 <div class="tab-content" id="tab-kulupler">
   <div id="kulup-list-view">
+    <div class="stabs" id="kulup-mode-stabs">
+      <button class="stab" onclick="setKulupMode('giris',this)">📋 Giriş</button>
+      <button class="stab" onclick="setKulupMode('anlik',this)">⚡ Anlık</button>
+      <button class="stab active" onclick="setKulupMode('tahmin',this)">📊 Tahmin</button>
+    </div>
     <div class="stabs">
       <button class="stab active" onclick="setKulupTab('puan',this)">📊 Puana Göre</button>
       <button class="stab" onclick="setKulupTab('madalya',this)">🏅 Madalya Sayısı</button>
@@ -498,6 +508,11 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
 
 <!-- ═══════ SPORCULAR ═══════ -->
 <div class="tab-content" id="tab-sporcular">
+  <div class="stabs" id="sporcular-mode-stabs" style="margin-bottom:0">
+    <button class="stab" onclick="setSporculaMode('giris',this)">📋 Giriş</button>
+    <button class="stab" onclick="setSporculaMode('anlik',this)">⚡ Anlık</button>
+    <button class="stab active" onclick="setSporculaMode('tahmin',this)">📊 Tahmin</button>
+  </div>
   <div class="sporcu-sort-bar">
     <span class="sporcu-sort-lbl">Sırala:</span>
     <button class="fbtn active" data-sort="puan" onclick="setSporculaSort(this)">Puan</button>
@@ -708,10 +723,13 @@ let siralamaMode    = 'tahmin';
 let yarisMode       = 'giris';
 let kulupTab        = 'puan';
 let cityDetailTab   = 'topscorers';
-let currentCityIdx  = -1;
+let currentCityName = '';
 let sehirSortMode   = 'puan';
+let sehirMode       = 'tahmin';
 let currentKulupCityName = '';
 let kulupDetailTab  = 'topscorers';
+let kulupMode       = 'tahmin';
+let sporculaMode    = 'tahmin';
 let progRaceBrans   = '';
 let progRaceMode    = 'giris';
 let sporculaYb      = 'all';
@@ -1186,6 +1204,25 @@ function renderEvents() {
 }
 
 /* =====================================================================
+   ŞEHİRLER / KULÜPLER / SPORCULAR — mod seçici
+   ===================================================================== */
+function setSehirMode(mode, btn) {
+  sehirMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderSehirler();
+}
+function setKulupMode(mode, btn) {
+  kulupMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderKulupler();
+}
+function setSporculaMode(mode, btn) {
+  sporculaMode = mode;
+  activateStabs(btn.closest('.stabs'), btn);
+  renderSporcular();
+}
+
+/* =====================================================================
    ŞEHİRLER
    ===================================================================== */
 function setSehirSort(mode, btn) {
@@ -1199,13 +1236,18 @@ function setSehirSort(mode, btn) {
       : "Her yaş grubunda ilk 2'ye giren (bireysel ödül) sporcu sayısı · Şehre tıklayın";
   renderSehirler();
 }
+function _cityRankingsForMode() {
+  if (sehirMode === 'giris')  return DATA.city_rankings_entry  || DATA.city_rankings;
+  if (sehirMode === 'anlik')  return DATA.city_rankings_current || DATA.city_rankings;
+  return DATA.city_rankings;
+}
 function renderSehirler() {
   if (!DATA) return;
-  let list = [...DATA.city_rankings];
+  let list = [..._cityRankingsForMode()];
   if (sehirSortMode === 'madalya') {
     list.sort((a,b) => (b.medal_count||0)-(a.medal_count||0) || (b.prize_count||0)-(a.prize_count||0) || b.total-a.total);
   } else if (sehirSortMode === 'odul') {
-    list.sort((a,b) => (b.prize_count||0)-(a.prize_count||0) || (b.gold_count||0)-(a.gold_count||0) || b.total-a.total);
+    list.sort((a,b) => (b.prize_count||0)-(a.prize_count||0) || (b.medal_count||0)-(a.medal_count||0) || b.total-a.total);
   }
   const rows = list.map((c, i) => {
     const displayRank = i + 1;
@@ -1214,12 +1256,11 @@ function renderSehirler() {
       ? `<td class="city-pts">${c.total}</td>`
       : sehirSortMode === 'madalya'
         ? `<td style="text-align:right;font-weight:700;font-size:13px;padding-right:12px;color:var(--teal)">🏅 ${c.medal_count||0}</td>`
-        : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🥇${c.gold_count||0} 🥈${c.silver_count||0}</td>`;
-    const originalIdx = DATA.city_rankings.indexOf(c);
-    return `<tr class="city-row" onclick="showCityDetail(${originalIdx})">
+        : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🎖️ ${c.prize_count||0}</td>`;
+    return `<tr class="city-row" onclick="showCityDetail('${esc(c.city)}')">
       <td class="rank-num" style="${ns}">${displayRank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div>
-          <div class="city-sub">${c.athletes} sporcu · ${c.total} puan · 🏅${c.medal_count||0} madalya · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div></td>
+          <div class="city-sub">${c.athletes} sporcu · ${c.total} puan · 🏅${c.medal_count||0} madalya · 🎖️${c.prize_count||0} ödül</div></td>
       ${val}
       <td style="color:var(--muted)">›</td>
     </tr>`;
@@ -1229,10 +1270,9 @@ function renderSehirler() {
   <table><thead><tr><th class="rank-num">#</th><th>Şehir</th><th style="text-align:right;font-size:10px;padding-right:12px">${hdr}</th><th></th></tr></thead>
   <tbody>${rows}</tbody></table>`;
 }
-function showCityDetail(idx) {
-  currentCityIdx=idx; cityDetailTab='topscorers';
-  const city=DATA.city_rankings[idx];
-  document.getElementById('city-detail-name').textContent=city.city;
+function showCityDetail(cityName) {
+  currentCityName=cityName; cityDetailTab='topscorers';
+  document.getElementById('city-detail-name').textContent=cityName;
   document.getElementById('sehir-list-view').style.display='none';
   document.getElementById('sehir-detail-view').style.display='';
   document.querySelectorAll('#sehir-detail-view .stab').forEach((b,i)=>b.classList.toggle('active',i===0));
@@ -1288,8 +1328,10 @@ function _detailPrizesHtml(list, emptyMsg) {
       <tbody>${rows}</tbody></table></div></div>`;
 }
 function renderCityDetail() {
-  if (currentCityIdx<0) return;
-  const city=DATA.city_rankings[currentCityIdx];
+  if (!currentCityName) return;
+  const src = _cityRankingsForMode();
+  const city = src.find(c => c.city === currentCityName);
+  if (!city) return;
   const container=document.getElementById('city-detail-content');
   if (cityDetailTab==='topscorers') {
     const list=city.athlete_list||[];
@@ -1337,7 +1379,7 @@ function setKulupDetailTab(tab, btn) {
   renderKulupDetail();
 }
 function renderKulupDetail() {
-  const src = DATA.club_rankings || DATA.city_rankings;
+  const src = _clubRankingsForMode();
   const club = src.find(c => (c.club||c.city) === currentKulupCityName);
   if (!club) return;
   const container = document.getElementById('kulup-detail-content');
@@ -1353,12 +1395,16 @@ function renderKulupDetail() {
     container.innerHTML = _detailPrizesHtml(club.prize_list||[], 'Bu kulüpten bireysel ödül alan sporcu yok.');
   }
 }
+function _clubRankingsForMode() {
+  if (kulupMode === 'giris') return DATA.club_rankings_entry  || DATA.club_rankings;
+  if (kulupMode === 'anlik') return DATA.club_rankings_current || DATA.club_rankings;
+  return DATA.club_rankings;
+}
 function renderKulupler() {
   if (!DATA) return;
-  const src = DATA.club_rankings || DATA.city_rankings;
-  const list=[...src];
+  const list=[..._clubRankingsForMode()];
   if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.prize_count||0)-(a.prize_count||0)||b.total-a.total);
-  else if (kulupTab==='odul') list.sort((a,b)=>(b.prize_count||0)-(a.prize_count||0)||(b.gold_count||0)-(a.gold_count||0)||b.total-a.total);
+  else if (kulupTab==='odul') list.sort((a,b)=>(b.prize_count||0)-(a.prize_count||0)||(b.medal_count||0)-(a.medal_count||0)||b.total-a.total);
   const rows=list.map((c,i)=>{
     const rank=i+1;
     const label=c.club||c.city;
@@ -1367,9 +1413,9 @@ function renderKulupler() {
       ? c.total+' puan'
       : kulupTab==='madalya'
         ? '🏅 '+(c.medal_count||0)+' madalya'
-        : '🥇'+(c.gold_count||0)+' 🥈'+(c.silver_count||0);
+        : '🎖️ '+(c.prize_count||0)+' ödül';
     const sub=kulupTab==='puan'
-      ? `${c.athletes} sporcu · 🏅${c.medal_count||0} · 🥇${c.gold_count||0}🥈${c.silver_count||0}`
+      ? `${c.athletes} sporcu · 🏅${c.medal_count||0} madalya · 🎖️${c.prize_count||0} ödül`
       : `${c.athletes} sporcu · ${c.total} puan`;
     return `<tr class="kulup-row" onclick="showKulupDetail('${esc(label)}')">
       <td class="rank-num" style="${ns}">${rank}</td>
@@ -1644,10 +1690,10 @@ function downloadUserConfig() {
 /* =====================================================================
    ŞEHİRE / KULÜBE YÖNLENDİR
    ===================================================================== */
-function goToCity(idx) {
+function goToCity(cityName) {
   const sehirTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Şehirler'));
   if (sehirTab) switchTab('sehirler', sehirTab);
-  showCityDetail(idx);
+  showCityDetail(cityName);
 }
 function goToKulup(cityName) {
   const kulupTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Kulüpler'));
@@ -1839,11 +1885,14 @@ function startCountdown() {
 /* =====================================================================
    SPORCU İSTATİSTİKLERİ (tüm gruplardan hesapla)
    ===================================================================== */
-function computeAllAthletes() {
+function computeAllAthletes(mode) {
   const list = [];
   for (const [key, grp] of Object.entries(DATA.groups)) {
     const cut = grp.medal_cut;
-    for (const a of grp.athletes) {
+    const athletes = mode === 'giris'  ? (grp.athletes_entry   || grp.athletes)
+                   : mode === 'anlik'  ? (grp.athletes_current || grp.athletes)
+                   : grp.athletes;
+    for (const a of athletes) {
       const medalCount = a.events.filter(ev => ev.rank <= cut).length;
       list.push({
         name:        a.name,
@@ -1982,7 +2031,7 @@ function filterSporculaYb(btn) {
 function renderSporcular() {
   if (!DATA) return;
   const q = (document.getElementById('sporcu-filter-input')?.value || '').trim().toLowerCase();
-  let list = computeAllAthletes();
+  let list = computeAllAthletes(sporculaMode);
 
   if (sporculaGen !== 'all') list = list.filter(a => a.gender === sporculaGen);
   if (sporculaYb  !== 'all') list = list.filter(a => a.yb === sporculaYb);
@@ -2012,7 +2061,7 @@ function renderSporcular() {
   <div class="section">
     <div class="sec-hdr" style="cursor:default;border-radius:10px 10px 0 0">
       <div><div class="sec-title">Tüm Sporcular</div>
-      <div class="sec-sub">${list.length} sporcu · Tahmin bazlı sıralama · Sporcuya tıkla → profil</div></div>
+      <div class="sec-sub">${list.length} sporcu · ${sporculaMode==='giris'?'Giriş listesi bazlı':sporculaMode==='anlik'?'Anlık (canlı sonuçlar)':'Tahmin bazlı'} sıralama · Sporcuya tıkla → profil</div></div>
     </div>
     <div class="sec-body"><table>
       <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th style="text-align:center;font-size:10px">Grup</th><th class="col-score">Puan</th></tr></thead>
@@ -2038,7 +2087,7 @@ function doSearch() {
   const cards = [];
 
   // Sporcu ara
-  const athletes = computeAllAthletes();
+  const athletes = computeAllAthletes('tahmin');
   for (const a of athletes) {
     if (!a.name.toLowerCase().includes(q)) continue;
     const prizeLbl = a.prize ? ' · ÖDÜL' : '';
@@ -2053,14 +2102,13 @@ function doSearch() {
   }
 
   // Şehir ara
-  for (let idx=0; idx<DATA.city_rankings.length; idx++) {
-    const c = DATA.city_rankings[idx];
+  for (const c of DATA.city_rankings) {
     if (!c.city.toLowerCase().includes(q)) continue;
-    cards.push(`<div class="src-card" onclick="goToCity(${idx})">
+    cards.push(`<div class="src-card" onclick="goToCity('${esc(c.city)}')">
       <div class="src-card-hdr">
         <span class="src-type">🏙️ Şehir/Kulüp</span>
         <div class="src-name">${c.city}</div>
-        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu · 🥇${c.gold_count||0} 🥈${c.silver_count||0}</div>
+        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu · 🎖️${c.prize_count||0} ödül · 🏅${c.medal_count||0} madalya</div>
       </div>
     </div>`);
   }

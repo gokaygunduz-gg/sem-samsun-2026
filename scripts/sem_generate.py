@@ -172,90 +172,71 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
             ),
         }
 
-    # --- Şehir detay verisi ---
-    city_ath_map: dict[str, list] = {}
-    for (yb, gender), athletes in individual_forecast.items():
-        mc = MEDAL_CUTOFFS.get(yb, 3)
-        for a in athletes:
-            city = a.get("city", "Bilinmiyor") or "Bilinmiyor"
-            # Branş bazlı madalya sayısı: her yarışta rank <= medal_cut ise madalya
-            emc = sum(1 for ev in a.get("sorted_events", []) if ev.get("rank", 999) <= mc)
-            city_ath_map.setdefault(city, []).append({
-                "name":              a["name"],
-                "group":             f"20{yb} {gender}",
-                "yb":                yb,
-                "gender":            gender,
-                "top3":              a.get("top3", 0),
-                "rank_in_group":     a["rank"],
-                "medal_cut":         mc,
-                "event_medal_count": emc,
-            })
+    # --- Yardımcı: ath_map oluştur + rankings'e detay ekle ---
+    def _build_ath_map(ind_rankings, key_fn):
+        ath_map: dict[str, list] = {}
+        for (yb, gender), athletes in ind_rankings.items():
+            mc = MEDAL_CUTOFFS.get(yb, 3)
+            for a in athletes:
+                key = key_fn(a)
+                emc = sum(1 for ev in a.get("sorted_events", []) if ev.get("rank", 999) <= mc)
+                ath_map.setdefault(key, []).append({
+                    "name":              a["name"],
+                    "city":              a.get("city", ""),
+                    "group":             f"20{yb} {gender}",
+                    "yb":                yb,
+                    "gender":            gender,
+                    "top3":              a.get("top3", 0),
+                    "rank_in_group":     a["rank"],
+                    "medal_cut":         mc,
+                    "event_medal_count": emc,
+                })
+        return ath_map
 
-    for cr in city_rankings:
-        city = cr["city"]
-        aths = city_ath_map.get(city, [])
-        cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
-        # Madalya listesi: en az 1 branşta madalya alan sporcular
-        cr["medal_list"]   = sorted(
-            [a for a in aths if a["event_medal_count"] > 0],
-            key=lambda x: (-x["event_medal_count"], -x["top3"], x["name"])
-        )
-        # Ödül listesi: bireysel sıralamada ilk 2 (1. veya 2.)
-        cr["prize_list"]   = sorted(
-            [a for a in aths if a["rank_in_group"] <= 2],
-            key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
-        )
-        cr["medal_count"]  = sum(a["event_medal_count"] for a in aths)  # toplam branş madalyası
-        cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
-        cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
-        cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
+    def _enrich(rankings, ath_map, label_field):
+        for cr in rankings:
+            key  = cr.get(label_field, "")
+            aths = ath_map.get(key, [])
+            cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
+            cr["medal_list"]   = sorted(
+                [a for a in aths if a["event_medal_count"] > 0],
+                key=lambda x: (-x["event_medal_count"], -x["top3"], x["name"])
+            )
+            cr["prize_list"]   = sorted(
+                [a for a in aths if a["rank_in_group"] <= 2],
+                key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
+            )
+            cr["medal_count"]  = sum(a["event_medal_count"] for a in aths)
+            cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
+            cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
+            cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
 
-    # Aynı yapıyı city_rankings current için de ekle
+    def city_key(a): return a.get("city", "Bilinmiyor") or "Bilinmiyor"
+    def club_key(a): return a.get("club", "") or "Bağımsız"
+
+    # --- Şehir sıralamaları (forecast / current / entry) ---
+    _enrich(city_rankings, _build_ath_map(individual_forecast, city_key), "city")
+
     if completed_events:
         city_rankings_current = compute_city_rankings(individual_current)
+        _enrich(city_rankings_current, _build_ath_map(individual_current, city_key), "city")
     else:
-        city_rankings_current = city_rankings
+        city_rankings_current = city_rankings  # simülasyon: aynı veri
 
-    # --- Kulüp detay verisi ---
-    club_ath_map: dict[str, list] = {}
-    for (yb, gender), athletes in individual_forecast.items():
-        mc = MEDAL_CUTOFFS.get(yb, 3)
-        for a in athletes:
-            club = a.get("club", "") or "Bağımsız"
-            emc = sum(1 for ev in a.get("sorted_events", []) if ev.get("rank", 999) <= mc)
-            club_ath_map.setdefault(club, []).append({
-                "name":              a["name"],
-                "city":              a.get("city", ""),
-                "group":             f"20{yb} {gender}",
-                "yb":                yb,
-                "gender":            gender,
-                "top3":              a.get("top3", 0),
-                "rank_in_group":     a["rank"],
-                "medal_cut":         mc,
-                "event_medal_count": emc,
-            })
+    city_rankings_entry = compute_city_rankings(individual_entry)
+    _enrich(city_rankings_entry, _build_ath_map(individual_entry, city_key), "city")
 
-    for cr in club_rankings:
-        club = cr["club"]
-        aths = club_ath_map.get(club, [])
-        cr["athlete_list"] = sorted(aths, key=lambda x: (-x["top3"], x["name"]))
-        cr["medal_list"]   = sorted(
-            [a for a in aths if a["event_medal_count"] > 0],
-            key=lambda x: (-x["event_medal_count"], -x["top3"], x["name"])
-        )
-        cr["prize_list"]   = sorted(
-            [a for a in aths if a["rank_in_group"] <= 2],
-            key=lambda x: (x["yb"], x["gender"], x["rank_in_group"])
-        )
-        cr["medal_count"]  = sum(a["event_medal_count"] for a in aths)
-        cr["prize_count"]  = sum(1 for a in aths if a["rank_in_group"] <= 2)
-        cr["gold_count"]   = sum(1 for a in aths if a["rank_in_group"] == 1)
-        cr["silver_count"] = sum(1 for a in aths if a["rank_in_group"] == 2)
+    # --- Kulüp sıralamaları (forecast / current / entry) ---
+    _enrich(club_rankings, _build_ath_map(individual_forecast, club_key), "club")
 
     if completed_events:
         club_rankings_current = compute_club_rankings(individual_current)
+        _enrich(club_rankings_current, _build_ath_map(individual_current, club_key), "club")
     else:
-        club_rankings_current = club_rankings
+        club_rankings_current = club_rankings  # simülasyon: aynı veri
+
+    club_rankings_entry = compute_club_rankings(individual_entry)
+    _enrich(club_rankings_entry, _build_ath_map(individual_entry, club_key), "club")
 
     # --- Yarış programı ---
     program_out = [{"gun": g, "seans": s, "brans": b} for g, s, b in PROGRAM]
@@ -321,8 +302,10 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         "groups":                 groups_out,
         "city_rankings":          city_rankings,
         "city_rankings_current":  city_rankings_current,
+        "city_rankings_entry":    city_rankings_entry,
         "club_rankings":          club_rankings,
         "club_rankings_current":  club_rankings_current,
+        "club_rankings_entry":    club_rankings_entry,
         "program":                program_out,
         "events":                 events_out,
         "events_current":         events_current_out,
