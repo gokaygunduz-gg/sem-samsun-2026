@@ -1244,6 +1244,11 @@ function _cityRankingsForMode() {
 function renderSehirler() {
   if (!DATA) return;
   let list = [..._cityRankingsForMode()];
+  if (!list.length) {
+    document.getElementById('sehir-table').innerHTML =
+      '<div class="empty" style="padding:30px;text-align:center">⚡ Henüz yarış sonucu yok — anlık sıralama oluşmadı.</div>';
+    return;
+  }
   if (sehirSortMode === 'madalya') {
     list.sort((a,b) => (b.medal_count||0)-(a.medal_count||0) || (b.prize_count||0)-(a.prize_count||0) || b.total-a.total);
   } else if (sehirSortMode === 'odul') {
@@ -1331,7 +1336,11 @@ function renderCityDetail() {
   if (!currentCityName) return;
   const src = _cityRankingsForMode();
   const city = src.find(c => c.city === currentCityName);
-  if (!city) return;
+  if (!city) {
+    document.getElementById('city-detail-content').innerHTML =
+      '<div class="empty" style="padding:30px;text-align:center">⚡ Henüz yarış sonucu yok — anlık sıralama oluşmadı.</div>';
+    return;
+  }
   const container=document.getElementById('city-detail-content');
   if (cityDetailTab==='topscorers') {
     const list=city.athlete_list||[];
@@ -1381,7 +1390,11 @@ function setKulupDetailTab(tab, btn) {
 function renderKulupDetail() {
   const src = _clubRankingsForMode();
   const club = src.find(c => (c.club||c.city) === currentKulupCityName);
-  if (!club) return;
+  if (!club) {
+    document.getElementById('kulup-detail-content').innerHTML =
+      '<div class="empty" style="padding:30px;text-align:center">⚡ Henüz yarış sonucu yok — anlık sıralama oluşmadı.</div>';
+    return;
+  }
   const container = document.getElementById('kulup-detail-content');
   if (kulupDetailTab === 'topscorers') {
     const list = club.athlete_list || [];
@@ -1403,6 +1416,11 @@ function _clubRankingsForMode() {
 function renderKulupler() {
   if (!DATA) return;
   const list=[..._clubRankingsForMode()];
+  if (!list.length) {
+    document.getElementById('kulup-table').innerHTML =
+      '<div class="empty" style="padding:30px;text-align:center">⚡ Henüz yarış sonucu yok — anlık sıralama oluşmadı.</div>';
+    return;
+  }
   if (kulupTab==='madalya') list.sort((a,b)=>(b.medal_count||0)-(a.medal_count||0)||(b.prize_count||0)-(a.prize_count||0)||b.total-a.total);
   else if (kulupTab==='odul') list.sort((a,b)=>(b.prize_count||0)-(a.prize_count||0)||(b.medal_count||0)-(a.medal_count||0)||b.total-a.total);
   const rows=list.map((c,i)=>{
@@ -2042,7 +2060,13 @@ function renderSporcular() {
   if (sporculaSort === 'odul')   list.sort((a,b) => (b.prize?1:0)-(a.prize?1:0) || a.group_rank-b.group_rank || b.top3-a.top3);
 
   const container = document.getElementById('sporcular-content');
-  if (!list.length) { container.innerHTML='<div class="empty">Sonuç yok</div>'; return; }
+  if (!list.length) {
+    const msg = sporculaMode === 'anlik'
+      ? '⚡ Henüz yarış sonucu yok — anlık sıralama oluşmadı.'
+      : 'Sonuç yok';
+    container.innerHTML = `<div class="empty" style="padding:30px;text-align:center">${msg}</div>`;
+    return;
+  }
 
   const rows = list.map((a,i) => {
     const prizeLbl = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';

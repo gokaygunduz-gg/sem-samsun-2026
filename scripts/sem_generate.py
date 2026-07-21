@@ -149,8 +149,9 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
             ev_rankings_current = {}
             individual_current  = {}
     else:
-        ev_rankings_current = ev_rankings_forecast
-        individual_current  = individual_forecast
+        # Yarış henüz başlamadı: anlık sıralama boş olmalı
+        ev_rankings_current = {}
+        individual_current  = {}
 
     # --- Grup JSON (entry + forecast + current üçlü) ---
     groups_out = {}
@@ -221,7 +222,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         city_rankings_current = compute_city_rankings(individual_current)
         _enrich(city_rankings_current, _build_ath_map(individual_current, city_key), "city")
     else:
-        city_rankings_current = city_rankings  # simülasyon: aynı veri
+        city_rankings_current = []  # yarış yok → anlık boş
 
     city_rankings_entry = compute_city_rankings(individual_entry)
     _enrich(city_rankings_entry, _build_ath_map(individual_entry, city_key), "city")
@@ -233,7 +234,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         club_rankings_current = compute_club_rankings(individual_current)
         _enrich(club_rankings_current, _build_ath_map(individual_current, club_key), "club")
     else:
-        club_rankings_current = club_rankings  # simülasyon: aynı veri
+        club_rankings_current = []  # yarış yok → anlık boş
 
     club_rankings_entry = compute_club_rankings(individual_entry)
     _enrich(club_rankings_entry, _build_ath_map(individual_entry, club_key), "club")
