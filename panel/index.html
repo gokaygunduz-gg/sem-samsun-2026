@@ -11,6 +11,25 @@
   --gold:#f59e0b;--green:#22c55e;--blue:#3b82f6;--red:#ef4444;--teal:#14b8a6;
   --purple:#a855f7;--orange:#fb923c;--rose:#f43f5e;
 }
+[data-theme="light"]{
+  --bg:#f1f5f9;--card:#ffffff;--border:#cbd5e1;--text:#1e293b;--muted:#64748b;
+  --gold:#b45309;--green:#16a34a;--blue:#2563eb;--red:#dc2626;--teal:#0f766e;
+  --purple:#7c3aed;--orange:#ea580c;--rose:#e11d48;
+}
+[data-theme="light"] header{background:#f1f5f9}
+[data-theme="light"] .detail-sticky{background:#f1f5f9}
+[data-theme="light"] .stabs{background:#e2e8f0}
+[data-theme="light"] .stab{color:var(--muted)}
+[data-theme="light"] .stab.active{background:#fff;color:var(--text);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+[data-theme="light"] .section{background:var(--card);border-color:var(--border)}
+[data-theme="light"] .sec-hdr{background:#f8fafc}
+[data-theme="light"] thead tr{background:#f8fafc !important}
+[data-theme="light"] .city-row:hover,.city-row:hover,[data-theme="light"] .kulup-row:hover{background:#f8fafc}
+[data-theme="light"] #authScreen{background:rgba(241,245,249,.97)}
+[data-theme="light"] .auth-box{background:#fff}
+[data-theme="light"] .modal-overlay{background:rgba(15,23,42,.45)}
+[data-theme="light"] #athleteModalInner{background:#fff}
+[data-theme="light"] #athleteModalInner table thead tr{background:#f1f5f9 !important}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;min-height:100vh}
 
@@ -282,6 +301,7 @@ tr.kulup-row:hover{background:rgba(59,130,246,.08)}
       <span class="upd" id="updTime"></span>
       <span id="countdown" class="countdown" style="display:none" title="Sonraki otomatik veri güncellemesi"></span>
       <button class="btn-sm btn-refresh" onclick="location.reload()" title="Yenile">⟳</button>
+      <button class="btn-sm btn-logout" id="themeToggleBtn" onclick="toggleTheme()" title="Gece/Gündüz modu">🌙</button>
       <button class="btn-sm btn-logout" onclick="doLogout()">Çıkış</button>
     </div>
   </div>
@@ -2216,6 +2236,32 @@ function doSearch() {
   if (!cards.length) { empty.style.display=''; results.innerHTML=''; }
   else { empty.style.display='none'; results.innerHTML = cards.join(''); }
 }
+
+/* =====================================================================
+   TEMA (gece / gündüz)
+   ===================================================================== */
+function toggleTheme() {
+  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+  const next = isLight ? 'dark' : 'light';
+  applyTheme(next);
+  localStorage.setItem('sem_theme', next);
+}
+function applyTheme(theme) {
+  if (theme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    const btn = document.getElementById('themeToggleBtn');
+    if (btn) btn.textContent = '☀️';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    const btn = document.getElementById('themeToggleBtn');
+    if (btn) btn.textContent = '🌙';
+  }
+}
+// Sayfa yüklenirken kaydedilen temayı uygula
+(function() {
+  const saved = localStorage.getItem('sem_theme');
+  if (saved === 'light') applyTheme('light');
+})();
 
 /* =====================================================================
    BAŞLAT
