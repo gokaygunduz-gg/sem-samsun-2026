@@ -1754,25 +1754,64 @@ function showAthleteProfile(name, yb, gender) {
   const athlete = grp.athletes.find(a => a.name === name);
   if (!athlete) return;
 
-  const cut = grp.medal_cut;
-  const medalEvents = athlete.events.filter(ev => ev.rank <= cut);
-  const medalCount  = medalEvents.length;
+  const cut        = grp.medal_cut;
+  const liveEvs    = athlete.events.filter(ev => ev.is_live);
+  const entryEvs   = athlete.events.filter(ev => !ev.is_live);
+  const hasLive    = liveEvs.length > 0;
+  const medalCount = athlete.events.filter(ev => ev.rank <= cut).length;
 
-  const evRows = athlete.events.map((ev, i) => {
-    const isTop   = i < 3;
+  // Anlık puan: yalnızca koşulan yarışların en iyi 3'ü
+  function topN(evs, n) {
+    return [...evs].sort((a,b) => b.points - a.points).slice(0,n).reduce((s,e) => s+e.points, 0);
+  }
+  const liveTop3  = topN(liveEvs, 3);
+  const forecastTop3 = athlete.top3;  // tüm yarışlar (live+entry)
+
+  function evRow(ev, i, isEntry) {
     const isMedal = ev.rank <= cut;
-    const rankLbl = `${ev.rank}.`;
-    const medalBg = isMedal ? 'background:rgba(20,184,166,.07);' : '';
-    const mLbl = isMedal ? `<span style="font-size:13px;color:var(--teal);font-weight:800;margin-left:3px">${rankLbl} madalya</span>` : `<span style="font-size:11px;color:var(--muted);font-weight:600">${rankLbl}</span>`;
+    const isTop   = !isEntry && i < 3;  // tahmin sıralamasında ilk 3
+    const medalBg = isMedal && !isEntry ? 'background:rgba(20,184,166,.07);' : '';
+    const rowOp   = isEntry ? 'opacity:0.62;' : '';
+    const mLbl    = isMedal
+      ? `<span style="font-size:12px;color:var(--teal);font-weight:800">${ev.rank}. madalya</span>`
+      : `<span style="font-size:11px;color:var(--muted);font-weight:600">${ev.rank}.</span>`;
+    const timeLbl = isEntry
+      ? `${ev.time_raw} <span style="font-size:9px;color:var(--muted)">📋</span>`
+      : `${ev.time_raw} <span style="font-size:9px;color:#4ade80">🟢</span>`;
+    const ptLbl   = isEntry
+      ? `<span style="color:var(--muted);font-size:11px">${ev.points}</span>`
+      : `<span class="${ptsClass(ev.points)}" style="font-weight:700">${ev.points}</span>`;
     const evEsc=esc(ev.event), ybEsc=esc(yb), genEsc=esc(gender);
-    return `<tr style="${medalBg}cursor:pointer" title="Bu yarışın tam sıralamasına git"
+    return `<tr style="${medalBg}${rowOp}cursor:pointer" title="Bu yarışın tam sıralamasına git"
         onclick="closeAthleteModal();goToEventTahmin('${evEsc}','${ybEsc}','${genEsc}')">
       <td style="font-size:12px;padding:6px 8px">${isTop?'<b>':''}${ev.event}${isTop?'</b>':''} <span style="font-size:9px;color:var(--muted)">›</span></td>
-      <td style="font-family:monospace;font-size:11px;padding:6px 8px">${mLbl}</td>
-      <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px">${ev.time_raw}${ev.is_live?' 🟢':''}</td>
-      <td style="text-align:center;font-weight:700;padding:6px 8px" class="${ptsClass(ev.points)}">${ev.points}</td>
+      <td style="font-size:11px;padding:6px 8px">${mLbl}</td>
+      <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px">${timeLbl}</td>
+      <td style="text-align:center;padding:6px 8px">${ptLbl}</td>
     </tr>`;
-  }).join('');
+  }
+
+  // Tablo satırlarını oluştur
+  let tableRows = '';
+  if (hasLive) {
+    // Koşulan yarışlar — bölüm başlığı
+    tableRows += `<tr style="background:#0d2615">
+      <td colspan="4" style="font-size:10px;font-weight:700;color:#4ade80;padding:4px 8px;letter-spacing:.5px">
+        🟢 KOŞULAN YARIŞLAR (${liveEvs.length})
+      </td></tr>`;
+    tableRows += liveEvs.map((ev, i) => evRow(ev, i, false)).join('');
+
+    if (entryEvs.length) {
+      tableRows += `<tr style="background:#161a24">
+        <td colspan="4" style="font-size:10px;font-weight:700;color:var(--muted);padding:4px 8px;letter-spacing:.5px">
+          📋 HENÜZ KOŞULMADI — TAHMİN (${entryEvs.length})
+        </td></tr>`;
+      tableRows += entryEvs.map((ev, i) => evRow(ev, i, true)).join('');
+    }
+  } else {
+    // Yarış yok — giriş tahmini
+    tableRows += athlete.events.map((ev, i) => evRow(ev, i, false)).join('');
+  }
 
   const rankBadge = medalBadge(athlete.rank, cut);
   const odulRank  = athlete.prize ? (athlete.rank === 1 ? '🥇 1. — ÖDÜL' : '🥈 2. — ÖDÜL') : null;
@@ -1781,6 +1820,34 @@ function showAthleteProfile(name, yb, gender) {
   const summaryItems = [];
   if (odulRank) summaryItems.push(`<div style="background:rgba(168,85,247,.12);border:1px solid rgba(168,85,247,.3);border-radius:7px;padding:6px 10px;font-size:12px;color:var(--purple);font-weight:700">${odulRank}</div>`);
   if (medalCount > 0) summaryItems.push(`<div style="background:rgba(20,184,166,.12);border:1px solid rgba(20,184,166,.3);border-radius:7px;padding:6px 10px;font-size:12px;color:var(--teal);font-weight:700">🏅 ${medalCount} Madalya</div>`);
+
+  // Alt özet: anlık vs tahmin
+  let footerHtml;
+  if (hasLive && entryEvs.length > 0) {
+    footerHtml = `
+      <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span style="font-size:11px;color:#4ade80;font-weight:600">🟢 Anlık (${liveEvs.length} yarış)</span>
+          <span style="font-size:18px;font-weight:800;color:#4ade80">${liveTop3} puan</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);padding-top:6px">
+          <span style="font-size:11px;color:var(--muted)">📊 Tahmin toplamı · Sıra: ${athlete.rank}. / ${grp.athlete_count}</span>
+          <span style="font-size:18px;font-weight:800;color:var(--gold)">${forecastTop3} puan</span>
+        </div>
+      </div>`;
+  } else if (hasLive) {
+    footerHtml = `
+      <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:11px;color:#4ade80;font-weight:600">🟢 Tüm yarışlar tamamlandı · Sıra: ${athlete.rank}. / ${grp.athlete_count}</span>
+        <span style="font-size:20px;font-weight:800;color:#4ade80">${liveTop3} puan</span>
+      </div>`;
+  } else {
+    footerHtml = `
+      <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:11px;color:var(--muted)">Toplam (en iyi 3) · Grup sırası: ${athlete.rank}. / ${grp.athlete_count}</span>
+        <span style="font-size:20px;font-weight:800;color:var(--gold)">${forecastTop3} puan</span>
+      </div>`;
+  }
 
   document.getElementById('athleteModalContent').innerHTML = `
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
@@ -1798,12 +1865,9 @@ function showAthleteProfile(name, yb, gender) {
         <th style="font-size:10px;color:var(--muted);text-align:right;padding:6px 8px">Süre</th>
         <th style="font-size:10px;color:var(--muted);text-align:center;padding:6px 8px">Puan</th>
       </tr></thead>
-      <tbody>${evRows}</tbody>
+      <tbody>${tableRows}</tbody>
     </table>
-    <div style="margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;display:flex;justify-content:space-between;align-items:center">
-      <span style="font-size:11px;color:var(--muted)">Toplam (en iyi 3) · Grup sırası: ${athlete.rank}. / ${grp.athlete_count}</span>
-      <span style="font-size:20px;font-weight:800;color:var(--gold)">${athlete.top3} puan</span>
-    </div>`;
+    ${footerHtml}`;
 
   document.getElementById('athleteModal').style.display = 'flex';
 }
