@@ -1313,23 +1313,35 @@ function _detailMedalsHtml(list, emptyMsg, title, sub, hdrCol) {
       <thead><tr><th class="col-rank">#</th><th>Sporcu</th><th class="col-score">${hdrCol}</th></tr></thead>
       <tbody>${rows}</tbody></table></div></div>`;
 }
-function _detailPrizesHtml(list, emptyMsg) {
-  if (!list.length) return `<div class="empty">${emptyMsg}</div>`;
-  const rows = list.map(a => {
-    const isGold = a.rank_in_group === 1;
-    const badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">${isGold?'🥇':'🥈'}</div><div style="font-size:10px;font-weight:800;color:${isGold?'var(--gold)':'#94a3b8'}">${isGold?'1.':'2.'}</div></div>`;
+function _detailPrizesHtml(allAthletes) {
+  if (!allAthletes || !allAthletes.length) return '<div class="empty">Sporcu yok</div>';
+  // Kendi yaş+cinsiyeti içindeki sıraya göre sırala
+  const sorted = [...allAthletes].sort((a,b) =>
+    a.rank_in_group - b.rank_in_group || a.yb.localeCompare(b.yb) || a.gender.localeCompare(b.gender)
+  );
+  const prizeCount = sorted.filter(a => a.rank_in_group <= 2).length;
+  const rows = sorted.map(a => {
     const aN=esc(a.name), aY=esc(a.yb), aG=esc(a.gender);
     const city = a.city ? ` · ${a.city}` : '';
-    return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
+    let badge;
+    if (a.rank_in_group === 1) {
+      badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">🥇</div><div style="font-size:10px;font-weight:800;color:var(--gold)">1.</div></div>`;
+    } else if (a.rank_in_group === 2) {
+      badge = `<div style="text-align:center"><div style="font-size:22px;line-height:1">🥈</div><div style="font-size:10px;font-weight:800;color:#94a3b8">2.</div></div>`;
+    } else {
+      badge = `<div style="text-align:center"><div style="font-size:13px;font-weight:800;color:var(--muted)">${a.rank_in_group}.</div><div style="font-size:9px;color:var(--muted);margin-top:1px">ödül yok</div></div>`;
+    }
+    const rowOp = a.rank_in_group > 2 ? 'opacity:.6;' : '';
+    return `<tr style="${rowOp}cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
       <td class="col-rank">${badge}</td>
       <td><div class="name-main">${a.name}</div><div class="name-city">${a.group}${city}</div></td>
       <td class="col-score"><span class="${ptsClass(a.top3)}">${a.top3}</span></td></tr>`;
   }).join('');
   return `<div class="section"><div class="sec-hdr" style="cursor:default">
-    <div><div class="sec-title">Bireysel Ödüller</div>
-    <div class="sec-sub">Kendi yaş ve cinsiyetinde ilk 2'ye girenler · Sporcuya tıkla → profil</div></div></div>
+    <div><div class="sec-title">Bireysel Sıralama</div>
+    <div class="sec-sub">${prizeCount > 0 ? `🎖️ ${prizeCount} ödül · ` : ''}Kendi yaş+cinsiyetinde sırası · Tıkla → profil</div></div></div>
     <div class="sec-body"><table>
-      <thead><tr><th class="col-rank">Ödül</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
+      <thead><tr><th class="col-rank">Sıra</th><th>Sporcu</th><th class="col-score">Puan</th></tr></thead>
       <tbody>${rows}</tbody></table></div></div>`;
 }
 function renderCityDetail() {
@@ -1351,7 +1363,7 @@ function renderCityDetail() {
     container.innerHTML=_detailMedalsHtml(list,'Bu şehirden branş madalyası alan sporcu yok.','Madalyalar',
       `Toplam ${city.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`,'Puan');
   } else {
-    container.innerHTML=_detailPrizesHtml(city.prize_list||[],'Bu şehirden bireysel ödül alan sporcu yok.');
+    container.innerHTML=_detailPrizesHtml(city.athlete_list||[]);
   }
 }
 
@@ -1405,7 +1417,7 @@ function renderKulupDetail() {
     container.innerHTML = _detailMedalsHtml(list, 'Bu kulüpten branş madalyası alan sporcu yok.', 'Madalyalar',
       `Toplam ${club.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`, 'Puan');
   } else {
-    container.innerHTML = _detailPrizesHtml(club.prize_list||[], 'Bu kulüpten bireysel ödül alan sporcu yok.');
+    container.innerHTML = _detailPrizesHtml(club.athlete_list||[]);
   }
 }
 function _clubRankingsForMode() {
