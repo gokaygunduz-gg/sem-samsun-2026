@@ -67,12 +67,12 @@ PROGRAM = [
     (2, "Sabah",  "200m Kelebek"),
     (2, "Akşam",  "200m Sırtüstü"),
     (2, "Akşam",  "800m Serbest"),
-    (2, "Akşam",  "1500m Serbest"),
     (3, "Sabah",  "50m Kelebek"),
     (3, "Sabah",  "200m Serbest"),
     (3, "Sabah",  "400m Karışık"),
     (3, "Akşam",  "50m Serbest"),
     (3, "Akşam",  "100m Sırtüstü"),
+    (3, "Akşam",  "1500m Serbest"),
 ]
 
 HTTP_HEADERS = {

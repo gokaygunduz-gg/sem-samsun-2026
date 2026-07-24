@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23 12:00 (TR)",
+  "generated_at": "2026-07-24 08:10 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -59460,11 +59460,6 @@
       "brans": "800m Serbest"
     },
     {
-      "gun": 2,
-      "seans": "Akşam",
-      "brans": "1500m Serbest"
-    },
-    {
       "gun": 3,
       "seans": "Sabah",
       "brans": "50m Kelebek"
@@ -59488,6 +59483,11 @@
       "gun": 3,
       "seans": "Akşam",
       "brans": "100m Sırtüstü"
+    },
+    {
+      "gun": 3,
+      "seans": "Akşam",
+      "brans": "1500m Serbest"
     }
   ],
   "events": {
