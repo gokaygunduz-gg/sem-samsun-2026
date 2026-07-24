@@ -1024,6 +1024,23 @@ function switchTab(name, el) {
 
 function siralamaSearchGo() {
   const val = document.getElementById('siralama-search-input').value;
+  const q = val.trim().toLowerCase();
+
+  // Kulüp veya şehir eşleşiyorsa → Arama tabına yönlendir
+  if (q.length >= 2 && DATA) {
+    const clubHit  = (DATA.club_rankings||[]).some(c => (c.club||'').toLowerCase().includes(q));
+    const cityHit  = (DATA.city_rankings||[]).some(c => c.city.toLowerCase().includes(q));
+    const athHit   = computeAllAthletes('tahmin').some(a => a.name.toLowerCase().includes(q));
+    if ((clubHit || cityHit) && !athHit) {
+      // Arama tabına geç ve oradan ara
+      const aramaTab = [...document.querySelectorAll('#mainTabs .tab')].find(t => t.textContent.includes('Arama'));
+      if (aramaTab) switchTab('arama', aramaTab);
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) { searchInput.value = val; doSearch(); }
+      return;
+    }
+  }
+
   if (val.trim() && !document.getElementById('tab-siralama').classList.contains('active')) {
     switchTab('siralama', document.querySelector('#mainTabs .tab'));
   }
