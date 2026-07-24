@@ -2226,8 +2226,20 @@ function doSearch() {
     if (!c.city.toLowerCase().includes(q)) continue;
     cards.push(`<div class="src-card" onclick="goToCity('${esc(c.city)}')">
       <div class="src-card-hdr">
-        <span class="src-type">🏙️ Şehir/Kulüp</span>
+        <span class="src-type">🏙️ Şehir</span>
         <div class="src-name">${c.city}</div>
+        <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu · 🎖️${c.prize_count||0} ödül · 🏅${c.medal_count||0} madalya</div>
+      </div>
+    </div>`);
+  }
+
+  // Kulüp ara
+  for (const c of (DATA.club_rankings||[])) {
+    if (!(c.club||'').toLowerCase().includes(q)) continue;
+    cards.push(`<div class="src-card" onclick="goToKulup('${esc(c.club)}')">
+      <div class="src-card-hdr">
+        <span class="src-type">🏊 Kulüp</span>
+        <div class="src-name">${c.club}</div>
         <div class="src-sub">${c.rank}. sıra · ${c.total} puan · ${c.athletes} sporcu · 🎖️${c.prize_count||0} ödül · 🏅${c.medal_count||0} madalya</div>
       </div>
     </div>`);
