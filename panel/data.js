@@ -1,5 +1,5 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-24 09:06 (TR)",
+  "generated_at": "2026-07-25 16:38 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -294,6 +294,13 @@ window.SEM_DATA = {
               "time_raw": "1:06.79",
               "rank": 2,
               "points": 7,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 1,
+              "points": 0,
               "is_live": false
             }
           ],
@@ -842,6 +849,13 @@ window.SEM_DATA = {
               "time_raw": "1:06.79",
               "rank": 2,
               "points": 7,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 1,
+              "points": 0,
               "is_live": false
             }
           ],
@@ -4523,6 +4537,13 @@ window.SEM_DATA = {
               "rank": 3,
               "points": 6,
               "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 9,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -5616,6 +5637,13 @@ window.SEM_DATA = {
               "time_raw": "4:11.56",
               "rank": 3,
               "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 9,
+              "points": 0,
               "is_live": false
             }
           ],
@@ -12193,6 +12221,13 @@ window.SEM_DATA = {
               "rank": 7,
               "points": 2,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 9,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -12456,6 +12491,13 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.30",
+              "rank": 10,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
               "rank": 10,
               "points": 0,
               "is_live": false
@@ -13374,6 +13416,13 @@ window.SEM_DATA = {
               "rank": 7,
               "points": 2,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 9,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -13637,6 +13686,13 @@ window.SEM_DATA = {
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.30",
+              "rank": 10,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
               "rank": 10,
               "points": 0,
               "is_live": false
@@ -14763,6 +14819,13 @@ window.SEM_DATA = {
               "rank": 21,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "NT",
+              "rank": 12,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -16198,6 +16261,13 @@ window.SEM_DATA = {
               "rank": 21,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "NT",
+              "rank": 12,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -16961,6 +17031,13 @@ window.SEM_DATA = {
               "rank": 2,
               "points": 7,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 22,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": true,
@@ -17474,6 +17551,13 @@ window.SEM_DATA = {
               "rank": 8,
               "points": 1,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 16,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -17867,6 +17951,13 @@ window.SEM_DATA = {
               "rank": 11,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 20,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -17891,6 +17982,20 @@ window.SEM_DATA = {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 9,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 24,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 15,
               "points": 0,
               "is_live": false
             }
@@ -18126,6 +18231,13 @@ window.SEM_DATA = {
               "rank": 14,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 21,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -18232,6 +18344,20 @@ window.SEM_DATA = {
               "rank": 8,
               "points": 1,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 20,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 13,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -18256,6 +18382,20 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:45.55",
               "rank": 29,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 18,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 23,
               "points": 0,
               "is_live": false
             }
@@ -18331,6 +18471,13 @@ window.SEM_DATA = {
               "rank": 19,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 14,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -18397,6 +18544,13 @@ window.SEM_DATA = {
               "rank": 18,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 22,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -18421,6 +18575,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:43.77",
               "rank": 18,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 17,
               "points": 0,
               "is_live": false
             },
@@ -18543,6 +18704,13 @@ window.SEM_DATA = {
               "rank": 17,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 19,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -18600,6 +18768,13 @@ window.SEM_DATA = {
               "event": "200m Serbest",
               "time_raw": "2:22.05",
               "rank": 14,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 27,
               "points": 0,
               "is_live": false
             },
@@ -18929,6 +19104,13 @@ window.SEM_DATA = {
               "rank": 13,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 26,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -19202,6 +19384,13 @@ window.SEM_DATA = {
               "rank": 21,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 23,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -19273,6 +19462,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:44.04",
               "rank": 20,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 25,
               "points": 0,
               "is_live": false
             }
@@ -19590,6 +19786,13 @@ window.SEM_DATA = {
               "rank": 2,
               "points": 7,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 22,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": true,
@@ -20103,6 +20306,13 @@ window.SEM_DATA = {
               "rank": 8,
               "points": 1,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 16,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -20496,6 +20706,13 @@ window.SEM_DATA = {
               "rank": 11,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 20,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -20520,6 +20737,20 @@ window.SEM_DATA = {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 9,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 24,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 15,
               "points": 0,
               "is_live": false
             }
@@ -20755,6 +20986,13 @@ window.SEM_DATA = {
               "rank": 14,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 21,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -20861,6 +21099,20 @@ window.SEM_DATA = {
               "rank": 8,
               "points": 1,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 20,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 13,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -20885,6 +21137,20 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:45.55",
               "rank": 29,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 18,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 23,
               "points": 0,
               "is_live": false
             }
@@ -20960,6 +21226,13 @@ window.SEM_DATA = {
               "rank": 19,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 14,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -21026,6 +21299,13 @@ window.SEM_DATA = {
               "rank": 18,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 22,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -21050,6 +21330,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:43.77",
               "rank": 18,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 17,
               "points": 0,
               "is_live": false
             },
@@ -21172,6 +21459,13 @@ window.SEM_DATA = {
               "rank": 17,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 19,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -21229,6 +21523,13 @@ window.SEM_DATA = {
               "event": "200m Serbest",
               "time_raw": "2:22.05",
               "rank": 14,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 27,
               "points": 0,
               "is_live": false
             },
@@ -21558,6 +21859,13 @@ window.SEM_DATA = {
               "rank": 13,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 26,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -21831,6 +22139,13 @@ window.SEM_DATA = {
               "rank": 21,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 23,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -21902,6 +22217,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:44.04",
               "rank": 20,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 25,
               "points": 0,
               "is_live": false
             }
@@ -22227,6 +22549,13 @@ window.SEM_DATA = {
               "rank": 3,
               "points": 6,
               "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 17,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": true,
@@ -22420,6 +22749,13 @@ window.SEM_DATA = {
               "rank": 5,
               "points": 4,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 14,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -22492,6 +22828,13 @@ window.SEM_DATA = {
               "time_raw": "2:38.33",
               "rank": 6,
               "points": 3,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 16,
+              "points": 0,
               "is_live": false
             }
           ],
@@ -22798,6 +23141,13 @@ window.SEM_DATA = {
               "time_raw": "2:18.53",
               "rank": 3,
               "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 23,
+              "points": 0,
               "is_live": false
             },
             {
@@ -23197,6 +23547,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:43.29",
               "rank": 13,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 17,
               "points": 0,
               "is_live": false
             }
@@ -23632,6 +23989,13 @@ window.SEM_DATA = {
               "rank": 9,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 8,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -23823,6 +24187,13 @@ window.SEM_DATA = {
               "event": "200m Serbest",
               "time_raw": "2:23.76",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 13,
               "points": 0,
               "is_live": false
             }
@@ -24133,6 +24504,13 @@ window.SEM_DATA = {
               "is_live": false
             },
             {
+              "event": "100m Kurbağalama",
+              "time_raw": "NT",
+              "rank": 15,
+              "points": 0,
+              "is_live": false
+            },
+            {
               "event": "200m Kurbağalama",
               "time_raw": "3:17.68",
               "rank": 12,
@@ -24291,6 +24669,13 @@ window.SEM_DATA = {
               "rank": 13,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "NT",
+              "rank": 19,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -24308,6 +24693,13 @@ window.SEM_DATA = {
               "event": "400m Serbest",
               "time_raw": "5:01.41",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 24,
               "points": 0,
               "is_live": false
             },
@@ -24437,6 +24829,13 @@ window.SEM_DATA = {
               "rank": 14,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 15,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -24531,6 +24930,13 @@ window.SEM_DATA = {
           "top4": 0,
           "events": [
             {
+              "event": "200m Kurbağalama",
+              "time_raw": "NT",
+              "rank": 13,
+              "points": 0,
+              "is_live": false
+            },
+            {
               "event": "100m Kelebek",
               "time_raw": "1:28.10",
               "rank": 18,
@@ -24616,6 +25022,13 @@ window.SEM_DATA = {
               "rank": 12,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 12,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -24687,6 +25100,13 @@ window.SEM_DATA = {
               "event": "100m Kelebek",
               "time_raw": "1:14.76",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 7,
               "points": 0,
               "is_live": false
             }
@@ -24844,6 +25264,13 @@ window.SEM_DATA = {
               "rank": 3,
               "points": 6,
               "is_live": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "NT",
+              "rank": 17,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": true,
@@ -25037,6 +25464,13 @@ window.SEM_DATA = {
               "rank": 5,
               "points": 4,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 14,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -25109,6 +25543,13 @@ window.SEM_DATA = {
               "time_raw": "2:38.33",
               "rank": 6,
               "points": 3,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 16,
+              "points": 0,
               "is_live": false
             }
           ],
@@ -25415,6 +25856,13 @@ window.SEM_DATA = {
               "time_raw": "2:18.53",
               "rank": 3,
               "points": 6,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 23,
+              "points": 0,
               "is_live": false
             },
             {
@@ -25814,6 +26262,13 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:43.29",
               "rank": 13,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 17,
               "points": 0,
               "is_live": false
             }
@@ -26249,6 +26704,13 @@ window.SEM_DATA = {
               "rank": 9,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 8,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -26440,6 +26902,13 @@ window.SEM_DATA = {
               "event": "200m Serbest",
               "time_raw": "2:23.76",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 13,
               "points": 0,
               "is_live": false
             }
@@ -26750,6 +27219,13 @@ window.SEM_DATA = {
               "is_live": false
             },
             {
+              "event": "100m Kurbağalama",
+              "time_raw": "NT",
+              "rank": 15,
+              "points": 0,
+              "is_live": false
+            },
+            {
               "event": "200m Kurbağalama",
               "time_raw": "3:17.68",
               "rank": 12,
@@ -26908,6 +27384,13 @@ window.SEM_DATA = {
               "rank": 13,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "NT",
+              "rank": 19,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -26925,6 +27408,13 @@ window.SEM_DATA = {
               "event": "400m Serbest",
               "time_raw": "5:01.41",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 24,
               "points": 0,
               "is_live": false
             },
@@ -27054,6 +27544,13 @@ window.SEM_DATA = {
               "rank": 14,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 15,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -27148,6 +27645,13 @@ window.SEM_DATA = {
           "top4": 0,
           "events": [
             {
+              "event": "200m Kurbağalama",
+              "time_raw": "NT",
+              "rank": 13,
+              "points": 0,
+              "is_live": false
+            },
+            {
               "event": "100m Kelebek",
               "time_raw": "1:28.10",
               "rank": 18,
@@ -27233,6 +27737,13 @@ window.SEM_DATA = {
               "rank": 12,
               "points": 0,
               "is_live": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "NT",
+              "rank": 12,
+              "points": 0,
+              "is_live": false
             }
           ],
           "medal": false,
@@ -27304,6 +27815,13 @@ window.SEM_DATA = {
               "event": "100m Kelebek",
               "time_raw": "1:14.76",
               "rank": 11,
+              "points": 0,
+              "is_live": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "NT",
+              "rank": 7,
               "points": 0,
               "is_live": false
             }
@@ -31261,7 +31779,7 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
-          "event_medal_count": 1
+          "event_medal_count": 2
         },
         {
           "name": "Taha BAŞ",
@@ -31497,6 +32015,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 2,
+          "rank_in_group": 40,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
           "name": "Çınar Alikan",
           "city": "Samsun",
           "group": "2011 Erkek",
@@ -31541,17 +32070,6 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 40,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Taha BAŞ",
           "city": "Samsun",
           "group": "2014 Erkek",
@@ -31587,7 +32105,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 49,
+      "medal_count": 50,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -33237,7 +33755,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 68,
           "medal_cut": 8,
-          "event_medal_count": 0
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
@@ -33339,10 +33857,21 @@ window.SEM_DATA = {
           "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
+        },
+        {
+          "name": "İnci TANRIVERDİ",
+          "city": "Eskişehir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 68,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "prize_list": [],
-      "medal_count": 17,
+      "medal_count": 18,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -33676,7 +34205,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Elif DURUM",
@@ -33777,7 +34306,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Elif DURUM",
@@ -33848,7 +34377,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 17,
+      "medal_count": 18,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -38710,7 +39239,7 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
-          "event_medal_count": 1
+          "event_medal_count": 2
         },
         {
           "name": "Taha BAŞ",
@@ -38946,6 +39475,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 2,
+          "rank_in_group": 40,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
           "name": "Çınar Alikan",
           "city": "Samsun",
           "group": "2011 Erkek",
@@ -38990,17 +39530,6 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 40,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Taha BAŞ",
           "city": "Samsun",
           "group": "2014 Erkek",
@@ -39036,7 +39565,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 49,
+      "medal_count": 50,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -40686,7 +41215,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 68,
           "medal_cut": 8,
-          "event_medal_count": 0
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
@@ -40788,10 +41317,21 @@ window.SEM_DATA = {
           "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
+        },
+        {
+          "name": "İnci TANRIVERDİ",
+          "city": "Eskişehir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 68,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "prize_list": [],
-      "medal_count": 17,
+      "medal_count": 18,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -41125,7 +41665,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Elif DURUM",
@@ -41226,7 +41766,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Elif DURUM",
@@ -41297,7 +41837,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 17,
+      "medal_count": 18,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -47556,7 +48096,7 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
-          "event_medal_count": 1
+          "event_medal_count": 2
         },
         {
           "name": "Elifnur Cennet YILMAZ",
@@ -47594,17 +48134,6 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Çetin Çağrı AKBAL",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
-          "gender": "Erkek",
-          "top3": 6,
-          "rank_in_group": 21,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        },
-        {
           "name": "Güneş ASLAN",
           "city": "Samsun",
           "group": "2014 Kadın",
@@ -47613,6 +48142,17 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 6,
+          "rank_in_group": 21,
+          "medal_cut": 6,
           "event_medal_count": 1
         }
       ],
@@ -47629,7 +48169,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 8,
+      "medal_count": 9,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -47650,7 +48190,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Kartal KAYAR",
@@ -47685,7 +48225,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Kartal KAYAR",
@@ -47711,7 +48251,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 5,
+      "medal_count": 6,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -50293,7 +50833,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 68,
           "medal_cut": 8,
-          "event_medal_count": 0
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
@@ -50307,10 +50847,21 @@ window.SEM_DATA = {
           "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
+        },
+        {
+          "name": "İnci TANRIVERDİ",
+          "city": "Eskişehir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 68,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "prize_list": [],
-      "medal_count": 1,
+      "medal_count": 2,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -56152,7 +56703,7 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
-          "event_medal_count": 1
+          "event_medal_count": 2
         },
         {
           "name": "Elifnur Cennet YILMAZ",
@@ -56190,17 +56741,6 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Çetin Çağrı AKBAL",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
-          "gender": "Erkek",
-          "top3": 6,
-          "rank_in_group": 21,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        },
-        {
           "name": "Güneş ASLAN",
           "city": "Samsun",
           "group": "2014 Kadın",
@@ -56209,6 +56749,17 @@ window.SEM_DATA = {
           "top3": 2,
           "rank_in_group": 40,
           "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 6,
+          "rank_in_group": 21,
+          "medal_cut": 6,
           "event_medal_count": 1
         }
       ],
@@ -56225,7 +56776,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 8,
+      "medal_count": 9,
       "prize_count": 1,
       "gold_count": 0,
       "silver_count": 1
@@ -56246,7 +56797,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Kartal KAYAR",
@@ -56281,7 +56832,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Kartal KAYAR",
@@ -56307,7 +56858,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 5,
+      "medal_count": 6,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -58889,7 +59440,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 68,
           "medal_cut": 8,
-          "event_medal_count": 0
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
@@ -58903,10 +59454,21 @@ window.SEM_DATA = {
           "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
+        },
+        {
+          "name": "İnci TANRIVERDİ",
+          "city": "Eskişehir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 68,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "prize_list": [],
-      "medal_count": 1,
+      "medal_count": 2,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -60860,6 +61422,14 @@ window.SEM_DATA = {
           "name": "Neslişah KARACAOĞLU",
           "city": "İzmir",
           "time_raw": "22:49.37",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 17,
+          "name": "Azra SOYLU",
+          "city": "Ankara",
+          "time_raw": "NT",
           "points": 0,
           "is_live": false
         }
@@ -65622,6 +66192,14 @@ window.SEM_DATA = {
           "rank": 22,
           "name": "Ömer Selman Karaköse",
           "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 23,
+          "name": "Can VECAN",
+          "city": "İzmir",
           "time_raw": "NT",
           "points": 0,
           "is_live": false

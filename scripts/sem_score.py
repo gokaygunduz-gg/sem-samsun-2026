@@ -122,15 +122,14 @@ def build_individual_rankings(
                     "club":   sw.get("club", f.get("club", "")),
                     "event_results": [],
                 }
-            if f["points"] > 0 or f["time_raw"] != "NT":
-                athlete_map[key]["event_results"].append({
-                    "event":    event,
-                    "time_raw": f["time_raw"],
-                    "time_sec": f.get("time_sec"),
-                    "rank":     f["rank"],
-                    "points":   f["points"],
-                    "is_live":  f.get("is_live", False),
-                })
+            athlete_map[key]["event_results"].append({
+                "event":    event,
+                "time_raw": f["time_raw"],
+                "time_sec": f.get("time_sec"),
+                "rank":     f["rank"],
+                "points":   f["points"],
+                "is_live":  f.get("is_live", False),
+            })
 
     # Puan hesapla
     for key, a in athlete_map.items():
