@@ -1,5 +1,5 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-25 16:38 (TR)",
+  "generated_at": "2026-07-25 16:41 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -18539,6 +18539,13 @@ window.SEM_DATA = {
               "is_live": false
             },
             {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 28,
+              "points": 0,
+              "is_live": false
+            },
+            {
               "event": "200m Kelebek",
               "time_raw": "2:58.58",
               "rank": 18,
@@ -21291,6 +21298,13 @@ window.SEM_DATA = {
               "time_raw": "1:10.26",
               "rank": 7,
               "points": 2,
+              "is_live": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "NT",
+              "rank": 28,
+              "points": 0,
               "is_live": false
             },
             {
@@ -60504,6 +60518,14 @@ window.SEM_DATA = {
         {
           "rank": 27,
           "name": "Ali Bulut EZDER",
+          "city": "Ankara",
+          "time_raw": "NT",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 28,
+          "name": "Ömer Selman Karaköse",
           "city": "Ankara",
           "time_raw": "NT",
           "points": 0,
