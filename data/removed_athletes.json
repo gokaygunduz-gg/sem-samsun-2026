@@ -1,0 +1,488 @@
+[
+  {
+    "num": 75,
+    "sehir": "Antalya",
+    "cinsiyet": "Bayan",
+    "ad_soyad": "Elif Rüya Canoğlu",
+    "yb": "13",
+    "tc": "42113153840",
+    "events": [
+      {
+        "event": "400m Serbest",
+        "time": "4:56.19"
+      },
+      {
+        "event": "1500m Serbest",
+        "time": "19:37.79"
+      },
+      {
+        "event": "800m Serbest",
+        "time": "10:17.32"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:45.34"
+      }
+    ],
+    "kulup": "Toroslar Yüzme Spor Kulübü"
+  },
+  {
+    "num": 161,
+    "sehir": "İstanbul",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Cem Berkay YARAY",
+    "yb": "11",
+    "tc": "19088913459",
+    "events": [
+      {
+        "event": "50m Serbest",
+        "time": "25.41"
+      },
+      {
+        "event": "200m Serbest",
+        "time": "1:58.99"
+      },
+      {
+        "event": "100m Serbest",
+        "time": "54.67"
+      },
+      {
+        "event": "50m Sırtüstü",
+        "time": "29.81"
+      }
+    ],
+    "kulup": "Enka Spor Kulübü"
+  },
+  {
+    "num": 174,
+    "sehir": "İstanbul",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Kerim Deniz Köken",
+    "yb": "11",
+    "tc": "34015569156",
+    "events": [
+      {
+        "event": "50m Kurbağalama",
+        "time": "32.17"
+      },
+      {
+        "event": "200m Kurbağalama",
+        "time": "2:39.56"
+      },
+      {
+        "event": "100m Kurbağalama",
+        "time": "1:10.14"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "4:58.99"
+      }
+    ],
+    "kulup": "Enka Spor Kulübü"
+  },
+  {
+    "num": 186,
+    "sehir": "İstanbul",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Tunç UÇAN",
+    "yb": "11",
+    "tc": "48475249615",
+    "events": [
+      {
+        "event": "100m Sırtüstü",
+        "time": "1:00.48"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:08.29"
+      },
+      {
+        "event": "200m Sırtüstü",
+        "time": "2:07.84"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "4:33.81"
+      }
+    ],
+    "kulup": "Galatasaray Spor Kulübü"
+  },
+  {
+    "num": 196,
+    "sehir": "İstanbul",
+    "cinsiyet": "Bayan",
+    "ad_soyad": "İdil GÜLCAN",
+    "yb": "11",
+    "tc": "51532207215",
+    "events": [
+      {
+        "event": "100m Kelebek",
+        "time": "1:05.28"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:28.43"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:20.57"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:08.67"
+      }
+    ],
+    "kulup": "Fenerbahçe Spor Kulübü"
+  },
+  {
+    "num": 253,
+    "sehir": "Kocaeli",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Doruk AÇAR",
+    "yb": "10",
+    "tc": "31681871827",
+    "events": [
+      {
+        "event": "200m Serbest",
+        "time": "1:56.38"
+      },
+      {
+        "event": "100m Sırtüstü",
+        "time": "59.52"
+      },
+      {
+        "event": "400m Serbest",
+        "time": "4:07.64"
+      },
+      {
+        "event": "200m Sırtüstü",
+        "time": "2:07.52"
+      }
+    ],
+    "kulup": "Galatasaray Spor Kulübü"
+  },
+  {
+    "num": 259,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Ekin YALDAEI",
+    "yb": "13",
+    "tc": "66169350119",
+    "events": [
+      {
+        "event": "100m Kelebek",
+        "time": "1:05.92"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:26.46"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:24.91"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "05:08.32"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 260,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Kayrahan ÇELİK",
+    "yb": "14",
+    "tc": "13268405116",
+    "events": [
+      {
+        "event": "100m Kelebek",
+        "time": "1:11.47"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:45.49"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:35.45"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:48.05"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 261,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Osman Ata KARADAĞ",
+    "yb": "12",
+    "tc": "50389871419",
+    "events": [
+      {
+        "event": "1500m Serbest",
+        "time": "16:52.15"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:17.60"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:14.08"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "4:45.54"
+      }
+    ],
+    "kulup": "Ted Mersin Koleji Spor Kulübü"
+  },
+  {
+    "num": 262,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Poyraz Dere",
+    "yb": "12",
+    "tc": "75742025042",
+    "events": [
+      {
+        "event": "400m Serbest",
+        "time": "4:30.51"
+      },
+      {
+        "event": "200m Sırtüstü",
+        "time": "2:26.73"
+      },
+      {
+        "event": "1500m Serbest",
+        "time": "17:58.83"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:06.28"
+      }
+    ],
+    "kulup": "Gelecek Gençlik Spor Kulübü"
+  },
+  {
+    "num": 263,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Toprak URAL",
+    "yb": "14",
+    "tc": "41654167143",
+    "events": [
+      {
+        "event": "400m Serbest",
+        "time": "5:05.19"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:42.87"
+      },
+      {
+        "event": "800m Serbest",
+        "time": "10:29.10"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:54.08"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 264,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Yağız ALICI",
+    "yb": "14",
+    "tc": "34325413011",
+    "events": [
+      {
+        "event": "1500m Serbest",
+        "time": "17:34.82"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:24.16"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:24.25"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "4:59.25"
+      }
+    ],
+    "kulup": "Ted Mersin Koleji Spor Kulübü"
+  },
+  {
+    "num": 265,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Yağız IŞILDAK",
+    "yb": "13",
+    "tc": "41437665818",
+    "events": [
+      {
+        "event": "100m Kelebek",
+        "time": "1:10.09"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "02:32.84"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:34.71"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:23.09"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 266,
+    "sehir": "Mersin",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Yusuf ZOPCUK",
+    "yb": "14",
+    "tc": "65545027010",
+    "events": [
+      {
+        "event": "100m Kurbağalama",
+        "time": "1:27.86"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:41.84"
+      },
+      {
+        "event": "200m Kurbağalama",
+        "time": "3:09.10"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:37.16"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 267,
+    "sehir": "Mersin",
+    "cinsiyet": "Bayan",
+    "ad_soyad": "Duru DEMİR",
+    "yb": "14",
+    "tc": "36860326913",
+    "events": [
+      {
+        "event": "1500m Serbest",
+        "time": "20:04.07"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:45.45"
+      },
+      {
+        "event": "100m Kelebek",
+        "time": "1:13.46"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:48.57"
+      }
+    ],
+    "kulup": "Mersin Egitim Vakfi Toros Spor Kulübü"
+  },
+  {
+    "num": 269,
+    "sehir": "Mersin",
+    "cinsiyet": "Bayan",
+    "ad_soyad": "Melodi DEMİREL",
+    "yb": "12",
+    "tc": "60592533918",
+    "events": [
+      {
+        "event": "1500m Serbest",
+        "time": "18:09.19"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:30.08"
+      },
+      {
+        "event": "200m Kelebek",
+        "time": "2:26.33"
+      },
+      {
+        "event": "400m Karışık",
+        "time": "5:11.78"
+      }
+    ],
+    "kulup": "Ted Mersin Koleji Spor Kulübü"
+  },
+  {
+    "num": 270,
+    "sehir": "Mersin",
+    "cinsiyet": "Bayan",
+    "ad_soyad": "Mira Nurgül ALTAY",
+    "yb": "14",
+    "tc": "14011307728",
+    "events": [
+      {
+        "event": "200m Sırtüstü",
+        "time": "2:48.84"
+      },
+      {
+        "event": "200m Kurbağalama",
+        "time": "3:05.27"
+      },
+      {
+        "event": "100m Kurbağalama",
+        "time": "1:26.78"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:47.33"
+      }
+    ],
+    "kulup": "Mersin Gençlerbirliği Spor Kulübü"
+  },
+  {
+    "num": 326,
+    "sehir": "Trabzon",
+    "cinsiyet": "Erkek",
+    "ad_soyad": "Mert AYGÜN",
+    "yb": "14",
+    "tc": "20543711821",
+    "events": [
+      {
+        "event": "200m Serbest",
+        "time": "2:39.99"
+      },
+      {
+        "event": "200m Kurbağalama",
+        "time": "3:04.92"
+      },
+      {
+        "event": "100m Kurbağalama",
+        "time": "1:28.41"
+      },
+      {
+        "event": "200m Karışık",
+        "time": "2:46.69"
+      }
+    ],
+    "kulup": "Tswim Spor Kulübü"
+  }
+]

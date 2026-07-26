@@ -1,0 +1,55 @@
+name: Start Listesi Recheck (28 Temmuz 08:30-09:30)
+
+on:
+  schedule:
+    # 28 Temmuz 05:30-06:30 UTC = 08:30-09:30 TR
+    # Her 5 dakikada bir: :30, :35, :40, :45, :50, :55 ve :00, :05, :10, :15, :20, :25, :30
+    - cron: '30,35,40,45,50,55 5 28 7 *'
+    - cron: '0,5,10,15,20,25,30 6 28 7 *'
+  workflow_dispatch:   # Elle de tetiklenebilir
+
+permissions:
+  contents: write
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: startlist-recheck
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları yükle
+        run: pip install openpyxl requests beautifulsoup4 pdfplumber
+
+      - name: Start listesini kontrol et ve DB güncelle
+        id: recheck
+        run: |
+          python scripts/check_new_entries.py
+          echo "changed=$?" >> $GITHUB_OUTPUT
+        # exit 0 = değişiklik var | exit 2 = değişiklik yok
+        continue-on-error: true
+
+      - name: Panel verisi yeniden üret (yeni sporcu eklendiyse)
+        if: steps.recheck.outputs.changed == '0'
+        run: python scripts/sem_generate.py --live --quiet || python scripts/sem_generate.py --quiet
+
+      - name: Commit ve push
+        if: steps.recheck.outputs.changed == '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add SEM_kontrol_liste.xlsx panel/data.js data/results.json data/removed_athletes.json
+          git diff --cached --quiet && echo "Commit yok." || (
+            git commit -m "Recheck: yeni sporcu(lar) eklendi — $(TZ='Europe/Istanbul' date '+%d.%m %H:%M TR')"
+            git pull --rebase origin main
+            git push
+          )
