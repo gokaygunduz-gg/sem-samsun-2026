@@ -1334,9 +1334,9 @@ function _detailMedalsHtml(list, emptyMsg, title, sub, hdrCol) {
   const rows = list.map((a, i) => {
     const aN=esc(a.name), aY=esc(a.yb), aG=esc(a.gender);
     const mc = a.event_medal_count;
-    const mcBadge = mc != null
+    const mcBadge = mc > 0
       ? `<span style="font-size:10px;background:rgba(20,184,166,.18);color:var(--teal);border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">🏅${mc}</span>`
-      : '';
+      : `<span style="font-size:10px;color:var(--muted);padding:1px 5px;margin-left:4px;opacity:.55">madalya yok</span>`;
     const prizeBadge = a.rank_in_group === 1
       ? `<span style="font-size:10px;background:rgba(245,158,11,.18);color:var(--gold);border-radius:4px;padding:1px 5px;font-weight:700;margin-left:3px">🥇1.</span>`
       : a.rank_in_group === 2
@@ -1400,9 +1400,10 @@ function renderCityDetail() {
     container.innerHTML=_detailMedalsHtml(list,'Veri yok','En Yüksek Puanlılar',
       `${list.length} sporcu · Puana göre sıralı · 🏅=branş madalyası · 🥇/🥈=bireysel ödül`,'Puan');
   } else if (cityDetailTab==='medals') {
-    const list=city.medal_list||[];
-    container.innerHTML=_detailMedalsHtml(list,'Bu şehirden branş madalyası alan sporcu yok.','Madalyalar',
-      `Toplam ${city.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`,'Puan');
+    const list=[...(city.athlete_list||[])].sort((a,b)=>(b.event_medal_count||0)-(a.event_medal_count||0)||b.top3-a.top3);
+    const medallerCount = list.filter(a=>a.event_medal_count>0).length;
+    container.innerHTML=_detailMedalsHtml(list,'Sporcu yok','Madalyalar',
+      `Toplam ${city.medal_count||0} madalya · ${medallerCount} sporcudan · 0 madalyalılar altta`,'Puan');
   } else {
     container.innerHTML=_detailPrizesHtml(city.athlete_list||[]);
   }
@@ -1454,9 +1455,10 @@ function renderKulupDetail() {
     container.innerHTML = _detailMedalsHtml(list, 'Veri yok', 'En Yüksek Puanlılar',
       `${list.length} sporcu · Puana göre sıralı · 🏅=branş madalyası · 🥇/🥈=bireysel ödül`, 'Puan');
   } else if (kulupDetailTab === 'medals') {
-    const list = club.medal_list || [];
-    container.innerHTML = _detailMedalsHtml(list, 'Bu kulüpten branş madalyası alan sporcu yok.', 'Madalyalar',
-      `Toplam ${club.medal_count||0} madalya · ${list.length} sporcudan · 🏅sayı=kaç branşta madalya`, 'Puan');
+    const list=[...(club.athlete_list||[])].sort((a,b)=>(b.event_medal_count||0)-(a.event_medal_count||0)||b.top3-a.top3);
+    const medallerCount = list.filter(a=>a.event_medal_count>0).length;
+    container.innerHTML = _detailMedalsHtml(list, 'Sporcu yok', 'Madalyalar',
+      `Toplam ${club.medal_count||0} madalya · ${medallerCount} sporcudan · 0 madalyalılar altta`, 'Puan');
   } else {
     container.innerHTML = _detailPrizesHtml(club.athlete_list||[]);
   }
@@ -2192,7 +2194,9 @@ function renderSporcular() {
 
   const rows = list.map((a,i) => {
     const prizeLbl = a.prize ? '<span class="prize-badge">ÖDÜL</span>' : '';
-    const medalLbl = a.medal_count > 0 ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:4px">🏅${a.medal_count}</span>` : '';
+    const medalLbl = a.medal_count > 0
+      ? `<span style="font-size:9px;color:var(--teal);font-weight:700;margin-left:4px">🏅${a.medal_count}</span>`
+      : (sporculaSort === 'madalya' ? `<span style="font-size:9px;color:var(--muted);margin-left:4px;opacity:.55">madalya yok</span>` : '');
     const aN=esc(a.name),aY=esc(a.yb),aG=esc(a.gender);
     return `<tr style="cursor:pointer" onclick="showAthleteProfile('${aN}','${aY}','${aG}')">
       <td class="col-rank" style="font-weight:700;font-size:12px;text-align:center">${i+1}</td>
