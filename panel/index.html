@@ -1297,8 +1297,12 @@ function renderSehirler() {
     const val = sehirSortMode === 'puan'
       ? `<td class="city-pts">${c.total}</td>`
       : sehirSortMode === 'madalya'
-        ? `<td style="text-align:right;font-weight:700;font-size:13px;padding-right:12px;color:var(--teal)">🏅 ${c.medal_count||0}</td>`
-        : `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🎖️ ${c.prize_count||0}</td>`;
+        ? (c.medal_count > 0
+            ? `<td style="text-align:right;font-weight:700;font-size:13px;padding-right:12px;color:var(--teal)">🏅 ${c.medal_count}</td>`
+            : `<td style="text-align:right;font-size:11px;padding-right:12px;color:var(--muted);opacity:.55">0 madalya</td>`)
+        : (c.prize_count > 0
+            ? `<td style="text-align:right;font-weight:700;font-size:12px;padding-right:12px;color:var(--gold)">🎖️ ${c.prize_count}</td>`
+            : `<td style="text-align:right;font-size:11px;padding-right:12px;color:var(--muted);opacity:.55">ödül yok</td>`);
     return `<tr class="city-row" onclick="showCityDetail('${esc(c.city)}')">
       <td class="rank-num" style="${ns}">${displayRank}</td>
       <td><div style="font-weight:600;font-size:13px">${c.city}</div>
@@ -1476,18 +1480,23 @@ function renderKulupler() {
     const rank=i+1;
     const label=c.club||c.city;
     const ns=rank===1?'color:var(--gold)':rank===2?'color:#94a3b8':rank===3?'color:var(--orange)':'';
+    const noMedal = kulupTab==='madalya' && !(c.medal_count > 0);
+    const noPrize = kulupTab==='odul'    && !(c.prize_count > 0);
     const val=kulupTab==='puan'
       ? c.total+' puan'
       : kulupTab==='madalya'
-        ? '🏅 '+(c.medal_count||0)+' madalya'
-        : '🎖️ '+(c.prize_count||0)+' ödül';
+        ? (c.medal_count > 0 ? '🏅 '+c.medal_count+' madalya' : '0 madalya')
+        : (c.prize_count > 0 ? '🎖️ '+c.prize_count+' ödül'   : 'ödül yok');
+    const valStyle = (noMedal || noPrize)
+      ? 'text-align:right;font-size:12px;color:var(--muted);padding-right:12px;opacity:.55'
+      : 'text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px';
     const sub=kulupTab==='puan'
       ? `${c.athletes} sporcu · 🏅${c.medal_count||0} madalya · 🎖️${c.prize_count||0} ödül`
       : `${c.athletes} sporcu · ${c.total} puan`;
     return `<tr class="kulup-row" onclick="showKulupDetail('${esc(label)}')">
       <td class="rank-num" style="${ns}">${rank}</td>
       <td><div style="font-weight:600;font-size:13px">${label}</div><div class="city-sub">${sub}</div></td>
-      <td style="text-align:right;font-weight:700;font-size:14px;color:var(--gold);padding-right:12px">${val}</td>
+      <td style="${valStyle}">${val}</td>
       <td style="color:var(--muted)">›</td></tr>`;
   }).join('');
   const hdr=kulupTab==='puan'?'PUAN':kulupTab==='madalya'?'MADALYA':'ÖDÜL';
