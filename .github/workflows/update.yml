@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
   schedule:
-    # Yarış günleri (28-30 Temmuz) her 5 dakikada bir güncelle
-    - cron: '*/5 6-18 28-30 7 *'
+    # 28-30 Temmuz yarış günleri — her 5 dakikada bir
+    # 05:00-20:59 UTC = 08:00-23:59 TR (tüm gün + akşam seansı)
+    - cron: '*/5 5-20 28-30 7 *'
   workflow_dispatch:
 
 permissions:
@@ -14,8 +15,15 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Aynı anda birden fazla run'ın çakışmasını önle
+    concurrency:
+      group: panel-update
+      cancel-in-progress: false
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # pull/rebase için tam history gerekli
 
       - name: Python kur
         uses: actions/setup-python@v5
@@ -25,18 +33,22 @@ jobs:
       - name: Bağımlılıkları yükle
         run: pip install openpyxl requests beautifulsoup4 pdfplumber
 
-      - name: Panel verisi üret (canlı)
-        run: python scripts/sem_generate.py --live
-        continue-on-error: true
-
-      - name: Fallback — giriş listesiyle üret
-        if: failure()
-        run: python scripts/sem_generate.py
+      - name: Panel verisi üret (canlı + giriş fallback)
+        run: |
+          # --live: TYF'den sonuç PDF'leri çeker; sonuç yoksa giriş moduna düşer
+          python scripts/sem_generate.py --live --quiet || python scripts/sem_generate.py --quiet
 
       - name: Değişiklikleri commit ve push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add panel/data.js data/results.json
-          git diff --cached --quiet || git commit -m "Panel güncellendi: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git commit -m "Panel güncellendi: $(TZ='Europe/Istanbul' date '+%d.%m %H:%M TR')"
+            # Başka bir run push ettiyse rebase ile birleştir
+            git pull --rebase origin main
+            git push
+          fi
