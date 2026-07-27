@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27 16:14 (TR)",
+  "generated_at": "2026-07-27 16:15 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -594,46 +594,6 @@
               "points": 2,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 11,
-          "name": "Aydın Efe KÜÇÜK",
-          "city": "Samsun",
-          "club": "Galatasaray Spor Kulübü",
-          "top3": 16,
-          "top4": 18,
-          "events": [
-            {
-              "event": "800m Serbest",
-              "time_raw": "8:26.02",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "1:56.59",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:07.63",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
-            },
-            {
-              "event": "100m Serbest",
-              "time_raw": "54.25",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -1244,46 +1204,6 @@
               "points": 2,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 11,
-          "name": "Aydın Efe KÜÇÜK",
-          "city": "Samsun",
-          "club": "Galatasaray Spor Kulübü",
-          "top3": 16,
-          "top4": 18,
-          "events": [
-            {
-              "event": "800m Serbest",
-              "time_raw": "8:26.02",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "1:56.59",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:07.63",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
-            },
-            {
-              "event": "100m Serbest",
-              "time_raw": "54.25",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -5000,8 +4920,8 @@
               "is_dns": false
             },
             {
-              "event": "800m Serbest",
-              "time_raw": "8:46.58",
+              "event": "400m Serbest",
+              "time_raw": "4:11.56",
               "rank": 3,
               "points": 6,
               "is_live": false,
@@ -5270,46 +5190,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 10,
-          "name": "Ali Kaan ŞEN",
-          "city": "Eskişehir",
-          "club": "Lotus Yüzme Spor Kulübü",
-          "top3": 21,
-          "top4": 24,
-          "events": [
-            {
-              "event": "100m Serbest",
-              "time_raw": "55.23",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:00.68",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "50m Serbest",
-              "time_raw": "25.89",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "9:05.43",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -5654,46 +5534,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 18,
-          "name": "Çınar GÜLSOY",
-          "city": "Kayseri",
-          "club": "Erciyes Yıldız Spor Kulübü",
-          "top3": 15,
-          "top4": 18,
-          "events": [
-            {
-              "event": "1500m Serbest",
-              "time_raw": "16:37.82",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "8:50.88",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:18.09",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:03.37",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -6158,8 +5998,8 @@
               "is_dns": false
             },
             {
-              "event": "800m Serbest",
-              "time_raw": "8:46.58",
+              "event": "400m Serbest",
+              "time_raw": "4:11.56",
               "rank": 3,
               "points": 6,
               "is_live": false,
@@ -6428,46 +6268,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 10,
-          "name": "Ali Kaan ŞEN",
-          "city": "Eskişehir",
-          "club": "Lotus Yüzme Spor Kulübü",
-          "top3": 21,
-          "top4": 24,
-          "events": [
-            {
-              "event": "100m Serbest",
-              "time_raw": "55.23",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:00.68",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "50m Serbest",
-              "time_raw": "25.89",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "9:05.43",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -6812,46 +6612,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 18,
-          "name": "Çınar GÜLSOY",
-          "city": "Kayseri",
-          "club": "Erciyes Yıldız Spor Kulübü",
-          "top3": 15,
-          "top4": 18,
-          "events": [
-            {
-              "event": "1500m Serbest",
-              "time_raw": "16:37.82",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "8:50.88",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:18.09",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:03.37",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -10980,46 +10740,6 @@
           "prize": false
         },
         {
-          "rank": 7,
-          "name": "Jasmin ARSLAN",
-          "city": "İzmir",
-          "club": "İstek Spor Kulübü",
-          "top3": 22,
-          "top4": 27,
-          "events": [
-            {
-              "event": "50m Serbest",
-              "time_raw": "27.66",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "50m Sırtüstü",
-              "time_raw": "30.93",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "100m Sırtüstü",
-              "time_raw": "1:07.66",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "50m Kelebek",
-              "time_raw": "30.40",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 8,
           "name": "Duru AYDIN",
           "city": "İzmir",
@@ -11924,46 +11644,6 @@
               "points": 5,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 7,
-          "name": "Jasmin ARSLAN",
-          "city": "İzmir",
-          "club": "İstek Spor Kulübü",
-          "top3": 22,
-          "top4": 27,
-          "events": [
-            {
-              "event": "50m Serbest",
-              "time_raw": "27.66",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "50m Sırtüstü",
-              "time_raw": "30.93",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "100m Sırtüstü",
-              "time_raw": "1:07.66",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "50m Kelebek",
-              "time_raw": "30.40",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -16096,46 +15776,6 @@
           "prize": false
         },
         {
-          "rank": 24,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "club": "Ortakçı Spor Kulübü",
-          "top3": 7,
-          "top4": 8,
-          "events": [
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:34.66",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:34.49",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.72",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:11.87",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 25,
           "name": "Defne BAHAR",
           "city": "Çanakkale",
@@ -16526,46 +16166,6 @@
               "points": 0,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 33,
-          "name": "Zeynep KAYA",
-          "city": "Ankara",
-          "club": "Vamos Spor Kulübü",
-          "top3": 2,
-          "top4": 2,
-          "events": [
-            {
-              "event": "100m Serbest",
-              "time_raw": "1:03.83",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.93",
-              "rank": 20,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:14.26",
-              "rank": 11,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:11.13",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -17718,46 +17318,6 @@
           "prize": false
         },
         {
-          "rank": 24,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "club": "Ortakçı Spor Kulübü",
-          "top3": 7,
-          "top4": 8,
-          "events": [
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:34.66",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:34.49",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.72",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:11.87",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 25,
           "name": "Defne BAHAR",
           "city": "Çanakkale",
@@ -18154,46 +17714,6 @@
           "prize": false
         },
         {
-          "rank": 33,
-          "name": "Zeynep KAYA",
-          "city": "Ankara",
-          "club": "Vamos Spor Kulübü",
-          "top3": 2,
-          "top4": 2,
-          "events": [
-            {
-              "event": "100m Serbest",
-              "time_raw": "1:03.83",
-              "rank": 7,
-              "points": 2,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.93",
-              "rank": 20,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:14.26",
-              "rank": 11,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:11.13",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 34,
           "name": "Ela Nira Çizer",
           "city": "Sakarya",
@@ -18556,46 +18076,6 @@
           "prize": false
         },
         {
-          "rank": 6,
-          "name": "Ömer ULUDAĞ",
-          "city": "İzmir",
-          "club": "Enka Spor Kulübü",
-          "top3": 21,
-          "top4": 21,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:58.36",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:43.98",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:23.20",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:40.28",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
           "rank": 7,
           "name": "Çağlayan GÜNEŞ",
           "city": "Eskişehir",
@@ -18810,46 +18290,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 11,
-          "name": "Demir DEMİRCİGİL",
-          "city": "İzmir",
-          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-          "top3": 15,
-          "top4": 18,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:30.64",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "9:42.66",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "18:34.24",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:38.68",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -19098,13 +18538,6 @@
               "points": 5,
               "is_live": false,
               "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:37.84",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
             },
             {
               "event": "100m Serbest",
@@ -21461,46 +20894,6 @@
           "prize": false
         },
         {
-          "rank": 6,
-          "name": "Ömer ULUDAĞ",
-          "city": "İzmir",
-          "club": "Enka Spor Kulübü",
-          "top3": 21,
-          "top4": 21,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:58.36",
-              "rank": 1,
-              "points": 9,
-              "is_live": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:43.98",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:23.20",
-              "rank": 3,
-              "points": 6,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:40.28",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
           "rank": 7,
           "name": "Çağlayan GÜNEŞ",
           "city": "Eskişehir",
@@ -21715,46 +21108,6 @@
               "points": 3,
               "is_live": false,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 11,
-          "name": "Demir DEMİRCİGİL",
-          "city": "İzmir",
-          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-          "top3": 15,
-          "top4": 18,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:30.64",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "9:42.66",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "18:34.24",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:38.68",
-              "rank": 6,
-              "points": 3,
-              "is_live": false
             }
           ],
           "medal": false,
@@ -22003,13 +21356,6 @@
               "points": 5,
               "is_live": false,
               "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:37.84",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
             },
             {
               "event": "100m Serbest",
@@ -24858,86 +24204,6 @@
           "prize": false
         },
         {
-          "rank": 16,
-          "name": "Yağmur ADALIYILMAZ",
-          "city": "Antalya",
-          "club": "Muratpaşa Belediyesi Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:25.86",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:18.27",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "5:00.10",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.85",
-              "rank": 19,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
-          "name": "Zeynep TELLİ",
-          "city": "Çanakkale",
-          "club": "Çanakkale Belediye Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:12.52",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:45.31",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "5:00.33",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:22.22",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 18,
           "name": "Simay EMRE",
           "city": "Bursa",
@@ -26764,13 +26030,6 @@
               "points": 0,
               "is_live": false,
               "is_dns": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "20:14.74",
-              "rank": 10,
-              "points": 0,
-              "is_live": false
             },
             {
               "event": "800m Serbest",
@@ -27843,86 +27102,6 @@
           "prize": false
         },
         {
-          "rank": 16,
-          "name": "Yağmur ADALIYILMAZ",
-          "city": "Antalya",
-          "club": "Muratpaşa Belediyesi Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:25.86",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:18.27",
-              "rank": 5,
-              "points": 4,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "5:00.10",
-              "rank": 8,
-              "points": 1,
-              "is_live": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.85",
-              "rank": 19,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
-          "name": "Zeynep TELLİ",
-          "city": "Çanakkale",
-          "club": "Çanakkale Belediye Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:12.52",
-              "rank": 2,
-              "points": 7,
-              "is_live": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:45.31",
-              "rank": 4,
-              "points": 5,
-              "is_live": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "5:00.33",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:22.22",
-              "rank": 9,
-              "points": 0,
-              "is_live": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
           "rank": 18,
           "name": "Simay EMRE",
           "city": "Bursa",
@@ -29749,13 +28928,6 @@
               "points": 0,
               "is_live": false,
               "is_dns": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "20:14.74",
-              "rank": 10,
-              "points": 0,
-              "is_live": false
             },
             {
               "event": "800m Serbest",
