@@ -74,9 +74,20 @@ def _merge_live_into_entries(
                     "time_raw": lr.get("time_raw", ev["time_raw"]),
                     "time_sec": lr.get("time_sec", ev["time_sec"]),
                     "is_live":  True,
+                    "is_dns":   False,
+                })
+            elif (sw["yb"], ev["event"]) in completed_events:
+                # Yarış tamamlandı ama sporcu sonuçlarda yok → DNS
+                new_events.append({
+                    "event":    ev["event"],
+                    "time_raw": "DNS",
+                    "time_sec": None,
+                    "is_live":  False,
+                    "is_dns":   True,
                 })
             else:
-                new_events.append({**ev, "is_live": False})
+                # Henüz koşulmamış yarış → giriş süresi
+                new_events.append({**ev, "is_live": False, "is_dns": False})
         merged.append({**sw, "events": new_events})
     return merged, completed_events
 
@@ -92,6 +103,7 @@ def _build_athletes_out(athletes, medal_cut):
                 "rank":     er.get("rank"),
                 "points":   er.get("points", 0),
                 "is_live":  er.get("is_live", False),
+                "is_dns":   er.get("is_dns", False),
             })
         out.append({
             "rank":   a["rank"],
@@ -134,14 +146,16 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     city_rankings        = compute_city_rankings(individual_forecast)
     club_rankings        = compute_club_rankings(individual_forecast)
 
-    # --- Current (anlık) sıralaması (yalnızca canlı sonucu olan yarışlar) ---
+    # --- Current (anlık) sıralaması (tamamlanan yarışlar: canlı + DNS) ---
     if completed_events:
-        # Yalnızca is_live=True olan event'leri filtrele
+        # is_live veya is_dns olan yarışları dahil et
+        # (DNS sporcular anlıkta 0 puan görünür, gelip sonraki yarışa girebilirler)
         current_entries = []
         for sw in merged:
             live_evs = [ev for ev in sw["events"] if ev.get("is_live")]
-            if live_evs:
-                current_entries.append({**sw, "events": live_evs})
+            dns_evs  = [ev for ev in sw["events"] if ev.get("is_dns")]
+            if live_evs or dns_evs:
+                current_entries.append({**sw, "events": live_evs + dns_evs})
         if current_entries:
             ev_rankings_current = compute_event_rankings(current_entries, "live")
             individual_current  = build_individual_rankings(current_entries, ev_rankings_current)

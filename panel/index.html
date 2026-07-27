@@ -1134,17 +1134,20 @@ function renderSiralama() {
         const isLive= a.events.some(e=>e.is_live);
         const pt = top3.map(ev=>{
           const eEsc=esc(ev.event), yEsc=esc(yb), gEsc=esc(gen);
+          const dnsStyle = ev.is_dns ? 'opacity:.4;text-decoration:line-through;' : '';
+          const dnsTitle = ev.is_dns ? 'DNS — yarışa girilmedi' : `${ev.time_raw} — tıkla: bu yarışın tahmin sıralaması`;
           return `<span class="ev-pill ev-top${isLive&&ev.is_live?' ev-live':''}"
-            title="${ev.time_raw} — tıkla: bu yarışın tahmin sıralaması"
-            style="cursor:pointer"
+            title="${dnsTitle}"
+            style="cursor:pointer;${dnsStyle}"
             onclick="goToEventTahmin('${eEsc}','${yEsc}','${gEsc}')"
           >${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`;
         }).join('');
         const pr = rest.map(ev=>{
           const eEsc=esc(ev.event), yEsc=esc(yb), gEsc=esc(gen);
+          const dnsStyle = ev.is_dns ? 'opacity:.4;text-decoration:line-through;' : '';
           return `<span class="ev-pill"
-            title="${ev.time_raw} — tıkla: bu yarışın tahmin sıralaması"
-            style="cursor:pointer"
+            title="${ev.is_dns?'DNS — yarışa girilmedi':ev.time_raw+' — tıkla: bu yarışın tahmin sıralaması'}"
+            style="cursor:pointer;${dnsStyle}"
             onclick="goToEventTahmin('${eEsc}','${yEsc}','${gEsc}')"
           >${ev.event} <b class="${ptsClass(ev.points)}">${ev.points}</b></span>`;
         }).join('');
@@ -1816,7 +1819,8 @@ function showAthleteProfile(name, yb, gender) {
 
   const cut        = grp.medal_cut;
   const liveEvs    = athlete.events.filter(ev => ev.is_live);
-  const entryEvs   = athlete.events.filter(ev => !ev.is_live);
+  const dnsEvs     = athlete.events.filter(ev => !ev.is_live && ev.is_dns);
+  const entryEvs   = athlete.events.filter(ev => !ev.is_live && !ev.is_dns);
   const hasLive    = liveEvs.length > 0;
   const medalCount = athlete.events.filter(ev => ev.rank <= cut).length;
 
@@ -1828,6 +1832,16 @@ function showAthleteProfile(name, yb, gender) {
   const forecastTop3 = athlete.top3;  // tüm yarışlar (live+entry)
 
   function evRow(ev, i, isEntry) {
+    if (ev.is_dns) {
+      const evEsc=esc(ev.event), ybEsc=esc(yb), genEsc=esc(gender);
+      return `<tr style="opacity:0.45;cursor:pointer" title="Bu yarışa katılmadı (DNS)"
+          onclick="closeAthleteModal();goToEventTahmin('${evEsc}','${ybEsc}','${genEsc}')">
+        <td style="font-size:12px;padding:6px 8px">${ev.event} <span style="font-size:9px;color:var(--muted)">›</span></td>
+        <td><span style="font-size:10px;color:#f87171;font-weight:700;background:rgba(248,113,113,.12);padding:1px 5px;border-radius:3px">DNS</span></td>
+        <td style="font-family:monospace;font-size:11px;text-align:right;padding:6px 8px;color:#f87171">—</td>
+        <td style="text-align:center;padding:6px 8px"><span style="color:var(--muted);font-size:11px">0</span></td>
+      </tr>`;
+    }
     const isMedal = ev.rank <= cut;
     const isTop   = !isEntry && i < 3;  // tahmin sıralamasında ilk 3
     const medalBg = isMedal && !isEntry ? 'background:rgba(20,184,166,.07);' : '';
@@ -1853,14 +1867,24 @@ function showAthleteProfile(name, yb, gender) {
 
   // Tablo satırlarını oluştur
   let tableRows = '';
-  if (hasLive) {
-    // Koşulan yarışlar — bölüm başlığı
-    tableRows += `<tr style="background:#0d2615">
-      <td colspan="4" style="font-size:10px;font-weight:700;color:#4ade80;padding:4px 8px;letter-spacing:.5px">
-        🟢 KOŞULAN YARIŞLAR (${liveEvs.length})
-      </td></tr>`;
-    tableRows += liveEvs.map((ev, i) => evRow(ev, i, false)).join('');
-
+  if (hasLive || dnsEvs.length) {
+    // Koşulan yarışlar
+    if (liveEvs.length) {
+      tableRows += `<tr style="background:#0d2615">
+        <td colspan="4" style="font-size:10px;font-weight:700;color:#4ade80;padding:4px 8px;letter-spacing:.5px">
+          🟢 KOŞULAN YARIŞLAR (${liveEvs.length})
+        </td></tr>`;
+      tableRows += liveEvs.map((ev, i) => evRow(ev, i, false)).join('');
+    }
+    // DNS — yarışa girilmedi
+    if (dnsEvs.length) {
+      tableRows += `<tr style="background:#2a1515">
+        <td colspan="4" style="font-size:10px;font-weight:700;color:#f87171;padding:4px 8px;letter-spacing:.5px">
+          🚫 YARIŞA GİRİLMEDİ — DNS (${dnsEvs.length})
+        </td></tr>`;
+      tableRows += dnsEvs.map((ev, i) => evRow(ev, i, false)).join('');
+    }
+    // Henüz koşulmamış
     if (entryEvs.length) {
       tableRows += `<tr style="background:#161a24">
         <td colspan="4" style="font-size:10px;font-weight:700;color:var(--muted);padding:4px 8px;letter-spacing:.5px">

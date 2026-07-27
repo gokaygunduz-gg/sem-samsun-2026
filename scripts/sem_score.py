@@ -76,11 +76,12 @@ def compute_event_rankings(
                 "time_raw": ev["time_raw"],
                 "time_sec": ev["time_sec"],
                 "is_live":  ev.get("is_live", False),
+                "is_dns":   ev.get("is_dns", False),
             })
 
     result = {}
     for key, bucket in event_buckets.items():
-        # NT olmayanları süreye göre sırala, NT'ler sona
+        # is_dns ve is_live alanlarını koru
         timed = [e for e in bucket if e["time_sec"] is not None]
         nt    = [e for e in bucket if e["time_sec"] is None]
 
@@ -90,7 +91,8 @@ def compute_event_rankings(
             pts = event_points(i + 1)
             ranked.append({**e, "rank": i + 1, "points": pts})
         for j, e in enumerate(nt):
-            ranked.append({**e, "rank": len(timed) + j + 1, "points": 0, "time_raw": "NT"})
+            # time_raw'u koru: DNS veya NT ayrımını sakla
+            ranked.append({**e, "rank": len(timed) + j + 1, "points": 0})
 
         result[key] = ranked
 
@@ -129,6 +131,7 @@ def build_individual_rankings(
                 "rank":     f["rank"],
                 "points":   f["points"],
                 "is_live":  f.get("is_live", False),
+                "is_dns":   f.get("is_dns", False),
             })
 
     # Puan hesapla

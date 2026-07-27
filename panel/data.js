@@ -1,5 +1,5 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-27 07:30 (TR)",
+  "generated_at": "2026-07-27 16:14 (TR)",
   "source": "entry",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
@@ -28,28 +28,32 @@ window.SEM_DATA = {
               "time_raw": "24.55",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.99",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "52.65",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.37",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -70,28 +74,32 @@ window.SEM_DATA = {
               "time_raw": "24.55",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.99",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "52.65",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.37",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -120,28 +128,32 @@ window.SEM_DATA = {
               "time_raw": "52.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "58.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:04.95",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:06.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -160,28 +172,32 @@ window.SEM_DATA = {
               "time_raw": "24.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.88",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -200,28 +216,32 @@ window.SEM_DATA = {
               "time_raw": "30.67",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:56.91",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:06.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:21.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -240,28 +260,32 @@ window.SEM_DATA = {
               "time_raw": "8:24.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "15:54.98",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:05.87",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.05",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -280,28 +304,32 @@ window.SEM_DATA = {
               "time_raw": "25.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:06.79",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 1,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -320,28 +348,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:03.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.26",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -360,28 +392,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:04.48",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:29.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -400,28 +436,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.08",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:16.79",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:09.84",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.99",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -440,28 +480,32 @@ window.SEM_DATA = {
               "time_raw": "25.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.55",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.36",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -480,28 +524,32 @@ window.SEM_DATA = {
               "time_raw": "4:03.18",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.11",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.82",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -520,28 +568,32 @@ window.SEM_DATA = {
               "time_raw": "8:26.02",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:56.59",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:07.63",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.25",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -560,28 +612,32 @@ window.SEM_DATA = {
               "time_raw": "15:56.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:29.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.52",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:02.18",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -600,28 +656,32 @@ window.SEM_DATA = {
               "time_raw": "1:56.67",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.35",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.94",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.49",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -640,21 +700,24 @@ window.SEM_DATA = {
               "time_raw": "24.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.33",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.34",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -675,28 +738,32 @@ window.SEM_DATA = {
               "time_raw": "52.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "58.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:04.95",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:06.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -715,28 +782,32 @@ window.SEM_DATA = {
               "time_raw": "24.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.88",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -755,28 +826,32 @@ window.SEM_DATA = {
               "time_raw": "30.67",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:56.91",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:06.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:21.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -795,28 +870,32 @@ window.SEM_DATA = {
               "time_raw": "8:24.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "15:54.98",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:05.87",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.05",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -835,28 +914,32 @@ window.SEM_DATA = {
               "time_raw": "25.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:06.79",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 1,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -875,28 +958,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:03.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.26",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -915,28 +1002,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:04.48",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:29.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -955,28 +1046,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.08",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:16.79",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:09.84",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.99",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -995,28 +1090,32 @@ window.SEM_DATA = {
               "time_raw": "25.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.55",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.36",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1035,28 +1134,32 @@ window.SEM_DATA = {
               "time_raw": "4:03.18",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.11",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.82",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1075,28 +1178,32 @@ window.SEM_DATA = {
               "time_raw": "8:26.02",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:56.59",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:07.63",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.25",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1115,28 +1222,32 @@ window.SEM_DATA = {
               "time_raw": "15:56.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:29.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.52",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:02.18",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1155,28 +1266,32 @@ window.SEM_DATA = {
               "time_raw": "1:56.67",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.35",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.94",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.49",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1195,21 +1310,24 @@ window.SEM_DATA = {
               "time_raw": "24.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.33",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.34",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1238,28 +1356,32 @@ window.SEM_DATA = {
               "time_raw": "26.33",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.77",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "33.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.54",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1278,28 +1400,32 @@ window.SEM_DATA = {
               "time_raw": "27.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.52",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1318,28 +1444,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.96",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1360,28 +1490,32 @@ window.SEM_DATA = {
               "time_raw": "26.33",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.77",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "33.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.54",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1400,28 +1534,32 @@ window.SEM_DATA = {
               "time_raw": "27.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.52",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1440,28 +1578,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.96",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1490,28 +1632,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.65",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:38.51",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "29.90",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:05.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1530,28 +1676,32 @@ window.SEM_DATA = {
               "time_raw": "57.28",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "26.85",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:05.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "57.09",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1570,28 +1720,32 @@ window.SEM_DATA = {
               "time_raw": "8:19.05",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:05.05",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "15:51.63",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:58.12",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -1610,28 +1764,32 @@ window.SEM_DATA = {
               "time_raw": "25.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "56.43",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.64",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1650,28 +1808,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.28",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.85",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:08.49",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "59.58",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1690,28 +1852,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:06.69",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "30.60",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.85",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1730,28 +1896,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:07.09",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.50",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1770,28 +1940,32 @@ window.SEM_DATA = {
               "time_raw": "23.86",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "52.56",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.87",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1810,28 +1984,32 @@ window.SEM_DATA = {
               "time_raw": "2:13.17",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:09.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:41.29",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:18.03",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1850,28 +2028,32 @@ window.SEM_DATA = {
               "time_raw": "27.61",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.73",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:01.13",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1890,28 +2072,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:09.10",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.07",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.27",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1930,28 +2116,32 @@ window.SEM_DATA = {
               "time_raw": "4:40.49",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:13.48",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:13.04",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1970,14 +2160,16 @@ window.SEM_DATA = {
               "time_raw": "23.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "51.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -1996,28 +2188,32 @@ window.SEM_DATA = {
               "time_raw": "2:31.29",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:07.61",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
-              "time_raw": "31.99",
+              "time_raw": "31.60",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.15",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2036,28 +2232,32 @@ window.SEM_DATA = {
               "time_raw": "8:39.67",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:33.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:14.16",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.34",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2076,21 +2276,24 @@ window.SEM_DATA = {
               "time_raw": "30.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.47",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:08.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2109,28 +2312,32 @@ window.SEM_DATA = {
               "time_raw": "23.96",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "30.95",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.64",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2149,28 +2356,32 @@ window.SEM_DATA = {
               "time_raw": "8:40.37",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:35.63",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:13.96",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.40",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2189,21 +2400,24 @@ window.SEM_DATA = {
               "time_raw": "24.06",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.16",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2222,28 +2436,32 @@ window.SEM_DATA = {
               "time_raw": "2:13.60",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:58.86",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.92",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.28",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2262,28 +2480,32 @@ window.SEM_DATA = {
               "time_raw": "8:41.84",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:12.99",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.56",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.71",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2302,28 +2524,32 @@ window.SEM_DATA = {
               "time_raw": "58.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.23",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.01",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.04",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2342,28 +2568,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.19",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.87",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.38",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.01",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2382,28 +2612,32 @@ window.SEM_DATA = {
               "time_raw": "53.82",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:28.21",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.13",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.89",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2422,28 +2656,32 @@ window.SEM_DATA = {
               "time_raw": "28.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.25",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.90",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.53",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2462,21 +2700,24 @@ window.SEM_DATA = {
               "time_raw": "24.76",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.46",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.36",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2495,28 +2736,32 @@ window.SEM_DATA = {
               "time_raw": "1:59.46",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.15",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.02",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.75",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2537,28 +2782,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.65",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:38.51",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "29.90",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:05.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -2577,28 +2826,32 @@ window.SEM_DATA = {
               "time_raw": "57.28",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "26.85",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:05.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "57.09",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -2617,28 +2870,32 @@ window.SEM_DATA = {
               "time_raw": "8:19.05",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:05.05",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "15:51.63",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:58.12",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -2657,28 +2914,32 @@ window.SEM_DATA = {
               "time_raw": "25.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "56.43",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.64",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2697,28 +2958,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.28",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.85",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:08.49",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "59.58",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2737,28 +3002,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:06.69",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "30.60",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.85",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2777,28 +3046,32 @@ window.SEM_DATA = {
               "time_raw": "1:55.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:07.09",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.50",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2817,28 +3090,32 @@ window.SEM_DATA = {
               "time_raw": "23.86",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "52.56",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:57.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.87",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2857,28 +3134,32 @@ window.SEM_DATA = {
               "time_raw": "2:13.17",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:09.84",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:41.29",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:18.03",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2897,28 +3178,32 @@ window.SEM_DATA = {
               "time_raw": "27.61",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.73",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:01.13",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2937,28 +3222,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:09.10",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.07",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.27",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -2977,28 +3266,32 @@ window.SEM_DATA = {
               "time_raw": "4:40.49",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:13.48",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:13.04",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3017,14 +3310,16 @@ window.SEM_DATA = {
               "time_raw": "23.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "51.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3043,28 +3338,32 @@ window.SEM_DATA = {
               "time_raw": "2:31.29",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:07.61",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
-              "time_raw": "31.99",
+              "time_raw": "31.60",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.15",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3083,28 +3382,32 @@ window.SEM_DATA = {
               "time_raw": "8:39.67",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:33.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:14.16",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.34",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3123,21 +3426,24 @@ window.SEM_DATA = {
               "time_raw": "30.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.47",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:08.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3156,28 +3462,32 @@ window.SEM_DATA = {
               "time_raw": "23.96",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "30.95",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "53.64",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3196,28 +3506,32 @@ window.SEM_DATA = {
               "time_raw": "8:40.37",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:35.63",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:13.96",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.40",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3236,21 +3550,24 @@ window.SEM_DATA = {
               "time_raw": "24.06",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.16",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "25.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3269,28 +3586,32 @@ window.SEM_DATA = {
               "time_raw": "2:13.60",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:58.86",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "58.92",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.28",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3309,28 +3630,32 @@ window.SEM_DATA = {
               "time_raw": "8:41.84",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:12.99",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.56",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.71",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3349,28 +3674,32 @@ window.SEM_DATA = {
               "time_raw": "58.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.23",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.01",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.04",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3389,28 +3718,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.19",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.87",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.38",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.01",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3429,28 +3762,32 @@ window.SEM_DATA = {
               "time_raw": "53.82",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:28.21",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.13",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.89",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3469,28 +3806,32 @@ window.SEM_DATA = {
               "time_raw": "28.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.25",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "24.90",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:01.53",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3509,21 +3850,24 @@ window.SEM_DATA = {
               "time_raw": "24.76",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.46",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.36",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3542,28 +3886,32 @@ window.SEM_DATA = {
               "time_raw": "1:59.46",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.15",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.02",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "54.75",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3592,28 +3940,32 @@ window.SEM_DATA = {
               "time_raw": "32.95",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:33.81",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:10.77",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:55.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -3632,28 +3984,32 @@ window.SEM_DATA = {
               "time_raw": "27.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:19.42",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:02.16",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -3672,28 +4028,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:20.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.31",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -3712,28 +4072,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.90",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.61",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:27.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:15.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3752,28 +4116,32 @@ window.SEM_DATA = {
               "time_raw": "1:01.51",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.17",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:26.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3792,21 +4160,24 @@ window.SEM_DATA = {
               "time_raw": "59.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:05.40",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3825,28 +4196,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.50",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:14.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:31.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:41.05",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3865,21 +4240,24 @@ window.SEM_DATA = {
               "time_raw": "33.81",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:36.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.68",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3898,28 +4276,32 @@ window.SEM_DATA = {
               "time_raw": "29.72",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.15",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:15.54",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3938,14 +4320,16 @@ window.SEM_DATA = {
               "time_raw": "9:05.82",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:17.02",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -3966,28 +4350,32 @@ window.SEM_DATA = {
               "time_raw": "32.95",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:33.81",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:10.77",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:55.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4006,28 +4394,32 @@ window.SEM_DATA = {
               "time_raw": "27.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:19.42",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:02.16",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4046,28 +4438,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:20.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.31",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4086,28 +4482,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.90",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.61",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:27.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:15.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4126,28 +4526,32 @@ window.SEM_DATA = {
               "time_raw": "1:01.51",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.17",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:26.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4166,21 +4570,24 @@ window.SEM_DATA = {
               "time_raw": "59.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:05.40",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4199,28 +4606,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.50",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:14.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:31.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:41.05",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4239,21 +4650,24 @@ window.SEM_DATA = {
               "time_raw": "33.81",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:36.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.68",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4272,28 +4686,32 @@ window.SEM_DATA = {
               "time_raw": "29.72",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.15",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:15.54",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4312,14 +4730,16 @@ window.SEM_DATA = {
               "time_raw": "9:05.82",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:17.02",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4348,28 +4768,32 @@ window.SEM_DATA = {
               "time_raw": "26.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:01.76",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.34",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4388,28 +4812,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.26",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "31.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4428,28 +4856,32 @@ window.SEM_DATA = {
               "time_raw": "8:27.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.62",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:08.69",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -4468,28 +4900,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:48.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:46.58",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:11.56",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4508,28 +4944,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.32",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:02.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:01.03",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4548,28 +4988,32 @@ window.SEM_DATA = {
               "time_raw": "15:56.41",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:28.42",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.46",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:07.23",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4588,28 +5032,32 @@ window.SEM_DATA = {
               "time_raw": "2:00.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "31.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4628,28 +5076,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:20.59",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:09.95",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.39",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4668,28 +5120,32 @@ window.SEM_DATA = {
               "time_raw": "24.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "29.41",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.93",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4708,28 +5164,32 @@ window.SEM_DATA = {
               "time_raw": "55.23",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:05.43",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4748,28 +5208,32 @@ window.SEM_DATA = {
               "time_raw": "2:14.64",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:18.06",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:15.11",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4788,28 +5252,32 @@ window.SEM_DATA = {
               "time_raw": "59.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:14.03",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.68",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:04.00",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4828,21 +5296,24 @@ window.SEM_DATA = {
               "time_raw": "29.15",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:17.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.19",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4861,28 +5332,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.37",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.26",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:27.22",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:10.06",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4901,28 +5376,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.94",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:33.65",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.37",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:14.22",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4941,28 +5420,32 @@ window.SEM_DATA = {
               "time_raw": "29.33",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.94",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.65",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.18",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -4981,28 +5464,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:21.01",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:22.93",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:07.54",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5021,28 +5508,32 @@ window.SEM_DATA = {
               "time_raw": "16:37.82",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:50.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:18.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:03.37",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5061,28 +5552,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.85",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:14.75",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.49",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5101,28 +5596,32 @@ window.SEM_DATA = {
               "time_raw": "2:02.06",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.29",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.32",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5141,28 +5640,32 @@ window.SEM_DATA = {
               "time_raw": "1:07.81",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.39",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.71",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.21",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5181,28 +5684,32 @@ window.SEM_DATA = {
               "time_raw": "9:05.28",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:24.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.69",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:31.93",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5221,28 +5728,32 @@ window.SEM_DATA = {
               "time_raw": "1:18.85",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:25.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.76",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.83",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5261,14 +5772,16 @@ window.SEM_DATA = {
               "time_raw": "17:18.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:05.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5287,28 +5800,32 @@ window.SEM_DATA = {
               "time_raw": "17:53.76",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.84",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:10.11",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5329,28 +5846,32 @@ window.SEM_DATA = {
               "time_raw": "26.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "28.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:01.76",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.34",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -5369,28 +5890,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.26",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "31.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -5409,28 +5934,32 @@ window.SEM_DATA = {
               "time_raw": "8:27.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.62",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:08.69",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -5449,28 +5978,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:48.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:46.58",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:11.56",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5489,28 +6022,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.32",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:02.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:01.03",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5529,28 +6066,32 @@ window.SEM_DATA = {
               "time_raw": "15:56.41",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:28.42",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:10.46",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:07.23",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5569,28 +6110,32 @@ window.SEM_DATA = {
               "time_raw": "2:00.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "31.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5609,28 +6154,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:20.59",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:09.95",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.39",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5649,28 +6198,32 @@ window.SEM_DATA = {
               "time_raw": "24.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "29.41",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.93",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5689,28 +6242,32 @@ window.SEM_DATA = {
               "time_raw": "55.23",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:05.43",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5729,28 +6286,32 @@ window.SEM_DATA = {
               "time_raw": "2:14.64",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:18.06",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:00.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:15.11",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5769,28 +6330,32 @@ window.SEM_DATA = {
               "time_raw": "59.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:14.03",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.68",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:04.00",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5809,21 +6374,24 @@ window.SEM_DATA = {
               "time_raw": "29.15",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:17.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.19",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5842,28 +6410,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.37",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.26",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:27.22",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:10.06",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5882,28 +6454,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.94",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:33.65",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.37",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:14.22",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5922,28 +6498,32 @@ window.SEM_DATA = {
               "time_raw": "29.33",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.94",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.65",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.18",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -5962,28 +6542,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:21.01",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:22.93",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:07.54",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6002,28 +6586,32 @@ window.SEM_DATA = {
               "time_raw": "16:37.82",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:50.88",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:18.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:03.37",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6042,28 +6630,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.85",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:14.75",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.49",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6082,28 +6674,32 @@ window.SEM_DATA = {
               "time_raw": "2:02.06",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.29",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.32",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6122,28 +6718,32 @@ window.SEM_DATA = {
               "time_raw": "1:07.81",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.39",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "56.71",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.21",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6162,28 +6762,32 @@ window.SEM_DATA = {
               "time_raw": "9:05.28",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:24.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.69",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:31.93",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6202,28 +6806,32 @@ window.SEM_DATA = {
               "time_raw": "1:18.85",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:25.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.76",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.83",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6242,14 +6850,16 @@ window.SEM_DATA = {
               "time_raw": "17:18.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:05.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6268,28 +6878,32 @@ window.SEM_DATA = {
               "time_raw": "17:53.76",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:27.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.84",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:10.11",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6318,28 +6932,32 @@ window.SEM_DATA = {
               "time_raw": "27.09",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.01",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:03.83",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6358,28 +6976,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.80",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.12",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:22.87",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6398,28 +7020,32 @@ window.SEM_DATA = {
               "time_raw": "34.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.06",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:12.91",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6438,28 +7064,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.17",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:21.16",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.27",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.11",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6478,28 +7108,32 @@ window.SEM_DATA = {
               "time_raw": "4:33.22",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:09.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:17.13",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6518,28 +7152,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.06",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:23.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.42",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6558,21 +7196,24 @@ window.SEM_DATA = {
               "time_raw": "27.47",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.31",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:10.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6591,28 +7232,32 @@ window.SEM_DATA = {
               "time_raw": "2:44.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:14.03",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:17.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.05",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6631,28 +7276,32 @@ window.SEM_DATA = {
               "time_raw": "2:10.34",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.42",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.79",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6671,28 +7320,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.26",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.57",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.20",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6713,28 +7366,32 @@ window.SEM_DATA = {
               "time_raw": "27.09",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "28.01",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:03.83",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6753,28 +7410,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.80",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.12",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:22.87",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6793,28 +7454,32 @@ window.SEM_DATA = {
               "time_raw": "34.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.06",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:12.91",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -6833,28 +7498,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.17",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:21.16",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.27",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.11",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6873,28 +7542,32 @@ window.SEM_DATA = {
               "time_raw": "4:33.22",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:09.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:17.13",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6913,28 +7586,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.06",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:23.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.42",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6953,21 +7630,24 @@ window.SEM_DATA = {
               "time_raw": "27.47",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "59.31",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:10.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -6986,28 +7666,32 @@ window.SEM_DATA = {
               "time_raw": "2:44.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:14.03",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:17.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.05",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7026,28 +7710,32 @@ window.SEM_DATA = {
               "time_raw": "2:10.34",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.42",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.79",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7066,28 +7754,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.26",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.57",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "28.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.20",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7116,28 +7808,32 @@ window.SEM_DATA = {
               "time_raw": "24.97",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -7156,28 +7852,32 @@ window.SEM_DATA = {
               "time_raw": "30.47",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
-              "time_raw": "1:08.66",
+              "time_raw": "1:08.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:27.34",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -7196,28 +7896,32 @@ window.SEM_DATA = {
               "time_raw": "4:15.35",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:19.78",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:34.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:03.49",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -7236,28 +7940,32 @@ window.SEM_DATA = {
               "time_raw": "29.57",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:17.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.93",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.94",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -7276,28 +7984,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:10.58",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.82",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:03.83",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7316,28 +8028,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:58.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:00.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.94",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7356,28 +8072,32 @@ window.SEM_DATA = {
               "time_raw": "2:03.44",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:19.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:01.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:53.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7396,28 +8116,32 @@ window.SEM_DATA = {
               "time_raw": "29.70",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:22.79",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:04.04",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.19",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7436,28 +8160,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.37",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:30.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.51",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.83",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7476,28 +8204,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.33",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:31.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:05.54",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:24.85",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7516,28 +8248,32 @@ window.SEM_DATA = {
               "time_raw": "57.12",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.35",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:04.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
-              "time_raw": "26.53",
+              "time_raw": "26.45",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7556,28 +8292,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.55",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:20.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:11.71",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7596,28 +8336,32 @@ window.SEM_DATA = {
               "time_raw": "4:23.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.15",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:05.56",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7636,28 +8380,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.94",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:11.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7676,28 +8424,32 @@ window.SEM_DATA = {
               "time_raw": "56.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.90",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:04.56",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "32.65",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7716,28 +8468,32 @@ window.SEM_DATA = {
               "time_raw": "25.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "57.23",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.41",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.95",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7756,28 +8512,32 @@ window.SEM_DATA = {
               "time_raw": "5:08.01",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:24.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:58.22",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:09.96",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7796,28 +8556,32 @@ window.SEM_DATA = {
               "time_raw": "28.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.40",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.63",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "57.65",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7836,28 +8600,32 @@ window.SEM_DATA = {
               "time_raw": "17:38.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:28.16",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:11.35",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.57",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7876,28 +8644,32 @@ window.SEM_DATA = {
               "time_raw": "32.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.57",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:44.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7916,28 +8688,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.00",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.51",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7956,28 +8732,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.73",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:15.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:51.36",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.39",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -7996,28 +8776,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.62",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.44",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.78",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8036,21 +8820,24 @@ window.SEM_DATA = {
               "time_raw": "2:39.63",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.28",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.01",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8069,28 +8856,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:34.04",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:22.46",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.65",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8109,28 +8900,32 @@ window.SEM_DATA = {
               "time_raw": "57.38",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:05.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.88",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:26.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8149,28 +8944,32 @@ window.SEM_DATA = {
               "time_raw": "33.44",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:46.64",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.85",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8189,28 +8988,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.61",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "33.88",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.64",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.50",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8229,28 +9032,32 @@ window.SEM_DATA = {
               "time_raw": "58.26",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:35.43",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.14",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.42",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8269,28 +9076,32 @@ window.SEM_DATA = {
               "time_raw": "38.38",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.02",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.20",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "39.35",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8311,28 +9122,32 @@ window.SEM_DATA = {
               "time_raw": "24.97",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "1:59.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "55.75",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "26.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -8351,28 +9166,32 @@ window.SEM_DATA = {
               "time_raw": "30.47",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
-              "time_raw": "1:08.66",
+              "time_raw": "1:08.49",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:27.34",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -8391,28 +9210,32 @@ window.SEM_DATA = {
               "time_raw": "4:15.35",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "16:19.78",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:34.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:03.49",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -8431,28 +9254,32 @@ window.SEM_DATA = {
               "time_raw": "29.57",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:17.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:03.93",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.94",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -8471,28 +9298,32 @@ window.SEM_DATA = {
               "time_raw": "1:00.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:10.58",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "27.82",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:03.83",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8511,28 +9342,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "4:58.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:00.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:13.94",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8551,28 +9386,32 @@ window.SEM_DATA = {
               "time_raw": "2:03.44",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:19.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:01.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:53.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8591,28 +9430,32 @@ window.SEM_DATA = {
               "time_raw": "29.70",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:22.79",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:04.04",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.19",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8631,28 +9474,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.37",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:30.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.51",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.83",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8671,28 +9518,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.33",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:31.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:05.54",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:24.85",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8711,28 +9562,32 @@ window.SEM_DATA = {
               "time_raw": "57.12",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.35",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:04.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
-              "time_raw": "26.53",
+              "time_raw": "26.45",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8751,28 +9606,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.55",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:20.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:11.71",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8791,28 +9650,32 @@ window.SEM_DATA = {
               "time_raw": "4:23.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.15",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:05.56",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8831,28 +9694,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "32.94",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:11.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:40.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8871,28 +9738,32 @@ window.SEM_DATA = {
               "time_raw": "56.07",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "25.90",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:04.56",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "32.65",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8911,28 +9782,32 @@ window.SEM_DATA = {
               "time_raw": "25.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "57.23",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.41",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.95",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8951,28 +9826,32 @@ window.SEM_DATA = {
               "time_raw": "5:08.01",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:24.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:58.22",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:09.96",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -8991,28 +9870,32 @@ window.SEM_DATA = {
               "time_raw": "28.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.40",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.63",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "57.65",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9031,28 +9914,32 @@ window.SEM_DATA = {
               "time_raw": "17:38.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:28.16",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:11.35",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:06.57",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9071,28 +9958,32 @@ window.SEM_DATA = {
               "time_raw": "32.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.57",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:44.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9111,28 +10002,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "29.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.00",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.51",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9151,28 +10046,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.73",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:15.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:51.36",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.39",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9191,28 +10090,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.62",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.37",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.44",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.78",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9231,21 +10134,24 @@ window.SEM_DATA = {
               "time_raw": "2:39.63",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.28",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "34.01",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9264,28 +10170,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:34.04",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:22.46",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.65",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9304,28 +10214,32 @@ window.SEM_DATA = {
               "time_raw": "57.38",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:05.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "26.88",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:26.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9344,28 +10258,32 @@ window.SEM_DATA = {
               "time_raw": "33.44",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:25.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:46.64",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.85",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9384,28 +10302,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.61",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "33.88",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.64",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.50",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9424,28 +10346,32 @@ window.SEM_DATA = {
               "time_raw": "58.26",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:35.43",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.14",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.42",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9464,28 +10390,32 @@ window.SEM_DATA = {
               "time_raw": "38.38",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.02",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.20",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "39.35",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9514,28 +10444,32 @@ window.SEM_DATA = {
               "time_raw": "29.41",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:06.46",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -9554,28 +10488,32 @@ window.SEM_DATA = {
               "time_raw": "5:13.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:56.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:29.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:06.67",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -9594,28 +10532,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.92",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.57",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.87",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -9634,28 +10576,32 @@ window.SEM_DATA = {
               "time_raw": "2:46.15",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:18.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:12.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.51",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -9674,28 +10620,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.46",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9714,28 +10664,32 @@ window.SEM_DATA = {
               "time_raw": "4:39.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:12.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.93",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9754,28 +10708,32 @@ window.SEM_DATA = {
               "time_raw": "27.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
-              "time_raw": "30.40",
+              "time_raw": "30.33",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9794,28 +10752,32 @@ window.SEM_DATA = {
               "time_raw": "34.46",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:18.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.25",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.78",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9834,28 +10796,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:14.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.47",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.54",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9874,28 +10840,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.77",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.29",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:20.05",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:19.68",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9914,28 +10884,32 @@ window.SEM_DATA = {
               "time_raw": "18:30.87",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:44.74",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:43.90",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.50",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9954,28 +10928,32 @@ window.SEM_DATA = {
               "time_raw": "29.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.14",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.41",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -9994,28 +10972,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.31",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.16",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:29.53",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.48",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10034,28 +11016,32 @@ window.SEM_DATA = {
               "time_raw": "4:40.81",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:14.98",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.68",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.00",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10074,28 +11060,32 @@ window.SEM_DATA = {
               "time_raw": "35.70",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:52.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.49",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10114,28 +11104,32 @@ window.SEM_DATA = {
               "time_raw": "36.17",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.08",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.29",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10154,21 +11148,24 @@ window.SEM_DATA = {
               "time_raw": "1:19.19",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "36.80",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.90",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10187,28 +11184,32 @@ window.SEM_DATA = {
               "time_raw": "2:49.04",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:46.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:47.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.17",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10227,28 +11228,32 @@ window.SEM_DATA = {
               "time_raw": "32.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:14.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.80",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10267,28 +11272,32 @@ window.SEM_DATA = {
               "time_raw": "18:31.97",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.15",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.62",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.86",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10307,21 +11316,24 @@ window.SEM_DATA = {
               "time_raw": "28.72",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.29",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:21.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10342,28 +11354,32 @@ window.SEM_DATA = {
               "time_raw": "29.41",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:06.46",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -10382,28 +11398,32 @@ window.SEM_DATA = {
               "time_raw": "5:13.13",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "8:56.20",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:29.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:06.67",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -10422,28 +11442,32 @@ window.SEM_DATA = {
               "time_raw": "2:08.92",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.57",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "27.87",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.48",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -10462,28 +11486,32 @@ window.SEM_DATA = {
               "time_raw": "2:46.15",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:18.19",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:12.97",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.51",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -10502,28 +11530,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "31.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.46",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10542,28 +11574,32 @@ window.SEM_DATA = {
               "time_raw": "4:39.96",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:12.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.93",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10582,28 +11618,32 @@ window.SEM_DATA = {
               "time_raw": "27.66",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Sırtüstü",
               "time_raw": "30.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
-              "time_raw": "30.40",
+              "time_raw": "30.33",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10622,28 +11662,32 @@ window.SEM_DATA = {
               "time_raw": "34.46",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:18.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.25",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.78",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10662,28 +11706,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.40",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:14.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.47",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.54",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10702,28 +11750,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.77",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.29",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:20.05",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:19.68",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10742,28 +11794,32 @@ window.SEM_DATA = {
               "time_raw": "18:30.87",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:44.74",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:43.90",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.50",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10782,28 +11838,32 @@ window.SEM_DATA = {
               "time_raw": "29.72",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.14",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.41",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10822,28 +11882,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.31",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.16",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:29.53",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kelebek",
               "time_raw": "30.48",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10862,28 +11926,32 @@ window.SEM_DATA = {
               "time_raw": "4:40.81",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:14.98",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.68",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.00",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10902,28 +11970,32 @@ window.SEM_DATA = {
               "time_raw": "35.70",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:52.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.49",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10942,28 +12014,32 @@ window.SEM_DATA = {
               "time_raw": "36.17",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.08",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.29",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -10982,21 +12058,24 @@ window.SEM_DATA = {
               "time_raw": "1:19.19",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Kurbağalama",
               "time_raw": "36.80",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.90",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11015,28 +12094,32 @@ window.SEM_DATA = {
               "time_raw": "2:49.04",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:46.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:47.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.17",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11055,28 +12138,32 @@ window.SEM_DATA = {
               "time_raw": "32.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:14.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.80",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11095,28 +12182,32 @@ window.SEM_DATA = {
               "time_raw": "18:31.97",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "50m Serbest",
               "time_raw": "29.15",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.62",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.86",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11135,21 +12226,24 @@ window.SEM_DATA = {
               "time_raw": "28.72",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.29",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:21.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11178,28 +12272,32 @@ window.SEM_DATA = {
               "time_raw": "4:26.43",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:20.50",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11218,28 +12316,32 @@ window.SEM_DATA = {
               "time_raw": "2:43.71",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.62",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:13.43",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11258,28 +12360,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:12.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:21.33",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.81",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11298,28 +12404,32 @@ window.SEM_DATA = {
               "time_raw": "02:22.61",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "01:06.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:27.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.75",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11338,28 +12448,32 @@ window.SEM_DATA = {
               "time_raw": "56.97",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.21",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:13.56",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11378,28 +12492,32 @@ window.SEM_DATA = {
               "time_raw": "2:06.35",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.32",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:33.69",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -11418,28 +12536,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.47",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:13.69",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:37.07",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11458,28 +12580,32 @@ window.SEM_DATA = {
               "time_raw": "4:27.99",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:14.44",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.70",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11498,28 +12624,32 @@ window.SEM_DATA = {
               "time_raw": "01:04.53",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "04:31.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.59",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:21.62",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11538,28 +12668,32 @@ window.SEM_DATA = {
               "time_raw": "2:44.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.67",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:28.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:28.15",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11578,28 +12712,32 @@ window.SEM_DATA = {
               "time_raw": "17:39.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:17.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:32.98",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:33.56",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11618,28 +12756,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.87",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:17.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:43.05",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11658,28 +12800,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.80",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:09.43",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.53",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11698,28 +12844,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:08.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.88",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.19",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11738,28 +12888,32 @@ window.SEM_DATA = {
               "time_raw": "18:16.01",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:32.10",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:36.06",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 7,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11778,28 +12932,32 @@ window.SEM_DATA = {
               "time_raw": "2:10.69",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:28.31",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.83",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:33.86",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11818,28 +12976,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.67",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:27.95",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:37.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.17",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11858,28 +13020,32 @@ window.SEM_DATA = {
               "time_raw": "3:02.02",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:30.87",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:31.82",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.28",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11898,28 +13064,32 @@ window.SEM_DATA = {
               "time_raw": "59.87",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:11.91",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:31.74",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.47",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11938,28 +13108,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.90",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.93",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.79",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.58",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -11978,28 +13152,32 @@ window.SEM_DATA = {
               "time_raw": "2:31.29",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.49",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.30",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 8,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12018,28 +13196,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.57",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.11",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.13",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12058,21 +13240,24 @@ window.SEM_DATA = {
               "time_raw": "1:22.46",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.29",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:49.04",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12091,28 +13276,32 @@ window.SEM_DATA = {
               "time_raw": "18:26.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.81",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:51.66",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.39",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12131,28 +13320,32 @@ window.SEM_DATA = {
               "time_raw": "18:35.05",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:39.12",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:38.35",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.45",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12171,28 +13364,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.21",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.26",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:59.61",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.40",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12211,28 +13408,32 @@ window.SEM_DATA = {
               "time_raw": "18:28.76",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:39.87",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.69",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:32.78",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12251,28 +13452,32 @@ window.SEM_DATA = {
               "time_raw": "4:45.72",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.48",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:40.50",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12293,28 +13498,32 @@ window.SEM_DATA = {
               "time_raw": "4:26.43",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:20.50",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:08.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.23",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12333,28 +13542,32 @@ window.SEM_DATA = {
               "time_raw": "2:43.71",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.62",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:13.43",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12373,28 +13586,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:12.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:21.33",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.81",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12413,28 +13630,32 @@ window.SEM_DATA = {
               "time_raw": "02:22.61",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "01:06.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:27.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.75",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12453,28 +13674,32 @@ window.SEM_DATA = {
               "time_raw": "56.97",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:26.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:14.21",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:13.56",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12493,28 +13718,32 @@ window.SEM_DATA = {
               "time_raw": "2:06.35",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.32",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:33.69",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -12533,28 +13762,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.47",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:04.68",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:13.69",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:37.07",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12573,28 +13806,32 @@ window.SEM_DATA = {
               "time_raw": "4:27.99",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:14.44",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.70",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:08.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12613,28 +13850,32 @@ window.SEM_DATA = {
               "time_raw": "01:04.53",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "04:31.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.59",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:21.62",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12653,28 +13894,32 @@ window.SEM_DATA = {
               "time_raw": "2:44.45",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:13.67",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:28.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:28.15",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12693,28 +13938,32 @@ window.SEM_DATA = {
               "time_raw": "17:39.91",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:17.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:32.98",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:33.56",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12733,28 +13982,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:07.87",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:17.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:43.05",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12773,28 +14026,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "58.80",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:09.43",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.53",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12813,28 +14070,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:08.70",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.88",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.19",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12853,28 +14114,32 @@ window.SEM_DATA = {
               "time_raw": "18:16.01",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:32.10",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:36.06",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 7,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12893,28 +14158,32 @@ window.SEM_DATA = {
               "time_raw": "2:10.69",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:28.31",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.83",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:33.86",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12933,28 +14202,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.67",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:27.95",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:37.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.17",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -12973,28 +14246,32 @@ window.SEM_DATA = {
               "time_raw": "3:02.02",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:30.87",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:31.82",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.28",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13013,28 +14290,32 @@ window.SEM_DATA = {
               "time_raw": "59.87",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:11.91",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:31.74",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.47",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13053,28 +14334,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.90",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.93",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:05.79",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.58",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13093,28 +14378,32 @@ window.SEM_DATA = {
               "time_raw": "2:31.29",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.49",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:06.30",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 8,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13133,28 +14422,32 @@ window.SEM_DATA = {
               "time_raw": "1:05.57",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:29.26",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.11",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.13",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13173,21 +14466,24 @@ window.SEM_DATA = {
               "time_raw": "1:22.46",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.29",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:49.04",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13206,28 +14502,32 @@ window.SEM_DATA = {
               "time_raw": "18:26.25",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.81",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:51.66",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.39",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13246,28 +14546,32 @@ window.SEM_DATA = {
               "time_raw": "18:35.05",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:39.12",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:38.35",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.45",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13286,28 +14590,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.21",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.26",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:59.61",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.40",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13326,28 +14634,32 @@ window.SEM_DATA = {
               "time_raw": "18:28.76",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:39.87",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.69",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:32.78",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13366,28 +14678,32 @@ window.SEM_DATA = {
               "time_raw": "4:45.72",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.48",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:40.50",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13416,28 +14732,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.52",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:36.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:27.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13456,28 +14776,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.21",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:21.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:33.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:27.84",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13496,28 +14820,32 @@ window.SEM_DATA = {
               "time_raw": "9:33.39",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:38.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:34.90",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:25.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13536,28 +14864,32 @@ window.SEM_DATA = {
               "time_raw": "2:29.83",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:10.11",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.48",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.91",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13576,28 +14908,32 @@ window.SEM_DATA = {
               "time_raw": "2:14.63",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:33.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:42.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:38.95",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13616,28 +14952,32 @@ window.SEM_DATA = {
               "time_raw": "18:33.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:44.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:46.23",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -13656,28 +14996,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:26.12",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:40.79",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13696,28 +15040,32 @@ window.SEM_DATA = {
               "time_raw": "1:20.29",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.11",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:33.80",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.23",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13736,28 +15084,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.00",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:34.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:28.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:44.51",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13776,28 +15128,32 @@ window.SEM_DATA = {
               "time_raw": "1:01.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.21",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:36.48",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13816,28 +15172,32 @@ window.SEM_DATA = {
               "time_raw": "1:02.43",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.19",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.46",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.93",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13856,28 +15216,32 @@ window.SEM_DATA = {
               "time_raw": "2:49.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.24",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:42.40",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13896,28 +15260,32 @@ window.SEM_DATA = {
               "time_raw": "1:02.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.34",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.62",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:37.38",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13936,28 +15304,32 @@ window.SEM_DATA = {
               "time_raw": "4:42.50",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:40.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:45.04",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.75",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -13976,28 +15348,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:30.83",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.26",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14016,28 +15392,32 @@ window.SEM_DATA = {
               "time_raw": "2:58.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.66",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.52",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14056,28 +15436,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.18",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.60",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.16",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14096,28 +15480,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.61",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.47",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14136,28 +15524,32 @@ window.SEM_DATA = {
               "time_raw": "5:32.02",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.34",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:00.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:28.38",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14176,28 +15568,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.98",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.63",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14216,28 +15612,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:13.17",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.79",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14256,28 +15656,32 @@ window.SEM_DATA = {
               "time_raw": "1:25.05",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.24",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.08",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.59",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14296,28 +15700,32 @@ window.SEM_DATA = {
               "time_raw": "19:07.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:54.42",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.89",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:18.94",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14336,28 +15744,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:34.49",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.72",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.87",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14376,28 +15788,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.14",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.62",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:50.72",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.58",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14416,28 +15832,32 @@ window.SEM_DATA = {
               "time_raw": "3:00.14",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.73",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:42.83",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14456,28 +15876,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.14",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.72",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:28.76",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14496,28 +15920,32 @@ window.SEM_DATA = {
               "time_raw": "02:36.72",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "04:49.94",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "02:18.64",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:38.79",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14536,28 +15964,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.64",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.48",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.90",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14576,28 +16008,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.17",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:36.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:55.88",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14616,28 +16052,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.28",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:30.58",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "01:04.69",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "01:12.95",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14656,28 +16096,32 @@ window.SEM_DATA = {
               "time_raw": "19:17.65",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.85",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:55.89",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.13",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14696,28 +16140,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.83",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.93",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.26",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:11.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14736,28 +16184,32 @@ window.SEM_DATA = {
               "time_raw": "10:10.46",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.07",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.30",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.21",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14776,28 +16228,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.16",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.39",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.24",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -14818,28 +16274,32 @@ window.SEM_DATA = {
               "time_raw": "2:09.52",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:36.68",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:30.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:27.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -14858,28 +16318,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.21",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:21.48",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:33.76",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:27.84",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -14898,28 +16362,32 @@ window.SEM_DATA = {
               "time_raw": "9:33.39",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:38.92",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:34.90",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:25.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -14938,28 +16406,32 @@ window.SEM_DATA = {
               "time_raw": "2:29.83",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:10.11",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.48",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.91",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -14978,28 +16450,32 @@ window.SEM_DATA = {
               "time_raw": "2:14.63",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:33.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:42.00",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:38.95",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -15018,28 +16494,32 @@ window.SEM_DATA = {
               "time_raw": "18:33.04",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:44.76",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:46.23",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -15058,28 +16538,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.80",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:39.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:26.12",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:40.79",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15098,28 +16582,32 @@ window.SEM_DATA = {
               "time_raw": "1:20.29",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.11",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:33.80",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.23",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15138,28 +16626,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.00",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:34.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:28.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:44.51",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15178,28 +16670,32 @@ window.SEM_DATA = {
               "time_raw": "1:01.94",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.21",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.00",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:36.48",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15218,28 +16714,32 @@ window.SEM_DATA = {
               "time_raw": "1:02.43",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.19",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.46",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.93",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15258,28 +16758,32 @@ window.SEM_DATA = {
               "time_raw": "2:49.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.34",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.24",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:42.40",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15298,28 +16802,32 @@ window.SEM_DATA = {
               "time_raw": "1:02.45",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:15.34",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.62",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:37.38",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15338,28 +16846,32 @@ window.SEM_DATA = {
               "time_raw": "4:42.50",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:40.08",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:45.04",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:16.75",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15378,28 +16890,32 @@ window.SEM_DATA = {
               "time_raw": "1:06.35",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:30.83",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.26",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15418,28 +16934,32 @@ window.SEM_DATA = {
               "time_raw": "2:58.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:20.83",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.66",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.52",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15458,28 +16978,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.18",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.60",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.16",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15498,28 +17022,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.99",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.74",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.61",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.47",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15538,28 +17066,32 @@ window.SEM_DATA = {
               "time_raw": "5:32.02",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.34",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:00.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:28.38",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15578,28 +17110,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.28",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.98",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.63",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15618,28 +17154,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.99",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:13.17",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.79",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15658,28 +17198,32 @@ window.SEM_DATA = {
               "time_raw": "1:25.05",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.24",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.08",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.59",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15698,28 +17242,32 @@ window.SEM_DATA = {
               "time_raw": "19:07.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:54.42",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:47.89",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:18.94",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15738,28 +17286,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:34.49",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.72",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.87",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15778,28 +17330,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.14",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.62",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:50.72",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.58",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15818,28 +17374,32 @@ window.SEM_DATA = {
               "time_raw": "3:00.14",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.73",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:42.83",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15858,28 +17418,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.14",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.72",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:28.76",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15898,28 +17462,32 @@ window.SEM_DATA = {
               "time_raw": "02:36.72",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "04:49.94",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "02:18.64",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:38.79",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15938,28 +17506,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.64",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.48",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.90",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -15978,28 +17550,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.17",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:36.03",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:55.88",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16018,28 +17594,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.28",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:30.58",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "01:04.69",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "01:12.95",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16058,28 +17638,32 @@ window.SEM_DATA = {
               "time_raw": "19:17.65",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.85",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:55.89",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.13",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16098,28 +17682,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.83",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.93",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.26",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:11.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16138,28 +17726,32 @@ window.SEM_DATA = {
               "time_raw": "10:10.46",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.07",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.30",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.21",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16178,28 +17770,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.16",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.39",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.24",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16228,28 +17824,32 @@ window.SEM_DATA = {
               "time_raw": "9:06.63",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:29.71",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:48.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16268,28 +17868,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:08.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.41",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16308,28 +17912,32 @@ window.SEM_DATA = {
               "time_raw": "2:12.42",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.78",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16348,28 +17956,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.59",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:30.27",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:34.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:36.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16388,28 +18000,32 @@ window.SEM_DATA = {
               "time_raw": "9:20.63",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:37.88",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:31.62",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:56.98",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16428,28 +18044,32 @@ window.SEM_DATA = {
               "time_raw": "2:58.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:43.98",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:23.20",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.28",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16468,28 +18088,32 @@ window.SEM_DATA = {
               "time_raw": "1:21.89",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:58.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.89",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.36",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16508,28 +18132,32 @@ window.SEM_DATA = {
               "time_raw": "9:33.16",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:11.75",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:37.40",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:41.41",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -16548,28 +18176,32 @@ window.SEM_DATA = {
               "time_raw": "1:21.74",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:09.83",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.31",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:12.90",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16588,28 +18220,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:10.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.59",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.57",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16628,28 +18264,32 @@ window.SEM_DATA = {
               "time_raw": "5:30.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:42.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:34.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:38.68",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16668,28 +18308,32 @@ window.SEM_DATA = {
               "time_raw": "2:18.10",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:38.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:29.55",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:43.62",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16708,28 +18352,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.45",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:40.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:53.46",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:10.89",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16748,28 +18396,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:24.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:07.35",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.30",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16788,28 +18440,32 @@ window.SEM_DATA = {
               "time_raw": "2:15.15",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:40.63",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:58.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:56.97",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16828,28 +18484,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:41.29",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:52.64",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:14.74",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16868,28 +18528,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.04",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.84",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.83",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16908,28 +18572,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.07",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.63",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:20.83",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16948,28 +18616,32 @@ window.SEM_DATA = {
               "time_raw": "3:04.90",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:51.02",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:28.54",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.61",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -16988,28 +18660,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.34",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.56",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.25",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.75",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17028,28 +18704,32 @@ window.SEM_DATA = {
               "time_raw": "5:45.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:55.97",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:56.61",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.21",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17068,28 +18748,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.42",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.17",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:49.84",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.57",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17108,28 +18792,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.97",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.64",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:15.24",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.58",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17148,28 +18836,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.94",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:40.87",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.58",
               "rank": 31,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
-              "time_raw": "1:08.52",
+              "time_raw": "1:08.45",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17188,28 +18880,32 @@ window.SEM_DATA = {
               "time_raw": "2:33.49",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17228,28 +18924,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.28",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:39.19",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.74",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17268,28 +18968,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.80",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:14.16",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.28",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:43.00",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17308,28 +19012,32 @@ window.SEM_DATA = {
               "time_raw": "5:49.65",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:15.64",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.77",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:42.32",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17348,28 +19056,32 @@ window.SEM_DATA = {
               "time_raw": "1:27.92",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.60",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.66",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:43.64",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17388,28 +19100,32 @@ window.SEM_DATA = {
               "time_raw": "3:16.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "3:15.79",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17428,28 +19144,32 @@ window.SEM_DATA = {
               "time_raw": "2:18.74",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:31.58",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.90",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:22.86",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17468,28 +19188,32 @@ window.SEM_DATA = {
               "time_raw": "9:52.62",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.15",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:37.39",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17508,28 +19232,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.55",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17548,28 +19276,32 @@ window.SEM_DATA = {
               "time_raw": "6:01.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.89",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.55",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:52.42",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17588,28 +19320,32 @@ window.SEM_DATA = {
               "time_raw": "1:10.20",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.26",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.71",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17628,28 +19364,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.18",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.27",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:44.23",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17668,28 +19408,32 @@ window.SEM_DATA = {
               "time_raw": "1:14.82",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.21",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.15",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.81",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17708,28 +19452,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.14",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:08.88",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:52.66",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.06",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17748,28 +19496,32 @@ window.SEM_DATA = {
               "time_raw": "1:37.10",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.63",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.69",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:24.63",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17788,28 +19540,32 @@ window.SEM_DATA = {
               "time_raw": "1:15.40",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.79",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:04.01",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.03",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17828,28 +19584,32 @@ window.SEM_DATA = {
               "time_raw": "2:41.05",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:40.99",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:09.62",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.75",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17868,28 +19628,32 @@ window.SEM_DATA = {
               "time_raw": "1:10.26",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:58.58",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "NT",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17908,28 +19672,32 @@ window.SEM_DATA = {
               "time_raw": "6:07.44",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:48.16",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.35",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:21.58",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17948,28 +19716,32 @@ window.SEM_DATA = {
               "time_raw": "1:54.38",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.34",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.43",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:16.31",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -17988,28 +19760,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.39",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.58",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.10",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18028,28 +19804,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.60",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:27.69",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:59.78",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:10.47",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18068,28 +19848,32 @@ window.SEM_DATA = {
               "time_raw": "2:29.18",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:22.70",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.71",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:53.51",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18108,28 +19892,32 @@ window.SEM_DATA = {
               "time_raw": "2:22.05",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.95",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.65",
               "rank": 34,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18148,28 +19936,32 @@ window.SEM_DATA = {
               "time_raw": "2:22.89",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:57.99",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.83",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:45.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18188,28 +19980,32 @@ window.SEM_DATA = {
               "time_raw": "2:21.97",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:03.45",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.06",
               "rank": 36,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.55",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18228,28 +20024,32 @@ window.SEM_DATA = {
               "time_raw": "10:11.69",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.09",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.50",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:54.09",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18268,28 +20068,32 @@ window.SEM_DATA = {
               "time_raw": "10:42.33",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:14.84",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.02",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:47.79",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18308,28 +20112,32 @@ window.SEM_DATA = {
               "time_raw": "11:22.80",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:04.96",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.39",
               "rank": 32,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "23:03.93",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18348,28 +20156,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.30",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:28.04",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.52",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.31",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18388,28 +20200,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.02",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.93",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.18",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:42.01",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18428,28 +20244,32 @@ window.SEM_DATA = {
               "time_raw": "10:07.14",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:51.79",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.54",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:40.77",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18468,28 +20288,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.29",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.03",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.45",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:56.17",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18508,28 +20332,32 @@ window.SEM_DATA = {
               "time_raw": "10:16.72",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:05.53",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.77",
               "rank": 37,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:38.90",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18548,28 +20376,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.87",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.60",
               "rank": 33,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.26",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:15.79",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18588,28 +20420,32 @@ window.SEM_DATA = {
               "time_raw": "5:11.47",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.59",
               "rank": 35,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.43",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18628,28 +20464,32 @@ window.SEM_DATA = {
               "time_raw": "10:26.33",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:09.57",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.18",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:23.21",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18668,28 +20508,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.33",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:21.09",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.04",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18708,28 +20552,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.12",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:42.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.09",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.43",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18748,28 +20596,32 @@ window.SEM_DATA = {
               "time_raw": "2:21.80",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:09.71",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.39",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.36",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -18790,28 +20642,32 @@ window.SEM_DATA = {
               "time_raw": "9:06.63",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:29.71",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:22.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:48.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -18830,28 +20686,32 @@ window.SEM_DATA = {
               "time_raw": "2:27.30",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:08.25",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:01.41",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:35.49",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -18870,28 +20730,32 @@ window.SEM_DATA = {
               "time_raw": "2:12.42",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.73",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:08.78",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -18910,28 +20774,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.59",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:30.27",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:34.11",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:36.85",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -18950,28 +20818,32 @@ window.SEM_DATA = {
               "time_raw": "9:20.63",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:37.88",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:31.62",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:56.98",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -18990,28 +20862,32 @@ window.SEM_DATA = {
               "time_raw": "2:58.36",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:43.98",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:23.20",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.28",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -19030,28 +20906,32 @@ window.SEM_DATA = {
               "time_raw": "1:21.89",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:58.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.89",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.36",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -19070,28 +20950,32 @@ window.SEM_DATA = {
               "time_raw": "9:33.16",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:11.75",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:37.40",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:41.41",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -19110,28 +20994,32 @@ window.SEM_DATA = {
               "time_raw": "1:21.74",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:09.83",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.31",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:12.90",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19150,28 +21038,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.58",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:10.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.59",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.57",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19190,28 +21082,32 @@ window.SEM_DATA = {
               "time_raw": "5:30.64",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:42.66",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:34.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:38.68",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19230,28 +21126,32 @@ window.SEM_DATA = {
               "time_raw": "2:18.10",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:38.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:29.55",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:43.62",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19270,28 +21170,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.45",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:40.08",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:53.46",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:10.89",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19310,28 +21214,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:24.58",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:07.35",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.30",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19350,28 +21258,32 @@ window.SEM_DATA = {
               "time_raw": "2:15.15",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:40.63",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:58.44",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:56.97",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19390,28 +21302,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.22",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:41.29",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:52.64",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:14.74",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19430,28 +21346,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.04",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.84",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.83",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19470,28 +21390,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.89",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.07",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.63",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:20.83",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19510,28 +21434,32 @@ window.SEM_DATA = {
               "time_raw": "3:04.90",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:51.02",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:28.54",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.61",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19550,28 +21478,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.34",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:39.56",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.25",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.75",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19590,28 +21522,32 @@ window.SEM_DATA = {
               "time_raw": "5:45.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "18:55.97",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:56.61",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.21",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19630,28 +21566,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.42",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.17",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:49.84",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.57",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19670,28 +21610,32 @@ window.SEM_DATA = {
               "time_raw": "1:03.97",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.64",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:15.24",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.58",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19710,28 +21654,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.94",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:40.87",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.58",
               "rank": 31,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
-              "time_raw": "1:08.52",
+              "time_raw": "1:08.45",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19750,28 +21698,32 @@ window.SEM_DATA = {
               "time_raw": "2:33.49",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19790,28 +21742,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.28",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:39.19",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.74",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19830,28 +21786,32 @@ window.SEM_DATA = {
               "time_raw": "1:08.80",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:14.16",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.28",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:43.00",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19870,28 +21830,32 @@ window.SEM_DATA = {
               "time_raw": "5:49.65",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:15.64",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.77",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:42.32",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19910,28 +21874,32 @@ window.SEM_DATA = {
               "time_raw": "1:27.92",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.60",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.66",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:43.64",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19950,28 +21918,32 @@ window.SEM_DATA = {
               "time_raw": "3:16.09",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "3:15.79",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -19990,28 +21962,32 @@ window.SEM_DATA = {
               "time_raw": "2:18.74",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:31.58",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.90",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:22.86",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20030,28 +22006,32 @@ window.SEM_DATA = {
               "time_raw": "9:52.62",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.15",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.43",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:37.39",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20070,28 +22050,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.55",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:10.48",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20110,28 +22094,32 @@ window.SEM_DATA = {
               "time_raw": "6:01.82",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.89",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.55",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:52.42",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20150,28 +22138,32 @@ window.SEM_DATA = {
               "time_raw": "1:10.20",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.26",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.71",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20190,28 +22182,32 @@ window.SEM_DATA = {
               "time_raw": "1:04.18",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:20.27",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:44.23",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20230,28 +22226,32 @@ window.SEM_DATA = {
               "time_raw": "1:14.82",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.21",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.15",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.81",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20270,28 +22270,32 @@ window.SEM_DATA = {
               "time_raw": "2:20.14",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:08.88",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:52.66",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.06",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20310,28 +22314,32 @@ window.SEM_DATA = {
               "time_raw": "1:37.10",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.63",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:11.69",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:24.63",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20350,28 +22358,32 @@ window.SEM_DATA = {
               "time_raw": "1:15.40",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.79",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:04.01",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.03",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20390,28 +22402,32 @@ window.SEM_DATA = {
               "time_raw": "2:41.05",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:40.99",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:09.62",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.75",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20430,28 +22446,32 @@ window.SEM_DATA = {
               "time_raw": "1:10.26",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:58.58",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "NT",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20470,28 +22490,32 @@ window.SEM_DATA = {
               "time_raw": "6:07.44",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:48.16",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.35",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:21.58",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20510,28 +22534,32 @@ window.SEM_DATA = {
               "time_raw": "1:54.38",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.34",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.43",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:16.31",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20550,28 +22578,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.39",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.58",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.10",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20590,28 +22622,32 @@ window.SEM_DATA = {
               "time_raw": "2:39.60",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:27.69",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:59.78",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:10.47",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20630,28 +22666,32 @@ window.SEM_DATA = {
               "time_raw": "2:29.18",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:22.70",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.71",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:53.51",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20670,28 +22710,32 @@ window.SEM_DATA = {
               "time_raw": "2:22.05",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.95",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.65",
               "rank": 34,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20710,28 +22754,32 @@ window.SEM_DATA = {
               "time_raw": "2:22.89",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:57.99",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.83",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:45.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20750,28 +22798,32 @@ window.SEM_DATA = {
               "time_raw": "2:21.97",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:03.45",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.06",
               "rank": 36,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.55",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20790,28 +22842,32 @@ window.SEM_DATA = {
               "time_raw": "10:11.69",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.09",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.50",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:54.09",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20830,28 +22886,32 @@ window.SEM_DATA = {
               "time_raw": "10:42.33",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:14.84",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.02",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:47.79",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20870,28 +22930,32 @@ window.SEM_DATA = {
               "time_raw": "11:22.80",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:04.96",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.39",
               "rank": 32,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "23:03.93",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20910,28 +22974,32 @@ window.SEM_DATA = {
               "time_raw": "2:30.30",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:28.04",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.52",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:41.31",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20950,28 +23018,32 @@ window.SEM_DATA = {
               "time_raw": "2:34.02",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.93",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.18",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:42.01",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -20990,28 +23062,32 @@ window.SEM_DATA = {
               "time_raw": "10:07.14",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:51.79",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.54",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:40.77",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21030,28 +23106,32 @@ window.SEM_DATA = {
               "time_raw": "2:23.29",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:56.03",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.45",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:56.17",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21070,28 +23150,32 @@ window.SEM_DATA = {
               "time_raw": "10:16.72",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:05.53",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.77",
               "rank": 37,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:38.90",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21110,28 +23194,32 @@ window.SEM_DATA = {
               "time_raw": "2:24.87",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.60",
               "rank": 33,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.26",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:15.79",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21150,28 +23238,32 @@ window.SEM_DATA = {
               "time_raw": "5:11.47",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.59",
               "rank": 35,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.43",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21190,28 +23282,32 @@ window.SEM_DATA = {
               "time_raw": "10:26.33",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:09.57",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.18",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:23.21",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21230,28 +23326,32 @@ window.SEM_DATA = {
               "time_raw": "2:25.33",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:21.09",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.04",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21270,28 +23370,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.12",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:42.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.09",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.43",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21310,28 +23414,32 @@ window.SEM_DATA = {
               "time_raw": "2:21.80",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:09.71",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:54.39",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.36",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21360,28 +23468,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:18.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:34.01",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21400,28 +23512,32 @@ window.SEM_DATA = {
               "time_raw": "4:30.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:40.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:26.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:32.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21440,28 +23556,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.27",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:10.55",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:33.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.60",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21480,28 +23600,32 @@ window.SEM_DATA = {
               "time_raw": "1:19.59",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.79",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21520,28 +23644,32 @@ window.SEM_DATA = {
               "time_raw": "1:19.59",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:53.24",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:40.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21560,28 +23688,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.24",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:35.19",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:46.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21600,28 +23732,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.32",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:12.21",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.38",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21640,28 +23776,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.56",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:35.67",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:12.45",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -21680,28 +23820,32 @@ window.SEM_DATA = {
               "time_raw": "57.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:48.79",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.85",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.69",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21720,28 +23864,32 @@ window.SEM_DATA = {
               "time_raw": "4:53.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.43",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.45",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:21.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21760,28 +23908,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.63",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:34.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.41",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.51",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21800,28 +23952,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.95",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.72",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21840,28 +23996,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.47",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.25",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.72",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21880,28 +24040,32 @@ window.SEM_DATA = {
               "time_raw": "19:44.94",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:12.82",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:01.06",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.29",
               "rank": 42,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21920,28 +24084,32 @@ window.SEM_DATA = {
               "time_raw": "1:23.71",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:03.07",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:59.60",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.76",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -21960,28 +24128,32 @@ window.SEM_DATA = {
               "time_raw": "19:25.86",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:18.27",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.10",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.85",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22000,28 +24172,32 @@ window.SEM_DATA = {
               "time_raw": "10:12.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
-              "time_raw": "19:45.31",
+              "time_raw": "19:45.16",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.22",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22040,28 +24216,32 @@ window.SEM_DATA = {
               "time_raw": "4:55.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:18.53",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:16.45",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22080,28 +24260,32 @@ window.SEM_DATA = {
               "time_raw": "1:25.26",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:02.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "12:49.57",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.84",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22120,28 +24304,32 @@ window.SEM_DATA = {
               "time_raw": "10:17.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:50.87",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:57.42",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.78",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22160,28 +24348,32 @@ window.SEM_DATA = {
               "time_raw": "5:45.97",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:03.79",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:29.68",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.53",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22200,28 +24392,32 @@ window.SEM_DATA = {
               "time_raw": "3:01.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:26.68",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.93",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:21.40",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22240,28 +24436,32 @@ window.SEM_DATA = {
               "time_raw": "2:43.22",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.92",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.37",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.67",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22280,28 +24480,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:52.17",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:38.23",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
-              "time_raw": "2:43.29",
-              "rank": 13,
+              "time_raw": "2:42.84",
+              "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22320,28 +24524,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.70",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:54.00",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.06",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.97",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22360,28 +24568,32 @@ window.SEM_DATA = {
               "time_raw": "5:47.86",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.67",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.18",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:38.62",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22400,28 +24612,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.60",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:13.43",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.73",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:41.45",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22440,28 +24656,32 @@ window.SEM_DATA = {
               "time_raw": "1:26.02",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:03.77",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.14",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:29.94",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22480,28 +24700,32 @@ window.SEM_DATA = {
               "time_raw": "4:55.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.67",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:14.97",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:45.23",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22520,28 +24744,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.45",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.01",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:26.46",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.58",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22560,28 +24788,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.68",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:25.27",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:40.38",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.84",
               "rank": 38,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22600,28 +24832,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.71",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.73",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.37",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.42",
-              "rank": 10,
+              "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22640,28 +24876,32 @@ window.SEM_DATA = {
               "time_raw": "3:03.25",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.20",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:54.94",
               "rank": 45,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:14.32",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22680,28 +24920,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.11",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.63",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:25.71",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22720,28 +24964,32 @@ window.SEM_DATA = {
               "time_raw": "19:52.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "05:05.64",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "12:45.27",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:48.57",
               "rank": 31,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22760,28 +25008,32 @@ window.SEM_DATA = {
               "time_raw": "5:52.57",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:06.63",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.50",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.67",
-              "rank": 11,
+              "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22800,28 +25052,32 @@ window.SEM_DATA = {
               "time_raw": "1:26.03",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.03",
               "rank": 33,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:06.83",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:43.21",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22840,28 +25096,32 @@ window.SEM_DATA = {
               "time_raw": "20:08.33",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:38.08",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:07.46",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.03",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22880,28 +25140,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.28",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.86",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:11.73",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 7,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22920,28 +25184,32 @@ window.SEM_DATA = {
               "time_raw": "1:16.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.86",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.22",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:09.25",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -22960,28 +25228,32 @@ window.SEM_DATA = {
               "time_raw": "5:02.24",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.60",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.76",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23000,28 +25272,32 @@ window.SEM_DATA = {
               "time_raw": "11:46.58",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.76",
               "rank": 37,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
-              "time_raw": "1:29.67",
-              "rank": 13,
+              "time_raw": "1:27.38",
+              "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:07.41",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23040,28 +25316,32 @@ window.SEM_DATA = {
               "time_raw": "2:57.02",
               "rank": 46,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:19.06",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.23",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.04",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23080,28 +25360,32 @@ window.SEM_DATA = {
               "time_raw": "5:03.47",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:17.69",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:26.99",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.88",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23120,28 +25404,32 @@ window.SEM_DATA = {
               "time_raw": "1:16.22",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:45.24",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:20.41",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.72",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23160,28 +25448,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.22",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.65",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.05",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:09.57",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23200,28 +25492,32 @@ window.SEM_DATA = {
               "time_raw": "5:16.01",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:01.42",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.29",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:10.57",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23240,28 +25536,32 @@ window.SEM_DATA = {
               "time_raw": "10:45.92",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.61",
               "rank": 35,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.81",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.17",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23280,28 +25580,32 @@ window.SEM_DATA = {
               "time_raw": "5:10.25",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:11.25",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:41.99",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.45",
               "rank": 34,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23320,28 +25624,32 @@ window.SEM_DATA = {
               "time_raw": "20:24.78",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:14.70",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.55",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:00.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23360,28 +25668,32 @@ window.SEM_DATA = {
               "time_raw": "10:45.92",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.94",
               "rank": 40,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:29.53",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:17.68",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23400,28 +25712,32 @@ window.SEM_DATA = {
               "time_raw": "5:06.45",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:12.27",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.59",
               "rank": 43,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:25.62",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23440,28 +25756,32 @@ window.SEM_DATA = {
               "time_raw": "5:06.21",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.18",
               "rank": 36,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.63",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.33",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23480,28 +25800,32 @@ window.SEM_DATA = {
               "time_raw": "21:17.72",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.90",
               "rank": 32,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:50.50",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:18.29",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23520,28 +25844,32 @@ window.SEM_DATA = {
               "time_raw": "2:50.91",
               "rank": 39,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:19.00",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.59",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "NT",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23560,28 +25888,32 @@ window.SEM_DATA = {
               "time_raw": "5:01.41",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.21",
               "rank": 41,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.77",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23600,28 +25932,32 @@ window.SEM_DATA = {
               "time_raw": "5:10.74",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "13:02.44",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.74",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.08",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23640,28 +25976,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.61",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.26",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.34",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.29",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23680,28 +26020,32 @@ window.SEM_DATA = {
               "time_raw": "5:05.20",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:14.74",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:40.12",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.19",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23720,28 +26064,32 @@ window.SEM_DATA = {
               "time_raw": "10:40.19",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.32",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.28",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23760,28 +26108,32 @@ window.SEM_DATA = {
               "time_raw": "5:16.34",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:58.25",
               "rank": 47,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.28",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:23.11",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23800,21 +26152,24 @@ window.SEM_DATA = {
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:28.10",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.89",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23833,28 +26188,32 @@ window.SEM_DATA = {
               "time_raw": "2:54.49",
               "rank": 44,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:15.84",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.02",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:22.27",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23873,28 +26232,32 @@ window.SEM_DATA = {
               "time_raw": "2:45.56",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.22",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23913,28 +26276,32 @@ window.SEM_DATA = {
               "time_raw": "5:11.15",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.92",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.50",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.63",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23953,28 +26320,32 @@ window.SEM_DATA = {
               "time_raw": "11:17.18",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.06",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.76",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 6,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -23995,28 +26366,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.03",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:07.54",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:18.88",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:34.01",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24035,28 +26410,32 @@ window.SEM_DATA = {
               "time_raw": "4:30.89",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "17:40.69",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "9:26.86",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:32.18",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24075,28 +26454,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.27",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:10.55",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:33.36",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:00.60",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24115,28 +26498,32 @@ window.SEM_DATA = {
               "time_raw": "1:19.59",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:50.53",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:36.79",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24155,28 +26542,32 @@ window.SEM_DATA = {
               "time_raw": "1:19.59",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "2:53.24",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:40.64",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24195,28 +26586,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.24",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:35.19",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:46.41",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:37.82",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24235,28 +26630,32 @@ window.SEM_DATA = {
               "time_raw": "2:32.32",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:17.66",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:12.21",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.38",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24275,28 +26674,32 @@ window.SEM_DATA = {
               "time_raw": "2:16.56",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:02.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:35.67",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:12.45",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -24315,28 +26718,32 @@ window.SEM_DATA = {
               "time_raw": "57.72",
               "rank": 1,
               "points": 9,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:48.79",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:12.85",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.69",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24355,28 +26762,32 @@ window.SEM_DATA = {
               "time_raw": "4:53.93",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:03.43",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.45",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:21.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24395,28 +26806,32 @@ window.SEM_DATA = {
               "time_raw": "1:11.63",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:34.32",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.41",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.51",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24435,28 +26850,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.95",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:38.33",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:36.72",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24475,28 +26894,32 @@ window.SEM_DATA = {
               "time_raw": "1:09.47",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:04.25",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:39.72",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.63",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24515,28 +26938,32 @@ window.SEM_DATA = {
               "time_raw": "19:44.94",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:12.82",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:01.06",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.29",
               "rank": 42,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24555,28 +26982,32 @@ window.SEM_DATA = {
               "time_raw": "1:23.71",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:03.07",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "4:59.60",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.76",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24595,28 +27026,32 @@ window.SEM_DATA = {
               "time_raw": "19:25.86",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:18.27",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.10",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.85",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24635,28 +27070,32 @@ window.SEM_DATA = {
               "time_raw": "10:12.52",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
-              "time_raw": "19:45.31",
+              "time_raw": "19:45.16",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:00.33",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:22.22",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24675,28 +27114,32 @@ window.SEM_DATA = {
               "time_raw": "4:55.88",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:18.53",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:16.45",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24715,28 +27158,32 @@ window.SEM_DATA = {
               "time_raw": "1:25.26",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:02.15",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "12:49.57",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.84",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24755,28 +27202,32 @@ window.SEM_DATA = {
               "time_raw": "10:17.24",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "19:50.87",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:57.42",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.78",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24795,28 +27246,32 @@ window.SEM_DATA = {
               "time_raw": "5:45.97",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:03.79",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:29.68",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.53",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24835,28 +27290,32 @@ window.SEM_DATA = {
               "time_raw": "3:01.38",
               "rank": 3,
               "points": 6,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:26.68",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.93",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:21.40",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24875,28 +27334,32 @@ window.SEM_DATA = {
               "time_raw": "2:43.22",
               "rank": 2,
               "points": 7,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:13.92",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:44.37",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.67",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24915,28 +27378,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.24",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "5:52.17",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:38.23",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
-              "time_raw": "2:43.29",
-              "rank": 13,
+              "time_raw": "2:42.84",
+              "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24955,28 +27422,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.70",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "2:54.00",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.06",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.97",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -24995,28 +27466,32 @@ window.SEM_DATA = {
               "time_raw": "5:47.86",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:19.67",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:42.18",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:38.62",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25035,28 +27510,32 @@ window.SEM_DATA = {
               "time_raw": "2:35.60",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:13.43",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.73",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:41.45",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25075,28 +27554,32 @@ window.SEM_DATA = {
               "time_raw": "1:26.02",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:03.77",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.14",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:29.94",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25115,28 +27598,32 @@ window.SEM_DATA = {
               "time_raw": "4:55.93",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.67",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:14.97",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:45.23",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25155,28 +27642,32 @@ window.SEM_DATA = {
               "time_raw": "1:12.45",
               "rank": 4,
               "points": 5,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.01",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:26.46",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:06.58",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25195,28 +27686,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.68",
               "rank": 5,
               "points": 4,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:25.27",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:40.38",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.84",
               "rank": 38,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25235,28 +27730,32 @@ window.SEM_DATA = {
               "time_raw": "4:57.71",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:21.73",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:40.37",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.42",
-              "rank": 10,
+              "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25275,28 +27774,32 @@ window.SEM_DATA = {
               "time_raw": "3:03.25",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.20",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:54.94",
               "rank": 45,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:14.32",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25315,28 +27818,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.11",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:37.70",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:43.63",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:25.71",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25355,28 +27862,32 @@ window.SEM_DATA = {
               "time_raw": "19:52.55",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "05:05.64",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "12:45.27",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "02:48.57",
               "rank": 31,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25395,28 +27906,32 @@ window.SEM_DATA = {
               "time_raw": "5:52.57",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:06.63",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:45.50",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.67",
-              "rank": 11,
+              "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25435,28 +27950,32 @@ window.SEM_DATA = {
               "time_raw": "1:26.03",
               "rank": 6,
               "points": 3,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.03",
               "rank": 33,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:06.83",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:43.21",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25475,28 +27994,32 @@ window.SEM_DATA = {
               "time_raw": "20:08.33",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:38.08",
               "rank": 8,
               "points": 1,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Serbest",
               "time_raw": "5:07.46",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.03",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25515,28 +28038,32 @@ window.SEM_DATA = {
               "time_raw": "1:13.28",
               "rank": 7,
               "points": 2,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:41.86",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:11.73",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 7,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25555,28 +28082,32 @@ window.SEM_DATA = {
               "time_raw": "1:16.80",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.86",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.22",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:09.25",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25595,28 +28126,32 @@ window.SEM_DATA = {
               "time_raw": "5:02.24",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:47.60",
               "rank": 26,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:23.76",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25635,28 +28170,32 @@ window.SEM_DATA = {
               "time_raw": "11:46.58",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.76",
               "rank": 37,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
-              "time_raw": "1:29.67",
-              "rank": 13,
+              "time_raw": "1:27.38",
+              "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:07.41",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25675,28 +28214,32 @@ window.SEM_DATA = {
               "time_raw": "2:57.02",
               "rank": 46,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:19.06",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.23",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:31.04",
               "rank": 28,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25715,28 +28258,32 @@ window.SEM_DATA = {
               "time_raw": "5:03.47",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:17.69",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:26.99",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.88",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25755,28 +28302,32 @@ window.SEM_DATA = {
               "time_raw": "1:16.22",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:45.24",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:20.41",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:05.72",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25795,28 +28346,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.22",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.65",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:16.05",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:09.57",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25835,28 +28390,32 @@ window.SEM_DATA = {
               "time_raw": "5:16.01",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:01.42",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.29",
               "rank": 30,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:10.57",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25875,28 +28434,32 @@ window.SEM_DATA = {
               "time_raw": "10:45.92",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.61",
               "rank": 35,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.81",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.17",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25915,28 +28478,32 @@ window.SEM_DATA = {
               "time_raw": "5:10.25",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:11.25",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:41.99",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:49.45",
               "rank": 34,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25955,28 +28522,32 @@ window.SEM_DATA = {
               "time_raw": "20:24.78",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:14.70",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.55",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:00.13",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -25995,28 +28566,32 @@ window.SEM_DATA = {
               "time_raw": "10:45.92",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.94",
               "rank": 40,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:29.53",
-              "rank": 12,
+              "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kurbağalama",
               "time_raw": "3:17.68",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26035,28 +28610,32 @@ window.SEM_DATA = {
               "time_raw": "5:06.45",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "11:12.27",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.59",
               "rank": 43,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:25.62",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26075,28 +28654,32 @@ window.SEM_DATA = {
               "time_raw": "5:06.21",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:50.18",
               "rank": 36,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.63",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.33",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26115,28 +28698,32 @@ window.SEM_DATA = {
               "time_raw": "21:17.72",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.90",
               "rank": 32,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:50.50",
               "rank": 19,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "6:18.29",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26155,28 +28742,32 @@ window.SEM_DATA = {
               "time_raw": "2:50.91",
               "rank": 39,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:19.00",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:44.59",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "NT",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26195,28 +28786,32 @@ window.SEM_DATA = {
               "time_raw": "5:01.41",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "NT",
               "rank": 25,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:51.21",
               "rank": 41,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.77",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26235,28 +28830,32 @@ window.SEM_DATA = {
               "time_raw": "5:10.74",
               "rank": 20,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "13:02.44",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:24.74",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.08",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26275,28 +28874,32 @@ window.SEM_DATA = {
               "time_raw": "2:47.61",
               "rank": 27,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:17.26",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:43.34",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.29",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26315,28 +28918,32 @@ window.SEM_DATA = {
               "time_raw": "5:05.20",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "1500m Serbest",
               "time_raw": "20:14.74",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "800m Serbest",
               "time_raw": "10:40.12",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.19",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26355,28 +28962,32 @@ window.SEM_DATA = {
               "time_raw": "10:40.19",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.32",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.28",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.74",
               "rank": 13,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26395,28 +29006,32 @@ window.SEM_DATA = {
               "time_raw": "5:16.34",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:58.25",
               "rank": 47,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:27.28",
               "rank": 22,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:23.11",
               "rank": 16,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26435,21 +29050,24 @@ window.SEM_DATA = {
               "time_raw": "NT",
               "rank": 12,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:28.10",
               "rank": 17,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:07.89",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26468,28 +29086,32 @@ window.SEM_DATA = {
               "time_raw": "2:54.49",
               "rank": 44,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Sırtüstü",
               "time_raw": "1:15.84",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Sırtüstü",
               "time_raw": "2:41.02",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:22.27",
               "rank": 15,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26508,28 +29130,32 @@ window.SEM_DATA = {
               "time_raw": "2:45.56",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kurbağalama",
               "time_raw": "1:27.22",
               "rank": 9,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.85",
               "rank": 11,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
               "time_raw": "NT",
               "rank": 14,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26548,28 +29174,32 @@ window.SEM_DATA = {
               "time_raw": "5:11.15",
               "rank": 21,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:46.92",
               "rank": 23,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Serbest",
               "time_raw": "2:28.50",
               "rank": 24,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Serbest",
               "time_raw": "1:08.63",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -26588,28 +29218,32 @@ window.SEM_DATA = {
               "time_raw": "11:17.18",
               "rank": 18,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Karışık",
               "time_raw": "2:48.06",
               "rank": 29,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "100m Kelebek",
               "time_raw": "1:14.76",
               "rank": 10,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "200m Kelebek",
               "time_raw": "NT",
               "rank": 6,
               "points": 0,
-              "is_live": false
+              "is_live": false,
+              "is_dns": false
             }
           ],
           "medal": false,
@@ -58785,7 +61419,7 @@ window.SEM_DATA = {
           "rank": 4,
           "name": "Zeynep TELLİ",
           "city": "Çanakkale",
-          "time_raw": "19:45.31",
+          "time_raw": "19:45.16",
           "points": 5,
           "is_live": false
         },
@@ -59185,17 +61819,17 @@ window.SEM_DATA = {
         },
         {
           "rank": 12,
-          "name": "Zeynep Berra SARIKAN",
-          "city": "Kayseri",
-          "time_raw": "2:43.06",
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "2:42.84",
           "points": 0,
           "is_live": false
         },
         {
           "rank": 13,
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "time_raw": "2:43.29",
+          "name": "Zeynep Berra SARIKAN",
+          "city": "Kayseri",
+          "time_raw": "2:43.06",
           "points": 0,
           "is_live": false
         },
@@ -60986,7 +63620,7 @@ window.SEM_DATA = {
           "rank": 16,
           "name": "Kıvanç GÜL",
           "city": "Çanakkale",
-          "time_raw": "1:08.52",
+          "time_raw": "1:08.45",
           "points": 0,
           "is_live": false
         },
@@ -62318,7 +64952,7 @@ window.SEM_DATA = {
           "rank": 6,
           "name": "İlkut Girayhan AKYÜZ",
           "city": "İzmir",
-          "time_raw": "26.53",
+          "time_raw": "26.45",
           "points": 3,
           "is_live": false
         },
@@ -62748,7 +65382,7 @@ window.SEM_DATA = {
           "rank": 1,
           "name": "Pars İKİKARDAŞLAR",
           "city": "İzmir",
-          "time_raw": "1:08.66",
+          "time_raw": "1:08.49",
           "points": 9,
           "is_live": false
         },
@@ -64725,6 +67359,14 @@ window.SEM_DATA = {
         },
         {
           "rank": 10,
+          "name": "Azra MUTLU",
+          "city": "İzmir",
+          "time_raw": "1:27.38",
+          "points": 0,
+          "is_live": false
+        },
+        {
+          "rank": 11,
           "name": "Berrak ÖZBAL",
           "city": "Gaziantep",
           "time_raw": "1:27.42",
@@ -64732,7 +67374,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Asel Buğçe YILMAZELİ",
           "city": "Trabzon",
           "time_raw": "1:27.67",
@@ -64740,18 +67382,10 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Eda ÖZRENK",
           "city": "Çanakkale",
           "time_raw": "1:29.53",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 13,
-          "name": "Azra MUTLU",
-          "city": "İzmir",
-          "time_raw": "1:29.67",
           "points": 0,
           "is_live": false
         },
@@ -67697,7 +70331,7 @@ window.SEM_DATA = {
           "rank": 4,
           "name": "Jasmin ARSLAN",
           "city": "İzmir",
-          "time_raw": "30.40",
+          "time_raw": "30.33",
           "points": 5,
           "is_live": false
         },
@@ -69003,7 +71637,7 @@ window.SEM_DATA = {
           "rank": 5,
           "name": "Arda KAFADAR",
           "city": "İzmir",
-          "time_raw": "31.99",
+          "time_raw": "31.60",
           "points": 4,
           "is_live": false
         }
