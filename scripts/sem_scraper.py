@@ -305,6 +305,32 @@ def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
     }
 
 
+def _discover_pdfs_direct(base_url: str) -> list[tuple[str, EventInfo]]:
+    """
+    Ana sayfa erişilemezse ResultList_N.pdf URL'lerini doğrudan dene.
+    İlk 404'te dur (ardışık boşluğa tolerance: 2).
+    """
+    events = []
+    base = base_url.rstrip("/")
+    consecutive_miss = 0
+    for i in range(1, 40):
+        pdf_url = f"{base}/ResultList_{i}.pdf"
+        try:
+            resp = requests.head(pdf_url, headers=HTTP_HEADERS, timeout=8)
+            if resp.status_code == 200:
+                events.append((pdf_url, EventInfo(None, None, None, i)))
+                consecutive_miss = 0
+            else:
+                consecutive_miss += 1
+                if consecutive_miss >= 2:
+                    break
+        except Exception:
+            consecutive_miss += 1
+            if consecutive_miss >= 2:
+                break
+    return events
+
+
 def scrape_live(url: str = RACE_URL, verbose: bool = True) -> list[dict]:
     """
     Canlı yarış verilerini çeker ve düz sonuç listesi döndürür.
@@ -314,9 +340,17 @@ def scrape_live(url: str = RACE_URL, verbose: bool = True) -> list[dict]:
     """
     page = fetch_race_page(url)
     if not page["events"]:
+        # Ana sayfa timeout oldu — PDF'leri doğrudan keşfet
         if verbose:
-            print("  ⚠ Henüz yayınlanmış sonuç yok.")
-        return []
+            print("  ⚠ Ana sayfa erişilemedi, PDF'ler doğrudan aranıyor...")
+        direct = _discover_pdfs_direct(url)
+        if not direct:
+            if verbose:
+                print("  ⚠ Henüz yayınlanmış sonuç yok.")
+            return []
+        page = {"events": direct, "title": ""}
+        if verbose:
+            print(f"  ✓ Doğrudan {len(direct)} PDF bulundu")
 
     all_results = []
     seen_urls: set[str] = set()
