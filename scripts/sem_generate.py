@@ -58,13 +58,18 @@ def _merge_live_into_entries(
     from sem_entry import norm
 
     live_index: dict[tuple, dict] = {}
+    # (yb, gender, event) → yarış tamamlandı sayılır
+    # Gender dahil edilmesi kritik: Kız PDF başarılı olsa Erkekleri DNS yapmasın
     completed_events: set[tuple] = set()
     for r in live:
-        nname = norm(r.get("name", ""))
-        yb    = r.get("yb", "")
-        ev    = r.get("event", "")
+        nname  = norm(r.get("name", ""))
+        yb     = r.get("yb", "")
+        gender = r.get("gender", "")
+        ev     = r.get("event", "")
+        if not ev or ev.startswith("None"):   # event parse hatası → yok say
+            continue
         live_index[(nname, yb, ev)] = r
-        completed_events.add((yb, ev))
+        completed_events.add((yb, gender, ev))
 
     merged = []
     for sw in entries:
@@ -80,7 +85,7 @@ def _merge_live_into_entries(
                     "is_live":  True,
                     "is_dns":   False,
                 })
-            elif (sw["yb"], ev["event"]) in completed_events:
+            elif (sw["yb"], sw["gender"], ev["event"]) in completed_events:
                 # Yarış tamamlandı ama sporcu sonuçlarda yok → DNS
                 new_events.append({
                     "event":    ev["event"],
@@ -263,7 +268,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     # --- Event bazlı sonuçlar ---
     events_out = {}
     for (yb, gender, event), finishers in ev_rankings_forecast.items():
-        is_completed = (yb, event) in completed_events
+        is_completed = (yb, gender, event) in completed_events
         ekey = f"{event}|{yb}|{gender}"
         events_out[ekey] = {
             "event":        event,
@@ -287,7 +292,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
     events_current_out = {}
     if completed_events:  # simülasyon modunda boş kalır
         for (yb, gender, event), finishers in ev_rankings_current.items():
-            if (yb, event) not in completed_events:
+            if (yb, gender, event) not in completed_events:
                 continue  # sadece is_live sonucu olan yarışlar
             ekey = f"{event}|{yb}|{gender}"
             events_current_out[ekey] = {

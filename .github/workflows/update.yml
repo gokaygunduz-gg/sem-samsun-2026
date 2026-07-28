@@ -48,7 +48,7 @@ jobs:
             echo "Değişiklik yok, commit atlanıyor."
           else
             git commit -m "Panel güncellendi: $(TZ='Europe/Istanbul' date '+%d.%m %H:%M TR')"
-            # Başka bir run push ettiyse rebase ile birleştir
-            git pull --rebase origin main
+            # Başka bir run push ettiyse rebase ile birleştir; data.js çakışmasında kendi versiyonu koru
+            git pull --rebase -X theirs origin main
             git push
           fi

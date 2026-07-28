@@ -381,18 +381,40 @@ def scrape_live(url: str = RACE_URL, verbose: bool = True) -> list[dict]:
             d = event_info.distance or "?"
             s = event_info.stroke or "?"
             print(f"  PDF çekiliyor: {pdf_url.split('/')[-1]} ({g} {d}m {s})")
-        try:
-            resp = requests.get(pdf_url, headers=HTTP_HEADERS, timeout=HTTP_TIMEOUT)
-            resp.raise_for_status()
-            rows = _parse_result_pdf(resp.content, event_info)
-            for r in rows:
-                event_label = f"{r.get('distance', '?')}m {r.get('stroke', '?')}"
-                r["event"] = event_label
-            all_results.extend(rows)
-            if verbose:
-                print(f"    → {len(rows)} sonuç")
-        except Exception as e:
-            logger.error(f"PDF indirilemedi: {pdf_url} — {e}")
+
+        # Retry: timeout veya 0 satır durumunda 2 deneme daha
+        rows = []
+        last_err = None
+        for attempt in range(3):
+            try:
+                resp = requests.get(pdf_url, headers=HTTP_HEADERS, timeout=HTTP_TIMEOUT)
+                resp.raise_for_status()
+                rows = _parse_result_pdf(resp.content, event_info)
+                if rows:
+                    break           # başarılı parse — devam et
+                # 0 satır: PDF henüz boş olabilir, kısa bekle ve tekrar dene
+                import time as _time
+                _time.sleep(2)
+            except Exception as e:
+                last_err = e
+                import time as _time
+                _time.sleep(3)
+
+        if not rows and last_err:
+            logger.error(f"PDF indirilemedi: {pdf_url} — {last_err}")
+            continue
+
+        for r in rows:
+            g_val = r.get("gender") or ""
+            d_val = r.get("distance") or ""
+            s_val = r.get("stroke") or ""
+            if not g_val or not d_val or not s_val:
+                continue          # event bilgisi eksik → atla (yanlış DNS'e yol açmasın)
+            event_label = f"{d_val}m {s_val}"
+            r["event"] = event_label
+        all_results.extend(r for r in rows if r.get("event") and not r["event"].startswith("None"))
+        if verbose:
+            print(f"    → {len(rows)} sonuç")
 
     if verbose:
         print(f"  ✓ Toplam canlı sonuç: {len(all_results)}")
