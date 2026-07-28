@@ -1211,7 +1211,7 @@ function renderEvents() {
     evData = DATA.events[key];
     modeLabel = evData&&evData.is_completed ? '✅ Tamamlandı' : '📊 Tahmin (giriş listesi + canlı)';
   } else { // giris
-    evData = DATA.events[key];
+    evData = (DATA.events_entry && DATA.events_entry[key]) || DATA.events[key];
     modeLabel = '📋 Giriş Listesi';
   }
 
@@ -1571,7 +1571,7 @@ function renderProgramRace() {
       if (!evData) continue;
       st=evData.is_completed?'✅ Tamamlandı':'📊 Tahmin';
     } else {
-      evData=DATA.events[key];
+      evData=(DATA.events_entry && DATA.events_entry[key]) || DATA.events[key];
       if (!evData) continue;
       st='📋 Giriş Listesi';
     }
@@ -2031,7 +2031,7 @@ function startCountdown() {
   const el = document.getElementById('countdown');
   if (!el) return;
   el.style.display = '';
-  let secs = 180;
+  let secs = 120;
   function tick() {
     secs--;
     if (secs <= 0) {
@@ -2043,7 +2043,7 @@ function startCountdown() {
     const m = Math.floor(secs / 60), s = secs % 60;
     el.textContent = `⏱ ${m}:${String(s).padStart(2,'0')}`;
   }
-  el.textContent = '⏱ 5:00';
+  el.textContent = '⏱ 2:00';
   if (_cdInterval) clearInterval(_cdInterval);
   _cdInterval = setInterval(tick, 1000);
 }

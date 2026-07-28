@@ -309,6 +309,29 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
                 ],
             }
 
+    # Entry event sonuçları (yarıştan bağımsız, giriş süreleri)
+    events_entry_out = {}
+    for (yb, gender, event), finishers in ev_rankings_entry.items():
+        ekey = f"{event}|{yb}|{gender}"
+        events_entry_out[ekey] = {
+            "event":        event,
+            "yb":           yb,
+            "gender":       gender,
+            "is_completed": False,
+            "medal_cut":    MEDAL_CUTOFFS.get(yb, 3),
+            "finishers": [
+                {
+                    "rank":     f["rank"],
+                    "name":     f["name"],
+                    "city":     f.get("city", ""),
+                    "time_raw": f["time_raw"],
+                    "points":   f["points"],
+                    "is_live":  False,
+                }
+                for f in finishers
+            ],
+        }
+
     return {
         "generated_at":           _tr_now(),
         "source":                 source,
@@ -328,6 +351,7 @@ def build_json(entries: list[dict], live: list[dict] | None, source: str) -> dic
         "program":                program_out,
         "events":                 events_out,
         "events_current":         events_current_out,
+        "events_entry":           events_entry_out,
         "points_table":           POINTS,
         "auth": {
             "initial_users": [

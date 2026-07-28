@@ -247,10 +247,18 @@ def _parse_result_row(row: list, event_info: EventInfo) -> dict | None:
     }
 
 
+_SKIP_LINE = re.compile(
+    r"^(SPORCU\s+E|KATILIM\s+BARAJ|Splash\s+Meet|Sıra\s+YB|^\d{1,2}\s+yaş)",
+    re.IGNORECASE,
+)
+_VALID_YB = re.compile(r"\b(0[89]|1[0-4])\b")
+
+
 def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
     """
     TYF ResultList metin satırından sporcu bilgisi çıkarır.
-    Format: "1. İsim SOYAD YB Şehir 35.74 9,00"
+    Format (kesinleşmiş): "1. İsim SOYAD YB Şehir 35.74 9,00"
+    Format (geçici):      "İsim SOYAD YB Şehir 2:47.87 - split1 split2"
     """
     line = line.strip()
     if not line:
@@ -258,13 +266,17 @@ def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
 
     # Sıra numarası — "1." veya "1" formatı
     m = re.match(r"^(\d+)\.?\s+", line)
-    if not m:
-        return None
-    rank = int(m.group(1))
-    if rank > 100:
-        return None
-
-    rest = line[m.end():]  # "İsim SOYAD YB Şehir 35.74 9,00"
+    if m:
+        rank = int(m.group(1))
+        if rank > 300:
+            return None
+        rest = line[m.end():]
+    else:
+        # Geçici sonuç: sıra numarası yok
+        if _SKIP_LINE.search(line):
+            return None
+        rest = line
+        rank = 999  # geçici; puan hesaplanırken süreye göre sıralanır
 
     # Süre: MM:SS.cc veya SS.cc
     time_m = re.search(r"\b(\d{1,2}:\d{2}\.\d{2}|\d{2}\.\d{2})\b", rest)
@@ -275,8 +287,12 @@ def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
 
     before_time = rest[:time_m.start()].strip()  # "İsim SOYAD YB Şehir"
 
-    # 2 haneli YB (doğum yılı sonu: "12" = 2012)
-    yb_m = re.search(r"\b(\d{2})\b", before_time)
+    # 2 haneli YB — geçici satırlarda sadece 08-14 aralığı kabul et
+    if rank == 999:
+        yb_m = _VALID_YB.search(before_time)
+    else:
+        yb_m = re.search(r"\b(\d{2})\b", before_time)
+
     if yb_m:
         yb = yb_m.group(1)
         name = before_time[:yb_m.start()].strip()
@@ -284,6 +300,8 @@ def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
         city_tokens = after_yb.split()
         city = city_tokens[0] if city_tokens else ""
     else:
+        if rank == 999:
+            return None  # geçici satırda YB bulunamazsa atla
         yb = ""
         name = before_time
         city = ""
