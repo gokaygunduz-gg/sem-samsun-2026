@@ -18,6 +18,10 @@ import time
 import argparse
 import datetime
 
+# Windows cp1254 sorununu önle — Unicode print'ler için UTF-8 zorla
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 # Hem doğrudan hem de scripts/ içinden çalışabilmek için path ayarı
 _this_dir = os.path.dirname(os.path.abspath(__file__))
 if _this_dir not in sys.path:

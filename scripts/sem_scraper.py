@@ -8,9 +8,13 @@ Akış:
   3. Sporcu ismi/yb/kulüp/süre/sıra extract et
 """
 
+import sys
 import re
 import logging
 from collections import namedtuple
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 import requests
 import pdfplumber
@@ -125,22 +129,40 @@ def _parse_result_pdf(pdf_bytes: bytes, event_info: EventInfo) -> list[dict]:
     results = []
     try:
         with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+            header_info = event_info
             for page in pdf.pages:
-                # Önce tablo olarak dene
+                text = page.extract_text() or ""
+
+                # PDF başlığından eksik event bilgisini tamamla
+                # "Yarış 1 Kızlar, 50m Kurbağalama 14 - 18 yaşları arası"
+                if not header_info.gender or not header_info.stroke:
+                    for hline in text.split("\n")[:6]:
+                        g, d, s = _parse_event_from_text(hline)
+                        new_g = g or header_info.gender
+                        new_d = d or header_info.distance
+                        new_s = s or header_info.stroke
+                        if new_g or new_s:
+                            header_info = EventInfo(new_g, new_d, new_s, header_info.pdf_seq)
+                            break
+
+                # Önce tablo dene; sıfır satır gelirse metin fallback'e geç
+                table_results = []
                 tables = page.extract_tables()
                 if tables:
                     for table in tables:
                         for row in table:
                             if not row:
                                 continue
-                            r = _parse_result_row(row, event_info)
+                            r = _parse_result_row(row, header_info)
                             if r:
-                                results.append(r)
+                                table_results.append(r)
+
+                if table_results:
+                    results.extend(table_results)
                 else:
-                    # Tablo yoksa metin parse et
-                    text = page.extract_text() or ""
+                    # TYF ResultList asıl format: metin tabanlı "1. İsim YB Şehir 35.74 9,00"
                     for line in text.split("\n"):
-                        r = _parse_result_line(line, event_info)
+                        r = _parse_result_line(line, header_info)
                         if r:
                             results.append(r)
     except Exception as e:
@@ -227,46 +249,53 @@ def _parse_result_row(row: list, event_info: EventInfo) -> dict | None:
 
 def _parse_result_line(line: str, event_info: EventInfo) -> dict | None:
     """
-    Metin satırından sporcu bilgisi çıkarır (tablo yoksa fallback).
+    TYF ResultList metin satırından sporcu bilgisi çıkarır.
+    Format: "1. İsim SOYAD YB Şehir 35.74 9,00"
     """
     line = line.strip()
     if not line:
         return None
-    # İlk token rakam olmalı (sıra numarası)
-    parts = line.split()
-    if not parts or not re.match(r"^\d+$", parts[0]):
+
+    # Sıra numarası — "1." veya "1" formatı
+    m = re.match(r"^(\d+)\.?\s+", line)
+    if not m:
         return None
-    rank = int(parts[0])
+    rank = int(m.group(1))
     if rank > 100:
         return None
 
-    # Süre arama: MM:SS.cc veya SS.cc
-    time_m = re.search(r"\b(\d{1,2}:\d{2}\.\d{2}|\d{2}\.\d{2})\b", line)
+    rest = line[m.end():]  # "İsim SOYAD YB Şehir 35.74 9,00"
+
+    # Süre: MM:SS.cc veya SS.cc
+    time_m = re.search(r"\b(\d{1,2}:\d{2}\.\d{2}|\d{2}\.\d{2})\b", rest)
     if not time_m:
         return None
     time_raw = time_m.group(1)
     time_sec = _to_sec(time_raw)
 
-    # YB
-    yb_m = re.search(r"\b(20\d{2}|\d{2})\b", line)
-    yb = yb_m.group(1)[-2:] if yb_m else ""
+    before_time = rest[:time_m.start()].strip()  # "İsim SOYAD YB Şehir"
 
-    # İsim: sıra ile yb arasındaki metin
-    name_part = line[len(parts[0]):].strip()
-    # YB'yi ve sonrasını çıkar
+    # 2 haneli YB (doğum yılı sonu: "12" = 2012)
+    yb_m = re.search(r"\b(\d{2})\b", before_time)
     if yb_m:
-        name_part = name_part[:yb_m.start()].strip()
-    # Süreyi çıkar
-    name_part = name_part.replace(time_raw, "").strip()
+        yb = yb_m.group(1)
+        name = before_time[:yb_m.start()].strip()
+        after_yb = before_time[yb_m.end():].strip()  # "Şehir"
+        city_tokens = after_yb.split()
+        city = city_tokens[0] if city_tokens else ""
+    else:
+        yb = ""
+        name = before_time
+        city = ""
 
-    name = " ".join(name_part.split())
+    name = re.sub(r"\s+", " ", name).strip()
     if len(name) < 3:
         return None
 
     return {
         "name":     name,
         "yb":       yb,
-        "city":     "",
+        "city":     city,
         "rank":     rank,
         "time_raw": time_raw,
         "time_sec": time_sec,
@@ -290,7 +319,11 @@ def scrape_live(url: str = RACE_URL, verbose: bool = True) -> list[dict]:
         return []
 
     all_results = []
+    seen_urls: set[str] = set()
     for pdf_url, event_info in page["events"]:
+        if pdf_url in seen_urls:
+            continue
+        seen_urls.add(pdf_url)
         if verbose:
             g = event_info.gender or "?"
             d = event_info.distance or "?"
