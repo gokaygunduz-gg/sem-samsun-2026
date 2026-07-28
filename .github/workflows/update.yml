@@ -49,6 +49,6 @@ jobs:
           else
             git commit -m "Panel güncellendi: $(TZ='Europe/Istanbul' date '+%d.%m %H:%M TR')"
             # Başka bir run push ettiyse rebase ile birleştir
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           fi
