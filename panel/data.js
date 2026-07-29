@@ -1,5 +1,5 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-29 14:34 (TR)",
+  "generated_at": "2026-07-29 14:37 (TR)",
   "source": "live",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
