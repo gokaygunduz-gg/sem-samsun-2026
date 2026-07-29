@@ -45,8 +45,19 @@ def rank_group(athletes: list[dict]) -> list[dict]:
         athletes,
         key=lambda a: (-a.get("top3", 0), -a.get("top4", 0), a.get("name", ""))
     )
+    prev_top3 = None
+    prev_top4 = None
+    prev_rank = 0
     for i, a in enumerate(sorted_athletes):
-        a["rank"] = i + 1
+        curr_top3 = a.get("top3", 0)
+        curr_top4 = a.get("top4", 0)
+        if curr_top3 == prev_top3 and curr_top4 == prev_top4:
+            a["rank"] = prev_rank         # eşit top3+top4 → paylaşılan sıra
+        else:
+            a["rank"] = i + 1             # gerçek konum (beraberlik boşlukları dahil)
+            prev_rank = a["rank"]
+            prev_top3 = curr_top3
+            prev_top4 = curr_top4
     return sorted_athletes
 
 
@@ -87,9 +98,17 @@ def compute_event_rankings(
 
         timed_sorted = sorted(timed, key=lambda x: x["time_sec"])
         ranked = []
+        prev_time = None
+        prev_rank = 0
         for i, e in enumerate(timed_sorted):
-            pts = event_points(i + 1)
-            ranked.append({**e, "rank": i + 1, "points": pts})
+            if e["time_sec"] == prev_time:
+                rank = prev_rank          # aynı süre → aynı sıra
+            else:
+                rank = i + 1              # gerçek konum (beraberlik boşlukları dahil)
+                prev_rank = rank
+                prev_time = e["time_sec"]
+            pts = event_points(rank)
+            ranked.append({**e, "rank": rank, "points": pts})
         for j, e in enumerate(nt):
             # time_raw'u koru: DNS veya NT ayrımını sakla
             ranked.append({**e, "rank": len(timed) + j + 1, "points": 0})

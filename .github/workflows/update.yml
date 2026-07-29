@@ -11,19 +11,24 @@ on:
 
 permissions:
   contents: write
+  actions: write      # workflow_dispatch API için gerekli
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    # Aynı anda birden fazla run'ın çakışmasını önle
+    timeout-minutes: 12
+
+    # Bot commit push'ları yeniden tetiklemesin — cascade API ile yönetilir
+    if: "!(github.event_name == 'push' && github.actor == 'github-actions[bot]')"
+
     concurrency:
       group: panel-update
-      cancel-in-progress: false
+      cancel-in-progress: true   # Yeni tetiklenince eskisi iptal, taze başla
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # pull/rebase için tam history gerekli
+          fetch-depth: 0
 
       - name: Python kur
         uses: actions/setup-python@v5
@@ -35,7 +40,6 @@ jobs:
 
       - name: Panel verisi üret (canlı + giriş fallback)
         run: |
-          # --live: TYF'den sonuç PDF'leri çeker; sonuç yoksa giriş moduna düşer
           python scripts/sem_generate.py --live --quiet || python scripts/sem_generate.py --quiet
 
       - name: Değişiklikleri commit ve push
@@ -48,7 +52,31 @@ jobs:
             echo "Değişiklik yok, commit atlanıyor."
           else
             git commit -m "Panel güncellendi: $(TZ='Europe/Istanbul' date '+%d.%m %H:%M TR')"
-            # Başka bir run push ettiyse rebase ile birleştir; data.js çakışmasında kendi versiyonu koru
             git pull --rebase -X theirs origin main
             git push
+          fi
+
+      - name: Sonraki güncellemeyi tetikle (yarış penceresi içindeyse)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HOUR=$(TZ=UTC date +%-H)
+          DAY=$(date +%-d)
+          MONTH=$(date +%-m)
+
+          # Pencere: 28-30 Temmuz, 04:00-21:59 UTC (07:00-00:59 TR)
+          IN_WINDOW=false
+          if [ "$MONTH" -eq "7" ] && [ "$DAY" -ge "28" ] && [ "$DAY" -le "30" ] && \
+             [ "$HOUR" -ge "4" ] && [ "$HOUR" -le "21" ]; then
+            IN_WINDOW=true
+          fi
+
+          if [ "$IN_WINDOW" = "true" ]; then
+            echo "Yaras penceresi icinde. 3 dakika sonra yeniden tetiklenecek..."
+            sleep 150
+            gh workflow run update.yml --ref main \
+              && echo "OK: sonraki calisma tetiklendi" \
+              || echo "WARN: dispatch hatasi — cron 15dk icinde devralir"
+          else
+            echo "Yaras penceresi disinda (UTC $HOUR:xx). Cascade durduruldu."
           fi

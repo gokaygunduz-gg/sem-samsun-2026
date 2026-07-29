@@ -2031,7 +2031,7 @@ function startCountdown() {
   const el = document.getElementById('countdown');
   if (!el) return;
   el.style.display = '';
-  let secs = 120;
+  let secs = 180;
   function tick() {
     secs--;
     if (secs <= 0) {
@@ -2043,7 +2043,7 @@ function startCountdown() {
     const m = Math.floor(secs / 60), s = secs % 60;
     el.textContent = `⏱ ${m}:${String(s).padStart(2,'0')}`;
   }
-  el.textContent = '⏱ 2:00';
+  el.textContent = '⏱ 3:00';
   if (_cdInterval) clearInterval(_cdInterval);
   _cdInterval = setInterval(tick, 1000);
 }
