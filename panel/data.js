@@ -1,12 +1,12 @@
 window.SEM_DATA = {
-  "generated_at": "2026-07-30 10:16 (TR)",
+  "generated_at": "2026-07-30 10:20 (TR)",
   "source": "live",
   "comp_name": "SEM Türkiye Finali 2026",
   "comp_location": "Samsun Olimpik Yüzme Havuzu",
   "comp_dates": "28-29-30 Temmuz 2026",
   "race_url": "https://canli.tyf.gov.tr/tyf/cs-390/",
   "total_athletes": 334,
-  "completed_event_count": 136,
+  "completed_event_count": 137,
   "groups": {
     "08_Erkek": {
       "yb": "08",
@@ -15702,7 +15702,7 @@ window.SEM_DATA = {
           "city": "İzmir",
           "club": "Göztepe Spor Kulübü",
           "top3": 27,
-          "top4": 34,
+          "top4": 27,
           "events": [
             {
               "event": "200m Kelebek",
@@ -15730,11 +15730,11 @@ window.SEM_DATA = {
             },
             {
               "event": "400m Karışık",
-              "time_raw": "5:14.28",
-              "rank": 2,
-              "points": 7,
+              "time_raw": "DNS",
+              "rank": 4,
+              "points": 0,
               "is_live": false,
-              "is_dns": false
+              "is_dns": true
             }
           ],
           "medal": true,
@@ -16050,50 +16050,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 9,
-          "name": "Ela Su ESKİOĞLU",
-          "city": "İzmir",
-          "club": "Atletico Spor Kulübü",
-          "top3": 20,
-          "top4": 26,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:48.61",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:31.16",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:20.05",
-              "rank": 3,
-              "points": 6,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:20.07",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 10,
           "name": "İpek Gökçe DEMİRBAŞAK",
           "city": "Kocaeli",
           "club": "Kocaeli Yıldızlar Yüzme Spor Kulübü",
@@ -16131,6 +16087,50 @@ window.SEM_DATA = {
               "points": 2,
               "is_live": true,
               "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 10,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "İzmir",
+          "club": "Atletico Spor Kulübü",
+          "top3": 20,
+          "top4": 20,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:48.61",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:31.16",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.07",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "DNS",
+              "rank": 3,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
             }
           ],
           "medal": false,
@@ -16226,40 +16226,40 @@ window.SEM_DATA = {
         },
         {
           "rank": 13,
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "club": "Galatasaray Spor Kulübü",
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "club": "Uludağ Oksijen Spor Kulübü",
           "top3": 18,
           "top4": 18,
           "events": [
             {
               "event": "400m Karışık",
-              "time_raw": "5:13.13",
+              "time_raw": "5:43.50",
               "rank": 1,
               "points": 9,
-              "is_live": false,
+              "is_live": true,
               "is_dns": false
             },
             {
-              "event": "1500m Serbest",
-              "time_raw": "17:06.67",
-              "rank": 1,
-              "points": 9,
-              "is_live": false,
+              "event": "100m Kelebek",
+              "time_raw": "1:08.27",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
               "is_dns": false
             },
             {
-              "event": "800m Serbest",
+              "event": "50m Kelebek",
+              "time_raw": "30.69",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Kelebek",
               "time_raw": "DNS",
               "rank": 4,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "DNS",
-              "rank": 6,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -16438,50 +16438,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 18,
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "club": "Uludağ Oksijen Spor Kulübü",
-          "top3": 14,
-          "top4": 14,
-          "events": [
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:08.27",
-              "rank": 4,
-              "points": 5,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:29.53",
-              "rank": 4,
-              "points": 5,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "50m Kelebek",
-              "time_raw": "30.69",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "DNS",
-              "rank": 4,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 19,
           "name": "Ela AYGÜN",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -16525,7 +16481,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 20,
+          "rank": 19,
           "name": "Mısra Saygılı",
           "city": "Bursa",
           "club": "Bosch Spor Kulübü",
@@ -16555,6 +16511,50 @@ window.SEM_DATA = {
               "points": 2,
               "is_live": true,
               "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 20,
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "club": "Galatasaray Spor Kulübü",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "17:06.67",
+              "rank": 1,
+              "points": 9,
+              "is_live": false,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "DNS",
+              "rank": 2,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "DNS",
+              "rank": 4,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "DNS",
+              "rank": 6,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
             }
           ],
           "medal": false,
@@ -16637,6 +16637,14 @@ window.SEM_DATA = {
               "points": 9,
               "is_live": true,
               "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "DNS",
+              "rank": 4,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
             }
           ],
           "medal": true,
@@ -16913,6 +16921,14 @@ window.SEM_DATA = {
               "points": 6,
               "is_live": true,
               "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "DNS",
+              "rank": 3,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
             }
           ],
           "medal": false,
@@ -17000,6 +17016,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 11,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "club": "Uludağ Oksijen Spor Kulübü",
+          "top3": 18,
+          "top4": 18,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:43.50",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:08.27",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "50m Kelebek",
+              "time_raw": "30.69",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "DNS",
+              "rank": 4,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 12,
           "name": "Dora ÖZER",
           "city": "Trabzon",
           "club": "Tswim Spor Kulübü",
@@ -17043,7 +17103,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Elif Rüya KANDEMİR",
           "city": "Kocaeli",
           "club": "Kocaeli Yıldızlar Yüzme Spor Kulübü",
@@ -17087,7 +17147,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Jasmin ARSLAN",
           "city": "İzmir",
           "club": "İstek Spor Kulübü",
@@ -17115,7 +17175,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "İpek Gökçe DEMİRBAŞAK",
           "city": "Kocaeli",
           "club": "Kocaeli Yıldızlar Yüzme Spor Kulübü",
@@ -17151,7 +17211,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Ekin YILMAZ",
           "city": "Eskişehir",
           "club": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
@@ -17187,7 +17247,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Mısra Saygılı",
           "city": "Bursa",
           "club": "Bosch Spor Kulübü",
@@ -17223,7 +17283,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Ceren TUNCAY",
           "city": "Kayseri",
           "club": "Kayseri Su Sporları Spor Kulübü",
@@ -17245,42 +17305,6 @@ window.SEM_DATA = {
               "points": 4,
               "is_live": true,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "club": "Uludağ Oksijen Spor Kulübü",
-          "top3": 9,
-          "top4": 9,
-          "events": [
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:08.27",
-              "rank": 4,
-              "points": 5,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "50m Kelebek",
-              "time_raw": "30.69",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "DNS",
-              "rank": 4,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": false,
@@ -17366,6 +17390,14 @@ window.SEM_DATA = {
           "top3": 0,
           "top4": 0,
           "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "DNS",
+              "rank": 2,
+              "points": 0,
+              "is_live": false,
+              "is_dns": true
+            },
             {
               "event": "800m Serbest",
               "time_raw": "DNS",
@@ -22621,7 +22653,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 4,
+              "rank": 8,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -22632,6 +22664,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 5,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
+          "top3": 22,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.26",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.00",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:42.06",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.18",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 6,
           "name": "Asya AKAR",
           "city": "Samsun",
           "club": "Temel Su Sporları Spor Kulübü",
@@ -22675,7 +22751,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Berra ZENGİN",
           "city": "Tekirdağ",
           "club": "Çorlu Belediyesi Spor Kulübü",
@@ -22713,50 +22789,6 @@ window.SEM_DATA = {
               "points": 3,
               "is_live": true,
               "is_dns": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 7,
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-          "top3": 21,
-          "top4": 21,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:50.26",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:20.00",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.18",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 10,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": false,
@@ -22808,41 +22840,41 @@ window.SEM_DATA = {
         },
         {
           "rank": 9,
-          "name": "Irmak Su Yaman",
+          "name": "Ece EROL",
           "city": "Bursa",
-          "club": "Uludağ Oksijen Spor Kulübü",
-          "top3": 16,
-          "top4": 16,
+          "club": "Ortakçı Spor Kulübü",
+          "top3": 18,
+          "top4": 21,
           "events": [
             {
               "event": "400m Karışık",
-              "time_raw": "5:45.08",
+              "time_raw": "5:29.54",
               "rank": 1,
               "points": 9,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:03.48",
+              "event": "100m Kelebek",
+              "time_raw": "1:10.33",
               "rank": 4,
               "points": 5,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:39.24",
-              "rank": 7,
-              "points": 2,
+              "event": "200m Karışık",
+              "time_raw": "2:37.95",
+              "rank": 5,
+              "points": 4,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "200m Karışık",
-              "time_raw": "2:43.51",
-              "rank": 13,
-              "points": 0,
+              "event": "200m Kelebek",
+              "time_raw": "2:38.37",
+              "rank": 6,
+              "points": 3,
               "is_live": true,
               "is_dns": false
             }
@@ -22885,7 +22917,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 8,
+              "rank": 10,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -22940,6 +22972,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 11,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:00.40",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:23.90",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:53.66",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.65",
+              "rank": 18,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 11,
           "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "club": "Ortakçı Spor Kulübü",
@@ -22973,7 +23049,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 6,
+              "rank": 9,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -22983,7 +23059,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Defne BAHAR",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -23027,7 +23103,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Esil Erva DURU",
           "city": "Edirne",
           "club": "Poseidon Spor Kulübü",
@@ -23071,95 +23147,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 15,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "club": "Ortakçı Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
+          "rank": 16,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "club": "Manavgat Barlas Spor Kulübü",
+          "top3": 13,
+          "top4": 13,
           "events": [
             {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.33",
+              "event": "200m Sırtüstü",
+              "time_raw": "2:37.07",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:36.84",
               "rank": 4,
               "points": 5,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "200m Karışık",
-              "time_raw": "2:37.95",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:38.37",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 5,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 15,
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:00.40",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:23.90",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.65",
-              "rank": 18,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
+              "event": "100m Serbest",
+              "time_raw": "1:04.45",
               "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.33",
+              "rank": 10,
               "points": 0,
-              "is_live": false,
-              "is_dns": true
+              "is_live": true,
+              "is_dns": false
             }
           ],
           "medal": false,
           "prize": false
         },
         {
-          "rank": 15,
+          "rank": 17,
           "name": "Zeynep Dilara Ünlü",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -23203,7 +23235,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 15,
+          "rank": 17,
           "name": "Ömür GÜVEL",
           "city": "Adana",
           "club": "Unsal Firikci Spor Kulübü",
@@ -23248,6 +23280,138 @@ window.SEM_DATA = {
         },
         {
           "rank": 19,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "club": "Tekirdag Yüzme Spor Kulübü",
+          "top3": 11,
+          "top4": 11,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:35.04",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:38.60",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.06",
+              "rank": 8,
+              "points": 1,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.07",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 20,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+          "top3": 10,
+          "top4": 11,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:35.49",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.69",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:21.61",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:28.38",
+              "rank": 8,
+              "points": 1,
+              "is_live": false,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 21,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "club": "Uludağ Oksijen Spor Kulübü",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:03.48",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:45.08",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:39.24",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.51",
+              "rank": 13,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 21,
           "name": "Yağmur Kont",
           "city": "Gaziantep",
           "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
@@ -23291,7 +23455,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 19,
+          "rank": 21,
           "name": "Yağmur YALDIZ",
           "city": "Çanakkale",
           "club": "Biga Gelisim Spor Kulübü",
@@ -23335,51 +23499,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 21,
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "club": "Manavgat Barlas Spor Kulübü",
-          "top3": 8,
-          "top4": 8,
-          "events": [
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:37.07",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Serbest",
-              "time_raw": "1:04.45",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:56.33",
-              "rank": 10,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 2,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 21,
+          "rank": 24,
           "name": "Belemir Ada KAYA",
           "city": "Gaziantep",
           "club": "Gaziantep Gençlik Ve Spor İl Müdürlüğü Spor Kulübü",
@@ -23423,7 +23543,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
+          "rank": 25,
           "name": "Berilay BATUR",
           "city": "Kayseri",
           "club": "Kayseri Atak Spor Kulübü",
@@ -23467,7 +23587,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
+          "rank": 25,
           "name": "Tanem Can YAVUZÖZ",
           "city": "İzmir",
           "club": "Göztepe Spor Kulübü",
@@ -23511,7 +23631,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
+          "rank": 27,
           "name": "Irmak BARUTÇUOĞLU",
           "city": "Ankara",
           "club": "Nesibe Aydın Spor Kulübü",
@@ -23555,7 +23675,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
+          "rank": 27,
           "name": "Zeynep KAYA",
           "city": "Ankara",
           "club": "Vamos Spor Kulübü",
@@ -23590,94 +23710,6 @@ window.SEM_DATA = {
               "event": "100m Serbest",
               "time_raw": "DNS",
               "rank": 14,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 27,
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-          "top3": 5,
-          "top4": 5,
-          "events": [
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.69",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:21.61",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:28.38",
-              "rank": 8,
-              "points": 1,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 3,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 28,
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "club": "Tekirdag Yüzme Spor Kulübü",
-          "top3": 4,
-          "top4": 4,
-          "events": [
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:38.60",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:41.06",
-              "rank": 8,
-              "points": 1,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:56.07",
-              "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 11,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -23853,7 +23885,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 9,
+              "rank": 11,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -24086,6 +24118,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 3,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
+          "top3": 22,
+          "top4": 25,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:50.26",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:20.00",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:42.06",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.18",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 4,
           "name": "Asya AKAR",
           "city": "Samsun",
           "club": "Temel Su Sporları Spor Kulübü",
@@ -24123,50 +24199,6 @@ window.SEM_DATA = {
               "points": 5,
               "is_live": true,
               "is_dns": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 4,
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-          "top3": 21,
-          "top4": 21,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:50.26",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:20.00",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.18",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 10,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": true,
@@ -24218,6 +24250,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 6,
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "club": "Ortakçı Spor Kulübü",
+          "top3": 18,
+          "top4": 21,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:29.54",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:10.33",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:37.95",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:38.37",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 7,
           "name": "Bilge BEKTAŞ",
           "city": "Bursa",
           "club": "Nilüfer Belediye Spor Kulübü",
@@ -24243,61 +24319,17 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 4,
+              "rank": 8,
               "points": 0,
               "is_live": false,
               "is_dns": true
             }
           ],
-          "medal": true,
+          "medal": false,
           "prize": false
         },
         {
-          "rank": 6,
-          "name": "Irmak Su Yaman",
-          "city": "Bursa",
-          "club": "Uludağ Oksijen Spor Kulübü",
-          "top3": 16,
-          "top4": 16,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:45.08",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:03.48",
-              "rank": 4,
-              "points": 5,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:39.24",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:43.51",
-              "rank": 13,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 6,
+          "rank": 7,
           "name": "Naz HAZIROLAN",
           "city": "Ankara",
           "club": "Vamos Spor Kulübü",
@@ -24329,7 +24361,7 @@ window.SEM_DATA = {
               "is_dns": true
             }
           ],
-          "medal": true,
+          "medal": false,
           "prize": false
         },
         {
@@ -24403,7 +24435,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 8,
+              "rank": 10,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -24457,7 +24489,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 12,
+          "rank": 11,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
+          "top3": 14,
+          "top4": 14,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:00.40",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:23.90",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:53.66",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.65",
+              "rank": 18,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 13,
           "name": "Defne BAHAR",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -24501,95 +24577,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "club": "Ortakçı Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
+          "rank": 14,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "club": "Manavgat Barlas Spor Kulübü",
+          "top3": 13,
+          "top4": 13,
           "events": [
             {
-              "event": "100m Kelebek",
-              "time_raw": "1:10.33",
+              "event": "200m Sırtüstü",
+              "time_raw": "2:37.07",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:36.84",
               "rank": 4,
               "points": 5,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "200m Karışık",
-              "time_raw": "2:37.95",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:38.37",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 5,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 13,
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
-          "top3": 12,
-          "top4": 12,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:00.40",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:23.90",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.65",
-              "rank": 18,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
+              "event": "100m Serbest",
+              "time_raw": "1:04.45",
               "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.33",
+              "rank": 10,
               "points": 0,
-              "is_live": false,
-              "is_dns": true
+              "is_live": true,
+              "is_dns": false
             }
           ],
           "medal": false,
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "Esil Erva DURU",
           "city": "Edirne",
           "club": "Poseidon Spor Kulübü",
@@ -24625,7 +24657,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "Ömür GÜVEL",
           "city": "Adana",
           "club": "Unsal Firikci Spor Kulübü",
@@ -24670,6 +24702,130 @@ window.SEM_DATA = {
         },
         {
           "rank": 17,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "club": "Tekirdag Yüzme Spor Kulübü",
+          "top3": 11,
+          "top4": 11,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:35.04",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:38.60",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:41.06",
+              "rank": 8,
+              "points": 1,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Serbest",
+              "time_raw": "4:56.07",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 18,
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:35.49",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.69",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:21.61",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 18,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "club": "Uludağ Oksijen Spor Kulübü",
+          "top3": 10,
+          "top4": 10,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:03.48",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:45.08",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:39.24",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:43.51",
+              "rank": 13,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 18,
           "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "club": "Ortakçı Spor Kulübü",
@@ -24695,7 +24851,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 6,
+              "rank": 9,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -24705,51 +24861,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 18,
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "club": "Manavgat Barlas Spor Kulübü",
-          "top3": 8,
-          "top4": 8,
-          "events": [
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:37.07",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Serbest",
-              "time_raw": "1:04.45",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:56.33",
-              "rank": 10,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 2,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 18,
+          "rank": 21,
           "name": "Zeynep Dilara Ünlü",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -24785,7 +24897,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 20,
+          "rank": 22,
           "name": "Zeynep KAYA",
           "city": "Ankara",
           "club": "Vamos Spor Kulübü",
@@ -24829,7 +24941,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 21,
+          "rank": 23,
           "name": "Tanem Can YAVUZÖZ",
           "city": "İzmir",
           "club": "Göztepe Spor Kulübü",
@@ -24865,7 +24977,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 21,
+          "rank": 23,
           "name": "Yağmur Kont",
           "city": "Gaziantep",
           "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
@@ -24901,7 +25013,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 21,
+          "rank": 23,
           "name": "Yağmur YALDIZ",
           "city": "Çanakkale",
           "club": "Biga Gelisim Spor Kulübü",
@@ -24931,86 +25043,6 @@ window.SEM_DATA = {
               "points": 0,
               "is_live": true,
               "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 24,
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-          "top3": 4,
-          "top4": 4,
-          "events": [
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.69",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:21.61",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 3,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 24,
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "club": "Tekirdag Yüzme Spor Kulübü",
-          "top3": 4,
-          "top4": 4,
-          "events": [
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:38.60",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:41.06",
-              "rank": 8,
-              "points": 1,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Serbest",
-              "time_raw": "4:56.07",
-              "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 11,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": false,
@@ -25167,7 +25199,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 9,
+              "rank": 11,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -36491,7 +36523,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 14,
+              "rank": 16,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -36546,56 +36578,20 @@ window.SEM_DATA = {
         },
         {
           "rank": 5,
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "club": "Albatros Yüzme Akademisi",
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "club": "Enka Spor Kulübü",
           "top3": 22,
-          "top4": 25,
+          "top4": 28,
           "events": [
             {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:29.67",
+              "event": "400m Karışık",
+              "time_raw": "5:31.17",
               "rank": 1,
               "points": 9,
               "is_live": true,
               "is_dns": false
             },
-            {
-              "event": "100m Sırtüstü",
-              "time_raw": "1:09.95",
-              "rank": 2,
-              "points": 7,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:42.13",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:39.58",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 6,
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "club": "Enka Spor Kulübü",
-          "top3": 19,
-          "top4": 19,
-          "events": [
             {
               "event": "200m Kelebek",
               "time_raw": "2:35.80",
@@ -36619,14 +36615,50 @@ window.SEM_DATA = {
               "points": 6,
               "is_live": true,
               "is_dns": false
+            }
+          ],
+          "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 6,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "club": "Albatros Yüzme Akademisi",
+          "top3": 20,
+          "top4": 23,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:29.67",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:09.95",
+              "rank": 2,
+              "points": 7,
+              "is_live": false,
+              "is_dns": false
             },
             {
               "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 15,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
+              "time_raw": "5:42.13",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.58",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
             }
           ],
           "medal": true,
@@ -36634,6 +36666,50 @@ window.SEM_DATA = {
         },
         {
           "rank": 7,
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "club": "Çorlu Belediyesi Spor Kulübü",
+          "top3": 18,
+          "top4": 22,
+          "events": [
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "2:55.46",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:22.45",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:40.53",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:38.21",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 8,
           "name": "Derin SEZER",
           "city": "Tekirdağ",
           "club": "Çorlu Belediyesi Spor Kulübü",
@@ -36677,7 +36753,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Zeynep Duru YARDIMCI",
           "city": "Ankara",
           "club": "Orka Swim Team Spor Kulübü",
@@ -36717,55 +36793,11 @@ window.SEM_DATA = {
               "is_dns": false
             }
           ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 9,
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "club": "Çorlu Belediyesi Spor Kulübü",
-          "top3": 17,
-          "top4": 17,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:55.46",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:22.45",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.21",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 16,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
-            }
-          ],
           "medal": false,
           "prize": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Simay EMRE",
           "city": "Bursa",
           "club": "Bursa Osmangazi Belediye Spor Kulübü",
@@ -36809,7 +36841,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Tuana YİRİK",
           "city": "İzmir",
           "club": "Enka Spor Kulübü",
@@ -36888,50 +36920,6 @@ window.SEM_DATA = {
               "event": "200m Serbest",
               "time_raw": "2:23.83",
               "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 13,
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "club": "Çanakkale Belediye Spor Kulübü",
-          "top3": 14,
-          "top4": 14,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:39.17",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Sırtüstü",
-              "time_raw": "1:12.24",
-              "rank": 5,
-              "points": 4,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:36.42",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.01",
-              "rank": 11,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -37029,7 +37017,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 16,
+          "rank": 15,
           "name": "Ada TÜRKEKUL",
           "city": "Tekirdağ",
           "club": "Çorlu Belediyesi Spor Kulübü",
@@ -37073,7 +37061,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 16,
+          "rank": 15,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "club": "Çanakkale Belediye Spor Kulübü",
+          "top3": 13,
+          "top4": 13,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:39.17",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Sırtüstü",
+              "time_raw": "1:12.24",
+              "rank": 5,
+              "points": 4,
+              "is_live": false,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.42",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.01",
+              "rank": 11,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 15,
           "name": "Zeynep Berra SARIKAN",
           "city": "Kayseri",
           "club": "Lidya Spor Kulübü",
@@ -37161,139 +37193,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 18,
-          "name": "Neslişah KARACAOĞLU",
-          "city": "İzmir",
-          "club": "Göztepe Spor Kulübü",
-          "top3": 11,
-          "top4": 11,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:36.98",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "20:03.79",
-              "rank": 7,
-              "points": 2,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:19.46",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:40.80",
-              "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 20,
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "club": "Manavgat Barlas Spor Kulübü",
-          "top3": 9,
-          "top4": 9,
-          "events": [
-            {
-              "event": "1500m Serbest",
-              "time_raw": "19:50.87",
-              "rank": 5,
-              "points": 4,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:02.76",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:55.87",
-              "rank": 8,
-              "points": 1,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Serbest",
-              "time_raw": "1:06.05",
-              "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 20,
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "club": "Temel Su Sporları Spor Kulübü",
-          "top3": 9,
-          "top4": 9,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:49.90",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:56.43",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:13.43",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.18",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 20,
+          "rank": 19,
           "name": "Melis Ece İLTER",
           "city": "Eskişehir",
           "club": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
@@ -37337,7 +37237,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 20,
+          "rank": 19,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "club": "Göztepe Spor Kulübü",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:36.98",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "1500m Serbest",
+              "time_raw": "20:03.79",
+              "rank": 7,
+              "points": 2,
+              "is_live": false,
+              "is_dns": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:19.46",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.80",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 19,
           "name": "Zeynep KÜÇÜK",
           "city": "Trabzon",
           "club": "Tswim Spor Kulübü",
@@ -37381,7 +37325,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 24,
+          "rank": 22,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "club": "Manavgat Barlas Spor Kulübü",
+          "top3": 8,
+          "top4": 8,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "19:50.87",
+              "rank": 5,
+              "points": 4,
+              "is_live": false,
+              "is_dns": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:02.76",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.05",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:55.87",
+              "rank": 10,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 22,
           "name": "Elif İNAT",
           "city": "Samsun",
           "club": "Samsun Su Sporları Spor Kulübü",
@@ -37425,7 +37413,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
+          "rank": 24,
           "name": "Aysima VATANSEVER",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -37469,7 +37457,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
+          "rank": 24,
           "name": "Blena AKÇA",
           "city": "Antalya",
           "club": "Toroslar Yüzme Spor Kulübü",
@@ -37513,51 +37501,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "club": "Toroslar Yüzme Spor Kulübü",
-          "top3": 7,
-          "top4": 7,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:49.04",
-              "rank": 4,
-              "points": 5,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:36.73",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.68",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:26.36",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 25,
+          "rank": 24,
           "name": "Defne UÇAR",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -37601,7 +37545,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 25,
+          "rank": 24,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "club": "Temel Su Sporları Spor Kulübü",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:56.43",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.43",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:49.90",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.18",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 24,
           "name": "Zeynep Beren YILDIZ",
           "city": "Ankara",
           "club": "Baskent Yüzme Spor Kulübü",
@@ -37645,7 +37633,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 30,
+          "rank": 29,
           "name": "Aslı Beren KOLCU",
           "city": "Ankara",
           "club": "Aykon Spor Kulübü",
@@ -37689,7 +37677,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 30,
+          "rank": 29,
           "name": "Zeynep TELLİ",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -37733,7 +37721,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 32,
+          "rank": 31,
           "name": "Almina SAMUR",
           "city": "Antalya",
           "club": "Antalya Faroz Spor Kulübü",
@@ -37777,7 +37765,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 32,
+          "rank": 31,
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "club": "Toroslar Yüzme Spor Kulübü",
+          "top3": 5,
+          "top4": 5,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:49.04",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.73",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.68",
+              "rank": 14,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:26.36",
+              "rank": 14,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 31,
           "name": "Hira Zeyneb MUTLU",
           "city": "Eskişehir",
           "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
@@ -37856,50 +37888,6 @@ window.SEM_DATA = {
               "event": "200m Karışık",
               "time_raw": "2:49.62",
               "rank": 30,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 34,
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "club": "Trabzon Okyanus Spor Kulübü",
-          "top3": 3,
-          "top4": 3,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:51.69",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:45.58",
-              "rank": 17,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:30.36",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:08.85",
-              "rank": 10,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -37997,51 +37985,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 38,
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-          "top3": 2,
-          "top4": 2,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:53.55",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "1500m Serbest",
-              "time_raw": "21:17.72",
-              "rank": 14,
-              "points": 0,
-              "is_live": false,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:49.22",
-              "rank": 28,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:44.90",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 38,
+          "rank": 37,
           "name": "Melis MENCİK",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -38085,7 +38029,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 38,
+          "rank": 37,
           "name": "İnci TANRIVERDİ",
           "city": "Eskişehir",
           "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
@@ -38129,7 +38073,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 41,
+          "rank": 39,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "club": "Trabzon Okyanus Spor Kulübü",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:51.69",
+              "rank": 8,
+              "points": 1,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.58",
+              "rank": 17,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:30.36",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:08.85",
+              "rank": 10,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 39,
           "name": "Beren ULUAĞAÇ",
           "city": "Edirne",
           "club": "Poseidon Spor Kulübü",
@@ -38173,7 +38161,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 41,
+          "rank": 39,
           "name": "Serenay Tuğçe Gülöksüz",
           "city": "Ankara",
           "club": "Orka Swim Team Spor Kulübü",
@@ -38217,7 +38205,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Aysu KABAOĞLU",
           "city": "Bursa",
           "club": "Bursa Büyükşehir Belediye Spor Kulübü",
@@ -38261,7 +38249,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Ayşe Beren ONAY",
           "city": "Bursa",
           "club": "Ortakçı Spor Kulübü",
@@ -38295,7 +38283,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 13,
+              "rank": 15,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -38305,7 +38293,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Azra MUTLU",
           "city": "İzmir",
           "club": "Atletico Spor Kulübü",
@@ -38349,7 +38337,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Başak İrem Altunzincir",
           "city": "Ankara",
           "club": "Baskent Cankaya Spor Kulübü",
@@ -38393,7 +38381,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Beren MUTAŞ",
           "city": "Konya",
           "club": "Marlin Akademi Yüzme Spor Kulübü",
@@ -38437,7 +38425,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Berrak ÖZBAL",
           "city": "Gaziantep",
           "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
@@ -38481,7 +38469,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Defne GÖNEN",
           "city": "İzmir",
           "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
@@ -38515,7 +38503,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:04.71",
-              "rank": 11,
+              "rank": 13,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -38525,7 +38513,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Defne YILMAZ",
           "city": "Tokat",
           "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
@@ -38559,7 +38547,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:00.10",
-              "rank": 9,
+              "rank": 11,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -38569,7 +38557,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Deniz ERÇELEBİ",
           "city": "İzmir",
           "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
@@ -38613,7 +38601,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Dünyam Aden Su KÜÇÜK",
           "city": "Adana",
           "club": "Ageb Spor Kulübü",
@@ -38657,7 +38645,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Ecem Gülce YILMAZ",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -38691,7 +38679,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:14.36",
-              "rank": 12,
+              "rank": 14,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -38701,7 +38689,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Eda ÖZRENK",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -38745,7 +38733,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Elif Naz OKUYUCU",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -38789,7 +38777,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Elifnur Cennet YILMAZ",
           "city": "Samsun",
           "club": "Temel Su Sporları Spor Kulübü",
@@ -38833,7 +38821,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "1500m Serbest",
+              "time_raw": "21:17.72",
+              "rank": 14,
+              "points": 0,
+              "is_live": false,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.22",
+              "rank": 28,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:44.90",
+              "rank": 14,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:53.55",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 42,
           "name": "Eylül ÇOTUR",
           "city": "Ankara",
           "club": "Nesibe Aydın Spor Kulübü",
@@ -38877,7 +38909,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Melis LİZOR",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -38921,7 +38953,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Mina AKTAŞ",
           "city": "Çanakkale",
           "club": "Biga Gelisim Spor Kulübü",
@@ -38965,7 +38997,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Mira ŞİMŞEK",
           "city": "Tekirdağ",
           "club": "Çorlu Belediyesi Spor Kulübü",
@@ -39009,7 +39041,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Nisa Nur İLYAN",
           "city": "Trabzon",
           "club": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
@@ -39053,7 +39085,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Zeynep MEYİLLİ",
           "city": "Kayseri",
           "club": "Kayseri Fırtına Spor Kulübü",
@@ -39089,7 +39121,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Zümra KOÇOĞLU",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -39133,7 +39165,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Öykü ÖZGÜL",
           "city": "Ankara",
           "club": "Baskent Cankaya Spor Kulübü",
@@ -39167,7 +39199,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:01.99",
-              "rank": 10,
+              "rank": 12,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -39177,7 +39209,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "Özüm ÖZBEY",
           "city": "Ankara",
           "club": "Orka Swim Team Spor Kulübü",
@@ -39221,7 +39253,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 43,
+          "rank": 42,
           "name": "İdil Nilay Karslı",
           "city": "Giresun",
           "club": "Giresun Şahin Spor Kulübü",
@@ -39301,7 +39333,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 14,
+              "rank": 16,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -39423,9 +39455,17 @@ window.SEM_DATA = {
           "name": "Mira TUFAN",
           "city": "İzmir",
           "club": "Enka Spor Kulübü",
-          "top3": 19,
-          "top4": 19,
+          "top3": 22,
+          "top4": 28,
           "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:31.17",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
             {
               "event": "200m Kelebek",
               "time_raw": "2:35.80",
@@ -39449,14 +39489,6 @@ window.SEM_DATA = {
               "points": 6,
               "is_live": true,
               "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 15,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": true,
@@ -39464,33 +39496,41 @@ window.SEM_DATA = {
         },
         {
           "rank": 6,
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "club": "Albatros Yüzme Akademisi",
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "club": "Çorlu Belediyesi Spor Kulübü",
           "top3": 18,
-          "top4": 18,
+          "top4": 22,
           "events": [
             {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:29.67",
-              "rank": 1,
-              "points": 9,
+              "event": "200m Kurbağalama",
+              "time_raw": "2:55.46",
+              "rank": 2,
+              "points": 7,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "400m Karışık",
-              "time_raw": "5:42.13",
+              "event": "100m Kurbağalama",
+              "time_raw": "1:22.45",
               "rank": 3,
               "points": 6,
               "is_live": true,
               "is_dns": false
             },
             {
+              "event": "400m Karışık",
+              "time_raw": "5:40.53",
+              "rank": 4,
+              "points": 5,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
               "event": "200m Karışık",
-              "time_raw": "2:39.58",
-              "rank": 6,
-              "points": 3,
+              "time_raw": "2:38.21",
+              "rank": 5,
+              "points": 4,
               "is_live": true,
               "is_dns": false
             }
@@ -39537,50 +39577,6 @@ window.SEM_DATA = {
               "points": 2,
               "is_live": true,
               "is_dns": false
-            }
-          ],
-          "medal": true,
-          "prize": false
-        },
-        {
-          "rank": 8,
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "club": "Çorlu Belediyesi Spor Kulübü",
-          "top3": 17,
-          "top4": 17,
-          "events": [
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "2:55.46",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:22.45",
-              "rank": 3,
-              "points": 6,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:38.21",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "400m Karışık",
-              "time_raw": "DNS",
-              "rank": 16,
-              "points": 0,
-              "is_live": false,
-              "is_dns": true
             }
           ],
           "medal": true,
@@ -39656,6 +39652,42 @@ window.SEM_DATA = {
             }
           ],
           "medal": true,
+          "prize": false
+        },
+        {
+          "rank": 10,
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "club": "Albatros Yüzme Akademisi",
+          "top3": 16,
+          "top4": 16,
+          "events": [
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:29.67",
+              "rank": 1,
+              "points": 9,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:42.13",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:39.58",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
           "prize": false
         },
         {
@@ -39864,86 +39896,6 @@ window.SEM_DATA = {
         },
         {
           "rank": 16,
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "club": "Çanakkale Belediye Spor Kulübü",
-          "top3": 10,
-          "top4": 10,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:39.17",
-              "rank": 2,
-              "points": 7,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:36.42",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.01",
-              "rank": 11,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "club": "Temel Su Sporları Spor Kulübü",
-          "top3": 9,
-          "top4": 9,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:49.90",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kelebek",
-              "time_raw": "2:56.43",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kelebek",
-              "time_raw": "1:13.43",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:42.18",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
           "name": "Linda Derin OĞUZHAN",
           "city": "Samsun",
           "club": "Samsun Su Sporları Spor Kulübü",
@@ -39979,7 +39931,43 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 17,
+          "rank": 16,
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "club": "Çanakkale Belediye Spor Kulübü",
+          "top3": 9,
+          "top4": 9,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:39.17",
+              "rank": 3,
+              "points": 6,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.42",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.01",
+              "rank": 11,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 16,
           "name": "Melis Ece İLTER",
           "city": "Eskişehir",
           "club": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
@@ -40023,43 +40011,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 17,
-          "name": "Neslişah KARACAOĞLU",
-          "city": "İzmir",
-          "club": "Göztepe Spor Kulübü",
-          "top3": 9,
-          "top4": 9,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:36.98",
-              "rank": 1,
-              "points": 9,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "800m Serbest",
-              "time_raw": "10:19.46",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:40.80",
-              "rank": 9,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 17,
+          "rank": 16,
           "name": "Zeynep KÜÇÜK",
           "city": "Trabzon",
           "club": "Tswim Spor Kulübü",
@@ -40103,7 +40055,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 22,
+          "rank": 20,
           "name": "Elif İNAT",
           "city": "Samsun",
           "club": "Samsun Su Sporları Spor Kulübü",
@@ -40147,7 +40099,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
+          "rank": 21,
           "name": "Aysima VATANSEVER",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -40191,51 +40143,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "club": "Toroslar Yüzme Spor Kulübü",
-          "top3": 7,
-          "top4": 7,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:49.04",
-              "rank": 4,
-              "points": 5,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:36.73",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:44.68",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Serbest",
-              "time_raw": "2:26.36",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 23,
+          "rank": 21,
           "name": "Defne UÇAR",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -40279,7 +40187,87 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
+          "rank": 21,
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "club": "Temel Su Sporları Spor Kulübü",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "200m Kelebek",
+              "time_raw": "2:56.43",
+              "rank": 6,
+              "points": 3,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kelebek",
+              "time_raw": "1:13.43",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:49.90",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:42.18",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 21,
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "club": "Göztepe Spor Kulübü",
+          "top3": 7,
+          "top4": 7,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:36.98",
+              "rank": 2,
+              "points": 7,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "800m Serbest",
+              "time_raw": "10:19.46",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:40.80",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 21,
           "name": "Yağmur ADALIYILMAZ",
           "city": "Antalya",
           "club": "Muratpaşa Belediyesi Spor Kulübü",
@@ -40315,7 +40303,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 23,
+          "rank": 21,
           "name": "Zeynep Beren YILDIZ",
           "city": "Ankara",
           "club": "Baskent Yüzme Spor Kulübü",
@@ -40359,7 +40347,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 28,
+          "rank": 27,
           "name": "Almina SAMUR",
           "city": "Antalya",
           "club": "Antalya Faroz Spor Kulübü",
@@ -40395,7 +40383,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 28,
+          "rank": 27,
           "name": "Aslı Beren KOLCU",
           "city": "Ankara",
           "club": "Aykon Spor Kulübü",
@@ -40431,33 +40419,41 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 28,
-          "name": "Azra CAMBAZOĞLU",
+          "rank": 27,
+          "name": "Defne ARLI",
           "city": "Antalya",
-          "club": "Manavgat Barlas Spor Kulübü",
+          "club": "Toroslar Yüzme Spor Kulübü",
           "top3": 5,
           "top4": 5,
           "events": [
             {
-              "event": "800m Serbest",
-              "time_raw": "10:02.76",
-              "rank": 5,
-              "points": 4,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
               "event": "400m Karışık",
-              "time_raw": "5:55.87",
-              "rank": 8,
-              "points": 1,
+              "time_raw": "5:49.04",
+              "rank": 6,
+              "points": 3,
               "is_live": true,
               "is_dns": false
             },
             {
-              "event": "100m Serbest",
-              "time_raw": "1:06.05",
-              "rank": 9,
+              "event": "200m Sırtüstü",
+              "time_raw": "2:36.73",
+              "rank": 7,
+              "points": 2,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:44.68",
+              "rank": 14,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Serbest",
+              "time_raw": "2:26.36",
+              "rank": 14,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -40467,7 +40463,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 28,
+          "rank": 27,
           "name": "Hira Zeyneb MUTLU",
           "city": "Eskişehir",
           "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
@@ -40511,40 +40507,32 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 32,
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "club": "Trabzon Okyanus Spor Kulübü",
-          "top3": 3,
-          "top4": 3,
+          "rank": 31,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "club": "Manavgat Barlas Spor Kulübü",
+          "top3": 4,
+          "top4": 4,
           "events": [
             {
+              "event": "800m Serbest",
+              "time_raw": "10:02.76",
+              "rank": 5,
+              "points": 4,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Serbest",
+              "time_raw": "1:06.05",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
               "event": "400m Karışık",
-              "time_raw": "5:51.69",
-              "rank": 6,
-              "points": 3,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:45.58",
-              "rank": 17,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "100m Kurbağalama",
-              "time_raw": "1:30.36",
-              "rank": 12,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Kurbağalama",
-              "time_raw": "3:08.85",
+              "time_raw": "5:55.87",
               "rank": 10,
               "points": 0,
               "is_live": true,
@@ -40635,43 +40623,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 35,
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-          "top3": 2,
-          "top4": 2,
-          "events": [
-            {
-              "event": "400m Karışık",
-              "time_raw": "5:53.55",
-              "rank": 7,
-              "points": 2,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Karışık",
-              "time_raw": "2:49.22",
-              "rank": 28,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            },
-            {
-              "event": "200m Sırtüstü",
-              "time_raw": "2:44.90",
-              "rank": 14,
-              "points": 0,
-              "is_live": true,
-              "is_dns": false
-            }
-          ],
-          "medal": false,
-          "prize": false
-        },
-        {
-          "rank": 35,
+          "rank": 34,
           "name": "İnci TANRIVERDİ",
           "city": "Eskişehir",
           "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
@@ -40715,7 +40667,51 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 35,
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "club": "Trabzon Okyanus Spor Kulübü",
+          "top3": 1,
+          "top4": 1,
+          "events": [
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:51.69",
+              "rank": 8,
+              "points": 1,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:45.58",
+              "rank": 17,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "100m Kurbağalama",
+              "time_raw": "1:30.36",
+              "rank": 12,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Kurbağalama",
+              "time_raw": "3:08.85",
+              "rank": 10,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 35,
           "name": "Blena AKÇA",
           "city": "Antalya",
           "club": "Toroslar Yüzme Spor Kulübü",
@@ -40751,7 +40747,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 35,
           "name": "Serenay Tuğçe Gülöksüz",
           "city": "Ankara",
           "club": "Orka Swim Team Spor Kulübü",
@@ -40795,7 +40791,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 37,
+          "rank": 35,
           "name": "Zeynep TELLİ",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -40831,7 +40827,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Arya Gönül KAHRAMAN",
           "city": "Ankara",
           "club": "Ankara Ferdi",
@@ -40867,7 +40863,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Aysu KABAOĞLU",
           "city": "Bursa",
           "club": "Bursa Büyükşehir Belediye Spor Kulübü",
@@ -40903,7 +40899,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Ayşe Beren ONAY",
           "city": "Bursa",
           "club": "Ortakçı Spor Kulübü",
@@ -40937,7 +40933,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "DNS",
-              "rank": 13,
+              "rank": 15,
               "points": 0,
               "is_live": false,
               "is_dns": true
@@ -40947,7 +40943,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Azra MUTLU",
           "city": "İzmir",
           "club": "Atletico Spor Kulübü",
@@ -40991,7 +40987,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Başak İrem Altunzincir",
           "city": "Ankara",
           "club": "Baskent Cankaya Spor Kulübü",
@@ -41027,7 +41023,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Beren MUTAŞ",
           "city": "Konya",
           "club": "Marlin Akademi Yüzme Spor Kulübü",
@@ -41071,7 +41067,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Beren ULUAĞAÇ",
           "city": "Edirne",
           "club": "Poseidon Spor Kulübü",
@@ -41107,7 +41103,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Berrak ÖZBAL",
           "city": "Gaziantep",
           "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
@@ -41151,7 +41147,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Defne GÖNEN",
           "city": "İzmir",
           "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
@@ -41185,7 +41181,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:04.71",
-              "rank": 11,
+              "rank": 13,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -41195,7 +41191,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Defne YILMAZ",
           "city": "Tokat",
           "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
@@ -41229,7 +41225,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:00.10",
-              "rank": 9,
+              "rank": 11,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -41239,7 +41235,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Deniz ERÇELEBİ",
           "city": "İzmir",
           "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
@@ -41275,7 +41271,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Dünyam Aden Su KÜÇÜK",
           "city": "Adana",
           "club": "Ageb Spor Kulübü",
@@ -41311,7 +41307,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Ecem Gülce YILMAZ",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -41329,7 +41325,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:14.36",
-              "rank": 12,
+              "rank": 14,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -41339,7 +41335,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Eda ÖZRENK",
           "city": "Çanakkale",
           "club": "Çanakkale Belediye Spor Kulübü",
@@ -41383,7 +41379,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Elif Naz OKUYUCU",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -41427,7 +41423,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Elifnur Cennet YILMAZ",
           "city": "Samsun",
           "club": "Temel Su Sporları Spor Kulübü",
@@ -41471,7 +41467,43 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+          "top3": 0,
+          "top4": 0,
+          "events": [
+            {
+              "event": "200m Karışık",
+              "time_raw": "2:49.22",
+              "rank": 28,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "200m Sırtüstü",
+              "time_raw": "2:44.90",
+              "rank": 14,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            },
+            {
+              "event": "400m Karışık",
+              "time_raw": "5:53.55",
+              "rank": 9,
+              "points": 0,
+              "is_live": true,
+              "is_dns": false
+            }
+          ],
+          "medal": false,
+          "prize": false
+        },
+        {
+          "rank": 39,
           "name": "Eylül ÇOTUR",
           "city": "Ankara",
           "club": "Nesibe Aydın Spor Kulübü",
@@ -41507,7 +41539,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Melis LİZOR",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -41551,7 +41583,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Melis MENCİK",
           "city": "Samsun",
           "club": "Yıldız Su Sporları Spor Kulübü",
@@ -41587,7 +41619,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Mina AKTAŞ",
           "city": "Çanakkale",
           "club": "Biga Gelisim Spor Kulübü",
@@ -41623,7 +41655,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Mira ŞİMŞEK",
           "city": "Tekirdağ",
           "club": "Çorlu Belediyesi Spor Kulübü",
@@ -41659,7 +41691,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Nisa Nur İLYAN",
           "city": "Trabzon",
           "club": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
@@ -41703,7 +41735,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Zeynep MEYİLLİ",
           "city": "Kayseri",
           "club": "Kayseri Fırtına Spor Kulübü",
@@ -41739,7 +41771,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Zümra KOÇOĞLU",
           "city": "Bursa",
           "club": "Uludağ Oksijen Spor Kulübü",
@@ -41775,7 +41807,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Öykü ÖZGÜL",
           "city": "Ankara",
           "club": "Baskent Cankaya Spor Kulübü",
@@ -41809,7 +41841,7 @@ window.SEM_DATA = {
             {
               "event": "400m Karışık",
               "time_raw": "6:01.99",
-              "rank": 10,
+              "rank": 12,
               "points": 0,
               "is_live": true,
               "is_dns": false
@@ -41819,7 +41851,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "Özüm ÖZBEY",
           "city": "Ankara",
           "club": "Orka Swim Team Spor Kulübü",
@@ -41863,7 +41895,7 @@ window.SEM_DATA = {
           "prize": false
         },
         {
-          "rank": 40,
+          "rank": 39,
           "name": "İdil Nilay Karslı",
           "city": "Giresun",
           "club": "Giresun Şahin Spor Kulübü",
@@ -42188,7 +42220,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 8,
+          "rank_in_group": 9,
           "medal_cut": 8,
           "event_medal_count": 4
         },
@@ -42287,7 +42319,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -42298,7 +42330,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -42320,7 +42352,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -42331,7 +42363,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -42419,7 +42451,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -42463,7 +42495,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -42485,7 +42517,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -42529,7 +42561,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -42540,7 +42572,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -42663,7 +42695,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 8,
+          "rank_in_group": 9,
           "medal_cut": 8,
           "event_medal_count": 4
         },
@@ -42905,7 +42937,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -42916,7 +42948,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -42938,7 +42970,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -42949,7 +42981,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -43026,7 +43058,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -43118,7 +43150,7 @@ window.SEM_DATA = {
     {
       "rank": 2,
       "city": "İzmir",
-      "total": 690,
+      "total": 692,
       "athletes": 45,
       "events_won": 0,
       "athlete_list": [
@@ -43249,10 +43281,21 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 7,
+          "top3": 22,
+          "rank_in_group": 5,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
+        },
+        {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
         },
         {
           "name": "Duru AYDIN",
@@ -43316,7 +43359,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 4,
           "event_medal_count": 4
         },
@@ -43340,17 +43383,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 9,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 6,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -43382,7 +43414,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -43475,17 +43507,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Neslişah KARACAOĞLU",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 11,
-          "rank_in_group": 18,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
           "name": "İpek SÖZER",
           "city": "İzmir",
           "group": "2011 Kadın",
@@ -43495,6 +43516,17 @@ window.SEM_DATA = {
           "rank_in_group": 10,
           "medal_cut": 3,
           "event_medal_count": 3
+        },
+        {
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 9,
+          "rank_in_group": 19,
+          "medal_cut": 8,
+          "event_medal_count": 2
         },
         {
           "name": "Arjin KARAMAN",
@@ -43514,7 +43546,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -43569,7 +43601,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -43591,7 +43623,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -43602,7 +43634,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -43719,6 +43751,28 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
           "name": "Eray BÜYÜKKORKMAZ",
           "city": "İzmir",
           "group": "2012 Erkek",
@@ -43758,7 +43812,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 4,
           "event_medal_count": 4
         },
@@ -43782,17 +43836,6 @@ window.SEM_DATA = {
           "top3": 25,
           "rank_in_group": 5,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 7,
-          "medal_cut": 6,
           "event_medal_count": 3
         },
         {
@@ -43840,17 +43883,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 6,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
           "name": "Çağdaş Çolakoğulları",
           "city": "İzmir",
           "group": "2010 Erkek",
@@ -43879,7 +43911,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -43944,8 +43976,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 11,
-          "rank_in_group": 18,
+          "top3": 9,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -44022,7 +44054,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -44117,7 +44149,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 111,
+      "medal_count": 113,
       "prize_count": 6,
       "gold_count": 2,
       "silver_count": 4
@@ -44125,7 +44157,7 @@ window.SEM_DATA = {
     {
       "rank": 3,
       "city": "Bursa",
-      "total": 583,
+      "total": 587,
       "athletes": 41,
       "events_won": 0,
       "athlete_list": [
@@ -44259,7 +44291,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 4,
           "medal_cut": 6,
-          "event_medal_count": 4
+          "event_medal_count": 3
         },
         {
           "name": "Lena CENGİZ",
@@ -44317,26 +44349,15 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Simay EMRE",
-          "city": "Bursa",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 9,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Irmak Su Yaman",
+          "name": "Ece EROL",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 16,
+          "top3": 18,
           "rank_in_group": 9,
           "medal_cut": 6,
-          "event_medal_count": 2
+          "event_medal_count": 4
         },
         {
           "name": "Elif VATANSEVER",
@@ -44344,9 +44365,20 @@ window.SEM_DATA = {
           "group": "2012 Kadın",
           "yb": "12",
           "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 18,
+          "top3": 18,
+          "rank_in_group": 13,
           "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Simay EMRE",
+          "city": "Bursa",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 17,
+          "rank_in_group": 10,
+          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -44369,18 +44401,7 @@ window.SEM_DATA = {
           "top3": 14,
           "rank_in_group": 11,
           "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
-          "medal_cut": 6,
-          "event_medal_count": 4
+          "event_medal_count": 3
         },
         {
           "name": "Kağan KOÇUK",
@@ -44400,7 +44421,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -44411,9 +44432,20 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 4,
           "event_medal_count": 1
+        },
+        {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
+          "medal_cut": 6,
+          "event_medal_count": 2
         },
         {
           "name": "Utku KARAKAŞ",
@@ -44455,7 +44487,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -44488,7 +44520,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -44499,7 +44531,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -44543,7 +44575,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -44576,7 +44608,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -44693,17 +44725,6 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
-          "name": "Bilge BEKTAŞ",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 23,
-          "rank_in_group": 4,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
           "name": "Miraç Efe KARGIN",
           "city": "Bursa",
           "group": "2011 Erkek",
@@ -44737,24 +44758,13 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
-          "name": "Zehra MORALIOĞLU",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 11,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
           "name": "Ece EROL",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 18,
+          "rank_in_group": 9,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -44781,6 +44791,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Bilge BEKTAŞ",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 23,
+          "rank_in_group": 4,
+          "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
           "name": "Lena CENGİZ",
           "city": "Bursa",
           "group": "2011 Kadın",
@@ -44803,37 +44824,37 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 13,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
           "name": "Simay EMRE",
           "city": "Bursa",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
         {
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 18,
-          "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Irmak Su Yaman",
+          "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 9,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
-          "event_medal_count": 2
+          "event_medal_count": 3
         },
         {
           "name": "Kadir Eymen AKSU",
@@ -44864,7 +44885,18 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -44897,7 +44929,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -44941,7 +44973,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 4,
           "event_medal_count": 1
         }
@@ -45025,7 +45057,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 104,
+      "medal_count": 102,
       "prize_count": 7,
       "gold_count": 6,
       "silver_count": 1
@@ -45033,7 +45065,7 @@ window.SEM_DATA = {
     {
       "rank": 4,
       "city": "Samsun",
-      "total": 455,
+      "total": 453,
       "athletes": 34,
       "events_won": 0,
       "athlete_list": [
@@ -45121,7 +45153,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 21,
-          "rank_in_group": 5,
+          "rank_in_group": 6,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -45264,7 +45296,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 19,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -45280,24 +45312,13 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
           "name": "Elif İNAT",
           "city": "Samsun",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 24,
+          "rank_in_group": 22,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -45308,9 +45329,20 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 24,
+          "medal_cut": 8,
+          "event_medal_count": 3
         },
         {
           "name": "Doğu İPEK",
@@ -45363,7 +45395,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -45385,7 +45417,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -45396,7 +45428,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -45475,7 +45507,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 21,
-          "rank_in_group": 5,
+          "rank_in_group": 6,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -45551,8 +45583,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
+          "top3": 7,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -45640,7 +45672,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 24,
+          "rank_in_group": 22,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -45651,7 +45683,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -45684,7 +45716,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 19,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -45739,7 +45771,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -45776,7 +45808,7 @@ window.SEM_DATA = {
     {
       "rank": 5,
       "city": "Antalya",
-      "total": 415,
+      "total": 413,
       "athletes": 31,
       "events_won": 0,
       "athlete_list": [
@@ -45891,17 +45923,6 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 13,
-          "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
           "name": "Kerim IŞIL",
           "city": "Antalya",
           "group": "2014 Erkek",
@@ -45957,6 +45978,28 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 16,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 20,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        },
+        {
           "name": "Ali Ege KÜTAHYA",
           "city": "Antalya",
           "group": "2012 Erkek",
@@ -45966,17 +46009,6 @@ window.SEM_DATA = {
           "rank_in_group": 26,
           "medal_cut": 4,
           "event_medal_count": 0
-        },
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 8,
-          "event_medal_count": 3
         },
         {
           "name": "Denizhan Umut AKYÜZ",
@@ -45990,14 +46022,25 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Ada Güngör",
+          "name": "Tuğba YILDIZ",
           "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 21,
-          "medal_cut": 6,
+          "rank_in_group": 22,
+          "medal_cut": 8,
           "event_medal_count": 2
         },
         {
@@ -46029,7 +46072,18 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Almina SAMUR",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46039,30 +46093,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 27,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Almina SAMUR",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46245,17 +46277,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 13,
-          "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
           "name": "Yağmur ADALIYILMAZ",
           "city": "Antalya",
           "group": "2014 Kadın",
@@ -46263,17 +46284,6 @@ window.SEM_DATA = {
           "gender": "Kadın",
           "top3": 14,
           "rank_in_group": 13,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -46286,6 +46296,17 @@ window.SEM_DATA = {
           "top3": 9,
           "rank_in_group": 19,
           "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 4,
           "event_medal_count": 3
         },
         {
@@ -46327,9 +46348,20 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 21,
+          "top3": 13,
+          "rank_in_group": 16,
           "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 8,
+          "rank_in_group": 22,
+          "medal_cut": 8,
           "event_medal_count": 2
         },
         {
@@ -46339,18 +46371,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46361,7 +46382,18 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46371,8 +46403,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 27,
+          "top3": 10,
+          "rank_in_group": 20,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -46445,7 +46477,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 70,
+      "medal_count": 69,
       "prize_count": 4,
       "gold_count": 3,
       "silver_count": 1
@@ -46585,7 +46617,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -46607,7 +46639,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46618,7 +46650,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -46719,7 +46751,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -46741,7 +46773,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46785,7 +46817,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -46798,8 +46830,322 @@ window.SEM_DATA = {
     },
     {
       "rank": 7,
+      "city": "Tekirdağ",
+      "total": 217,
+      "athletes": 16,
+      "events_won": 0,
+      "athlete_list": [
+        {
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "group": "2011 Kadın",
+          "yb": "11",
+          "gender": "Kadın",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 3,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 25,
+          "rank_in_group": 4,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "group": "2009 Erkek",
+          "yb": "09",
+          "gender": "Erkek",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 3,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 7,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 19,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 17,
+          "rank_in_group": 8,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Can DERVİŞOĞLU",
+          "city": "Tekirdağ",
+          "group": "2009 Erkek",
+          "yb": "09",
+          "gender": "Erkek",
+          "top3": 14,
+          "rank_in_group": 11,
+          "medal_cut": 3,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 11,
+          "rank_in_group": 19,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Eymen Batu İBOLAR",
+          "city": "Tekirdağ",
+          "group": "2010 Erkek",
+          "yb": "10",
+          "gender": "Erkek",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 3,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Tuna TURAN",
+          "city": "Tekirdağ",
+          "group": "2010 Erkek",
+          "yb": "10",
+          "gender": "Erkek",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 3,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Güney OKAL",
+          "city": "Tekirdağ",
+          "group": "2012 Erkek",
+          "yb": "12",
+          "gender": "Erkek",
+          "top3": 6,
+          "rank_in_group": 27,
+          "medal_cut": 4,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Ulus MEMİŞ",
+          "city": "Tekirdağ",
+          "group": "2010 Erkek",
+          "yb": "10",
+          "gender": "Erkek",
+          "top3": 5,
+          "rank_in_group": 25,
+          "medal_cut": 3,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Alp VURAL",
+          "city": "Tekirdağ",
+          "group": "2012 Erkek",
+          "yb": "12",
+          "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 29,
+          "medal_cut": 4,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "group": "2011 Kadın",
+          "yb": "11",
+          "gender": "Kadın",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 3,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Melisa ZOBAR",
+          "city": "Tekirdağ",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 25,
+          "rank_in_group": 4,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 7,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Ela GÜZELSOY",
+          "city": "Tekirdağ",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 19,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 17,
+          "rank_in_group": 8,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Doruk ÖVÜNÇ",
+          "city": "Tekirdağ",
+          "group": "2009 Erkek",
+          "yb": "09",
+          "gender": "Erkek",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 3,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 11,
+          "rank_in_group": 19,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Eymen Batu İBOLAR",
+          "city": "Tekirdağ",
+          "group": "2010 Erkek",
+          "yb": "10",
+          "gender": "Erkek",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 3,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [
+        {
+          "name": "Derin ANBARLI",
+          "city": "Tekirdağ",
+          "group": "2011 Kadın",
+          "yb": "11",
+          "gender": "Kadın",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 3,
+          "event_medal_count": 4
+        }
+      ],
+      "medal_count": 33,
+      "prize_count": 1,
+      "gold_count": 0,
+      "silver_count": 1
+    },
+    {
+      "rank": 8,
       "city": "Trabzon",
-      "total": 216,
+      "total": 214,
       "athletes": 22,
       "events_won": 0,
       "athlete_list": [
@@ -46909,7 +47255,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -46947,17 +47293,6 @@ window.SEM_DATA = {
           "event_medal_count": 0
         },
         {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Mert BOSTAN",
           "city": "Trabzon",
           "group": "2014 Erkek",
@@ -46976,6 +47311,17 @@ window.SEM_DATA = {
           "gender": "Erkek",
           "top3": 2,
           "rank_in_group": 32,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -47030,7 +47376,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -47153,7 +47499,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -47180,17 +47526,6 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Kerem KILIÇASLAN",
           "city": "Trabzon",
           "group": "2014 Erkek",
@@ -47198,6 +47533,17 @@ window.SEM_DATA = {
           "gender": "Erkek",
           "top3": 2,
           "rank_in_group": 32,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -47230,320 +47576,6 @@ window.SEM_DATA = {
       "prize_count": 1,
       "gold_count": 1,
       "silver_count": 0
-    },
-    {
-      "rank": 8,
-      "city": "Tekirdağ",
-      "total": 209,
-      "athletes": 16,
-      "events_won": 0,
-      "athlete_list": [
-        {
-          "name": "Derin ANBARLI",
-          "city": "Tekirdağ",
-          "group": "2011 Kadın",
-          "yb": "11",
-          "gender": "Kadın",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 3,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Melisa ZOBAR",
-          "city": "Tekirdağ",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 25,
-          "rank_in_group": 4,
-          "medal_cut": 4,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Doruk ÖVÜNÇ",
-          "city": "Tekirdağ",
-          "group": "2009 Erkek",
-          "yb": "09",
-          "gender": "Erkek",
-          "top3": 22,
-          "rank_in_group": 5,
-          "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Berra ZENGİN",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ela GÜZELSOY",
-          "city": "Tekirdağ",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 11,
-          "medal_cut": 4,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 9,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Derin SEZER",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Can DERVİŞOĞLU",
-          "city": "Tekirdağ",
-          "group": "2009 Erkek",
-          "yb": "09",
-          "gender": "Erkek",
-          "top3": 14,
-          "rank_in_group": 11,
-          "medal_cut": 3,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Ada TÜRKEKUL",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 16,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Eymen Batu İBOLAR",
-          "city": "Tekirdağ",
-          "group": "2010 Erkek",
-          "yb": "10",
-          "gender": "Erkek",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 3,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Tuna TURAN",
-          "city": "Tekirdağ",
-          "group": "2010 Erkek",
-          "yb": "10",
-          "gender": "Erkek",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 3,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Güney OKAL",
-          "city": "Tekirdağ",
-          "group": "2012 Erkek",
-          "yb": "12",
-          "gender": "Erkek",
-          "top3": 6,
-          "rank_in_group": 27,
-          "medal_cut": 4,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Ulus MEMİŞ",
-          "city": "Tekirdağ",
-          "group": "2010 Erkek",
-          "yb": "10",
-          "gender": "Erkek",
-          "top3": 5,
-          "rank_in_group": 25,
-          "medal_cut": 3,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 28,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Alp VURAL",
-          "city": "Tekirdağ",
-          "group": "2012 Erkek",
-          "yb": "12",
-          "gender": "Erkek",
-          "top3": 1,
-          "rank_in_group": 29,
-          "medal_cut": 4,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Mira ŞİMŞEK",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Derin ANBARLI",
-          "city": "Tekirdağ",
-          "group": "2011 Kadın",
-          "yb": "11",
-          "gender": "Kadın",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 3,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Melisa ZOBAR",
-          "city": "Tekirdağ",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 25,
-          "rank_in_group": 4,
-          "medal_cut": 4,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Berra ZENGİN",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ela GÜZELSOY",
-          "city": "Tekirdağ",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 11,
-          "medal_cut": 4,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Derin SEZER",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Doruk ÖVÜNÇ",
-          "city": "Tekirdağ",
-          "group": "2009 Erkek",
-          "yb": "09",
-          "gender": "Erkek",
-          "top3": 22,
-          "rank_in_group": 5,
-          "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 9,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ada TÜRKEKUL",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 16,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Eymen Batu İBOLAR",
-          "city": "Tekirdağ",
-          "group": "2010 Erkek",
-          "yb": "10",
-          "gender": "Erkek",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 3,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 28,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [
-        {
-          "name": "Derin ANBARLI",
-          "city": "Tekirdağ",
-          "group": "2011 Kadın",
-          "yb": "11",
-          "gender": "Kadın",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 3,
-          "event_medal_count": 4
-        }
-      ],
-      "medal_count": 31,
-      "prize_count": 1,
-      "gold_count": 0,
-      "silver_count": 1
     },
     {
       "rank": 9,
@@ -47636,7 +47668,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 16,
+          "rank_in_group": 15,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -47680,7 +47712,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -47746,7 +47778,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -47770,7 +47802,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 16,
+          "rank_in_group": 15,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -47858,7 +47890,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -47905,7 +47937,7 @@ window.SEM_DATA = {
     {
       "rank": 10,
       "city": "Gaziantep",
-      "total": 129,
+      "total": 131,
       "athletes": 11,
       "events_won": 0,
       "athlete_list": [
@@ -47959,8 +47991,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -47982,7 +48014,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -47993,7 +48025,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 21,
+          "rank_in_group": 24,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -48026,7 +48058,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -48082,8 +48114,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -48094,7 +48126,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -48116,7 +48148,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 21,
+          "rank_in_group": 24,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -48208,7 +48240,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -48241,7 +48273,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -48287,7 +48319,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -48331,7 +48363,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -48439,21 +48471,10 @@ window.SEM_DATA = {
     {
       "rank": 13,
       "city": "Çanakkale",
-      "total": 50,
+      "total": 49,
       "athletes": 9,
       "events_won": 0,
       "athlete_list": [
-        {
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 13,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
         {
           "name": "Defne BAHAR",
           "city": "Çanakkale",
@@ -48461,8 +48482,19 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -48472,7 +48504,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -48483,7 +48515,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -48516,7 +48548,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -48527,7 +48559,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -48538,23 +48570,12 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
       ],
       "medal_list": [
-        {
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 13,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
         {
           "name": "Defne BAHAR",
           "city": "Çanakkale",
@@ -48562,8 +48583,19 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -48573,7 +48605,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -48584,7 +48616,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -48747,7 +48779,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 10,
+          "rank_in_group": 9,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -48771,7 +48803,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 10,
+          "rank_in_group": 9,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -48818,7 +48850,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -48840,7 +48872,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -48864,7 +48896,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -48889,7 +48921,7 @@ window.SEM_DATA = {
     {
       "rank": 17,
       "city": "Konya",
-      "total": 22,
+      "total": 20,
       "athletes": 2,
       "events_won": 0,
       "athlete_list": [
@@ -48899,8 +48931,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 22,
-          "rank_in_group": 5,
+          "top3": 20,
+          "rank_in_group": 6,
           "medal_cut": 8,
           "event_medal_count": 4
         },
@@ -48911,7 +48943,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -48923,8 +48955,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 22,
-          "rank_in_group": 5,
+          "top3": 20,
+          "rank_in_group": 6,
           "medal_cut": 8,
           "event_medal_count": 4
         }
@@ -49069,7 +49101,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -49107,21 +49139,10 @@ window.SEM_DATA = {
     {
       "rank": 21,
       "city": "Tokat",
-      "total": 3,
+      "total": 1,
       "athletes": 3,
       "events_won": 0,
       "athlete_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 38,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
         {
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
@@ -49140,23 +49161,23 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
+        },
         {
           "name": "Era ÇAKİN",
           "city": "Tokat",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 38,
+          "top3": 0,
+          "rank_in_group": 42,
           "medal_cut": 8,
-          "event_medal_count": 1
-        },
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
         {
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
@@ -49170,7 +49191,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 2,
+      "medal_count": 1,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -49180,7 +49201,7 @@ window.SEM_DATA = {
     {
       "rank": 1,
       "city": "İzmir",
-      "total": 619,
+      "total": 621,
       "athletes": 45,
       "events_won": 0,
       "athlete_list": [
@@ -49204,7 +49225,7 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Pars İKİKARDAŞLAR",
@@ -49300,10 +49321,21 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 4,
+          "top3": 22,
+          "rank_in_group": 3,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
+        },
+        {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
         },
         {
           "name": "Duru AYDIN",
@@ -49358,7 +49390,7 @@ window.SEM_DATA = {
           "top3": 20,
           "rank_in_group": 8,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Azra AŞKAR",
@@ -49369,17 +49401,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 7,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 5,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -49422,7 +49443,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -49520,8 +49541,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
+          "top3": 7,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -49554,7 +49575,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -49609,7 +49630,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -49642,7 +49663,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -49653,7 +49674,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -49682,6 +49703,17 @@ window.SEM_DATA = {
       ],
       "medal_list": [
         {
+          "name": "Merve MENGÜBERTİ",
+          "city": "İzmir",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 27,
+          "rank_in_group": 1,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
           "name": "Zeynep Derin GÜLDEMİR",
           "city": "İzmir",
           "group": "2012 Kadın",
@@ -49690,6 +49722,28 @@ window.SEM_DATA = {
           "top3": 25,
           "rank_in_group": 2,
           "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 3,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
           "event_medal_count": 4
         },
         {
@@ -49704,6 +49758,17 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
+          "name": "Ela Su ESKİOĞLU",
+          "city": "İzmir",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 20,
+          "rank_in_group": 8,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
           "name": "Ata SARIKAYA",
           "city": "İzmir",
           "group": "2009 Erkek",
@@ -49712,17 +49777,6 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Merve MENGÜBERTİ",
-          "city": "İzmir",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 27,
-          "rank_in_group": 1,
-          "medal_cut": 4,
           "event_medal_count": 3
         },
         {
@@ -49792,17 +49846,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 4,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
           "name": "Duru AYDIN",
           "city": "İzmir",
           "group": "2012 Kadın",
@@ -49836,17 +49879,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Ela Su ESKİOĞLU",
-          "city": "İzmir",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 20,
-          "rank_in_group": 8,
-          "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
           "name": "Azra AŞKAR",
           "city": "İzmir",
           "group": "2010 Kadın",
@@ -49855,17 +49887,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 7,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 5,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -49919,7 +49940,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -50039,8 +50060,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
+          "top3": 7,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -50051,7 +50072,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -50143,7 +50164,7 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Zeynep Derin GÜLDEMİR",
@@ -50157,7 +50178,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 85,
+      "medal_count": 89,
       "prize_count": 6,
       "gold_count": 4,
       "silver_count": 2
@@ -50385,7 +50406,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -50528,7 +50549,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -50561,7 +50582,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 20,
+          "rank_in_group": 22,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -50572,7 +50593,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -50627,7 +50648,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -50660,7 +50681,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -50682,7 +50703,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -50715,7 +50736,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -50781,7 +50802,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -50792,7 +50813,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -51047,7 +51068,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -51124,7 +51145,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -51179,7 +51200,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 20,
+          "rank_in_group": 22,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -51190,7 +51211,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -51234,7 +51255,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -51315,7 +51336,7 @@ window.SEM_DATA = {
     {
       "rank": 3,
       "city": "Bursa",
-      "total": 496,
+      "total": 505,
       "athletes": 40,
       "events_won": 0,
       "athlete_list": [
@@ -51463,6 +51484,28 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 6,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
           "name": "Ahmet KOŞUM",
           "city": "Bursa",
           "group": "2010 Erkek",
@@ -51491,18 +51534,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Irmak Su Yaman",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -51529,26 +51561,26 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
           "name": "Mısra Saygılı",
           "city": "Bursa",
           "group": "2012 Kadın",
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 16,
+          "rank_in_group": 17,
           "medal_cut": 4,
           "event_medal_count": 1
+        },
+        {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 2
         },
         {
           "name": "Utku KARAKAŞ",
@@ -51568,19 +51600,8 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 4,
           "event_medal_count": 2
         },
         {
@@ -51601,7 +51622,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 18,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -51612,7 +51633,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -51667,7 +51688,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -51678,7 +51699,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -51722,7 +51743,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -51755,7 +51776,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -51800,8 +51821,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -51905,6 +51926,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
           "name": "Simay EMRE",
           "city": "Bursa",
           "group": "2014 Kadın",
@@ -51913,28 +51945,6 @@ window.SEM_DATA = {
           "top3": 17,
           "rank_in_group": 8,
           "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Bilge BEKTAŞ",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Zehra MORALIOĞLU",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 10,
-          "rank_in_group": 17,
-          "medal_cut": 6,
           "event_medal_count": 3
         },
         {
@@ -51971,13 +51981,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Irmak Su Yaman",
+          "name": "Bilge BEKTAŞ",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -52004,6 +52014,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Utku KARAKAŞ",
           "city": "Bursa",
           "group": "2014 Erkek",
@@ -52015,14 +52036,14 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Elif VATANSEVER",
+          "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
-          "group": "2012 Kadın",
-          "yb": "12",
+          "group": "2013 Kadın",
+          "yb": "13",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 4,
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
           "event_medal_count": 2
         },
         {
@@ -52032,7 +52053,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52076,7 +52097,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 16,
+          "rank_in_group": 17,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -52087,7 +52108,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 18,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -52182,7 +52203,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 81,
+      "medal_count": 80,
       "prize_count": 6,
       "gold_count": 6,
       "silver_count": 0
@@ -52190,7 +52211,7 @@ window.SEM_DATA = {
     {
       "rank": 4,
       "city": "Samsun",
-      "total": 399,
+      "total": 397,
       "athletes": 34,
       "events_won": 0,
       "athlete_list": [
@@ -52278,7 +52299,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 21,
-          "rank_in_group": 3,
+          "rank_in_group": 4,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -52393,24 +52414,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
           "name": "Linda Derin OĞUZHAN",
           "city": "Samsun",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52421,7 +52431,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 22,
+          "rank_in_group": 20,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52432,7 +52442,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52446,6 +52456,17 @@ window.SEM_DATA = {
           "rank_in_group": 9,
           "medal_cut": 3,
           "event_medal_count": 1
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 21,
+          "medal_cut": 8,
+          "event_medal_count": 3
         },
         {
           "name": "Çınar Alikan",
@@ -52509,7 +52530,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -52520,7 +52541,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -52531,7 +52552,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -52588,7 +52609,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 21,
-          "rank_in_group": 3,
+          "rank_in_group": 4,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -52686,8 +52707,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
+          "top3": 7,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -52753,7 +52774,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52764,7 +52785,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 22,
+          "rank_in_group": 20,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52775,7 +52796,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -52900,7 +52921,7 @@ window.SEM_DATA = {
     {
       "rank": 5,
       "city": "Antalya",
-      "total": 331,
+      "total": 339,
       "athletes": 31,
       "events_won": 0,
       "athlete_list": [
@@ -53026,6 +53047,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Ali Rüzgar KURTOĞLU",
           "city": "Antalya",
           "group": "2011 Erkek",
@@ -53046,6 +53078,17 @@ window.SEM_DATA = {
           "rank_in_group": 12,
           "medal_cut": 8,
           "event_medal_count": 3
+        },
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 1
         },
         {
           "name": "Timur DONAT",
@@ -53070,17 +53113,6 @@ window.SEM_DATA = {
           "event_medal_count": 0
         },
         {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 18,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
           "name": "Ateş DURMAZ",
           "city": "Antalya",
           "group": "2010 Erkek",
@@ -53092,24 +53124,13 @@ window.SEM_DATA = {
           "event_medal_count": 0
         },
         {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 23,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
           "name": "Yağmur ADALIYILMAZ",
           "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -53120,18 +53141,18 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
         {
-          "name": "Azra CAMBAZOĞLU",
+          "name": "Defne ARLI",
           "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -53147,14 +53168,14 @@ window.SEM_DATA = {
           "event_medal_count": 0
         },
         {
-          "name": "Aliye PAZAR",
+          "name": "Azra CAMBAZOĞLU",
           "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
+          "group": "2014 Kadın",
+          "yb": "14",
           "gender": "Kadın",
           "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
+          "rank_in_group": 31,
+          "medal_cut": 8,
           "event_medal_count": 1
         },
         {
@@ -53186,7 +53207,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -53243,7 +53264,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 20,
           "medal_cut": 4,
-          "event_medal_count": 1
+          "event_medal_count": 2
         }
       ],
       "medal_list": [
@@ -53369,6 +53390,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Timur DONAT",
           "city": "Antalya",
           "group": "2012 Erkek",
@@ -53380,35 +53412,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 18,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 23,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
           "name": "Yağmur ADALIYILMAZ",
           "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -53419,19 +53429,30 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
         {
-          "name": "Azra CAMBAZOĞLU",
+          "name": "Defne ARLI",
           "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 20,
+          "medal_cut": 4,
           "event_medal_count": 2
         },
         {
@@ -53462,9 +53483,20 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
+          "top3": 10,
+          "rank_in_group": 18,
           "medal_cut": 6,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 4,
+          "rank_in_group": 31,
+          "medal_cut": 8,
           "event_medal_count": 1
         },
         {
@@ -53485,7 +53517,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -53498,17 +53530,6 @@ window.SEM_DATA = {
           "top3": 1,
           "rank_in_group": 34,
           "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 20,
-          "medal_cut": 4,
           "event_medal_count": 1
         }
       ],
@@ -53632,7 +53653,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 14,
-          "rank_in_group": 15,
+          "rank_in_group": 16,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -53676,7 +53697,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -53709,7 +53730,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -53720,7 +53741,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 35,
+          "rank_in_group": 34,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -53799,7 +53820,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -53810,7 +53831,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 14,
-          "rank_in_group": 15,
+          "rank_in_group": 16,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -53843,7 +53864,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -53887,7 +53908,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 35,
+          "rank_in_group": 34,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -53913,7 +53934,7 @@ window.SEM_DATA = {
     {
       "rank": 7,
       "city": "Trabzon",
-      "total": 200,
+      "total": 198,
       "athletes": 22,
       "events_won": 0,
       "athlete_list": [
@@ -53990,7 +54011,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 11,
+          "rank_in_group": 12,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -54023,7 +54044,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -54050,17 +54071,6 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Kağan Benveniste",
           "city": "Trabzon",
           "group": "2011 Erkek",
@@ -54079,6 +54089,17 @@ window.SEM_DATA = {
           "gender": "Erkek",
           "top3": 2,
           "rank_in_group": 28,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -54144,7 +54165,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -54245,7 +54266,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 11,
+          "rank_in_group": 12,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -54256,7 +54277,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -54294,17 +54315,6 @@ window.SEM_DATA = {
           "event_medal_count": 1
         },
         {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
           "name": "Kerem KILIÇASLAN",
           "city": "Trabzon",
           "group": "2014 Erkek",
@@ -54312,6 +54322,17 @@ window.SEM_DATA = {
           "gender": "Erkek",
           "top3": 2,
           "rank_in_group": 28,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -54348,7 +54369,7 @@ window.SEM_DATA = {
     {
       "rank": 8,
       "city": "Tekirdağ",
-      "total": 176,
+      "total": 184,
       "athletes": 16,
       "events_won": 0,
       "athlete_list": [
@@ -54402,10 +54423,10 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 8,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Derin SEZER",
@@ -54452,6 +54473,17 @@ window.SEM_DATA = {
           "event_medal_count": 0
         },
         {
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 11,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Güney OKAL",
           "city": "Tekirdağ",
           "group": "2012 Erkek",
@@ -54461,17 +54493,6 @@ window.SEM_DATA = {
           "rank_in_group": 27,
           "medal_cut": 4,
           "event_medal_count": 0
-        },
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 1
         },
         {
           "name": "Tuna TURAN",
@@ -54524,12 +54545,23 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
       ],
       "medal_list": [
+        {
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 6,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
         {
           "name": "Derin ANBARLI",
           "city": "Tekirdağ",
@@ -54561,17 +54593,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 9,
           "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 8,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -54624,14 +54645,14 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
+          "top3": 11,
+          "rank_in_group": 17,
           "medal_cut": 6,
-          "event_medal_count": 1
+          "event_medal_count": 2
         }
       ],
       "prize_list": [],
-      "medal_count": 24,
+      "medal_count": 26,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -54716,7 +54737,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -54837,7 +54858,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -54905,7 +54926,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -54941,7 +54962,7 @@ window.SEM_DATA = {
     {
       "rank": 10,
       "city": "Gaziantep",
-      "total": 101,
+      "total": 103,
       "athletes": 11,
       "events_won": 0,
       "athlete_list": [
@@ -54979,6 +55000,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 14,
+          "rank_in_group": 11,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Toprak Kemal MASALCI",
           "city": "Gaziantep",
           "group": "2010 Erkek",
@@ -54987,17 +55019,6 @@ window.SEM_DATA = {
           "top3": 13,
           "rank_in_group": 16,
           "medal_cut": 3,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
-          "medal_cut": 6,
           "event_medal_count": 2
         },
         {
@@ -55018,7 +55039,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -55051,7 +55072,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -55102,6 +55123,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 14,
+          "rank_in_group": 11,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
           "name": "Toprak Kemal MASALCI",
           "city": "Gaziantep",
           "group": "2010 Erkek",
@@ -55113,24 +55145,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
           "name": "Yağmur Kont",
           "city": "Gaziantep",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -55188,7 +55209,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -55232,7 +55253,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -55278,7 +55299,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -55546,7 +55567,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -55568,7 +55589,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -55592,7 +55613,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -55628,7 +55649,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -55639,7 +55660,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -55652,7 +55673,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -55663,7 +55684,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -55677,7 +55698,7 @@ window.SEM_DATA = {
     {
       "rank": 16,
       "city": "Çanakkale",
-      "total": 29,
+      "total": 28,
       "athletes": 9,
       "events_won": 0,
       "athlete_list": [
@@ -55688,7 +55709,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -55698,7 +55719,7 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 9,
           "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
@@ -55710,7 +55731,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -55721,7 +55742,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -55743,7 +55764,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -55754,7 +55775,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -55776,7 +55797,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -55789,7 +55810,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -55799,7 +55820,7 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 9,
           "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
@@ -55811,7 +55832,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -55822,7 +55843,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -55836,7 +55857,7 @@ window.SEM_DATA = {
     {
       "rank": 17,
       "city": "Konya",
-      "total": 18,
+      "total": 16,
       "athletes": 2,
       "events_won": 0,
       "athlete_list": [
@@ -55846,8 +55867,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 6,
+          "top3": 16,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -55858,7 +55879,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -55870,8 +55891,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 6,
+          "top3": 16,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -55978,7 +55999,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -56054,21 +56075,10 @@ window.SEM_DATA = {
     {
       "rank": 21,
       "city": "Tokat",
-      "total": 2,
+      "total": 0,
       "athletes": 3,
       "events_won": 0,
       "athlete_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 35,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
         {
           "name": "Ali Tuna AVCI",
           "city": "Tokat",
@@ -56087,26 +56097,25 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
+        },
         {
           "name": "Era ÇAKİN",
           "city": "Tokat",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 35,
+          "top3": 0,
+          "rank_in_group": 39,
           "medal_cut": 8,
-          "event_medal_count": 1
+          "event_medal_count": 0
         }
       ],
+      "medal_list": [],
       "prize_list": [],
-      "medal_count": 1,
+      "medal_count": 0,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -63328,7 +63337,7 @@ window.SEM_DATA = {
       "rank": 1,
       "club": "Galatasaray Spor Kulübü",
       "city": "Galatasaray Spor Kulübü",
-      "total": 491,
+      "total": 482,
       "athletes": 25,
       "athlete_list": [
         {
@@ -63519,17 +63528,6 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 13,
-          "medal_cut": 4,
-          "event_medal_count": 3
-        },
-        {
           "name": "Kadir YAYLA",
           "city": "Samsun",
           "group": "2011 Erkek",
@@ -63572,6 +63570,17 @@ window.SEM_DATA = {
           "rank_in_group": 20,
           "medal_cut": 3,
           "event_medal_count": 1
+        },
+        {
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 9,
+          "rank_in_group": 20,
+          "medal_cut": 4,
+          "event_medal_count": 3
         },
         {
           "name": "Ateş DURMAZ",
@@ -63768,8 +63777,8 @@ window.SEM_DATA = {
           "group": "2012 Kadın",
           "yb": "12",
           "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 13,
+          "top3": 9,
+          "rank_in_group": 20,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -63939,7 +63948,7 @@ window.SEM_DATA = {
       "rank": 2,
       "club": "Enka Spor Kulübü",
       "city": "Enka Spor Kulübü",
-      "total": 424,
+      "total": 427,
       "athletes": 22,
       "athlete_list": [
         {
@@ -64020,6 +64029,17 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
           "name": "Mustafa Özgür YALÇIN",
           "city": "Gaziantep",
           "group": "2009 Erkek",
@@ -64086,17 +64106,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 6,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
           "name": "Ömer ULUDAĞ",
           "city": "İzmir",
           "group": "2014 Erkek",
@@ -64125,7 +64134,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -64242,6 +64251,17 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
           "name": "Eray BÜYÜKKORKMAZ",
           "city": "İzmir",
           "group": "2012 Erkek",
@@ -64319,17 +64339,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 6,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
           "name": "Ömer ULUDAĞ",
           "city": "İzmir",
           "group": "2014 Erkek",
@@ -64347,7 +64356,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -64453,7 +64462,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 65,
+      "medal_count": 66,
       "prize_count": 3,
       "gold_count": 1,
       "silver_count": 2
@@ -64462,7 +64471,7 @@ window.SEM_DATA = {
       "rank": 3,
       "club": "Uludağ Oksijen Spor Kulübü",
       "city": "Uludağ Oksijen Spor Kulübü",
-      "total": 284,
+      "total": 282,
       "athletes": 20,
       "athlete_list": [
         {
@@ -64565,24 +64574,13 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Irmak Su Yaman",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 9,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
           "name": "Elif VATANSEVER",
           "city": "Bursa",
           "group": "2012 Kadın",
           "yb": "12",
           "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 18,
+          "top3": 18,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -64593,7 +64591,18 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -64615,7 +64624,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -64670,7 +64679,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -64681,7 +64690,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -64792,21 +64801,10 @@ window.SEM_DATA = {
           "group": "2012 Kadın",
           "yb": "12",
           "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 18,
+          "top3": 18,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
-        },
-        {
-          "name": "Irmak Su Yaman",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 9,
-          "medal_cut": 6,
-          "event_medal_count": 2
         },
         {
           "name": "Zeynep Dilara Ünlü",
@@ -64815,7 +64813,18 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -64837,7 +64846,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -65039,7 +65048,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -65195,7 +65204,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -65255,7 +65264,7 @@ window.SEM_DATA = {
       "rank": 5,
       "club": "Göztepe Spor Kulübü",
       "city": "Göztepe Spor Kulübü",
-      "total": 166,
+      "total": 164,
       "athletes": 10,
       "athlete_list": [
         {
@@ -65314,17 +65323,6 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
-          "name": "Neslişah KARACAOĞLU",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 11,
-          "rank_in_group": 18,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
           "name": "İpek SÖZER",
           "city": "İzmir",
           "group": "2011 Kadın",
@@ -65334,6 +65332,17 @@ window.SEM_DATA = {
           "rank_in_group": 10,
           "medal_cut": 3,
           "event_medal_count": 3
+        },
+        {
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 9,
+          "rank_in_group": 19,
+          "medal_cut": 8,
+          "event_medal_count": 2
         },
         {
           "name": "Arjin KARAMAN",
@@ -65353,7 +65362,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -65453,8 +65462,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 11,
-          "rank_in_group": 18,
+          "top3": 9,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -65465,7 +65474,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -65623,7 +65632,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -65779,7 +65788,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -65882,7 +65891,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 19,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -65904,7 +65913,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -65937,7 +65946,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -65948,7 +65957,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -66016,7 +66025,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -66027,7 +66036,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 19,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -66071,7 +66080,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -66299,7 +66308,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -66321,7 +66330,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -66389,7 +66398,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 25,
+          "rank_in_group": 27,
           "medal_cut": 6,
           "event_medal_count": 1
         }
@@ -66447,7 +66456,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -66515,7 +66524,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 4,
           "event_medal_count": 1
         }
@@ -66618,7 +66627,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 24,
+          "rank_in_group": 22,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -66697,7 +66706,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 24,
+          "rank_in_group": 22,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -66734,7 +66743,7 @@ window.SEM_DATA = {
       "rank": 12,
       "club": "Ortakçı Spor Kulübü",
       "city": "Ortakçı Spor Kulübü",
-      "total": 82,
+      "total": 88,
       "athletes": 7,
       "athlete_list": [
         {
@@ -66760,6 +66769,17 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
+          "name": "Ece EROL",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 9,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
           "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "group": "2013 Kadın",
@@ -66768,18 +66788,7 @@ window.SEM_DATA = {
           "top3": 14,
           "rank_in_group": 11,
           "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
-          "medal_cut": 6,
-          "event_medal_count": 4
+          "event_medal_count": 3
         },
         {
           "name": "Can KINABAŞ",
@@ -66799,7 +66808,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -66839,24 +66848,13 @@ window.SEM_DATA = {
           "event_medal_count": 4
         },
         {
-          "name": "Zehra MORALIOĞLU",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 11,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
           "name": "Ece EROL",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 18,
+          "rank_in_group": 9,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -66870,10 +66868,21 @@ window.SEM_DATA = {
           "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 4
+        },
+        {
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 14,
+          "rank_in_group": 11,
+          "medal_cut": 6,
+          "event_medal_count": 3
         }
       ],
       "prize_list": [],
-      "medal_count": 20,
+      "medal_count": 19,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -66925,7 +66934,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -66958,7 +66967,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -66993,7 +67002,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -67037,7 +67046,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -67143,6 +67152,121 @@ window.SEM_DATA = {
     },
     {
       "rank": 15,
+      "club": "Çorlu Belediyesi Spor Kulübü",
+      "city": "Çorlu Belediyesi Spor Kulübü",
+      "total": 69,
+      "athletes": 5,
+      "athlete_list": [
+        {
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 7,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 17,
+          "rank_in_group": 8,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Mira ŞİMŞEK",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Berra ZENGİN",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 7,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Derin SEZER",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 17,
+          "rank_in_group": 8,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Ada TÜRKEKUL",
+          "city": "Tekirdağ",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 15,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 16,
       "club": "Antalyaspor Kulübü",
       "city": "Antalyaspor Kulübü",
       "total": 68,
@@ -67280,121 +67404,6 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 16,
-      "club": "Çorlu Belediyesi Spor Kulübü",
-      "city": "Çorlu Belediyesi Spor Kulübü",
-      "total": 68,
-      "athletes": 5,
-      "athlete_list": [
-        {
-          "name": "Berra ZENGİN",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 9,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Derin SEZER",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ada TÜRKEKUL",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 16,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira ŞİMŞEK",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Berra ZENGİN",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 6,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Derin SEZER",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 9,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ada TÜRKEKUL",
-          "city": "Tekirdağ",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 16,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 14,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
       "rank": 17,
       "club": "Orka Swim Team Spor Kulübü",
       "city": "Orka Swim Team Spor Kulübü",
@@ -67419,7 +67428,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 8,
+          "rank_in_group": 9,
           "medal_cut": 8,
           "event_medal_count": 4
         },
@@ -67463,7 +67472,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -67474,7 +67483,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -67487,7 +67496,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 8,
+          "rank_in_group": 9,
           "medal_cut": 8,
           "event_medal_count": 4
         },
@@ -67542,7 +67551,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 41,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -67648,144 +67657,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 19,
-      "club": "Toroslar Yüzme Spor Kulübü",
-      "city": "Toroslar Yüzme Spor Kulübü",
-      "total": 64,
-      "athletes": 5,
-      "athlete_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 1,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ayaz Demir UZUN",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 21,
-          "rank_in_group": 5,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Blena AKÇA",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Bartu OMAÇ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 2,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 1,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Ayaz Demir UZUN",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 21,
-          "rank_in_group": 5,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Blena AKÇA",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 25,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Bartu OMAÇ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 2,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 1,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        }
-      ],
-      "medal_count": 13,
-      "prize_count": 1,
-      "gold_count": 1,
-      "silver_count": 0
-    },
-    {
-      "rank": 20,
       "club": "Ted Ankara Kolejliler Spor Kulübü",
       "city": "Ted Ankara Kolejliler Spor Kulübü",
       "total": 63,
@@ -67923,122 +67794,145 @@ window.SEM_DATA = {
       "silver_count": 1
     },
     {
-      "rank": 21,
-      "club": "Temel Su Sporları Spor Kulübü",
-      "city": "Temel Su Sporları Spor Kulübü",
-      "total": 57,
+      "rank": 20,
+      "club": "Toroslar Yüzme Spor Kulübü",
+      "city": "Toroslar Yüzme Spor Kulübü",
+      "total": 62,
       "athletes": 5,
       "athlete_list": [
         {
-          "name": "Murat Emir ATA",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
           "gender": "Erkek",
-          "top3": 23,
-          "rank_in_group": 5,
-          "medal_cut": 6,
+          "top3": 27,
+          "rank_in_group": 1,
+          "medal_cut": 8,
           "event_medal_count": 4
         },
         {
-          "name": "Asya AKAR",
-          "city": "Samsun",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
           "top3": 21,
           "rank_in_group": 5,
-          "medal_cut": 6,
+          "medal_cut": 8,
           "event_medal_count": 4
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
+          "name": "Blena AKÇA",
+          "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
+          "top3": 7,
+          "rank_in_group": 24,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 2
         },
         {
-          "name": "Çetin Çağrı AKBAL",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 31,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
           "gender": "Erkek",
-          "top3": 4,
-          "rank_in_group": 23,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Elifnur Cennet YILMAZ",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
+          "top3": 2,
+          "rank_in_group": 32,
           "medal_cut": 8,
-          "event_medal_count": 0
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
         {
-          "name": "Murat Emir ATA",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
           "gender": "Erkek",
-          "top3": 23,
-          "rank_in_group": 5,
-          "medal_cut": 6,
+          "top3": 27,
+          "rank_in_group": 1,
+          "medal_cut": 8,
           "event_medal_count": 4
         },
         {
-          "name": "Asya AKAR",
-          "city": "Samsun",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
           "top3": 21,
           "rank_in_group": 5,
-          "medal_cut": 6,
+          "medal_cut": 8,
           "event_medal_count": 4
         },
         {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
+          "name": "Blena AKÇA",
+          "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
+          "top3": 7,
+          "rank_in_group": 24,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 2
         },
         {
-          "name": "Çetin Çağrı AKBAL",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 31,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
           "gender": "Erkek",
-          "top3": 4,
-          "rank_in_group": 23,
-          "medal_cut": 6,
+          "top3": 2,
+          "rank_in_group": 32,
+          "medal_cut": 8,
           "event_medal_count": 1
         }
       ],
-      "prize_list": [],
-      "medal_count": 12,
-      "prize_count": 0,
-      "gold_count": 0,
+      "prize_list": [
+        {
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 27,
+          "rank_in_group": 1,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        }
+      ],
+      "medal_count": 13,
+      "prize_count": 1,
+      "gold_count": 1,
       "silver_count": 0
     },
     {
-      "rank": 22,
+      "rank": 21,
       "club": "Eskisehir Su Sporları Kulübü Derneği",
       "city": "Eskisehir Su Sporları Kulübü Derneği",
       "total": 56,
@@ -68120,6 +68014,121 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
+      "rank": 22,
+      "club": "Temel Su Sporları Spor Kulübü",
+      "city": "Temel Su Sporları Spor Kulübü",
+      "total": 55,
+      "athletes": 5,
+      "athlete_list": [
+        {
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 23,
+          "rank_in_group": 5,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 6,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 24,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 4,
+          "rank_in_group": 23,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 23,
+          "rank_in_group": 5,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 6,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 24,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 4,
+          "rank_in_group": 23,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 12,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
       "rank": 23,
       "club": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
       "city": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
@@ -68166,7 +68175,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -68190,7 +68199,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 20,
+          "rank_in_group": 19,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -68380,7 +68389,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 4,
           "event_medal_count": 4
         },
@@ -68424,7 +68433,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -68437,7 +68446,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 4,
           "event_medal_count": 4
         },
@@ -68506,7 +68515,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 21,
+          "rank_in_group": 24,
           "medal_cut": 6,
           "event_medal_count": 1
         }
@@ -68541,7 +68550,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 21,
+          "rank_in_group": 24,
           "medal_cut": 6,
           "event_medal_count": 1
         }
@@ -68568,7 +68577,7 @@ window.SEM_DATA = {
       "rank": 28,
       "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
       "city": "Gaziantep Şehitkamil Belediye Spor Kulübü",
-      "total": 42,
+      "total": 44,
       "athletes": 6,
       "athlete_list": [
         {
@@ -68588,8 +68597,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -68600,7 +68609,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -68633,7 +68642,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -68656,8 +68665,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 15,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -68668,7 +68677,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 19,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -68754,7 +68763,7 @@ window.SEM_DATA = {
       "rank": 30,
       "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
       "city": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-      "total": 36,
+      "total": 37,
       "athletes": 4,
       "athlete_list": [
         {
@@ -68763,10 +68772,10 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 7,
+          "top3": 22,
+          "rank_in_group": 5,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -68786,7 +68795,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -68797,7 +68806,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -68809,10 +68818,10 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 7,
+          "top3": 22,
+          "rank_in_group": 5,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -68827,7 +68836,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 6,
+      "medal_count": 7,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -68846,7 +68855,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 10,
+          "rank_in_group": 9,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -68870,7 +68879,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 20,
-          "rank_in_group": 10,
+          "rank_in_group": 9,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -68965,110 +68974,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 33,
-      "club": "Çanakkale Belediye Spor Kulübü",
-      "city": "Çanakkale Belediye Spor Kulübü",
-      "total": 33,
-      "athletes": 5,
-      "athlete_list": [
-        {
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 13,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Defne BAHAR",
-          "city": "Çanakkale",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 13,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Zeynep TELLİ",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 6,
-          "rank_in_group": 30,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Ecem Gülce YILMAZ",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Eda ÖZRENK",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 14,
-          "rank_in_group": 13,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Defne BAHAR",
-          "city": "Çanakkale",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 13,
-          "rank_in_group": 13,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Zeynep TELLİ",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 6,
-          "rank_in_group": 30,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 8,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 34,
       "club": "Aykon Spor Kulübü",
       "city": "Aykon Spor Kulübü",
       "total": 33,
@@ -69092,7 +68997,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -69116,7 +69021,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 30,
+          "rank_in_group": 29,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -69140,7 +69045,193 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
+      "rank": 34,
+      "club": "Çanakkale Belediye Spor Kulübü",
+      "city": "Çanakkale Belediye Spor Kulübü",
+      "total": 32,
+      "athletes": 5,
+      "athlete_list": [
+        {
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 6,
+          "rank_in_group": 29,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Ecem Gülce YILMAZ",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Eda ÖZRENK",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Defne BAHAR",
+          "city": "Çanakkale",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 15,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Zeynep TELLİ",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 6,
+          "rank_in_group": 29,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 8,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
       "rank": 35,
+      "club": "Manavgat Barlas Spor Kulübü",
+      "city": "Manavgat Barlas Spor Kulübü",
+      "total": 30,
+      "athletes": 3,
+      "athlete_list": [
+        {
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 16,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 9,
+          "rank_in_group": 19,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 8,
+          "rank_in_group": 22,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 9,
+          "rank_in_group": 19,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 16,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 8,
+          "rank_in_group": 22,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 7,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 36,
       "club": "Muratpaşa Belediyesi Spor Kulübü",
       "city": "Muratpaşa Belediyesi Spor Kulübü",
       "total": 29,
@@ -69200,7 +69291,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "club": "Kulac Yüzme İhtisas Spor Kulübü",
       "city": "Kulac Yüzme İhtisas Spor Kulübü",
       "total": 27,
@@ -69261,7 +69352,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "club": "Kirklareli Bati Spor Kulübü",
       "city": "Kirklareli Bati Spor Kulübü",
       "total": 27,
@@ -69299,7 +69390,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "club": "Yenimahalle Belediyesi Spor Kulübü",
       "city": "Yenimahalle Belediyesi Spor Kulübü",
       "total": 27,
@@ -69349,88 +69440,6 @@ window.SEM_DATA = {
       "silver_count": 1
     },
     {
-      "rank": 39,
-      "club": "Manavgat Barlas Spor Kulübü",
-      "city": "Manavgat Barlas Spor Kulübü",
-      "total": 26,
-      "athletes": 3,
-      "athlete_list": [
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Denizhan Umut AKYÜZ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 9,
-          "rank_in_group": 19,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 21,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 20,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Denizhan Umut AKYÜZ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 9,
-          "rank_in_group": 19,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 21,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 8,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
       "rank": 40,
       "club": "Bursa Büyükşehir Belediye Spor Kulübü",
       "city": "Bursa Büyükşehir Belediye Spor Kulübü",
@@ -69466,7 +69475,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -69566,7 +69575,7 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 4,
           "medal_cut": 6,
-          "event_medal_count": 4
+          "event_medal_count": 3
         }
       ],
       "medal_list": [
@@ -69579,11 +69588,11 @@ window.SEM_DATA = {
           "top3": 23,
           "rank_in_group": 4,
           "medal_cut": 6,
-          "event_medal_count": 4
+          "event_medal_count": 3
         }
       ],
       "prize_list": [],
-      "medal_count": 4,
+      "medal_count": 3,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -69613,7 +69622,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -69637,7 +69646,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 25,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -69661,44 +69670,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 44,
-      "club": "Albatros Yüzme Akademisi",
-      "city": "Albatros Yüzme Akademisi",
-      "total": 22,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 22,
-          "rank_in_group": 5,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 22,
-          "rank_in_group": 5,
-          "medal_cut": 8,
-          "event_medal_count": 4
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 4,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 45,
       "club": "Giresunspor Kulübü",
       "city": "Giresunspor Kulübü",
       "total": 22,
@@ -69736,7 +69707,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 46,
+      "rank": 45,
       "club": "Fatih Karakurt Alpha Academy Spor Kulübü",
       "city": "Fatih Karakurt Alpha Academy Spor Kulübü",
       "total": 21,
@@ -69774,7 +69745,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 47,
+      "rank": 46,
       "club": "Dokuz Eylül Üniversitesi Spor Kulübü",
       "city": "Dokuz Eylül Üniversitesi Spor Kulübü",
       "total": 21,
@@ -69867,7 +69838,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 48,
+      "rank": 47,
       "club": "Altın Nefes Spor Kulübü",
       "city": "Altın Nefes Spor Kulübü",
       "total": 21,
@@ -69905,7 +69876,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 49,
+      "rank": 48,
       "club": "Trabzon Yüzme Spor Kulübü",
       "city": "Trabzon Yüzme Spor Kulübü",
       "total": 21,
@@ -69949,6 +69920,44 @@ window.SEM_DATA = {
       ],
       "prize_list": [],
       "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 49,
+      "club": "Albatros Yüzme Akademisi",
+      "city": "Albatros Yüzme Akademisi",
+      "total": 20,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 20,
+          "rank_in_group": 6,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 20,
+          "rank_in_group": 6,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 4,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -70098,7 +70107,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -70120,7 +70129,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -70218,7 +70227,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -70231,7 +70240,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 9,
+          "rank_in_group": 10,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -70457,7 +70466,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -70481,7 +70490,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 15,
+          "rank_in_group": 17,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -70555,7 +70564,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 16,
+          "rank_in_group": 15,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -70568,7 +70577,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 16,
+          "rank_in_group": 15,
           "medal_cut": 8,
           "event_medal_count": 3
         }
@@ -70581,42 +70590,31 @@ window.SEM_DATA = {
     },
     {
       "rank": 63,
-      "club": "Biga Gelisim Spor Kulübü",
-      "city": "Biga Gelisim Spor Kulübü",
-      "total": 10,
-      "athletes": 2,
+      "club": "Tekirdag Yüzme Spor Kulübü",
+      "city": "Tekirdag Yüzme Spor Kulübü",
+      "total": 11,
+      "athletes": 1,
       "athlete_list": [
         {
-          "name": "Yağmur YALDIZ",
-          "city": "Çanakkale",
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 11,
           "rank_in_group": 19,
           "medal_cut": 6,
           "event_medal_count": 2
-        },
-        {
-          "name": "Mina AKTAŞ",
-          "city": "Çanakkale",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
         }
       ],
       "medal_list": [
         {
-          "name": "Yağmur YALDIZ",
-          "city": "Çanakkale",
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 11,
           "rank_in_group": 19,
           "medal_cut": 6,
           "event_medal_count": 2
@@ -70630,6 +70628,93 @@ window.SEM_DATA = {
     },
     {
       "rank": 64,
+      "club": "Biga Gelisim Spor Kulübü",
+      "city": "Biga Gelisim Spor Kulübü",
+      "total": 10,
+      "athletes": 2,
+      "athlete_list": [
+        {
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Mina AKTAŞ",
+          "city": "Çanakkale",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Yağmur YALDIZ",
+          "city": "Çanakkale",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 21,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 2,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 65,
+      "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+      "city": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+      "total": 10,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 20,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 20,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 66,
       "club": "Giresunalfa Spor Kulübü",
       "city": "Giresunalfa Spor Kulübü",
       "total": 9,
@@ -70667,7 +70752,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 65,
+      "rank": 67,
       "club": "Erciyes Yıldız Spor Kulübü",
       "city": "Erciyes Yıldız Spor Kulübü",
       "total": 9,
@@ -70705,7 +70790,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 66,
+      "rank": 68,
       "club": "Içdaş Spor Kulübü",
       "city": "Içdaş Spor Kulübü",
       "total": 7,
@@ -70765,7 +70850,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 67,
+      "rank": 69,
       "club": "Baskent Yüzme Spor Kulübü",
       "city": "Baskent Yüzme Spor Kulübü",
       "total": 7,
@@ -70778,7 +70863,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -70791,7 +70876,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 25,
+          "rank_in_group": 24,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -70803,7 +70888,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 68,
+      "rank": 70,
       "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
       "city": "Eskisehir Olimpik Kulaclar Spor Kulübü",
       "total": 7,
@@ -70816,7 +70901,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -70827,7 +70912,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -70840,7 +70925,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -70851,7 +70936,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 38,
+          "rank_in_group": 37,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -70863,7 +70948,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 69,
+      "rank": 71,
       "club": "Trabzon Yesilova Spor Kulübü",
       "city": "Trabzon Yesilova Spor Kulübü",
       "total": 7,
@@ -70889,7 +70974,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 70,
+      "rank": 72,
       "club": "Bolu Yüzme Spor Kulübü",
       "city": "Bolu Yüzme Spor Kulübü",
       "total": 6,
@@ -70927,7 +71012,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 71,
+      "rank": 73,
       "club": "Antalya Faroz Spor Kulübü",
       "city": "Antalya Faroz Spor Kulübü",
       "total": 5,
@@ -70940,7 +71025,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -70953,7 +71038,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 32,
+          "rank_in_group": 31,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -70965,7 +71050,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 72,
+      "rank": 74,
       "club": "Kayseri Fırtına Spor Kulübü",
       "city": "Kayseri Fırtına Spor Kulübü",
       "total": 5,
@@ -70989,7 +71074,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -71014,45 +71099,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 73,
-      "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-      "city": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-      "total": 5,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 27,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 27,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 74,
+      "rank": 75,
       "club": "Altinkulac Yüzme Spor Kulübü",
       "city": "Altinkulac Yüzme Spor Kulübü",
       "total": 4,
@@ -71084,44 +71131,6 @@ window.SEM_DATA = {
       "medal_list": [],
       "prize_list": [],
       "medal_count": 0,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 75,
-      "club": "Tekirdag Yüzme Spor Kulübü",
-      "city": "Tekirdag Yüzme Spor Kulübü",
-      "total": 4,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 28,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 28,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -71204,77 +71213,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 78,
-      "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-      "city": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-      "total": 3,
-      "athletes": 3,
-      "athlete_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 38,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Ali Tuna AVCI",
-          "city": "Tokat",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 1,
-          "rank_in_group": 39,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Defne YILMAZ",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 43,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 38,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Ali Tuna AVCI",
-          "city": "Tokat",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 1,
-          "rank_in_group": 39,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 2,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 79,
       "club": "Ankara Ferdi",
       "city": "Ankara Ferdi",
       "total": 3,
@@ -71312,45 +71250,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 80,
-      "club": "Trabzon Okyanus Spor Kulübü",
-      "city": "Trabzon Okyanus Spor Kulübü",
-      "total": 3,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 81,
+      "rank": 79,
       "club": "Trabzon Arena Yüzme Spor Kulübü",
       "city": "Trabzon Arena Yüzme Spor Kulübü",
       "total": 2,
@@ -71388,7 +71288,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 82,
+      "rank": 80,
       "club": "Sure Yüzme Spor Kulübü",
       "city": "Sure Yüzme Spor Kulübü",
       "total": 2,
@@ -71426,7 +71326,67 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 83,
+      "rank": 81,
+      "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+      "city": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+      "total": 1,
+      "athletes": 3,
+      "athlete_list": [
+        {
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 42,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 82,
       "club": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
       "city": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
       "total": 1,
@@ -71461,7 +71421,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -71473,6 +71433,44 @@ window.SEM_DATA = {
           "group": "2014 Erkek",
           "yb": "14",
           "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 83,
+      "club": "Trabzon Okyanus Spor Kulübü",
+      "city": "Trabzon Okyanus Spor Kulübü",
+      "total": 1,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
           "top3": 1,
           "rank_in_group": 39,
           "medal_cut": 8,
@@ -71577,7 +71575,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -71603,7 +71601,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -71629,7 +71627,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 43,
+          "rank_in_group": 42,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -71987,7 +71985,7 @@ window.SEM_DATA = {
           "top3": 0,
           "rank_in_group": 20,
           "medal_cut": 4,
-          "event_medal_count": 1
+          "event_medal_count": 2
         }
       ],
       "medal_list": [
@@ -72179,6 +72177,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 20,
+          "medal_cut": 4,
+          "event_medal_count": 2
+        },
+        {
           "name": "Kerem BAYAR",
           "city": "Antalya",
           "group": "2010 Erkek",
@@ -72220,17 +72229,6 @@ window.SEM_DATA = {
           "top3": 6,
           "rank_in_group": 10,
           "medal_cut": 3,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 20,
-          "medal_cut": 4,
           "event_medal_count": 1
         }
       ],
@@ -72280,7 +72278,7 @@ window.SEM_DATA = {
           "event_medal_count": 3
         }
       ],
-      "medal_count": 53,
+      "medal_count": 54,
       "prize_count": 4,
       "gold_count": 3,
       "silver_count": 1
@@ -72289,7 +72287,7 @@ window.SEM_DATA = {
       "rank": 2,
       "club": "Enka Spor Kulübü",
       "city": "Enka Spor Kulübü",
-      "total": 377,
+      "total": 380,
       "athletes": 22,
       "athlete_list": [
         {
@@ -72348,6 +72346,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
           "name": "Mustafa Özgür YALÇIN",
           "city": "Gaziantep",
           "group": "2009 Erkek",
@@ -72400,17 +72409,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 9,
           "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 5,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -72537,6 +72535,17 @@ window.SEM_DATA = {
       ],
       "medal_list": [
         {
+          "name": "Mira TUFAN",
+          "city": "İzmir",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 22,
+          "rank_in_group": 5,
+          "medal_cut": 8,
+          "event_medal_count": 4
+        },
+        {
           "name": "Sarp Barkın HASAY",
           "city": "İstanbul",
           "group": "2010 Erkek",
@@ -72622,17 +72631,6 @@ window.SEM_DATA = {
           "top3": 19,
           "rank_in_group": 9,
           "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 19,
-          "rank_in_group": 5,
-          "medal_cut": 8,
           "event_medal_count": 3
         },
         {
@@ -72792,7 +72790,7 @@ window.SEM_DATA = {
           "event_medal_count": 3
         }
       ],
-      "medal_count": 51,
+      "medal_count": 52,
       "prize_count": 2,
       "gold_count": 2,
       "silver_count": 0
@@ -72801,7 +72799,7 @@ window.SEM_DATA = {
       "rank": 3,
       "club": "Uludağ Oksijen Spor Kulübü",
       "city": "Uludağ Oksijen Spor Kulübü",
-      "total": 261,
+      "total": 264,
       "athletes": 20,
       "athlete_list": [
         {
@@ -72893,6 +72891,17 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
           "name": "Ahmet KOŞUM",
           "city": "Bursa",
           "group": "2010 Erkek",
@@ -72909,8 +72918,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 6,
+          "top3": 10,
+          "rank_in_group": 18,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -72926,24 +72935,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 4,
-          "event_medal_count": 2
-        },
-        {
           "name": "Zeynep Dilara Ünlü",
           "city": "Bursa",
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 18,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -72954,7 +72952,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -73009,7 +73007,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -73020,7 +73018,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -73104,6 +73102,17 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 18,
+          "rank_in_group": 11,
+          "medal_cut": 4,
+          "event_medal_count": 3
+        },
+        {
           "name": "Asya Beren ÇELİK",
           "city": "Bursa",
           "group": "2011 Kadın",
@@ -73131,8 +73140,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 16,
-          "rank_in_group": 6,
+          "top3": 10,
+          "rank_in_group": 18,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -73148,24 +73157,13 @@ window.SEM_DATA = {
           "event_medal_count": 2
         },
         {
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 4,
-          "event_medal_count": 2
-        },
-        {
           "name": "Aysima VATANSEVER",
           "city": "Bursa",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -73198,7 +73196,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 18,
+          "rank_in_group": 21,
           "medal_cut": 6,
           "event_medal_count": 1
         }
@@ -73238,7 +73236,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 40,
+      "medal_count": 41,
       "prize_count": 3,
       "gold_count": 3,
       "silver_count": 0
@@ -73312,7 +73310,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -73378,7 +73376,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 20,
+          "rank_in_group": 22,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -73479,7 +73477,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -73534,7 +73532,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 6,
-          "rank_in_group": 20,
+          "rank_in_group": 22,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -73625,7 +73623,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 11,
+          "rank_in_group": 12,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -73647,7 +73645,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -73781,7 +73779,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 17,
-          "rank_in_group": 11,
+          "rank_in_group": 12,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -73792,7 +73790,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -73841,7 +73839,7 @@ window.SEM_DATA = {
       "rank": 6,
       "club": "Göztepe Spor Kulübü",
       "city": "Göztepe Spor Kulübü",
-      "total": 143,
+      "total": 141,
       "athletes": 10,
       "athlete_list": [
         {
@@ -73864,7 +73862,7 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Cemre İNCE",
@@ -73905,8 +73903,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
+          "top3": 7,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -73917,7 +73915,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -73957,6 +73955,17 @@ window.SEM_DATA = {
       ],
       "medal_list": [
         {
+          "name": "Merve MENGÜBERTİ",
+          "city": "İzmir",
+          "group": "2012 Kadın",
+          "yb": "12",
+          "gender": "Kadın",
+          "top3": 27,
+          "rank_in_group": 1,
+          "medal_cut": 4,
+          "event_medal_count": 4
+        },
+        {
           "name": "Zeynep Derin GÜLDEMİR",
           "city": "İzmir",
           "group": "2012 Kadın",
@@ -73976,17 +73985,6 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 3,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Merve MENGÜBERTİ",
-          "city": "İzmir",
-          "group": "2012 Kadın",
-          "yb": "12",
-          "gender": "Kadın",
-          "top3": 27,
-          "rank_in_group": 1,
-          "medal_cut": 4,
           "event_medal_count": 3
         },
         {
@@ -74028,8 +74026,8 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
+          "top3": 7,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -74040,7 +74038,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -74088,7 +74086,7 @@ window.SEM_DATA = {
           "top3": 27,
           "rank_in_group": 1,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Zeynep Derin GÜLDEMİR",
@@ -74102,7 +74100,7 @@ window.SEM_DATA = {
           "event_medal_count": 4
         }
       ],
-      "medal_count": 21,
+      "medal_count": 22,
       "prize_count": 4,
       "gold_count": 2,
       "silver_count": 2
@@ -74176,7 +74174,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74231,7 +74229,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -74242,7 +74240,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -74299,7 +74297,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74606,7 +74604,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -74755,7 +74753,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74766,7 +74764,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 22,
+          "rank_in_group": 20,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74834,7 +74832,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74845,7 +74843,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 8,
-          "rank_in_group": 22,
+          "rank_in_group": 20,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -74882,7 +74880,7 @@ window.SEM_DATA = {
       "rank": 11,
       "club": "Ortakçı Spor Kulübü",
       "city": "Ortakçı Spor Kulübü",
-      "total": 72,
+      "total": 78,
       "athletes": 7,
       "athlete_list": [
         {
@@ -74913,8 +74911,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -74925,9 +74923,9 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 10,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 2
         },
         {
           "name": "Can KINABAŞ",
@@ -74947,7 +74945,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -74970,8 +74968,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 6,
           "event_medal_count": 4
         },
@@ -74998,17 +74996,6 @@ window.SEM_DATA = {
           "event_medal_count": 3
         },
         {
-          "name": "Zehra MORALIOĞLU",
-          "city": "Bursa",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 10,
-          "rank_in_group": 17,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
           "name": "Can KINABAŞ",
           "city": "Bursa",
           "group": "2014 Erkek",
@@ -75018,10 +75005,21 @@ window.SEM_DATA = {
           "rank_in_group": 18,
           "medal_cut": 8,
           "event_medal_count": 3
+        },
+        {
+          "name": "Zehra MORALIOĞLU",
+          "city": "Bursa",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 2
         }
       ],
       "prize_list": [],
-      "medal_count": 16,
+      "medal_count": 15,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -75123,7 +75121,7 @@ window.SEM_DATA = {
       "rank": 13,
       "club": "Çorlu Belediyesi Spor Kulübü",
       "city": "Çorlu Belediyesi Spor Kulübü",
-      "total": 62,
+      "total": 63,
       "athletes": 5,
       "athlete_list": [
         {
@@ -75132,10 +75130,10 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 8,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Derin SEZER",
@@ -75177,7 +75175,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -75189,10 +75187,10 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 17,
-          "rank_in_group": 8,
+          "top3": 18,
+          "rank_in_group": 6,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Derin SEZER",
@@ -75229,7 +75227,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 12,
+      "medal_count": 13,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -75270,7 +75268,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 16,
+          "rank_in_group": 17,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -75316,7 +75314,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 11,
-          "rank_in_group": 16,
+          "rank_in_group": 17,
           "medal_cut": 4,
           "event_medal_count": 1
         },
@@ -75352,144 +75350,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 15,
-      "club": "Toroslar Yüzme Spor Kulübü",
-      "city": "Toroslar Yüzme Spor Kulübü",
-      "total": 57,
-      "athletes": 5,
-      "athlete_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ayaz Demir UZUN",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 20,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 23,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Bartu OMAÇ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 2,
-          "rank_in_group": 28,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Blena AKÇA",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 1,
-          "rank_in_group": 37,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Ayaz Demir UZUN",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 20,
-          "rank_in_group": 7,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 7,
-          "rank_in_group": 23,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Bartu OMAÇ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 2,
-          "rank_in_group": 28,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Blena AKÇA",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 1,
-          "rank_in_group": 37,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [
-        {
-          "name": "Arda BALİ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 27,
-          "rank_in_group": 2,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        }
-      ],
-      "medal_count": 10,
-      "prize_count": 1,
-      "gold_count": 0,
-      "silver_count": 1
-    },
-    {
-      "rank": 16,
       "club": "Ted Ankara Kolejliler Spor Kulübü",
       "city": "Ted Ankara Kolejliler Spor Kulübü",
       "total": 56,
@@ -75627,7 +75487,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 17,
+      "rank": 16,
       "club": "Antalyaspor Kulübü",
       "city": "Antalyaspor Kulübü",
       "total": 56,
@@ -75754,7 +75614,7 @@ window.SEM_DATA = {
       "silver_count": 1
     },
     {
-      "rank": 18,
+      "rank": 17,
       "club": "Eskisehir Su Sporları Kulübü Derneği",
       "city": "Eskisehir Su Sporları Kulübü Derneği",
       "total": 56,
@@ -75848,6 +75708,144 @@ window.SEM_DATA = {
       "silver_count": 1
     },
     {
+      "rank": 18,
+      "club": "Toroslar Yüzme Spor Kulübü",
+      "city": "Toroslar Yüzme Spor Kulübü",
+      "total": 55,
+      "athletes": 5,
+      "athlete_list": [
+        {
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 20,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 27,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 28,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Ayaz Demir UZUN",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 20,
+          "rank_in_group": 7,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 5,
+          "rank_in_group": 27,
+          "medal_cut": 8,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Bartu OMAÇ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 2,
+          "rank_in_group": 28,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        },
+        {
+          "name": "Blena AKÇA",
+          "city": "Antalya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [
+        {
+          "name": "Arda BALİ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 27,
+          "rank_in_group": 2,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        }
+      ],
+      "medal_count": 10,
+      "prize_count": 1,
+      "gold_count": 0,
+      "silver_count": 1
+    },
+    {
       "rank": 19,
       "club": "Orka Swim Team Spor Kulübü",
       "city": "Orka Swim Team Spor Kulübü",
@@ -75905,7 +75903,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -75927,7 +75925,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -75984,7 +75982,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -76020,7 +76018,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -76064,7 +76062,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -76099,7 +76097,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -76134,110 +76132,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 21,
-      "club": "Temel Su Sporları Spor Kulübü",
-      "city": "Temel Su Sporları Spor Kulübü",
-      "total": 52,
-      "athletes": 5,
-      "athlete_list": [
-        {
-          "name": "Murat Emir ATA",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
-          "gender": "Erkek",
-          "top3": 22,
-          "rank_in_group": 4,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Asya AKAR",
-          "city": "Samsun",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 3,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Elifnur Cennet YILMAZ",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 40,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Çetin Çağrı AKBAL",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
-          "gender": "Erkek",
-          "top3": 0,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Asya AKAR",
-          "city": "Samsun",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 3,
-          "medal_cut": 6,
-          "event_medal_count": 4
-        },
-        {
-          "name": "Murat Emir ATA",
-          "city": "Samsun",
-          "group": "2013 Erkek",
-          "yb": "13",
-          "gender": "Erkek",
-          "top3": 22,
-          "rank_in_group": 4,
-          "medal_cut": 6,
-          "event_medal_count": 3
-        },
-        {
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 9,
-          "rank_in_group": 17,
-          "medal_cut": 8,
-          "event_medal_count": 3
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 10,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 22,
       "club": "Kayseri Yüzme Spor Kulübü",
       "city": "Kayseri Yüzme Spor Kulübü",
       "total": 51,
@@ -76319,6 +76213,110 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
+      "rank": 22,
+      "club": "Temel Su Sporları Spor Kulübü",
+      "city": "Temel Su Sporları Spor Kulübü",
+      "total": 50,
+      "athletes": 5,
+      "athlete_list": [
+        {
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 22,
+          "rank_in_group": 4,
+          "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 4,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 21,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Elifnur Cennet YILMAZ",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Çetin Çağrı AKBAL",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 0,
+          "rank_in_group": 24,
+          "medal_cut": 6,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Asya AKAR",
+          "city": "Samsun",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 21,
+          "rank_in_group": 4,
+          "medal_cut": 6,
+          "event_medal_count": 4
+        },
+        {
+          "name": "Murat Emir ATA",
+          "city": "Samsun",
+          "group": "2013 Erkek",
+          "yb": "13",
+          "gender": "Erkek",
+          "top3": 22,
+          "rank_in_group": 4,
+          "medal_cut": 6,
+          "event_medal_count": 3
+        },
+        {
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 7,
+          "rank_in_group": 21,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 10,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
       "rank": 23,
       "club": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
       "city": "Eskişehir Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
@@ -76332,7 +76330,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 14,
-          "rank_in_group": 15,
+          "rank_in_group": 16,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -76354,7 +76352,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -76378,7 +76376,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 3
         },
@@ -76389,7 +76387,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 14,
-          "rank_in_group": 15,
+          "rank_in_group": 16,
           "medal_cut": 4,
           "event_medal_count": 2
         },
@@ -76581,7 +76579,7 @@ window.SEM_DATA = {
           "top3": 20,
           "rank_in_group": 8,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Ali Kaan KARAMAN",
@@ -76623,7 +76621,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -76638,7 +76636,7 @@ window.SEM_DATA = {
           "top3": 20,
           "rank_in_group": 8,
           "medal_cut": 4,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Ali Kaan KARAMAN",
@@ -76653,7 +76651,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 4,
+      "medal_count": 5,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -76722,7 +76720,7 @@ window.SEM_DATA = {
       "rank": 28,
       "club": "Gaziantep Şehitkamil Belediye Spor Kulübü",
       "city": "Gaziantep Şehitkamil Belediye Spor Kulübü",
-      "total": 35,
+      "total": 37,
       "athletes": 6,
       "athlete_list": [
         {
@@ -76742,8 +76740,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -76754,7 +76752,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -76776,7 +76774,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -76810,8 +76808,8 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 12,
-          "rank_in_group": 13,
+          "top3": 14,
+          "rank_in_group": 11,
           "medal_cut": 6,
           "event_medal_count": 2
         },
@@ -76822,7 +76820,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -76940,7 +76938,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -76964,7 +76962,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -77061,7 +77059,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -77072,7 +77070,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -77085,7 +77083,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 4,
           "event_medal_count": 3
         },
@@ -77096,7 +77094,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -77161,7 +77159,7 @@ window.SEM_DATA = {
       "rank": 34,
       "club": "Ege Ocean Yüzme İhtisas Spor Kulübü",
       "city": "Ege Ocean Yüzme İhtisas Spor Kulübü",
-      "total": 25,
+      "total": 26,
       "athletes": 4,
       "athlete_list": [
         {
@@ -77170,10 +77168,10 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 4,
+          "top3": 22,
+          "rank_in_group": 3,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -77193,7 +77191,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -77204,7 +77202,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -77216,10 +77214,10 @@ window.SEM_DATA = {
           "group": "2013 Kadın",
           "yb": "13",
           "gender": "Kadın",
-          "top3": 21,
-          "rank_in_group": 4,
+          "top3": 22,
+          "rank_in_group": 3,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 4
         },
         {
           "name": "Demir DEMİRCİGİL",
@@ -77234,7 +77232,7 @@ window.SEM_DATA = {
         }
       ],
       "prize_list": [],
-      "medal_count": 4,
+      "medal_count": 5,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -77342,7 +77340,7 @@ window.SEM_DATA = {
       "rank": 37,
       "club": "Çanakkale Belediye Spor Kulübü",
       "city": "Çanakkale Belediye Spor Kulübü",
-      "total": 24,
+      "total": 23,
       "athletes": 5,
       "athlete_list": [
         {
@@ -77352,7 +77350,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -77362,7 +77360,7 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 9,
           "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
@@ -77374,7 +77372,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         },
@@ -77385,7 +77383,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -77396,7 +77394,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -77409,7 +77407,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 13,
-          "rank_in_group": 12,
+          "rank_in_group": 13,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -77419,7 +77417,7 @@ window.SEM_DATA = {
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 10,
+          "top3": 9,
           "rank_in_group": 16,
           "medal_cut": 8,
           "event_medal_count": 2
@@ -77431,7 +77429,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 1,
-          "rank_in_group": 37,
+          "rank_in_group": 35,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -77647,7 +77645,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -77800,7 +77798,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         },
@@ -77822,7 +77820,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -77957,38 +77955,82 @@ window.SEM_DATA = {
     },
     {
       "rank": 46,
-      "club": "Albatros Yüzme Akademisi",
-      "city": "Albatros Yüzme Akademisi",
+      "club": "Manavgat Barlas Spor Kulübü",
+      "city": "Manavgat Barlas Spor Kulübü",
       "total": 18,
-      "athletes": 1,
+      "athletes": 3,
       "athlete_list": [
         {
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 6,
+          "top3": 4,
+          "rank_in_group": 31,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 1
+        },
+        {
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 34,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "medal_list": [
         {
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 13,
+          "rank_in_group": 14,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        },
+        {
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
           "group": "2014 Kadın",
           "yb": "14",
           "gender": "Kadın",
-          "top3": 18,
-          "rank_in_group": 6,
+          "top3": 4,
+          "rank_in_group": 31,
           "medal_cut": 8,
-          "event_medal_count": 3
+          "event_medal_count": 1
+        },
+        {
+          "name": "Denizhan Umut AKYÜZ",
+          "city": "Antalya",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 1,
+          "rank_in_group": 34,
+          "medal_cut": 8,
+          "event_medal_count": 1
         }
       ],
       "prize_list": [],
-      "medal_count": 3,
+      "medal_count": 4,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -78056,7 +78098,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78080,7 +78122,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78153,6 +78195,44 @@ window.SEM_DATA = {
     },
     {
       "rank": 50,
+      "club": "Albatros Yüzme Akademisi",
+      "city": "Albatros Yüzme Akademisi",
+      "total": 16,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 16,
+          "rank_in_group": 10,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 16,
+          "rank_in_group": 10,
+          "medal_cut": 8,
+          "event_medal_count": 3
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 3,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 51,
       "club": "Nilüfer Belediye Spor Kulübü",
       "city": "Nilüfer Belediye Spor Kulübü",
       "total": 16,
@@ -78165,9 +78245,9 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 2
         }
       ],
       "medal_list": [
@@ -78178,19 +78258,19 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 16,
-          "rank_in_group": 6,
+          "rank_in_group": 7,
           "medal_cut": 6,
-          "event_medal_count": 3
+          "event_medal_count": 2
         }
       ],
       "prize_list": [],
-      "medal_count": 3,
+      "medal_count": 2,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
     },
     {
-      "rank": 51,
+      "rank": 52,
       "club": "Altın Nefes Spor Kulübü",
       "city": "Altın Nefes Spor Kulübü",
       "total": 16,
@@ -78228,7 +78308,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 52,
+      "rank": 53,
       "club": "Rota Koleji Spor Kulübü Derneği",
       "city": "Rota Koleji Spor Kulübü Derneği",
       "total": 16,
@@ -78266,7 +78346,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 53,
+      "rank": 54,
       "club": "Anadolu Yildizlari Yüzme Spor Kulübü",
       "city": "Anadolu Yildizlari Yüzme Spor Kulübü",
       "total": 15,
@@ -78304,7 +78384,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 54,
+      "rank": 55,
       "club": "İstek Spor Kulübü",
       "city": "İstek Spor Kulübü",
       "total": 15,
@@ -78317,7 +78397,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -78330,7 +78410,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 15,
-          "rank_in_group": 13,
+          "rank_in_group": 14,
           "medal_cut": 4,
           "event_medal_count": 2
         }
@@ -78342,7 +78422,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 55,
+      "rank": 56,
       "club": "Unsal Firikci Spor Kulübü",
       "city": "Unsal Firikci Spor Kulübü",
       "total": 14,
@@ -78355,7 +78435,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -78379,7 +78459,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 12,
-          "rank_in_group": 13,
+          "rank_in_group": 15,
           "medal_cut": 6,
           "event_medal_count": 3
         },
@@ -78397,88 +78477,6 @@ window.SEM_DATA = {
       ],
       "prize_list": [],
       "medal_count": 4,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 56,
-      "club": "Manavgat Barlas Spor Kulübü",
-      "city": "Manavgat Barlas Spor Kulübü",
-      "total": 14,
-      "athletes": 3,
-      "athlete_list": [
-        {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 18,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 28,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Denizhan Umut AKYÜZ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 1,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 8,
-          "rank_in_group": 18,
-          "medal_cut": 6,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 5,
-          "rank_in_group": 28,
-          "medal_cut": 8,
-          "event_medal_count": 2
-        },
-        {
-          "name": "Denizhan Umut AKYÜZ",
-          "city": "Antalya",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 1,
-          "rank_in_group": 34,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 5,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -78599,6 +78597,82 @@ window.SEM_DATA = {
     },
     {
       "rank": 60,
+      "club": "Tekirdag Yüzme Spor Kulübü",
+      "city": "Tekirdag Yüzme Spor Kulübü",
+      "total": 11,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 11,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 11,
+          "rank_in_group": 17,
+          "medal_cut": 6,
+          "event_medal_count": 2
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 2,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 61,
+      "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+      "city": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
+      "total": 10,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Aliye PAZAR",
+          "city": "Antalya",
+          "group": "2013 Kadın",
+          "yb": "13",
+          "gender": "Kadın",
+          "top3": 10,
+          "rank_in_group": 18,
+          "medal_cut": 6,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 62,
       "club": "Eskisehir Su Sporları Spor Kulübü",
       "city": "Eskisehir Su Sporları Spor Kulübü",
       "total": 9,
@@ -78647,7 +78721,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 61,
+      "rank": 63,
       "club": "Giresunalfa Spor Kulübü",
       "city": "Giresunalfa Spor Kulübü",
       "total": 9,
@@ -78685,7 +78759,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 62,
+      "rank": 64,
       "club": "Kayseri Su Sporları Spor Kulübü",
       "city": "Kayseri Su Sporları Spor Kulübü",
       "total": 9,
@@ -78698,7 +78772,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         }
@@ -78711,7 +78785,7 @@ window.SEM_DATA = {
           "yb": "12",
           "gender": "Kadın",
           "top3": 9,
-          "rank_in_group": 17,
+          "rank_in_group": 18,
           "medal_cut": 4,
           "event_medal_count": 1
         }
@@ -78723,7 +78797,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 63,
+      "rank": 65,
       "club": "Kayseri Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
       "city": "Kayseri Gençlik Ve Spor Il Müdürlüğü Spor Kulübü",
       "total": 8,
@@ -78749,7 +78823,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 64,
+      "rank": 66,
       "club": "Baskent Yüzme Spor Kulübü",
       "city": "Baskent Yüzme Spor Kulübü",
       "total": 7,
@@ -78762,7 +78836,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78775,7 +78849,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 7,
-          "rank_in_group": 23,
+          "rank_in_group": 21,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78787,7 +78861,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 65,
+      "rank": 67,
       "club": "Eskisehir Olimpik Kulaclar Spor Kulübü",
       "city": "Eskisehir Olimpik Kulaclar Spor Kulübü",
       "total": 7,
@@ -78800,7 +78874,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -78811,7 +78885,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 35,
+          "rank_in_group": 34,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -78824,7 +78898,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         },
@@ -78835,7 +78909,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 2,
-          "rank_in_group": 35,
+          "rank_in_group": 34,
           "medal_cut": 8,
           "event_medal_count": 1
         }
@@ -78847,7 +78921,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 66,
+      "rank": 68,
       "club": "Bolu Yüzme Spor Kulübü",
       "city": "Bolu Yüzme Spor Kulübü",
       "total": 6,
@@ -78885,7 +78959,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 67,
+      "rank": 69,
       "club": "Antalya Faroz Spor Kulübü",
       "city": "Antalya Faroz Spor Kulübü",
       "total": 5,
@@ -78898,7 +78972,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78911,7 +78985,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 28,
+          "rank_in_group": 27,
           "medal_cut": 8,
           "event_medal_count": 2
         }
@@ -78923,7 +78997,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 68,
+      "rank": 70,
       "club": "Biga Gelisim Spor Kulübü",
       "city": "Biga Gelisim Spor Kulübü",
       "total": 5,
@@ -78936,7 +79010,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         },
@@ -78947,7 +79021,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -78960,7 +79034,7 @@ window.SEM_DATA = {
           "yb": "13",
           "gender": "Kadın",
           "top3": 5,
-          "rank_in_group": 21,
+          "rank_in_group": 23,
           "medal_cut": 6,
           "event_medal_count": 1
         }
@@ -78972,7 +79046,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 69,
+      "rank": 71,
       "club": "Kayseri Fırtına Spor Kulübü",
       "city": "Kayseri Fırtına Spor Kulübü",
       "total": 5,
@@ -78996,7 +79070,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -79021,7 +79095,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 70,
+      "rank": 72,
       "club": "Altinkulac Yüzme Spor Kulübü",
       "city": "Altinkulac Yüzme Spor Kulübü",
       "total": 4,
@@ -79053,82 +79127,6 @@ window.SEM_DATA = {
       "medal_list": [],
       "prize_list": [],
       "medal_count": 0,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 71,
-      "club": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-      "city": "Alanya Gençlik ve Spor İlçe Müdürlüğü Spor Kulübü",
-      "total": 4,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Aliye PAZAR",
-          "city": "Antalya",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 72,
-      "club": "Tekirdag Yüzme Spor Kulübü",
-      "city": "Tekirdag Yüzme Spor Kulübü",
-      "total": 4,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
-          "group": "2013 Kadın",
-          "yb": "13",
-          "gender": "Kadın",
-          "top3": 4,
-          "rank_in_group": 24,
-          "medal_cut": 6,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
       "prize_count": 0,
       "gold_count": 0,
       "silver_count": 0
@@ -79173,44 +79171,6 @@ window.SEM_DATA = {
     },
     {
       "rank": 74,
-      "club": "Trabzon Okyanus Spor Kulübü",
-      "city": "Trabzon Okyanus Spor Kulübü",
-      "total": 3,
-      "athletes": 1,
-      "athlete_list": [
-        {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 3,
-          "rank_in_group": 32,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 75,
       "club": "Erciyes Yıldız Spor Kulübü",
       "city": "Erciyes Yıldız Spor Kulübü",
       "total": 3,
@@ -79236,7 +79196,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 76,
+      "rank": 75,
       "club": "Trabzon Arena Yüzme Spor Kulübü",
       "city": "Trabzon Arena Yüzme Spor Kulübü",
       "total": 2,
@@ -79274,67 +79234,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 77,
-      "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-      "city": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
-      "total": 2,
-      "athletes": 3,
-      "athlete_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 35,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        },
-        {
-          "name": "Ali Tuna AVCI",
-          "city": "Tokat",
-          "group": "2014 Erkek",
-          "yb": "14",
-          "gender": "Erkek",
-          "top3": 0,
-          "rank_in_group": 39,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        },
-        {
-          "name": "Defne YILMAZ",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 0,
-          "rank_in_group": 40,
-          "medal_cut": 8,
-          "event_medal_count": 0
-        }
-      ],
-      "medal_list": [
-        {
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "group": "2014 Kadın",
-          "yb": "14",
-          "gender": "Kadın",
-          "top3": 2,
-          "rank_in_group": 35,
-          "medal_cut": 8,
-          "event_medal_count": 1
-        }
-      ],
-      "prize_list": [],
-      "medal_count": 1,
-      "prize_count": 0,
-      "gold_count": 0,
-      "silver_count": 0
-    },
-    {
-      "rank": 78,
+      "rank": 76,
       "club": "Trabzon Yesilova Spor Kulübü",
       "city": "Trabzon Yesilova Spor Kulübü",
       "total": 2,
@@ -79360,7 +79260,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 79,
+      "rank": 77,
       "club": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
       "city": "Trabzon Buyuksehir Belediyesi Spor Kulübü",
       "total": 1,
@@ -79395,7 +79295,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -79420,7 +79320,45 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 80,
+      "rank": 78,
+      "club": "Trabzon Okyanus Spor Kulübü",
+      "city": "Trabzon Okyanus Spor Kulübü",
+      "total": 1,
+      "athletes": 1,
+      "athlete_list": [
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "medal_list": [
+        {
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 1,
+          "rank_in_group": 35,
+          "medal_cut": 8,
+          "event_medal_count": 1
+        }
+      ],
+      "prize_list": [],
+      "medal_count": 1,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 79,
       "club": "Hendek Olimpik Spor Kulübü",
       "city": "Hendek Olimpik Spor Kulübü",
       "total": 1,
@@ -79446,7 +79384,7 @@ window.SEM_DATA = {
       "silver_count": 0
     },
     {
-      "rank": 81,
+      "rank": 80,
       "club": "Kayseri Okyanus Spor Kulübü",
       "city": "Kayseri Okyanus Spor Kulübü",
       "total": 1,
@@ -79461,6 +79399,54 @@ window.SEM_DATA = {
           "top3": 1,
           "rank_in_group": 23,
           "medal_cut": 6,
+          "event_medal_count": 0
+        }
+      ],
+      "medal_list": [],
+      "prize_list": [],
+      "medal_count": 0,
+      "prize_count": 0,
+      "gold_count": 0,
+      "silver_count": 0
+    },
+    {
+      "rank": 81,
+      "club": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+      "city": "Tokat Gaziosmanpasa Yüzme Spor Kulübü",
+      "total": 0,
+      "athletes": 3,
+      "athlete_list": [
+        {
+          "name": "Ali Tuna AVCI",
+          "city": "Tokat",
+          "group": "2014 Erkek",
+          "yb": "14",
+          "gender": "Erkek",
+          "top3": 0,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Defne YILMAZ",
+          "city": "Tokat",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 39,
+          "medal_cut": 8,
+          "event_medal_count": 0
+        },
+        {
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "group": "2014 Kadın",
+          "yb": "14",
+          "gender": "Kadın",
+          "top3": 0,
+          "rank_in_group": 39,
+          "medal_cut": 8,
           "event_medal_count": 0
         }
       ],
@@ -79600,7 +79586,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -79626,7 +79612,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -79652,7 +79638,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -79678,7 +79664,7 @@ window.SEM_DATA = {
           "yb": "14",
           "gender": "Kadın",
           "top3": 0,
-          "rank_in_group": 40,
+          "rank_in_group": 39,
           "medal_cut": 8,
           "event_medal_count": 0
         }
@@ -96884,70 +96870,86 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Neslişah KARACAOĞLU",
+          "name": "Mira TUFAN",
           "city": "İzmir",
-          "time_raw": "5:36.98",
+          "time_raw": "5:31.17",
           "points": 9,
           "is_live": true
         },
         {
           "rank": 2,
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "time_raw": "5:39.17",
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "time_raw": "5:36.98",
           "points": 7,
           "is_live": true
         },
         {
           "rank": 3,
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "time_raw": "5:42.13",
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "5:39.17",
           "points": 6,
           "is_live": true
         },
         {
           "rank": 4,
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "time_raw": "5:49.04",
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "5:40.53",
           "points": 5,
           "is_live": true
         },
         {
           "rank": 5,
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "time_raw": "5:49.90",
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "5:42.13",
           "points": 4,
           "is_live": true
         },
         {
           "rank": 6,
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "time_raw": "5:51.69",
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "5:49.04",
           "points": 3,
           "is_live": true
         },
         {
           "rank": 7,
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "time_raw": "5:53.55",
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "5:49.90",
           "points": 2,
           "is_live": true
         },
         {
           "rank": 8,
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "time_raw": "5:55.87",
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "5:51.69",
           "points": 1,
           "is_live": true
         },
         {
           "rank": 9,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "5:53.55",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 10,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "5:55.87",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 11,
           "name": "Defne YILMAZ",
           "city": "Tokat",
           "time_raw": "6:00.10",
@@ -96955,7 +96957,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 10,
+          "rank": 12,
           "name": "Öykü ÖZGÜL",
           "city": "Ankara",
           "time_raw": "6:01.99",
@@ -96963,7 +96965,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 11,
+          "rank": 13,
           "name": "Defne GÖNEN",
           "city": "İzmir",
           "time_raw": "6:04.71",
@@ -96971,7 +96973,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 12,
+          "rank": 14,
           "name": "Ecem Gülce YILMAZ",
           "city": "Çanakkale",
           "time_raw": "6:14.36",
@@ -96979,7 +96981,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "Ayşe Beren ONAY",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -96987,25 +96989,9 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 14,
+          "rank": 16,
           "name": "Ilgım ERTAŞ",
           "city": "Edirne",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 15,
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 16,
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
           "time_raw": "DNS",
           "points": 0,
           "is_live": false
@@ -97216,30 +97202,62 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Irmak Su Yaman",
+          "name": "Ece EROL",
           "city": "Bursa",
-          "time_raw": "5:45.08",
+          "time_raw": "5:29.54",
           "points": 9,
           "is_live": true
         },
         {
           "rank": 2,
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "5:35.04",
+          "points": 7,
+          "is_live": true
         },
         {
           "rank": 3,
           "name": "Aliye PAZAR",
           "city": "Antalya",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
+          "time_raw": "5:35.49",
+          "points": 6,
+          "is_live": true
         },
         {
           "rank": 4,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "5:36.84",
+          "points": 5,
+          "is_live": true
+        },
+        {
+          "rank": 5,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "time_raw": "5:42.06",
+          "points": 4,
+          "is_live": true
+        },
+        {
+          "rank": 6,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "5:45.08",
+          "points": 3,
+          "is_live": true
+        },
+        {
+          "rank": 7,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "5:53.66",
+          "points": 2,
+          "is_live": true
+        },
+        {
+          "rank": 8,
           "name": "Bilge BEKTAŞ",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -97247,15 +97265,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 5,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 6,
+          "rank": 9,
           "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -97263,15 +97273,7 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 7,
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 8,
+          "rank": 10,
           "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "DNS",
@@ -97279,25 +97281,9 @@ window.SEM_DATA = {
           "is_live": false
         },
         {
-          "rank": 9,
+          "rank": 11,
           "name": "Cemre KAYNAŞ",
           "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 10,
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": false
-        },
-        {
-          "rank": 11,
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
           "time_raw": "DNS",
           "points": 0,
           "is_live": false
@@ -98369,39 +98355,39 @@ window.SEM_DATA = {
       "event": "400m Karışık",
       "yb": "12",
       "gender": "Kadın",
-      "is_completed": false,
+      "is_completed": true,
       "medal_cut": 4,
       "finishers": [
         {
           "rank": 1,
-          "name": "Tuğba YILDIZ",
-          "city": "Antalya",
-          "time_raw": "5:13.13",
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "5:43.50",
           "points": 9,
-          "is_live": false
+          "is_live": true
         },
         {
           "rank": 2,
-          "name": "Merve MENGÜBERTİ",
-          "city": "İzmir",
-          "time_raw": "5:14.28",
-          "points": 7,
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "time_raw": "DNS",
+          "points": 0,
           "is_live": false
         },
         {
           "rank": 3,
           "name": "Ela Su ESKİOĞLU",
           "city": "İzmir",
-          "time_raw": "5:20.05",
-          "points": 6,
+          "time_raw": "DNS",
+          "points": 0,
           "is_live": false
         },
         {
           "rank": 4,
-          "name": "Elif VATANSEVER",
-          "city": "Bursa",
-          "time_raw": "5:29.53",
-          "points": 5,
+          "name": "Merve MENGÜBERTİ",
+          "city": "İzmir",
+          "time_raw": "DNS",
+          "points": 0,
           "is_live": false
         }
       ]
@@ -107445,70 +107431,86 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Neslişah KARACAOĞLU",
+          "name": "Mira TUFAN",
           "city": "İzmir",
-          "time_raw": "5:36.98",
+          "time_raw": "5:31.17",
           "points": 9,
           "is_live": true
         },
         {
           "rank": 2,
-          "name": "Melek Gülce ÇELİK",
-          "city": "Çanakkale",
-          "time_raw": "5:39.17",
+          "name": "Neslişah KARACAOĞLU",
+          "city": "İzmir",
+          "time_raw": "5:36.98",
           "points": 7,
           "is_live": true
         },
         {
           "rank": 3,
-          "name": "Hatice Ceren SARI",
-          "city": "Konya",
-          "time_raw": "5:42.13",
+          "name": "Melek Gülce ÇELİK",
+          "city": "Çanakkale",
+          "time_raw": "5:39.17",
           "points": 6,
           "is_live": true
         },
         {
           "rank": 4,
-          "name": "Defne ARLI",
-          "city": "Antalya",
-          "time_raw": "5:49.04",
+          "name": "Aybike ESENDENİZ",
+          "city": "Tekirdağ",
+          "time_raw": "5:40.53",
           "points": 5,
           "is_live": true
         },
         {
           "rank": 5,
-          "name": "Güneş ASLAN",
-          "city": "Samsun",
-          "time_raw": "5:49.90",
+          "name": "Hatice Ceren SARI",
+          "city": "Konya",
+          "time_raw": "5:42.13",
           "points": 4,
           "is_live": true
         },
         {
           "rank": 6,
-          "name": "Asel Buğçe YILMAZELİ",
-          "city": "Trabzon",
-          "time_raw": "5:51.69",
+          "name": "Defne ARLI",
+          "city": "Antalya",
+          "time_raw": "5:49.04",
           "points": 3,
           "is_live": true
         },
         {
           "rank": 7,
-          "name": "Era ÇAKİN",
-          "city": "Tokat",
-          "time_raw": "5:53.55",
+          "name": "Güneş ASLAN",
+          "city": "Samsun",
+          "time_raw": "5:49.90",
           "points": 2,
           "is_live": true
         },
         {
           "rank": 8,
-          "name": "Azra CAMBAZOĞLU",
-          "city": "Antalya",
-          "time_raw": "5:55.87",
+          "name": "Asel Buğçe YILMAZELİ",
+          "city": "Trabzon",
+          "time_raw": "5:51.69",
           "points": 1,
           "is_live": true
         },
         {
           "rank": 9,
+          "name": "Era ÇAKİN",
+          "city": "Tokat",
+          "time_raw": "5:53.55",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 10,
+          "name": "Azra CAMBAZOĞLU",
+          "city": "Antalya",
+          "time_raw": "5:55.87",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 11,
           "name": "Defne YILMAZ",
           "city": "Tokat",
           "time_raw": "6:00.10",
@@ -107516,7 +107518,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 10,
+          "rank": 12,
           "name": "Öykü ÖZGÜL",
           "city": "Ankara",
           "time_raw": "6:01.99",
@@ -107524,7 +107526,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 11,
+          "rank": 13,
           "name": "Defne GÖNEN",
           "city": "İzmir",
           "time_raw": "6:04.71",
@@ -107532,7 +107534,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 12,
+          "rank": 14,
           "name": "Ecem Gülce YILMAZ",
           "city": "Çanakkale",
           "time_raw": "6:14.36",
@@ -107540,7 +107542,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "Ayşe Beren ONAY",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -107548,25 +107550,9 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 14,
+          "rank": 16,
           "name": "Ilgım ERTAŞ",
           "city": "Edirne",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 15,
-          "name": "Mira TUFAN",
-          "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 16,
-          "name": "Aybike ESENDENİZ",
-          "city": "Tekirdağ",
           "time_raw": "DNS",
           "points": 0,
           "is_live": true
@@ -107728,30 +107714,62 @@ window.SEM_DATA = {
       "finishers": [
         {
           "rank": 1,
-          "name": "Irmak Su Yaman",
+          "name": "Ece EROL",
           "city": "Bursa",
-          "time_raw": "5:45.08",
+          "time_raw": "5:29.54",
           "points": 9,
           "is_live": true
         },
         {
           "rank": 2,
-          "name": "Ada Güngör",
-          "city": "Antalya",
-          "time_raw": "DNS",
-          "points": 0,
+          "name": "Emine Mina KÖSEOĞLU",
+          "city": "Tekirdağ",
+          "time_raw": "5:35.04",
+          "points": 7,
           "is_live": true
         },
         {
           "rank": 3,
           "name": "Aliye PAZAR",
           "city": "Antalya",
-          "time_raw": "DNS",
-          "points": 0,
+          "time_raw": "5:35.49",
+          "points": 6,
           "is_live": true
         },
         {
           "rank": 4,
+          "name": "Ada Güngör",
+          "city": "Antalya",
+          "time_raw": "5:36.84",
+          "points": 5,
+          "is_live": true
+        },
+        {
+          "rank": 5,
+          "name": "Derin Ada BAŞOLUK",
+          "city": "İzmir",
+          "time_raw": "5:42.06",
+          "points": 4,
+          "is_live": true
+        },
+        {
+          "rank": 6,
+          "name": "Irmak Su Yaman",
+          "city": "Bursa",
+          "time_raw": "5:45.08",
+          "points": 3,
+          "is_live": true
+        },
+        {
+          "rank": 7,
+          "name": "Elif DURUM",
+          "city": "Gaziantep",
+          "time_raw": "5:53.66",
+          "points": 2,
+          "is_live": true
+        },
+        {
+          "rank": 8,
           "name": "Bilge BEKTAŞ",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -107759,15 +107777,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 5,
-          "name": "Ece EROL",
-          "city": "Bursa",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 6,
+          "rank": 9,
           "name": "Zehra MORALIOĞLU",
           "city": "Bursa",
           "time_raw": "DNS",
@@ -107775,15 +107785,7 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 7,
-          "name": "Elif DURUM",
-          "city": "Gaziantep",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 8,
+          "rank": 10,
           "name": "Fatma Berra Özer",
           "city": "Gaziantep",
           "time_raw": "DNS",
@@ -107791,25 +107793,9 @@ window.SEM_DATA = {
           "is_live": true
         },
         {
-          "rank": 9,
+          "rank": 11,
           "name": "Cemre KAYNAŞ",
           "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 10,
-          "name": "Derin Ada BAŞOLUK",
-          "city": "İzmir",
-          "time_raw": "DNS",
-          "points": 0,
-          "is_live": true
-        },
-        {
-          "rank": 11,
-          "name": "Emine Mina KÖSEOĞLU",
-          "city": "Tekirdağ",
           "time_raw": "DNS",
           "points": 0,
           "is_live": true
@@ -108632,6 +108618,47 @@ window.SEM_DATA = {
           "city": "İzmir",
           "time_raw": "1:08.79",
           "points": 4,
+          "is_live": true
+        }
+      ]
+    },
+    "400m Karışık|12|Kadın": {
+      "event": "400m Karışık",
+      "yb": "12",
+      "gender": "Kadın",
+      "is_completed": true,
+      "medal_cut": 4,
+      "finishers": [
+        {
+          "rank": 1,
+          "name": "Elif VATANSEVER",
+          "city": "Bursa",
+          "time_raw": "5:43.50",
+          "points": 9,
+          "is_live": true
+        },
+        {
+          "rank": 2,
+          "name": "Tuğba YILDIZ",
+          "city": "Antalya",
+          "time_raw": "DNS",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 3,
+          "name": "Ela Su ESKİOĞLU",
+          "city": "İzmir",
+          "time_raw": "DNS",
+          "points": 0,
+          "is_live": true
+        },
+        {
+          "rank": 4,
+          "name": "Merve MENGÜBERTİ",
+          "city": "İzmir",
+          "time_raw": "DNS",
+          "points": 0,
           "is_live": true
         }
       ]
